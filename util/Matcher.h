@@ -1,5 +1,5 @@
-#ifndef __FASTCGRA_VANILLAMATCHER__
-#define __FASTCGRA_VANILLAMATCHER__
+#ifndef __FASTCGRA_MATCHER__
+#define __FASTCGRA_MATCHER__
 
 #include "common/Common.h"
 #include "common/HyperGraph.h"

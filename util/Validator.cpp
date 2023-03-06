@@ -1,4 +1,4 @@
-#include "VanillaValidator.h"
+#include "Validator.h"
 
 using namespace std; 
 

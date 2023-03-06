@@ -2,19 +2,19 @@ BlockPE0.ALU0 ALU0 ALU0 inputs in0 in1 outputs out0
 BlockPE0.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
 BlockPE1.ALU0 ALU0 ALU0 inputs in0 in1 outputs out0
 BlockPE1.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
-BlockPE2.ALU0 ALU2 ALU2 inputs in0 in1 outputs out0
+BlockPE2.ALU0 ALU0 ALU0 inputs in0 in1 outputs out0
 BlockPE2.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
 BlockPE3.ALU0 ALU1 ALU1 inputs in0 in1 outputs out0
 BlockPE3.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
-BlockPE4.ALU0 ALU0 ALU0 inputs in0 in1 outputs out0
+BlockPE4.ALU0 ALU1 ALU1 inputs in0 in1 outputs out0
 BlockPE4.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
-BlockPE5.ALU0 ALU0 ALU0 inputs in0 in1 outputs out0
+BlockPE5.ALU0 ALU1 ALU1 inputs in0 in1 outputs out0
 BlockPE5.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
 BlockPE6.ALU0 ALU2 ALU2 inputs in0 in1 outputs out0
 BlockPE6.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
-BlockPE7.ALU0 ALU0 ALU0 inputs in0 in1 outputs out0
+BlockPE7.ALU0 ALU1 ALU1 inputs in0 in1 outputs out0
 BlockPE7.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
-BlockPE8.ALU0 ALU1 ALU1 inputs in0 in1 outputs out0
+BlockPE8.ALU0 ALU0 ALU0 inputs in0 in1 outputs out0
 BlockPE8.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
 BlockPE9.ALU0 ALU0 ALU0 inputs in0 in1 outputs out0
 BlockPE9.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
@@ -22,13 +22,13 @@ BlockPE10.ALU0 ALU2 ALU2 inputs in0 in1 outputs out0
 BlockPE10.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
 BlockPE11.ALU0 ALU0 ALU0 inputs in0 in1 outputs out0
 BlockPE11.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
-BlockPE12.ALU0 ALU0 ALU0 inputs in0 in1 outputs out0
+BlockPE12.ALU0 ALU2 ALU2 inputs in0 in1 outputs out0
 BlockPE12.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
 BlockPE13.ALU0 ALU2 ALU2 inputs in0 in1 outputs out0
 BlockPE13.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
 BlockPE14.ALU0 ALU0 ALU0 inputs in0 in1 outputs out0
 BlockPE14.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
-BlockPE15.ALU0 ALU0 ALU0 inputs in0 in1 outputs out0
+BlockPE15.ALU0 ALU2 ALU2 inputs in0 in1 outputs out0
 BlockPE15.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
 BlockMEM0.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
 BlockMEM1.MEM0 MEM MEM inputs in0 in1 in2 outputs out0

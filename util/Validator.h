@@ -1,5 +1,5 @@
-#ifndef __FASTCGRA_VANILLAVALIDATOR__
-#define __FASTCGRA_VANILLAVALIDATOR__
+#ifndef __FASTCGRA_VALIDATOR__
+#define __FASTCGRA_VALIDATOR__
 
 #include "common/Common.h"
 #include "common/HyperGraph.h"

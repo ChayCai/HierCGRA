@@ -3,7 +3,7 @@ LOGLEVEL := 0
 include Options.mk
 
 COMMON_OBJECTS := $(addprefix ./build/objects/, Common.o Logger.o HyperGraph.o HierGraph.o)
-UTIL_OBJECTS := $(addprefix ./build/objects/, GraphSort.o NetworkAnalyzer.o VanillaMatcher.o NOrderValidator.o VanillaValidator.o Utils.o SimulatedAnnealing.o)
+UTIL_OBJECTS := $(addprefix ./build/objects/, GraphSort.o NetworkAnalyzer.o Matcher.o NOrderValidator.o Validator.o Utils.o SimulatedAnnealing.o)
 JSON_OBJECTS = $(addprefix ./build/objects/, json_value.o json_reader.o json_writer.o )
 GENRTL_OBJECTS = $(addprefix ./build/objects/, GenVerilog.o )
 MAPPING_OBJECTS := $(addprefix ./build/objects/, FastPack.o FastPartition.o FastPlace.o )

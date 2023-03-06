@@ -43,14 +43,14 @@ $adl$ file can be found in the path set up by HADL. Create and Specify the lib f
 Example Usage:
 
 ```sh
-python3 ./script/script.py genrtl \$adl \$lib \$path
+python3 ./script/script.py genrtl $adl $lib $path
 #example
 python3 ./script/script.py genrtl ./arch/arch5/Core.json ./arch/arch5/CoreLib.ini ./arch/arch5/rtl
 ```
 
 Or:
 ```sh
-./build/genrtl \$adl \$lib \$path
+./build/genrtl $adl $lib $path
 #example
 python3 ./script/script.py init ./arch/arch3/Top_RRG.txt ./arch/arch3/Top_FUs.txt ./arch/arch3/ ./arch/arch3/
 ```
@@ -59,7 +59,7 @@ python3 ./script/script.py init ./arch/arch3/Top_RRG.txt ./arch/arch3/Top_FUs.tx
 
 Before run Mapping, run:
 ```sh
-python3 ./script/script.py init \$fus \$rrg \$rrgpath \$linkpath
+python3 ./script/script.py init $fus $rrg $rrgpath $linkpath
 #example
 python3 ./script/script.py init  
 ```
@@ -68,7 +68,7 @@ This is a non-essential step for contracting RRG and dump the links, but can be 
 
 Example Usage of running mapping for hierarchical CGRA:
 ```sh
-python3 ./script/script.py mapping \$fileDFG \$fileCompat \$arch \$threadNum
+python3 ./script/script.py mapping $fileDFG $fileCompat $arch $threadNum
 #example
 python3 ./script/script.py mapping ./benchmarks/express/arf/arf_DFG.txt ./benchmarks/express/arf/arf_compat.txt ./arch/arch3/arch.ini 4
 ```
@@ -76,22 +76,22 @@ python3 ./script/script.py mapping ./benchmarks/express/arf/arf_DFG.txt ./benchm
 Or runnng step by step
 ```sh
 #packing
-./build/pack \$dfg \$dfgGlobal(\$dfg) \$compat \$arch
+./build/pack $dfg $dfgGlobal($dfg) $compat $arch
 #example
 ./build/pack ./benchmarks/express/arf/arf_DFG.txt ./benchmarks/express/arf/arf_DFG.txt ./benchmarks/express/arf/arf_compat.txt ./arch/arch3/arch.ini 
   
 #partition
-./build/partition \$dfg  \$compat \$arch
+./build/partition $dfg  $compat $arch
 #example
 ./build/partition ./benchmarks/express/arf/arf_DFG.txt ./benchmarks/express/arf/arf_compat.txt ./arch/arch3/arch.ini 
   
 #placeCore
-./build/place placeCore \$dfg \$dfgGlobal  \$compat \$arch
+./build/place placeCore $dfg $dfgGlobal  $compat $arch
 #example
 ./build/place placeCore ./benchmarks_copy/express/arf/arf_DFG_part0.txt ./benchmarks/express/arf/arf_DFG.txt ./benchmarks/express/arf/arf_compat.txt ./arch/arch3/arch.ini
   
 #placeTop
-./build/place placeTop \$dfg  \$compat \$arch
+./build/place placeTop $dfg  $compat $arch
 #example
 ./build/place placeTop ./benchmarks/express/arf/arf_DFG.txt ./benchmarks/express/arf/arf_compat.txt ./arch/arch3/arch.ini
 ```  
@@ -100,7 +100,7 @@ use 2>/dev/null or 2>XX.log to get operation information clearly
 
 Example Usage of running mapping for small scale CGRA:
 ```sh
-./build/place placeCoreII \$dfg  \$compat \$rrg \$fus \$ii 
+./build/place placeCoreII $dfg  $compat $rrg $fus $ii 
 #example
 ./build/place placeCoreII ./benchmarks/cgrame/accumulate/accumulate_DFG.txt ./benchmarks/cgrame/accumulate/accumulate_compat.txt ./arch/arch5/Core_RRG.txt ./arch/arch5/Core_FUs.txt 3
 ```
@@ -115,3 +115,8 @@ make
 
 DFDL PASS:
 run dataflow/exampleDFG.py
+
+### run DSE
+```sh
+python3 ./dse/motpe.py ./dse/genarch.ini
+```

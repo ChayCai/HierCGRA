@@ -46,262 +46,238 @@ vertex out6
 vertex out7
     attr type str __MODULE_OUTPUT_PORT__
     attr device str TOP.out7
-vertex SW9X1_BlockPE12_in0_CONNECT.in0
+vertex SW8X1_BlockPE12_in0_CONNECT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in0_CONNECT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in1
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in0_CONNECT.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in2
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in0_CONNECT.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in3
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in0_CONNECT.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in4
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in0_CONNECT.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in5
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in0_CONNECT.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in6
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in0_CONNECT.in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in7
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in0_CONNECT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_8X1.out0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in1_CONNECT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in1_CONNECT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in1
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in1_CONNECT.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in2
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in1_CONNECT.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in3
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in1_CONNECT.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in4
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in1_CONNECT.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in5
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in1_CONNECT.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in6
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in1_CONNECT.in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in7
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE12_in1_CONNECT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_8X1.out0
+    attr switch str FULLYCONN_8X1
+vertex SW9X1_BlockPE4_in0_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in0
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in0_CONNECT.in1
+vertex SW9X1_BlockPE4_in0_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in1
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in0_CONNECT.in2
+vertex SW9X1_BlockPE4_in0_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in2
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in0_CONNECT.in3
+vertex SW9X1_BlockPE4_in0_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in3
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in0_CONNECT.in4
+vertex SW9X1_BlockPE4_in0_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in4
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in0_CONNECT.in5
+vertex SW9X1_BlockPE4_in0_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in5
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in0_CONNECT.in6
+vertex SW9X1_BlockPE4_in0_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in6
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in0_CONNECT.in7
+vertex SW9X1_BlockPE4_in0_CONNECT.in7
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in7
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in0_CONNECT.in8
+vertex SW9X1_BlockPE4_in0_CONNECT.in8
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in8
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in0_CONNECT.out0
+vertex SW9X1_BlockPE4_in0_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str FULLYCONN_9X1.out0
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in1_CONNECT.in0
+vertex SW9X1_BlockPE4_in1_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in0
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in1_CONNECT.in1
+vertex SW9X1_BlockPE4_in1_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in1
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in1_CONNECT.in2
+vertex SW9X1_BlockPE4_in1_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in2
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in1_CONNECT.in3
+vertex SW9X1_BlockPE4_in1_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in3
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in1_CONNECT.in4
+vertex SW9X1_BlockPE4_in1_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in4
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in1_CONNECT.in5
+vertex SW9X1_BlockPE4_in1_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in5
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in1_CONNECT.in6
+vertex SW9X1_BlockPE4_in1_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in6
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in1_CONNECT.in7
+vertex SW9X1_BlockPE4_in1_CONNECT.in7
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in7
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in1_CONNECT.in8
+vertex SW9X1_BlockPE4_in1_CONNECT.in8
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in8
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE12_in1_CONNECT.out0
+vertex SW9X1_BlockPE4_in1_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str FULLYCONN_9X1.out0
     attr switch str FULLYCONN_9X1
-vertex SW10X1_BlockPE4_in0_CONNECT.in0
+vertex SW9X1_BlockPE3_in0_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in0
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in0_CONNECT.in1
+    attr device str FULLYCONN_9X1.in0
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in0_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in1
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in0_CONNECT.in2
+    attr device str FULLYCONN_9X1.in1
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in0_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in2
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in0_CONNECT.in3
+    attr device str FULLYCONN_9X1.in2
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in0_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in3
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in0_CONNECT.in4
+    attr device str FULLYCONN_9X1.in3
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in0_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in4
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in0_CONNECT.in5
+    attr device str FULLYCONN_9X1.in4
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in0_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in5
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in0_CONNECT.in6
+    attr device str FULLYCONN_9X1.in5
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in0_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in6
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in0_CONNECT.in7
+    attr device str FULLYCONN_9X1.in6
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in0_CONNECT.in7
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in7
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in0_CONNECT.in8
+    attr device str FULLYCONN_9X1.in7
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in0_CONNECT.in8
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in8
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in0_CONNECT.in9
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in9
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in0_CONNECT.out0
+    attr device str FULLYCONN_9X1.in8
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in0_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_10X1.out0
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in1_CONNECT.in0
+    attr device str FULLYCONN_9X1.out0
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in1_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in0
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in1_CONNECT.in1
+    attr device str FULLYCONN_9X1.in0
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in1_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in1
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in1_CONNECT.in2
+    attr device str FULLYCONN_9X1.in1
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in1_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in2
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in1_CONNECT.in3
+    attr device str FULLYCONN_9X1.in2
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in1_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in3
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in1_CONNECT.in4
+    attr device str FULLYCONN_9X1.in3
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in1_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in4
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in1_CONNECT.in5
+    attr device str FULLYCONN_9X1.in4
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in1_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in5
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in1_CONNECT.in6
+    attr device str FULLYCONN_9X1.in5
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in1_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in6
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in1_CONNECT.in7
+    attr device str FULLYCONN_9X1.in6
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in1_CONNECT.in7
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in7
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in1_CONNECT.in8
+    attr device str FULLYCONN_9X1.in7
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in1_CONNECT.in8
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in8
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in1_CONNECT.in9
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in9
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE4_in1_CONNECT.out0
+    attr device str FULLYCONN_9X1.in8
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE3_in1_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_10X1.out0
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in0_CONNECT.in0
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in0
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in0_CONNECT.in1
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in1
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in0_CONNECT.in2
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in2
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in0_CONNECT.in3
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in3
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in0_CONNECT.in4
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in4
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in0_CONNECT.in5
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in5
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in0_CONNECT.in6
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in6
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in0_CONNECT.in7
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in7
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in0_CONNECT.in8
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in8
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in0_CONNECT.in9
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in9
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in0_CONNECT.out0
-    attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_10X1.out0
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in1_CONNECT.in0
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in0
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in1_CONNECT.in1
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in1
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in1_CONNECT.in2
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in2
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in1_CONNECT.in3
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in3
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in1_CONNECT.in4
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in4
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in1_CONNECT.in5
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in5
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in1_CONNECT.in6
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in6
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in1_CONNECT.in7
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in7
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in1_CONNECT.in8
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in8
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in1_CONNECT.in9
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in9
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE3_in1_CONNECT.out0
-    attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_10X1.out0
-    attr switch str FULLYCONN_10X1
+    attr device str FULLYCONN_9X1.out0
+    attr switch str FULLYCONN_9X1
 vertex SW9X1_BlockPE1_in0_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in0
@@ -382,534 +358,398 @@ vertex SW9X1_BlockPE1_in1_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str FULLYCONN_9X1.out0
     attr switch str FULLYCONN_9X1
-vertex SW10X1_BlockPE11_in0_CONNECT.in0
+vertex SW6X1_BlockPE13_in0_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in0
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in0_CONNECT.in1
+    attr device str FULLYCONN_6X1.in0
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_BlockPE13_in0_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in1
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in0_CONNECT.in2
+    attr device str FULLYCONN_6X1.in1
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_BlockPE13_in0_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in2
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in0_CONNECT.in3
+    attr device str FULLYCONN_6X1.in2
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_BlockPE13_in0_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in3
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in0_CONNECT.in4
+    attr device str FULLYCONN_6X1.in3
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_BlockPE13_in0_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in4
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in0_CONNECT.in5
+    attr device str FULLYCONN_6X1.in4
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_BlockPE13_in0_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in5
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in0_CONNECT.in6
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in6
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in0_CONNECT.in7
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in7
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in0_CONNECT.in8
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in8
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in0_CONNECT.in9
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in9
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in0_CONNECT.out0
+    attr device str FULLYCONN_6X1.in5
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_BlockPE13_in0_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_10X1.out0
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in1_CONNECT.in0
+    attr device str FULLYCONN_6X1.out0
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_BlockPE13_in1_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in0
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in1_CONNECT.in1
+    attr device str FULLYCONN_6X1.in0
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_BlockPE13_in1_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in1
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in1_CONNECT.in2
+    attr device str FULLYCONN_6X1.in1
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_BlockPE13_in1_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in2
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in1_CONNECT.in3
+    attr device str FULLYCONN_6X1.in2
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_BlockPE13_in1_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in3
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in1_CONNECT.in4
+    attr device str FULLYCONN_6X1.in3
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_BlockPE13_in1_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in4
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in1_CONNECT.in5
+    attr device str FULLYCONN_6X1.in4
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_BlockPE13_in1_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in5
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in1_CONNECT.in6
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in6
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in1_CONNECT.in7
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in7
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in1_CONNECT.in8
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in8
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in1_CONNECT.in9
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_10X1.in9
-    attr switch str FULLYCONN_10X1
-vertex SW10X1_BlockPE11_in1_CONNECT.out0
+    attr device str FULLYCONN_6X1.in5
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_BlockPE13_in1_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_10X1.out0
-    attr switch str FULLYCONN_10X1
-vertex SW7X1_BlockPE13_in0_CONNECT.in0
+    attr device str FULLYCONN_6X1.out0
+    attr switch str FULLYCONN_6X1
+vertex SW7X1_BlockPE5_in0_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in0
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in0_CONNECT.in1
+vertex SW7X1_BlockPE5_in0_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in1
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in0_CONNECT.in2
+vertex SW7X1_BlockPE5_in0_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in2
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in0_CONNECT.in3
+vertex SW7X1_BlockPE5_in0_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in3
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in0_CONNECT.in4
+vertex SW7X1_BlockPE5_in0_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in4
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in0_CONNECT.in5
+vertex SW7X1_BlockPE5_in0_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in5
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in0_CONNECT.in6
+vertex SW7X1_BlockPE5_in0_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in6
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in0_CONNECT.out0
+vertex SW7X1_BlockPE5_in0_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str FULLYCONN_7X1.out0
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in1_CONNECT.in0
+vertex SW7X1_BlockPE5_in1_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in0
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in1_CONNECT.in1
+vertex SW7X1_BlockPE5_in1_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in1
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in1_CONNECT.in2
+vertex SW7X1_BlockPE5_in1_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in2
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in1_CONNECT.in3
+vertex SW7X1_BlockPE5_in1_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in3
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in1_CONNECT.in4
+vertex SW7X1_BlockPE5_in1_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in4
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in1_CONNECT.in5
+vertex SW7X1_BlockPE5_in1_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in5
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in1_CONNECT.in6
+vertex SW7X1_BlockPE5_in1_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_7X1.in6
     attr switch str FULLYCONN_7X1
-vertex SW7X1_BlockPE13_in1_CONNECT.out0
+vertex SW7X1_BlockPE5_in1_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str FULLYCONN_7X1.out0
     attr switch str FULLYCONN_7X1
-vertex SW8X1_BlockPE5_in0_CONNECT.in0
+vertex SW8X1_BlockPE0_in0_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in0
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in0_CONNECT.in1
+vertex SW8X1_BlockPE0_in0_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in1
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in0_CONNECT.in2
+vertex SW8X1_BlockPE0_in0_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in2
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in0_CONNECT.in3
+vertex SW8X1_BlockPE0_in0_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in3
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in0_CONNECT.in4
+vertex SW8X1_BlockPE0_in0_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in4
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in0_CONNECT.in5
+vertex SW8X1_BlockPE0_in0_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in5
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in0_CONNECT.in6
+vertex SW8X1_BlockPE0_in0_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in6
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in0_CONNECT.in7
+vertex SW8X1_BlockPE0_in0_CONNECT.in7
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in7
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in0_CONNECT.out0
+vertex SW8X1_BlockPE0_in0_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str FULLYCONN_8X1.out0
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in1_CONNECT.in0
+vertex SW8X1_BlockPE0_in1_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in0
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in1_CONNECT.in1
+vertex SW8X1_BlockPE0_in1_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in1
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in1_CONNECT.in2
+vertex SW8X1_BlockPE0_in1_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in2
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in1_CONNECT.in3
+vertex SW8X1_BlockPE0_in1_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in3
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in1_CONNECT.in4
+vertex SW8X1_BlockPE0_in1_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in4
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in1_CONNECT.in5
+vertex SW8X1_BlockPE0_in1_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in5
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in1_CONNECT.in6
+vertex SW8X1_BlockPE0_in1_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in6
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in1_CONNECT.in7
+vertex SW8X1_BlockPE0_in1_CONNECT.in7
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in7
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE5_in1_CONNECT.out0
+vertex SW8X1_BlockPE0_in1_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str FULLYCONN_8X1.out0
     attr switch str FULLYCONN_8X1
-vertex SW9X1_BlockPE0_in0_CONNECT.in0
+vertex SW7X1_BlockPE2_in0_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in0
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in0_CONNECT.in1
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in0_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in1
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in0_CONNECT.in2
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in0_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in2
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in0_CONNECT.in3
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in0_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in3
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in0_CONNECT.in4
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in0_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in4
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in0_CONNECT.in5
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in0_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in5
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in0_CONNECT.in6
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in0_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in6
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in0_CONNECT.in7
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in7
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in0_CONNECT.in8
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in8
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in0_CONNECT.out0
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in0_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_9X1.out0
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in1_CONNECT.in0
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in1_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in0
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in1_CONNECT.in1
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in1_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in1
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in1_CONNECT.in2
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in1_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in2
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in1_CONNECT.in3
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in1_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in3
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in1_CONNECT.in4
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in1_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in4
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in1_CONNECT.in5
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in1_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in5
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in1_CONNECT.in6
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in1_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in6
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in1_CONNECT.in7
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in7
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in1_CONNECT.in8
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in8
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE0_in1_CONNECT.out0
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE2_in1_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_9X1.out0
-    attr switch str FULLYCONN_9X1
-vertex SW8X1_BlockPE2_in0_CONNECT.in0
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in0_CONNECT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in0_CONNECT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in0_CONNECT.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in0_CONNECT.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in0_CONNECT.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in0_CONNECT.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in0_CONNECT.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in0_CONNECT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in1_CONNECT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in1_CONNECT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in1_CONNECT.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in1_CONNECT.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in1_CONNECT.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in1_CONNECT.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in1_CONNECT.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE14_in1_CONNECT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW8X1_BlockPE6_in0_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in0
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in0_CONNECT.in1
+vertex SW8X1_BlockPE6_in0_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in1
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in0_CONNECT.in2
+vertex SW8X1_BlockPE6_in0_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in2
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in0_CONNECT.in3
+vertex SW8X1_BlockPE6_in0_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in3
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in0_CONNECT.in4
+vertex SW8X1_BlockPE6_in0_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in4
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in0_CONNECT.in5
+vertex SW8X1_BlockPE6_in0_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in5
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in0_CONNECT.in6
+vertex SW8X1_BlockPE6_in0_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in6
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in0_CONNECT.in7
+vertex SW8X1_BlockPE6_in0_CONNECT.in7
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in7
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in0_CONNECT.out0
+vertex SW8X1_BlockPE6_in0_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str FULLYCONN_8X1.out0
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in1_CONNECT.in0
+vertex SW8X1_BlockPE6_in1_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in0
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in1_CONNECT.in1
+vertex SW8X1_BlockPE6_in1_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in1
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in1_CONNECT.in2
+vertex SW8X1_BlockPE6_in1_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in2
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in1_CONNECT.in3
+vertex SW8X1_BlockPE6_in1_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in3
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in1_CONNECT.in4
+vertex SW8X1_BlockPE6_in1_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in4
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in1_CONNECT.in5
+vertex SW8X1_BlockPE6_in1_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in5
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in1_CONNECT.in6
+vertex SW8X1_BlockPE6_in1_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in6
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in1_CONNECT.in7
+vertex SW8X1_BlockPE6_in1_CONNECT.in7
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in7
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE2_in1_CONNECT.out0
+vertex SW8X1_BlockPE6_in1_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str FULLYCONN_8X1.out0
     attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in0_CONNECT.in0
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in0
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in0_CONNECT.in1
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in1
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in0_CONNECT.in2
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in2
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in0_CONNECT.in3
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in3
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in0_CONNECT.in4
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in4
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in0_CONNECT.in5
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in5
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in0_CONNECT.in6
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in6
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in0_CONNECT.in7
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in7
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in0_CONNECT.out0
-    attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_8X1.out0
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in1_CONNECT.in0
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in0
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in1_CONNECT.in1
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in1
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in1_CONNECT.in2
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in2
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in1_CONNECT.in3
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in3
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in1_CONNECT.in4
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in4
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in1_CONNECT.in5
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in5
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in1_CONNECT.in6
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in6
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in1_CONNECT.in7
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in7
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE14_in1_CONNECT.out0
-    attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_8X1.out0
-    attr switch str FULLYCONN_8X1
-vertex SW9X1_BlockPE6_in0_CONNECT.in0
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in0
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in0_CONNECT.in1
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in1
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in0_CONNECT.in2
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in2
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in0_CONNECT.in3
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in3
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in0_CONNECT.in4
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in4
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in0_CONNECT.in5
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in5
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in0_CONNECT.in6
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in6
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in0_CONNECT.in7
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in7
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in0_CONNECT.in8
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in8
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in0_CONNECT.out0
-    attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_9X1.out0
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in1_CONNECT.in0
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in0
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in1_CONNECT.in1
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in1
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in1_CONNECT.in2
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in2
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in1_CONNECT.in3
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in3
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in1_CONNECT.in4
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in4
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in1_CONNECT.in5
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in5
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in1_CONNECT.in6
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in6
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in1_CONNECT.in7
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in7
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in1_CONNECT.in8
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in8
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE6_in1_CONNECT.out0
-    attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_9X1.out0
-    attr switch str FULLYCONN_9X1
 vertex SW8X1_BlockPE15_in0_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_8X1.in0
@@ -1062,86 +902,78 @@ vertex SW9X1_BlockPE7_in1_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str FULLYCONN_9X1.out0
     attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in0_CONNECT.in0
+vertex SW8X1_BlockPE8_in0_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in0
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in0_CONNECT.in1
+    attr device str FULLYCONN_8X1.in0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in0_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in1
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in0_CONNECT.in2
+    attr device str FULLYCONN_8X1.in1
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in0_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in2
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in0_CONNECT.in3
+    attr device str FULLYCONN_8X1.in2
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in0_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in3
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in0_CONNECT.in4
+    attr device str FULLYCONN_8X1.in3
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in0_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in4
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in0_CONNECT.in5
+    attr device str FULLYCONN_8X1.in4
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in0_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in5
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in0_CONNECT.in6
+    attr device str FULLYCONN_8X1.in5
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in0_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in6
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in0_CONNECT.in7
+    attr device str FULLYCONN_8X1.in6
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in0_CONNECT.in7
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in7
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in0_CONNECT.in8
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in8
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in0_CONNECT.out0
+    attr device str FULLYCONN_8X1.in7
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in0_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_9X1.out0
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in1_CONNECT.in0
+    attr device str FULLYCONN_8X1.out0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in1_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in0
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in1_CONNECT.in1
+    attr device str FULLYCONN_8X1.in0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in1_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in1
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in1_CONNECT.in2
+    attr device str FULLYCONN_8X1.in1
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in1_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in2
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in1_CONNECT.in3
+    attr device str FULLYCONN_8X1.in2
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in1_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in3
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in1_CONNECT.in4
+    attr device str FULLYCONN_8X1.in3
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in1_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in4
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in1_CONNECT.in5
+    attr device str FULLYCONN_8X1.in4
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in1_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in5
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in1_CONNECT.in6
+    attr device str FULLYCONN_8X1.in5
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in1_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in6
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in1_CONNECT.in7
+    attr device str FULLYCONN_8X1.in6
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in1_CONNECT.in7
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in7
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in1_CONNECT.in8
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_9X1.in8
-    attr switch str FULLYCONN_9X1
-vertex SW9X1_BlockPE8_in1_CONNECT.out0
+    attr device str FULLYCONN_8X1.in7
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_BlockPE8_in1_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_9X1.out0
-    attr switch str FULLYCONN_9X1
+    attr device str FULLYCONN_8X1.out0
+    attr switch str FULLYCONN_8X1
 vertex SW9X1_BlockPE9_in0_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_9X1.in0
@@ -1222,78 +1054,150 @@ vertex SW9X1_BlockPE9_in1_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str FULLYCONN_9X1.out0
     attr switch str FULLYCONN_9X1
-vertex SW8X1_BlockPE10_in0_CONNECT.in0
+vertex SW7X1_BlockPE10_in0_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in0
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in0_CONNECT.in1
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in0_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in1
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in0_CONNECT.in2
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in0_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in2
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in0_CONNECT.in3
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in0_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in3
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in0_CONNECT.in4
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in0_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in4
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in0_CONNECT.in5
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in0_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in5
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in0_CONNECT.in6
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in0_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in6
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in0_CONNECT.in7
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in7
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in0_CONNECT.out0
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in0_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_8X1.out0
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in1_CONNECT.in0
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in1_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in0
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in1_CONNECT.in1
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in1_CONNECT.in1
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in1
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in1_CONNECT.in2
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in1_CONNECT.in2
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in2
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in1_CONNECT.in3
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in1_CONNECT.in3
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in3
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in1_CONNECT.in4
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in1_CONNECT.in4
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in4
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in1_CONNECT.in5
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in1_CONNECT.in5
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in5
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in1_CONNECT.in6
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in1_CONNECT.in6
     attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in6
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in1_CONNECT.in7
-    attr type str __MODULE_INPUT_PORT__
-    attr device str FULLYCONN_8X1.in7
-    attr switch str FULLYCONN_8X1
-vertex SW8X1_BlockPE10_in1_CONNECT.out0
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_BlockPE10_in1_CONNECT.out0
     attr type str __MODULE_OUTPUT_PORT__
-    attr device str FULLYCONN_8X1.out0
-    attr switch str FULLYCONN_8X1
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW9X1_BlockPE11_in0_CONNECT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in0
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in0_CONNECT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in1
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in0_CONNECT.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in2
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in0_CONNECT.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in3
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in0_CONNECT.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in4
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in0_CONNECT.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in5
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in0_CONNECT.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in6
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in0_CONNECT.in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in7
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in0_CONNECT.in8
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in8
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in0_CONNECT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_9X1.out0
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in1_CONNECT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in0
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in1_CONNECT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in1
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in1_CONNECT.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in2
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in1_CONNECT.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in3
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in1_CONNECT.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in4
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in1_CONNECT.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in5
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in1_CONNECT.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in6
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in1_CONNECT.in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in7
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in1_CONNECT.in8
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_9X1.in8
+    attr switch str FULLYCONN_9X1
+vertex SW9X1_BlockPE11_in1_CONNECT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_9X1.out0
+    attr switch str FULLYCONN_9X1
 vertex SW1X1_BlockIO0_in0_CONNECT.in0
     attr type str __MODULE_INPUT_PORT__
     attr device str FULLYCONN_1X1.in0
@@ -1788,18 +1692,18 @@ vertex BlockPE2.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str BlockPE2.out0
 vertex BlockPE2.ALU0
-    attr type str ALU2
-    attr device str ALU2
-    attr unit str ALU2
+    attr type str ALU0
+    attr device str ALU0
+    attr unit str ALU0
 vertex BlockPE2.ALU0.in0
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU2.in0
+    attr device str ALU0.in0
 vertex BlockPE2.ALU0.in1
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU2.in1
+    attr device str ALU0.in1
 vertex BlockPE2.ALU0.out0
     attr type str __ELEMENT_OUTPUT_PORT__
-    attr device str ALU2.out0
+    attr device str ALU0.out0
 vertex BlockPE2.MEM0
     attr type str MEM
     attr device str MEM
@@ -1952,18 +1856,18 @@ vertex BlockPE4.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str BlockPE4.out0
 vertex BlockPE4.ALU0
-    attr type str ALU0
-    attr device str ALU0
-    attr unit str ALU0
+    attr type str ALU1
+    attr device str ALU1
+    attr unit str ALU1
 vertex BlockPE4.ALU0.in0
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU0.in0
+    attr device str ALU1.in0
 vertex BlockPE4.ALU0.in1
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU0.in1
+    attr device str ALU1.in1
 vertex BlockPE4.ALU0.out0
     attr type str __ELEMENT_OUTPUT_PORT__
-    attr device str ALU0.out0
+    attr device str ALU1.out0
 vertex BlockPE4.MEM0
     attr type str MEM
     attr device str MEM
@@ -2034,18 +1938,18 @@ vertex BlockPE5.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str BlockPE5.out0
 vertex BlockPE5.ALU0
-    attr type str ALU0
-    attr device str ALU0
-    attr unit str ALU0
+    attr type str ALU1
+    attr device str ALU1
+    attr unit str ALU1
 vertex BlockPE5.ALU0.in0
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU0.in0
+    attr device str ALU1.in0
 vertex BlockPE5.ALU0.in1
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU0.in1
+    attr device str ALU1.in1
 vertex BlockPE5.ALU0.out0
     attr type str __ELEMENT_OUTPUT_PORT__
-    attr device str ALU0.out0
+    attr device str ALU1.out0
 vertex BlockPE5.MEM0
     attr type str MEM
     attr device str MEM
@@ -2198,18 +2102,18 @@ vertex BlockPE7.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str BlockPE7.out0
 vertex BlockPE7.ALU0
-    attr type str ALU0
-    attr device str ALU0
-    attr unit str ALU0
+    attr type str ALU1
+    attr device str ALU1
+    attr unit str ALU1
 vertex BlockPE7.ALU0.in0
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU0.in0
+    attr device str ALU1.in0
 vertex BlockPE7.ALU0.in1
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU0.in1
+    attr device str ALU1.in1
 vertex BlockPE7.ALU0.out0
     attr type str __ELEMENT_OUTPUT_PORT__
-    attr device str ALU0.out0
+    attr device str ALU1.out0
 vertex BlockPE7.MEM0
     attr type str MEM
     attr device str MEM
@@ -2280,18 +2184,18 @@ vertex BlockPE8.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str BlockPE8.out0
 vertex BlockPE8.ALU0
-    attr type str ALU1
-    attr device str ALU1
-    attr unit str ALU1
+    attr type str ALU0
+    attr device str ALU0
+    attr unit str ALU0
 vertex BlockPE8.ALU0.in0
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU1.in0
+    attr device str ALU0.in0
 vertex BlockPE8.ALU0.in1
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU1.in1
+    attr device str ALU0.in1
 vertex BlockPE8.ALU0.out0
     attr type str __ELEMENT_OUTPUT_PORT__
-    attr device str ALU1.out0
+    attr device str ALU0.out0
 vertex BlockPE8.MEM0
     attr type str MEM
     attr device str MEM
@@ -2608,18 +2512,18 @@ vertex BlockPE12.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str BlockPE12.out0
 vertex BlockPE12.ALU0
-    attr type str ALU0
-    attr device str ALU0
-    attr unit str ALU0
+    attr type str ALU2
+    attr device str ALU2
+    attr unit str ALU2
 vertex BlockPE12.ALU0.in0
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU0.in0
+    attr device str ALU2.in0
 vertex BlockPE12.ALU0.in1
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU0.in1
+    attr device str ALU2.in1
 vertex BlockPE12.ALU0.out0
     attr type str __ELEMENT_OUTPUT_PORT__
-    attr device str ALU0.out0
+    attr device str ALU2.out0
 vertex BlockPE12.MEM0
     attr type str MEM
     attr device str MEM
@@ -2854,18 +2758,18 @@ vertex BlockPE15.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str BlockPE15.out0
 vertex BlockPE15.ALU0
-    attr type str ALU0
-    attr device str ALU0
-    attr unit str ALU0
+    attr type str ALU2
+    attr device str ALU2
+    attr unit str ALU2
 vertex BlockPE15.ALU0.in0
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU0.in0
+    attr device str ALU2.in0
 vertex BlockPE15.ALU0.in1
     attr type str __ELEMENT_INPUT_PORT__
-    attr device str ALU0.in1
+    attr device str ALU2.in1
 vertex BlockPE15.ALU0.out0
     attr type str __ELEMENT_OUTPUT_PORT__
-    attr device str ALU0.out0
+    attr device str ALU2.out0
 vertex BlockPE15.MEM0
     attr type str MEM
     attr device str MEM
@@ -3678,70 +3582,64 @@ vertex BlockIO11.SW1X1_OUTPORT.out0
     attr type str __MODULE_OUTPUT_PORT__
     attr device str FULLYCONN_1X1.out0
     attr switch str FULLYCONN_1X1
-net SW9X1_BlockPE12_in0_CONNECT.in0 SW9X1_BlockPE12_in0_CONNECT.out0
-net SW9X1_BlockPE12_in0_CONNECT.in1 SW9X1_BlockPE12_in0_CONNECT.out0
-net SW9X1_BlockPE12_in0_CONNECT.in2 SW9X1_BlockPE12_in0_CONNECT.out0
-net SW9X1_BlockPE12_in0_CONNECT.in3 SW9X1_BlockPE12_in0_CONNECT.out0
-net SW9X1_BlockPE12_in0_CONNECT.in4 SW9X1_BlockPE12_in0_CONNECT.out0
-net SW9X1_BlockPE12_in0_CONNECT.in5 SW9X1_BlockPE12_in0_CONNECT.out0
-net SW9X1_BlockPE12_in0_CONNECT.in6 SW9X1_BlockPE12_in0_CONNECT.out0
-net SW9X1_BlockPE12_in0_CONNECT.in7 SW9X1_BlockPE12_in0_CONNECT.out0
-net SW9X1_BlockPE12_in0_CONNECT.in8 SW9X1_BlockPE12_in0_CONNECT.out0
-net SW9X1_BlockPE12_in0_CONNECT.out0 BlockPE12.in0
-net SW9X1_BlockPE12_in1_CONNECT.in0 SW9X1_BlockPE12_in1_CONNECT.out0
-net SW9X1_BlockPE12_in1_CONNECT.in1 SW9X1_BlockPE12_in1_CONNECT.out0
-net SW9X1_BlockPE12_in1_CONNECT.in2 SW9X1_BlockPE12_in1_CONNECT.out0
-net SW9X1_BlockPE12_in1_CONNECT.in3 SW9X1_BlockPE12_in1_CONNECT.out0
-net SW9X1_BlockPE12_in1_CONNECT.in4 SW9X1_BlockPE12_in1_CONNECT.out0
-net SW9X1_BlockPE12_in1_CONNECT.in5 SW9X1_BlockPE12_in1_CONNECT.out0
-net SW9X1_BlockPE12_in1_CONNECT.in6 SW9X1_BlockPE12_in1_CONNECT.out0
-net SW9X1_BlockPE12_in1_CONNECT.in7 SW9X1_BlockPE12_in1_CONNECT.out0
-net SW9X1_BlockPE12_in1_CONNECT.in8 SW9X1_BlockPE12_in1_CONNECT.out0
-net SW9X1_BlockPE12_in1_CONNECT.out0 BlockPE12.in1
-net SW10X1_BlockPE4_in0_CONNECT.in0 SW10X1_BlockPE4_in0_CONNECT.out0
-net SW10X1_BlockPE4_in0_CONNECT.in1 SW10X1_BlockPE4_in0_CONNECT.out0
-net SW10X1_BlockPE4_in0_CONNECT.in2 SW10X1_BlockPE4_in0_CONNECT.out0
-net SW10X1_BlockPE4_in0_CONNECT.in3 SW10X1_BlockPE4_in0_CONNECT.out0
-net SW10X1_BlockPE4_in0_CONNECT.in4 SW10X1_BlockPE4_in0_CONNECT.out0
-net SW10X1_BlockPE4_in0_CONNECT.in5 SW10X1_BlockPE4_in0_CONNECT.out0
-net SW10X1_BlockPE4_in0_CONNECT.in6 SW10X1_BlockPE4_in0_CONNECT.out0
-net SW10X1_BlockPE4_in0_CONNECT.in7 SW10X1_BlockPE4_in0_CONNECT.out0
-net SW10X1_BlockPE4_in0_CONNECT.in8 SW10X1_BlockPE4_in0_CONNECT.out0
-net SW10X1_BlockPE4_in0_CONNECT.in9 SW10X1_BlockPE4_in0_CONNECT.out0
-net SW10X1_BlockPE4_in0_CONNECT.out0 BlockPE4.in0
-net SW10X1_BlockPE4_in1_CONNECT.in0 SW10X1_BlockPE4_in1_CONNECT.out0
-net SW10X1_BlockPE4_in1_CONNECT.in1 SW10X1_BlockPE4_in1_CONNECT.out0
-net SW10X1_BlockPE4_in1_CONNECT.in2 SW10X1_BlockPE4_in1_CONNECT.out0
-net SW10X1_BlockPE4_in1_CONNECT.in3 SW10X1_BlockPE4_in1_CONNECT.out0
-net SW10X1_BlockPE4_in1_CONNECT.in4 SW10X1_BlockPE4_in1_CONNECT.out0
-net SW10X1_BlockPE4_in1_CONNECT.in5 SW10X1_BlockPE4_in1_CONNECT.out0
-net SW10X1_BlockPE4_in1_CONNECT.in6 SW10X1_BlockPE4_in1_CONNECT.out0
-net SW10X1_BlockPE4_in1_CONNECT.in7 SW10X1_BlockPE4_in1_CONNECT.out0
-net SW10X1_BlockPE4_in1_CONNECT.in8 SW10X1_BlockPE4_in1_CONNECT.out0
-net SW10X1_BlockPE4_in1_CONNECT.in9 SW10X1_BlockPE4_in1_CONNECT.out0
-net SW10X1_BlockPE4_in1_CONNECT.out0 BlockPE4.in1
-net SW10X1_BlockPE3_in0_CONNECT.in0 SW10X1_BlockPE3_in0_CONNECT.out0
-net SW10X1_BlockPE3_in0_CONNECT.in1 SW10X1_BlockPE3_in0_CONNECT.out0
-net SW10X1_BlockPE3_in0_CONNECT.in2 SW10X1_BlockPE3_in0_CONNECT.out0
-net SW10X1_BlockPE3_in0_CONNECT.in3 SW10X1_BlockPE3_in0_CONNECT.out0
-net SW10X1_BlockPE3_in0_CONNECT.in4 SW10X1_BlockPE3_in0_CONNECT.out0
-net SW10X1_BlockPE3_in0_CONNECT.in5 SW10X1_BlockPE3_in0_CONNECT.out0
-net SW10X1_BlockPE3_in0_CONNECT.in6 SW10X1_BlockPE3_in0_CONNECT.out0
-net SW10X1_BlockPE3_in0_CONNECT.in7 SW10X1_BlockPE3_in0_CONNECT.out0
-net SW10X1_BlockPE3_in0_CONNECT.in8 SW10X1_BlockPE3_in0_CONNECT.out0
-net SW10X1_BlockPE3_in0_CONNECT.in9 SW10X1_BlockPE3_in0_CONNECT.out0
-net SW10X1_BlockPE3_in0_CONNECT.out0 BlockPE3.in0
-net SW10X1_BlockPE3_in1_CONNECT.in0 SW10X1_BlockPE3_in1_CONNECT.out0
-net SW10X1_BlockPE3_in1_CONNECT.in1 SW10X1_BlockPE3_in1_CONNECT.out0
-net SW10X1_BlockPE3_in1_CONNECT.in2 SW10X1_BlockPE3_in1_CONNECT.out0
-net SW10X1_BlockPE3_in1_CONNECT.in3 SW10X1_BlockPE3_in1_CONNECT.out0
-net SW10X1_BlockPE3_in1_CONNECT.in4 SW10X1_BlockPE3_in1_CONNECT.out0
-net SW10X1_BlockPE3_in1_CONNECT.in5 SW10X1_BlockPE3_in1_CONNECT.out0
-net SW10X1_BlockPE3_in1_CONNECT.in6 SW10X1_BlockPE3_in1_CONNECT.out0
-net SW10X1_BlockPE3_in1_CONNECT.in7 SW10X1_BlockPE3_in1_CONNECT.out0
-net SW10X1_BlockPE3_in1_CONNECT.in8 SW10X1_BlockPE3_in1_CONNECT.out0
-net SW10X1_BlockPE3_in1_CONNECT.in9 SW10X1_BlockPE3_in1_CONNECT.out0
-net SW10X1_BlockPE3_in1_CONNECT.out0 BlockPE3.in1
+net SW8X1_BlockPE12_in0_CONNECT.in0 SW8X1_BlockPE12_in0_CONNECT.out0
+net SW8X1_BlockPE12_in0_CONNECT.in1 SW8X1_BlockPE12_in0_CONNECT.out0
+net SW8X1_BlockPE12_in0_CONNECT.in2 SW8X1_BlockPE12_in0_CONNECT.out0
+net SW8X1_BlockPE12_in0_CONNECT.in3 SW8X1_BlockPE12_in0_CONNECT.out0
+net SW8X1_BlockPE12_in0_CONNECT.in4 SW8X1_BlockPE12_in0_CONNECT.out0
+net SW8X1_BlockPE12_in0_CONNECT.in5 SW8X1_BlockPE12_in0_CONNECT.out0
+net SW8X1_BlockPE12_in0_CONNECT.in6 SW8X1_BlockPE12_in0_CONNECT.out0
+net SW8X1_BlockPE12_in0_CONNECT.in7 SW8X1_BlockPE12_in0_CONNECT.out0
+net SW8X1_BlockPE12_in0_CONNECT.out0 BlockPE12.in0
+net SW8X1_BlockPE12_in1_CONNECT.in0 SW8X1_BlockPE12_in1_CONNECT.out0
+net SW8X1_BlockPE12_in1_CONNECT.in1 SW8X1_BlockPE12_in1_CONNECT.out0
+net SW8X1_BlockPE12_in1_CONNECT.in2 SW8X1_BlockPE12_in1_CONNECT.out0
+net SW8X1_BlockPE12_in1_CONNECT.in3 SW8X1_BlockPE12_in1_CONNECT.out0
+net SW8X1_BlockPE12_in1_CONNECT.in4 SW8X1_BlockPE12_in1_CONNECT.out0
+net SW8X1_BlockPE12_in1_CONNECT.in5 SW8X1_BlockPE12_in1_CONNECT.out0
+net SW8X1_BlockPE12_in1_CONNECT.in6 SW8X1_BlockPE12_in1_CONNECT.out0
+net SW8X1_BlockPE12_in1_CONNECT.in7 SW8X1_BlockPE12_in1_CONNECT.out0
+net SW8X1_BlockPE12_in1_CONNECT.out0 BlockPE12.in1
+net SW9X1_BlockPE4_in0_CONNECT.in0 SW9X1_BlockPE4_in0_CONNECT.out0
+net SW9X1_BlockPE4_in0_CONNECT.in1 SW9X1_BlockPE4_in0_CONNECT.out0
+net SW9X1_BlockPE4_in0_CONNECT.in2 SW9X1_BlockPE4_in0_CONNECT.out0
+net SW9X1_BlockPE4_in0_CONNECT.in3 SW9X1_BlockPE4_in0_CONNECT.out0
+net SW9X1_BlockPE4_in0_CONNECT.in4 SW9X1_BlockPE4_in0_CONNECT.out0
+net SW9X1_BlockPE4_in0_CONNECT.in5 SW9X1_BlockPE4_in0_CONNECT.out0
+net SW9X1_BlockPE4_in0_CONNECT.in6 SW9X1_BlockPE4_in0_CONNECT.out0
+net SW9X1_BlockPE4_in0_CONNECT.in7 SW9X1_BlockPE4_in0_CONNECT.out0
+net SW9X1_BlockPE4_in0_CONNECT.in8 SW9X1_BlockPE4_in0_CONNECT.out0
+net SW9X1_BlockPE4_in0_CONNECT.out0 BlockPE4.in0
+net SW9X1_BlockPE4_in1_CONNECT.in0 SW9X1_BlockPE4_in1_CONNECT.out0
+net SW9X1_BlockPE4_in1_CONNECT.in1 SW9X1_BlockPE4_in1_CONNECT.out0
+net SW9X1_BlockPE4_in1_CONNECT.in2 SW9X1_BlockPE4_in1_CONNECT.out0
+net SW9X1_BlockPE4_in1_CONNECT.in3 SW9X1_BlockPE4_in1_CONNECT.out0
+net SW9X1_BlockPE4_in1_CONNECT.in4 SW9X1_BlockPE4_in1_CONNECT.out0
+net SW9X1_BlockPE4_in1_CONNECT.in5 SW9X1_BlockPE4_in1_CONNECT.out0
+net SW9X1_BlockPE4_in1_CONNECT.in6 SW9X1_BlockPE4_in1_CONNECT.out0
+net SW9X1_BlockPE4_in1_CONNECT.in7 SW9X1_BlockPE4_in1_CONNECT.out0
+net SW9X1_BlockPE4_in1_CONNECT.in8 SW9X1_BlockPE4_in1_CONNECT.out0
+net SW9X1_BlockPE4_in1_CONNECT.out0 BlockPE4.in1
+net SW9X1_BlockPE3_in0_CONNECT.in0 SW9X1_BlockPE3_in0_CONNECT.out0
+net SW9X1_BlockPE3_in0_CONNECT.in1 SW9X1_BlockPE3_in0_CONNECT.out0
+net SW9X1_BlockPE3_in0_CONNECT.in2 SW9X1_BlockPE3_in0_CONNECT.out0
+net SW9X1_BlockPE3_in0_CONNECT.in3 SW9X1_BlockPE3_in0_CONNECT.out0
+net SW9X1_BlockPE3_in0_CONNECT.in4 SW9X1_BlockPE3_in0_CONNECT.out0
+net SW9X1_BlockPE3_in0_CONNECT.in5 SW9X1_BlockPE3_in0_CONNECT.out0
+net SW9X1_BlockPE3_in0_CONNECT.in6 SW9X1_BlockPE3_in0_CONNECT.out0
+net SW9X1_BlockPE3_in0_CONNECT.in7 SW9X1_BlockPE3_in0_CONNECT.out0
+net SW9X1_BlockPE3_in0_CONNECT.in8 SW9X1_BlockPE3_in0_CONNECT.out0
+net SW9X1_BlockPE3_in0_CONNECT.out0 BlockPE3.in0
+net SW9X1_BlockPE3_in1_CONNECT.in0 SW9X1_BlockPE3_in1_CONNECT.out0
+net SW9X1_BlockPE3_in1_CONNECT.in1 SW9X1_BlockPE3_in1_CONNECT.out0
+net SW9X1_BlockPE3_in1_CONNECT.in2 SW9X1_BlockPE3_in1_CONNECT.out0
+net SW9X1_BlockPE3_in1_CONNECT.in3 SW9X1_BlockPE3_in1_CONNECT.out0
+net SW9X1_BlockPE3_in1_CONNECT.in4 SW9X1_BlockPE3_in1_CONNECT.out0
+net SW9X1_BlockPE3_in1_CONNECT.in5 SW9X1_BlockPE3_in1_CONNECT.out0
+net SW9X1_BlockPE3_in1_CONNECT.in6 SW9X1_BlockPE3_in1_CONNECT.out0
+net SW9X1_BlockPE3_in1_CONNECT.in7 SW9X1_BlockPE3_in1_CONNECT.out0
+net SW9X1_BlockPE3_in1_CONNECT.in8 SW9X1_BlockPE3_in1_CONNECT.out0
+net SW9X1_BlockPE3_in1_CONNECT.out0 BlockPE3.in1
 net SW9X1_BlockPE1_in0_CONNECT.in0 SW9X1_BlockPE1_in0_CONNECT.out0
 net SW9X1_BlockPE1_in0_CONNECT.in1 SW9X1_BlockPE1_in0_CONNECT.out0
 net SW9X1_BlockPE1_in0_CONNECT.in2 SW9X1_BlockPE1_in0_CONNECT.out0
@@ -3762,138 +3660,104 @@ net SW9X1_BlockPE1_in1_CONNECT.in6 SW9X1_BlockPE1_in1_CONNECT.out0
 net SW9X1_BlockPE1_in1_CONNECT.in7 SW9X1_BlockPE1_in1_CONNECT.out0
 net SW9X1_BlockPE1_in1_CONNECT.in8 SW9X1_BlockPE1_in1_CONNECT.out0
 net SW9X1_BlockPE1_in1_CONNECT.out0 BlockPE1.in1
-net SW10X1_BlockPE11_in0_CONNECT.in0 SW10X1_BlockPE11_in0_CONNECT.out0
-net SW10X1_BlockPE11_in0_CONNECT.in1 SW10X1_BlockPE11_in0_CONNECT.out0
-net SW10X1_BlockPE11_in0_CONNECT.in2 SW10X1_BlockPE11_in0_CONNECT.out0
-net SW10X1_BlockPE11_in0_CONNECT.in3 SW10X1_BlockPE11_in0_CONNECT.out0
-net SW10X1_BlockPE11_in0_CONNECT.in4 SW10X1_BlockPE11_in0_CONNECT.out0
-net SW10X1_BlockPE11_in0_CONNECT.in5 SW10X1_BlockPE11_in0_CONNECT.out0
-net SW10X1_BlockPE11_in0_CONNECT.in6 SW10X1_BlockPE11_in0_CONNECT.out0
-net SW10X1_BlockPE11_in0_CONNECT.in7 SW10X1_BlockPE11_in0_CONNECT.out0
-net SW10X1_BlockPE11_in0_CONNECT.in8 SW10X1_BlockPE11_in0_CONNECT.out0
-net SW10X1_BlockPE11_in0_CONNECT.in9 SW10X1_BlockPE11_in0_CONNECT.out0
-net SW10X1_BlockPE11_in0_CONNECT.out0 BlockPE11.in0
-net SW10X1_BlockPE11_in1_CONNECT.in0 SW10X1_BlockPE11_in1_CONNECT.out0
-net SW10X1_BlockPE11_in1_CONNECT.in1 SW10X1_BlockPE11_in1_CONNECT.out0
-net SW10X1_BlockPE11_in1_CONNECT.in2 SW10X1_BlockPE11_in1_CONNECT.out0
-net SW10X1_BlockPE11_in1_CONNECT.in3 SW10X1_BlockPE11_in1_CONNECT.out0
-net SW10X1_BlockPE11_in1_CONNECT.in4 SW10X1_BlockPE11_in1_CONNECT.out0
-net SW10X1_BlockPE11_in1_CONNECT.in5 SW10X1_BlockPE11_in1_CONNECT.out0
-net SW10X1_BlockPE11_in1_CONNECT.in6 SW10X1_BlockPE11_in1_CONNECT.out0
-net SW10X1_BlockPE11_in1_CONNECT.in7 SW10X1_BlockPE11_in1_CONNECT.out0
-net SW10X1_BlockPE11_in1_CONNECT.in8 SW10X1_BlockPE11_in1_CONNECT.out0
-net SW10X1_BlockPE11_in1_CONNECT.in9 SW10X1_BlockPE11_in1_CONNECT.out0
-net SW10X1_BlockPE11_in1_CONNECT.out0 BlockPE11.in1
-net SW7X1_BlockPE13_in0_CONNECT.in0 SW7X1_BlockPE13_in0_CONNECT.out0
-net SW7X1_BlockPE13_in0_CONNECT.in1 SW7X1_BlockPE13_in0_CONNECT.out0
-net SW7X1_BlockPE13_in0_CONNECT.in2 SW7X1_BlockPE13_in0_CONNECT.out0
-net SW7X1_BlockPE13_in0_CONNECT.in3 SW7X1_BlockPE13_in0_CONNECT.out0
-net SW7X1_BlockPE13_in0_CONNECT.in4 SW7X1_BlockPE13_in0_CONNECT.out0
-net SW7X1_BlockPE13_in0_CONNECT.in5 SW7X1_BlockPE13_in0_CONNECT.out0
-net SW7X1_BlockPE13_in0_CONNECT.in6 SW7X1_BlockPE13_in0_CONNECT.out0
-net SW7X1_BlockPE13_in0_CONNECT.out0 BlockPE13.in0
-net SW7X1_BlockPE13_in1_CONNECT.in0 SW7X1_BlockPE13_in1_CONNECT.out0
-net SW7X1_BlockPE13_in1_CONNECT.in1 SW7X1_BlockPE13_in1_CONNECT.out0
-net SW7X1_BlockPE13_in1_CONNECT.in2 SW7X1_BlockPE13_in1_CONNECT.out0
-net SW7X1_BlockPE13_in1_CONNECT.in3 SW7X1_BlockPE13_in1_CONNECT.out0
-net SW7X1_BlockPE13_in1_CONNECT.in4 SW7X1_BlockPE13_in1_CONNECT.out0
-net SW7X1_BlockPE13_in1_CONNECT.in5 SW7X1_BlockPE13_in1_CONNECT.out0
-net SW7X1_BlockPE13_in1_CONNECT.in6 SW7X1_BlockPE13_in1_CONNECT.out0
-net SW7X1_BlockPE13_in1_CONNECT.out0 BlockPE13.in1
-net SW8X1_BlockPE5_in0_CONNECT.in0 SW8X1_BlockPE5_in0_CONNECT.out0
-net SW8X1_BlockPE5_in0_CONNECT.in1 SW8X1_BlockPE5_in0_CONNECT.out0
-net SW8X1_BlockPE5_in0_CONNECT.in2 SW8X1_BlockPE5_in0_CONNECT.out0
-net SW8X1_BlockPE5_in0_CONNECT.in3 SW8X1_BlockPE5_in0_CONNECT.out0
-net SW8X1_BlockPE5_in0_CONNECT.in4 SW8X1_BlockPE5_in0_CONNECT.out0
-net SW8X1_BlockPE5_in0_CONNECT.in5 SW8X1_BlockPE5_in0_CONNECT.out0
-net SW8X1_BlockPE5_in0_CONNECT.in6 SW8X1_BlockPE5_in0_CONNECT.out0
-net SW8X1_BlockPE5_in0_CONNECT.in7 SW8X1_BlockPE5_in0_CONNECT.out0
-net SW8X1_BlockPE5_in0_CONNECT.out0 BlockPE5.in0
-net SW8X1_BlockPE5_in1_CONNECT.in0 SW8X1_BlockPE5_in1_CONNECT.out0
-net SW8X1_BlockPE5_in1_CONNECT.in1 SW8X1_BlockPE5_in1_CONNECT.out0
-net SW8X1_BlockPE5_in1_CONNECT.in2 SW8X1_BlockPE5_in1_CONNECT.out0
-net SW8X1_BlockPE5_in1_CONNECT.in3 SW8X1_BlockPE5_in1_CONNECT.out0
-net SW8X1_BlockPE5_in1_CONNECT.in4 SW8X1_BlockPE5_in1_CONNECT.out0
-net SW8X1_BlockPE5_in1_CONNECT.in5 SW8X1_BlockPE5_in1_CONNECT.out0
-net SW8X1_BlockPE5_in1_CONNECT.in6 SW8X1_BlockPE5_in1_CONNECT.out0
-net SW8X1_BlockPE5_in1_CONNECT.in7 SW8X1_BlockPE5_in1_CONNECT.out0
-net SW8X1_BlockPE5_in1_CONNECT.out0 BlockPE5.in1
-net SW9X1_BlockPE0_in0_CONNECT.in0 SW9X1_BlockPE0_in0_CONNECT.out0
-net SW9X1_BlockPE0_in0_CONNECT.in1 SW9X1_BlockPE0_in0_CONNECT.out0
-net SW9X1_BlockPE0_in0_CONNECT.in2 SW9X1_BlockPE0_in0_CONNECT.out0
-net SW9X1_BlockPE0_in0_CONNECT.in3 SW9X1_BlockPE0_in0_CONNECT.out0
-net SW9X1_BlockPE0_in0_CONNECT.in4 SW9X1_BlockPE0_in0_CONNECT.out0
-net SW9X1_BlockPE0_in0_CONNECT.in5 SW9X1_BlockPE0_in0_CONNECT.out0
-net SW9X1_BlockPE0_in0_CONNECT.in6 SW9X1_BlockPE0_in0_CONNECT.out0
-net SW9X1_BlockPE0_in0_CONNECT.in7 SW9X1_BlockPE0_in0_CONNECT.out0
-net SW9X1_BlockPE0_in0_CONNECT.in8 SW9X1_BlockPE0_in0_CONNECT.out0
-net SW9X1_BlockPE0_in0_CONNECT.out0 BlockPE0.in0
-net SW9X1_BlockPE0_in1_CONNECT.in0 SW9X1_BlockPE0_in1_CONNECT.out0
-net SW9X1_BlockPE0_in1_CONNECT.in1 SW9X1_BlockPE0_in1_CONNECT.out0
-net SW9X1_BlockPE0_in1_CONNECT.in2 SW9X1_BlockPE0_in1_CONNECT.out0
-net SW9X1_BlockPE0_in1_CONNECT.in3 SW9X1_BlockPE0_in1_CONNECT.out0
-net SW9X1_BlockPE0_in1_CONNECT.in4 SW9X1_BlockPE0_in1_CONNECT.out0
-net SW9X1_BlockPE0_in1_CONNECT.in5 SW9X1_BlockPE0_in1_CONNECT.out0
-net SW9X1_BlockPE0_in1_CONNECT.in6 SW9X1_BlockPE0_in1_CONNECT.out0
-net SW9X1_BlockPE0_in1_CONNECT.in7 SW9X1_BlockPE0_in1_CONNECT.out0
-net SW9X1_BlockPE0_in1_CONNECT.in8 SW9X1_BlockPE0_in1_CONNECT.out0
-net SW9X1_BlockPE0_in1_CONNECT.out0 BlockPE0.in1
-net SW8X1_BlockPE2_in0_CONNECT.in0 SW8X1_BlockPE2_in0_CONNECT.out0
-net SW8X1_BlockPE2_in0_CONNECT.in1 SW8X1_BlockPE2_in0_CONNECT.out0
-net SW8X1_BlockPE2_in0_CONNECT.in2 SW8X1_BlockPE2_in0_CONNECT.out0
-net SW8X1_BlockPE2_in0_CONNECT.in3 SW8X1_BlockPE2_in0_CONNECT.out0
-net SW8X1_BlockPE2_in0_CONNECT.in4 SW8X1_BlockPE2_in0_CONNECT.out0
-net SW8X1_BlockPE2_in0_CONNECT.in5 SW8X1_BlockPE2_in0_CONNECT.out0
-net SW8X1_BlockPE2_in0_CONNECT.in6 SW8X1_BlockPE2_in0_CONNECT.out0
-net SW8X1_BlockPE2_in0_CONNECT.in7 SW8X1_BlockPE2_in0_CONNECT.out0
-net SW8X1_BlockPE2_in0_CONNECT.out0 BlockPE2.in0
-net SW8X1_BlockPE2_in1_CONNECT.in0 SW8X1_BlockPE2_in1_CONNECT.out0
-net SW8X1_BlockPE2_in1_CONNECT.in1 SW8X1_BlockPE2_in1_CONNECT.out0
-net SW8X1_BlockPE2_in1_CONNECT.in2 SW8X1_BlockPE2_in1_CONNECT.out0
-net SW8X1_BlockPE2_in1_CONNECT.in3 SW8X1_BlockPE2_in1_CONNECT.out0
-net SW8X1_BlockPE2_in1_CONNECT.in4 SW8X1_BlockPE2_in1_CONNECT.out0
-net SW8X1_BlockPE2_in1_CONNECT.in5 SW8X1_BlockPE2_in1_CONNECT.out0
-net SW8X1_BlockPE2_in1_CONNECT.in6 SW8X1_BlockPE2_in1_CONNECT.out0
-net SW8X1_BlockPE2_in1_CONNECT.in7 SW8X1_BlockPE2_in1_CONNECT.out0
-net SW8X1_BlockPE2_in1_CONNECT.out0 BlockPE2.in1
-net SW8X1_BlockPE14_in0_CONNECT.in0 SW8X1_BlockPE14_in0_CONNECT.out0
-net SW8X1_BlockPE14_in0_CONNECT.in1 SW8X1_BlockPE14_in0_CONNECT.out0
-net SW8X1_BlockPE14_in0_CONNECT.in2 SW8X1_BlockPE14_in0_CONNECT.out0
-net SW8X1_BlockPE14_in0_CONNECT.in3 SW8X1_BlockPE14_in0_CONNECT.out0
-net SW8X1_BlockPE14_in0_CONNECT.in4 SW8X1_BlockPE14_in0_CONNECT.out0
-net SW8X1_BlockPE14_in0_CONNECT.in5 SW8X1_BlockPE14_in0_CONNECT.out0
-net SW8X1_BlockPE14_in0_CONNECT.in6 SW8X1_BlockPE14_in0_CONNECT.out0
-net SW8X1_BlockPE14_in0_CONNECT.in7 SW8X1_BlockPE14_in0_CONNECT.out0
-net SW8X1_BlockPE14_in0_CONNECT.out0 BlockPE14.in0
-net SW8X1_BlockPE14_in1_CONNECT.in0 SW8X1_BlockPE14_in1_CONNECT.out0
-net SW8X1_BlockPE14_in1_CONNECT.in1 SW8X1_BlockPE14_in1_CONNECT.out0
-net SW8X1_BlockPE14_in1_CONNECT.in2 SW8X1_BlockPE14_in1_CONNECT.out0
-net SW8X1_BlockPE14_in1_CONNECT.in3 SW8X1_BlockPE14_in1_CONNECT.out0
-net SW8X1_BlockPE14_in1_CONNECT.in4 SW8X1_BlockPE14_in1_CONNECT.out0
-net SW8X1_BlockPE14_in1_CONNECT.in5 SW8X1_BlockPE14_in1_CONNECT.out0
-net SW8X1_BlockPE14_in1_CONNECT.in6 SW8X1_BlockPE14_in1_CONNECT.out0
-net SW8X1_BlockPE14_in1_CONNECT.in7 SW8X1_BlockPE14_in1_CONNECT.out0
-net SW8X1_BlockPE14_in1_CONNECT.out0 BlockPE14.in1
-net SW9X1_BlockPE6_in0_CONNECT.in0 SW9X1_BlockPE6_in0_CONNECT.out0
-net SW9X1_BlockPE6_in0_CONNECT.in1 SW9X1_BlockPE6_in0_CONNECT.out0
-net SW9X1_BlockPE6_in0_CONNECT.in2 SW9X1_BlockPE6_in0_CONNECT.out0
-net SW9X1_BlockPE6_in0_CONNECT.in3 SW9X1_BlockPE6_in0_CONNECT.out0
-net SW9X1_BlockPE6_in0_CONNECT.in4 SW9X1_BlockPE6_in0_CONNECT.out0
-net SW9X1_BlockPE6_in0_CONNECT.in5 SW9X1_BlockPE6_in0_CONNECT.out0
-net SW9X1_BlockPE6_in0_CONNECT.in6 SW9X1_BlockPE6_in0_CONNECT.out0
-net SW9X1_BlockPE6_in0_CONNECT.in7 SW9X1_BlockPE6_in0_CONNECT.out0
-net SW9X1_BlockPE6_in0_CONNECT.in8 SW9X1_BlockPE6_in0_CONNECT.out0
-net SW9X1_BlockPE6_in0_CONNECT.out0 BlockPE6.in0
-net SW9X1_BlockPE6_in1_CONNECT.in0 SW9X1_BlockPE6_in1_CONNECT.out0
-net SW9X1_BlockPE6_in1_CONNECT.in1 SW9X1_BlockPE6_in1_CONNECT.out0
-net SW9X1_BlockPE6_in1_CONNECT.in2 SW9X1_BlockPE6_in1_CONNECT.out0
-net SW9X1_BlockPE6_in1_CONNECT.in3 SW9X1_BlockPE6_in1_CONNECT.out0
-net SW9X1_BlockPE6_in1_CONNECT.in4 SW9X1_BlockPE6_in1_CONNECT.out0
-net SW9X1_BlockPE6_in1_CONNECT.in5 SW9X1_BlockPE6_in1_CONNECT.out0
-net SW9X1_BlockPE6_in1_CONNECT.in6 SW9X1_BlockPE6_in1_CONNECT.out0
-net SW9X1_BlockPE6_in1_CONNECT.in7 SW9X1_BlockPE6_in1_CONNECT.out0
-net SW9X1_BlockPE6_in1_CONNECT.in8 SW9X1_BlockPE6_in1_CONNECT.out0
-net SW9X1_BlockPE6_in1_CONNECT.out0 BlockPE6.in1
+net SW6X1_BlockPE13_in0_CONNECT.in0 SW6X1_BlockPE13_in0_CONNECT.out0
+net SW6X1_BlockPE13_in0_CONNECT.in1 SW6X1_BlockPE13_in0_CONNECT.out0
+net SW6X1_BlockPE13_in0_CONNECT.in2 SW6X1_BlockPE13_in0_CONNECT.out0
+net SW6X1_BlockPE13_in0_CONNECT.in3 SW6X1_BlockPE13_in0_CONNECT.out0
+net SW6X1_BlockPE13_in0_CONNECT.in4 SW6X1_BlockPE13_in0_CONNECT.out0
+net SW6X1_BlockPE13_in0_CONNECT.in5 SW6X1_BlockPE13_in0_CONNECT.out0
+net SW6X1_BlockPE13_in0_CONNECT.out0 BlockPE13.in0
+net SW6X1_BlockPE13_in1_CONNECT.in0 SW6X1_BlockPE13_in1_CONNECT.out0
+net SW6X1_BlockPE13_in1_CONNECT.in1 SW6X1_BlockPE13_in1_CONNECT.out0
+net SW6X1_BlockPE13_in1_CONNECT.in2 SW6X1_BlockPE13_in1_CONNECT.out0
+net SW6X1_BlockPE13_in1_CONNECT.in3 SW6X1_BlockPE13_in1_CONNECT.out0
+net SW6X1_BlockPE13_in1_CONNECT.in4 SW6X1_BlockPE13_in1_CONNECT.out0
+net SW6X1_BlockPE13_in1_CONNECT.in5 SW6X1_BlockPE13_in1_CONNECT.out0
+net SW6X1_BlockPE13_in1_CONNECT.out0 BlockPE13.in1
+net SW7X1_BlockPE5_in0_CONNECT.in0 SW7X1_BlockPE5_in0_CONNECT.out0
+net SW7X1_BlockPE5_in0_CONNECT.in1 SW7X1_BlockPE5_in0_CONNECT.out0
+net SW7X1_BlockPE5_in0_CONNECT.in2 SW7X1_BlockPE5_in0_CONNECT.out0
+net SW7X1_BlockPE5_in0_CONNECT.in3 SW7X1_BlockPE5_in0_CONNECT.out0
+net SW7X1_BlockPE5_in0_CONNECT.in4 SW7X1_BlockPE5_in0_CONNECT.out0
+net SW7X1_BlockPE5_in0_CONNECT.in5 SW7X1_BlockPE5_in0_CONNECT.out0
+net SW7X1_BlockPE5_in0_CONNECT.in6 SW7X1_BlockPE5_in0_CONNECT.out0
+net SW7X1_BlockPE5_in0_CONNECT.out0 BlockPE5.in0
+net SW7X1_BlockPE5_in1_CONNECT.in0 SW7X1_BlockPE5_in1_CONNECT.out0
+net SW7X1_BlockPE5_in1_CONNECT.in1 SW7X1_BlockPE5_in1_CONNECT.out0
+net SW7X1_BlockPE5_in1_CONNECT.in2 SW7X1_BlockPE5_in1_CONNECT.out0
+net SW7X1_BlockPE5_in1_CONNECT.in3 SW7X1_BlockPE5_in1_CONNECT.out0
+net SW7X1_BlockPE5_in1_CONNECT.in4 SW7X1_BlockPE5_in1_CONNECT.out0
+net SW7X1_BlockPE5_in1_CONNECT.in5 SW7X1_BlockPE5_in1_CONNECT.out0
+net SW7X1_BlockPE5_in1_CONNECT.in6 SW7X1_BlockPE5_in1_CONNECT.out0
+net SW7X1_BlockPE5_in1_CONNECT.out0 BlockPE5.in1
+net SW8X1_BlockPE0_in0_CONNECT.in0 SW8X1_BlockPE0_in0_CONNECT.out0
+net SW8X1_BlockPE0_in0_CONNECT.in1 SW8X1_BlockPE0_in0_CONNECT.out0
+net SW8X1_BlockPE0_in0_CONNECT.in2 SW8X1_BlockPE0_in0_CONNECT.out0
+net SW8X1_BlockPE0_in0_CONNECT.in3 SW8X1_BlockPE0_in0_CONNECT.out0
+net SW8X1_BlockPE0_in0_CONNECT.in4 SW8X1_BlockPE0_in0_CONNECT.out0
+net SW8X1_BlockPE0_in0_CONNECT.in5 SW8X1_BlockPE0_in0_CONNECT.out0
+net SW8X1_BlockPE0_in0_CONNECT.in6 SW8X1_BlockPE0_in0_CONNECT.out0
+net SW8X1_BlockPE0_in0_CONNECT.in7 SW8X1_BlockPE0_in0_CONNECT.out0
+net SW8X1_BlockPE0_in0_CONNECT.out0 BlockPE0.in0
+net SW8X1_BlockPE0_in1_CONNECT.in0 SW8X1_BlockPE0_in1_CONNECT.out0
+net SW8X1_BlockPE0_in1_CONNECT.in1 SW8X1_BlockPE0_in1_CONNECT.out0
+net SW8X1_BlockPE0_in1_CONNECT.in2 SW8X1_BlockPE0_in1_CONNECT.out0
+net SW8X1_BlockPE0_in1_CONNECT.in3 SW8X1_BlockPE0_in1_CONNECT.out0
+net SW8X1_BlockPE0_in1_CONNECT.in4 SW8X1_BlockPE0_in1_CONNECT.out0
+net SW8X1_BlockPE0_in1_CONNECT.in5 SW8X1_BlockPE0_in1_CONNECT.out0
+net SW8X1_BlockPE0_in1_CONNECT.in6 SW8X1_BlockPE0_in1_CONNECT.out0
+net SW8X1_BlockPE0_in1_CONNECT.in7 SW8X1_BlockPE0_in1_CONNECT.out0
+net SW8X1_BlockPE0_in1_CONNECT.out0 BlockPE0.in1
+net SW7X1_BlockPE2_in0_CONNECT.in0 SW7X1_BlockPE2_in0_CONNECT.out0
+net SW7X1_BlockPE2_in0_CONNECT.in1 SW7X1_BlockPE2_in0_CONNECT.out0
+net SW7X1_BlockPE2_in0_CONNECT.in2 SW7X1_BlockPE2_in0_CONNECT.out0
+net SW7X1_BlockPE2_in0_CONNECT.in3 SW7X1_BlockPE2_in0_CONNECT.out0
+net SW7X1_BlockPE2_in0_CONNECT.in4 SW7X1_BlockPE2_in0_CONNECT.out0
+net SW7X1_BlockPE2_in0_CONNECT.in5 SW7X1_BlockPE2_in0_CONNECT.out0
+net SW7X1_BlockPE2_in0_CONNECT.in6 SW7X1_BlockPE2_in0_CONNECT.out0
+net SW7X1_BlockPE2_in0_CONNECT.out0 BlockPE2.in0
+net SW7X1_BlockPE2_in1_CONNECT.in0 SW7X1_BlockPE2_in1_CONNECT.out0
+net SW7X1_BlockPE2_in1_CONNECT.in1 SW7X1_BlockPE2_in1_CONNECT.out0
+net SW7X1_BlockPE2_in1_CONNECT.in2 SW7X1_BlockPE2_in1_CONNECT.out0
+net SW7X1_BlockPE2_in1_CONNECT.in3 SW7X1_BlockPE2_in1_CONNECT.out0
+net SW7X1_BlockPE2_in1_CONNECT.in4 SW7X1_BlockPE2_in1_CONNECT.out0
+net SW7X1_BlockPE2_in1_CONNECT.in5 SW7X1_BlockPE2_in1_CONNECT.out0
+net SW7X1_BlockPE2_in1_CONNECT.in6 SW7X1_BlockPE2_in1_CONNECT.out0
+net SW7X1_BlockPE2_in1_CONNECT.out0 BlockPE2.in1
+net SW7X1_BlockPE14_in0_CONNECT.in0 SW7X1_BlockPE14_in0_CONNECT.out0
+net SW7X1_BlockPE14_in0_CONNECT.in1 SW7X1_BlockPE14_in0_CONNECT.out0
+net SW7X1_BlockPE14_in0_CONNECT.in2 SW7X1_BlockPE14_in0_CONNECT.out0
+net SW7X1_BlockPE14_in0_CONNECT.in3 SW7X1_BlockPE14_in0_CONNECT.out0
+net SW7X1_BlockPE14_in0_CONNECT.in4 SW7X1_BlockPE14_in0_CONNECT.out0
+net SW7X1_BlockPE14_in0_CONNECT.in5 SW7X1_BlockPE14_in0_CONNECT.out0
+net SW7X1_BlockPE14_in0_CONNECT.in6 SW7X1_BlockPE14_in0_CONNECT.out0
+net SW7X1_BlockPE14_in0_CONNECT.out0 BlockPE14.in0
+net SW7X1_BlockPE14_in1_CONNECT.in0 SW7X1_BlockPE14_in1_CONNECT.out0
+net SW7X1_BlockPE14_in1_CONNECT.in1 SW7X1_BlockPE14_in1_CONNECT.out0
+net SW7X1_BlockPE14_in1_CONNECT.in2 SW7X1_BlockPE14_in1_CONNECT.out0
+net SW7X1_BlockPE14_in1_CONNECT.in3 SW7X1_BlockPE14_in1_CONNECT.out0
+net SW7X1_BlockPE14_in1_CONNECT.in4 SW7X1_BlockPE14_in1_CONNECT.out0
+net SW7X1_BlockPE14_in1_CONNECT.in5 SW7X1_BlockPE14_in1_CONNECT.out0
+net SW7X1_BlockPE14_in1_CONNECT.in6 SW7X1_BlockPE14_in1_CONNECT.out0
+net SW7X1_BlockPE14_in1_CONNECT.out0 BlockPE14.in1
+net SW8X1_BlockPE6_in0_CONNECT.in0 SW8X1_BlockPE6_in0_CONNECT.out0
+net SW8X1_BlockPE6_in0_CONNECT.in1 SW8X1_BlockPE6_in0_CONNECT.out0
+net SW8X1_BlockPE6_in0_CONNECT.in2 SW8X1_BlockPE6_in0_CONNECT.out0
+net SW8X1_BlockPE6_in0_CONNECT.in3 SW8X1_BlockPE6_in0_CONNECT.out0
+net SW8X1_BlockPE6_in0_CONNECT.in4 SW8X1_BlockPE6_in0_CONNECT.out0
+net SW8X1_BlockPE6_in0_CONNECT.in5 SW8X1_BlockPE6_in0_CONNECT.out0
+net SW8X1_BlockPE6_in0_CONNECT.in6 SW8X1_BlockPE6_in0_CONNECT.out0
+net SW8X1_BlockPE6_in0_CONNECT.in7 SW8X1_BlockPE6_in0_CONNECT.out0
+net SW8X1_BlockPE6_in0_CONNECT.out0 BlockPE6.in0
+net SW8X1_BlockPE6_in1_CONNECT.in0 SW8X1_BlockPE6_in1_CONNECT.out0
+net SW8X1_BlockPE6_in1_CONNECT.in1 SW8X1_BlockPE6_in1_CONNECT.out0
+net SW8X1_BlockPE6_in1_CONNECT.in2 SW8X1_BlockPE6_in1_CONNECT.out0
+net SW8X1_BlockPE6_in1_CONNECT.in3 SW8X1_BlockPE6_in1_CONNECT.out0
+net SW8X1_BlockPE6_in1_CONNECT.in4 SW8X1_BlockPE6_in1_CONNECT.out0
+net SW8X1_BlockPE6_in1_CONNECT.in5 SW8X1_BlockPE6_in1_CONNECT.out0
+net SW8X1_BlockPE6_in1_CONNECT.in6 SW8X1_BlockPE6_in1_CONNECT.out0
+net SW8X1_BlockPE6_in1_CONNECT.in7 SW8X1_BlockPE6_in1_CONNECT.out0
+net SW8X1_BlockPE6_in1_CONNECT.out0 BlockPE6.in1
 net SW8X1_BlockPE15_in0_CONNECT.in0 SW8X1_BlockPE15_in0_CONNECT.out0
 net SW8X1_BlockPE15_in0_CONNECT.in1 SW8X1_BlockPE15_in0_CONNECT.out0
 net SW8X1_BlockPE15_in0_CONNECT.in2 SW8X1_BlockPE15_in0_CONNECT.out0
@@ -3932,26 +3796,24 @@ net SW9X1_BlockPE7_in1_CONNECT.in6 SW9X1_BlockPE7_in1_CONNECT.out0
 net SW9X1_BlockPE7_in1_CONNECT.in7 SW9X1_BlockPE7_in1_CONNECT.out0
 net SW9X1_BlockPE7_in1_CONNECT.in8 SW9X1_BlockPE7_in1_CONNECT.out0
 net SW9X1_BlockPE7_in1_CONNECT.out0 BlockPE7.in1
-net SW9X1_BlockPE8_in0_CONNECT.in0 SW9X1_BlockPE8_in0_CONNECT.out0
-net SW9X1_BlockPE8_in0_CONNECT.in1 SW9X1_BlockPE8_in0_CONNECT.out0
-net SW9X1_BlockPE8_in0_CONNECT.in2 SW9X1_BlockPE8_in0_CONNECT.out0
-net SW9X1_BlockPE8_in0_CONNECT.in3 SW9X1_BlockPE8_in0_CONNECT.out0
-net SW9X1_BlockPE8_in0_CONNECT.in4 SW9X1_BlockPE8_in0_CONNECT.out0
-net SW9X1_BlockPE8_in0_CONNECT.in5 SW9X1_BlockPE8_in0_CONNECT.out0
-net SW9X1_BlockPE8_in0_CONNECT.in6 SW9X1_BlockPE8_in0_CONNECT.out0
-net SW9X1_BlockPE8_in0_CONNECT.in7 SW9X1_BlockPE8_in0_CONNECT.out0
-net SW9X1_BlockPE8_in0_CONNECT.in8 SW9X1_BlockPE8_in0_CONNECT.out0
-net SW9X1_BlockPE8_in0_CONNECT.out0 BlockPE8.in0
-net SW9X1_BlockPE8_in1_CONNECT.in0 SW9X1_BlockPE8_in1_CONNECT.out0
-net SW9X1_BlockPE8_in1_CONNECT.in1 SW9X1_BlockPE8_in1_CONNECT.out0
-net SW9X1_BlockPE8_in1_CONNECT.in2 SW9X1_BlockPE8_in1_CONNECT.out0
-net SW9X1_BlockPE8_in1_CONNECT.in3 SW9X1_BlockPE8_in1_CONNECT.out0
-net SW9X1_BlockPE8_in1_CONNECT.in4 SW9X1_BlockPE8_in1_CONNECT.out0
-net SW9X1_BlockPE8_in1_CONNECT.in5 SW9X1_BlockPE8_in1_CONNECT.out0
-net SW9X1_BlockPE8_in1_CONNECT.in6 SW9X1_BlockPE8_in1_CONNECT.out0
-net SW9X1_BlockPE8_in1_CONNECT.in7 SW9X1_BlockPE8_in1_CONNECT.out0
-net SW9X1_BlockPE8_in1_CONNECT.in8 SW9X1_BlockPE8_in1_CONNECT.out0
-net SW9X1_BlockPE8_in1_CONNECT.out0 BlockPE8.in1
+net SW8X1_BlockPE8_in0_CONNECT.in0 SW8X1_BlockPE8_in0_CONNECT.out0
+net SW8X1_BlockPE8_in0_CONNECT.in1 SW8X1_BlockPE8_in0_CONNECT.out0
+net SW8X1_BlockPE8_in0_CONNECT.in2 SW8X1_BlockPE8_in0_CONNECT.out0
+net SW8X1_BlockPE8_in0_CONNECT.in3 SW8X1_BlockPE8_in0_CONNECT.out0
+net SW8X1_BlockPE8_in0_CONNECT.in4 SW8X1_BlockPE8_in0_CONNECT.out0
+net SW8X1_BlockPE8_in0_CONNECT.in5 SW8X1_BlockPE8_in0_CONNECT.out0
+net SW8X1_BlockPE8_in0_CONNECT.in6 SW8X1_BlockPE8_in0_CONNECT.out0
+net SW8X1_BlockPE8_in0_CONNECT.in7 SW8X1_BlockPE8_in0_CONNECT.out0
+net SW8X1_BlockPE8_in0_CONNECT.out0 BlockPE8.in0
+net SW8X1_BlockPE8_in1_CONNECT.in0 SW8X1_BlockPE8_in1_CONNECT.out0
+net SW8X1_BlockPE8_in1_CONNECT.in1 SW8X1_BlockPE8_in1_CONNECT.out0
+net SW8X1_BlockPE8_in1_CONNECT.in2 SW8X1_BlockPE8_in1_CONNECT.out0
+net SW8X1_BlockPE8_in1_CONNECT.in3 SW8X1_BlockPE8_in1_CONNECT.out0
+net SW8X1_BlockPE8_in1_CONNECT.in4 SW8X1_BlockPE8_in1_CONNECT.out0
+net SW8X1_BlockPE8_in1_CONNECT.in5 SW8X1_BlockPE8_in1_CONNECT.out0
+net SW8X1_BlockPE8_in1_CONNECT.in6 SW8X1_BlockPE8_in1_CONNECT.out0
+net SW8X1_BlockPE8_in1_CONNECT.in7 SW8X1_BlockPE8_in1_CONNECT.out0
+net SW8X1_BlockPE8_in1_CONNECT.out0 BlockPE8.in1
 net SW9X1_BlockPE9_in0_CONNECT.in0 SW9X1_BlockPE9_in0_CONNECT.out0
 net SW9X1_BlockPE9_in0_CONNECT.in1 SW9X1_BlockPE9_in0_CONNECT.out0
 net SW9X1_BlockPE9_in0_CONNECT.in2 SW9X1_BlockPE9_in0_CONNECT.out0
@@ -3972,24 +3834,42 @@ net SW9X1_BlockPE9_in1_CONNECT.in6 SW9X1_BlockPE9_in1_CONNECT.out0
 net SW9X1_BlockPE9_in1_CONNECT.in7 SW9X1_BlockPE9_in1_CONNECT.out0
 net SW9X1_BlockPE9_in1_CONNECT.in8 SW9X1_BlockPE9_in1_CONNECT.out0
 net SW9X1_BlockPE9_in1_CONNECT.out0 BlockPE9.in1
-net SW8X1_BlockPE10_in0_CONNECT.in0 SW8X1_BlockPE10_in0_CONNECT.out0
-net SW8X1_BlockPE10_in0_CONNECT.in1 SW8X1_BlockPE10_in0_CONNECT.out0
-net SW8X1_BlockPE10_in0_CONNECT.in2 SW8X1_BlockPE10_in0_CONNECT.out0
-net SW8X1_BlockPE10_in0_CONNECT.in3 SW8X1_BlockPE10_in0_CONNECT.out0
-net SW8X1_BlockPE10_in0_CONNECT.in4 SW8X1_BlockPE10_in0_CONNECT.out0
-net SW8X1_BlockPE10_in0_CONNECT.in5 SW8X1_BlockPE10_in0_CONNECT.out0
-net SW8X1_BlockPE10_in0_CONNECT.in6 SW8X1_BlockPE10_in0_CONNECT.out0
-net SW8X1_BlockPE10_in0_CONNECT.in7 SW8X1_BlockPE10_in0_CONNECT.out0
-net SW8X1_BlockPE10_in0_CONNECT.out0 BlockPE10.in0
-net SW8X1_BlockPE10_in1_CONNECT.in0 SW8X1_BlockPE10_in1_CONNECT.out0
-net SW8X1_BlockPE10_in1_CONNECT.in1 SW8X1_BlockPE10_in1_CONNECT.out0
-net SW8X1_BlockPE10_in1_CONNECT.in2 SW8X1_BlockPE10_in1_CONNECT.out0
-net SW8X1_BlockPE10_in1_CONNECT.in3 SW8X1_BlockPE10_in1_CONNECT.out0
-net SW8X1_BlockPE10_in1_CONNECT.in4 SW8X1_BlockPE10_in1_CONNECT.out0
-net SW8X1_BlockPE10_in1_CONNECT.in5 SW8X1_BlockPE10_in1_CONNECT.out0
-net SW8X1_BlockPE10_in1_CONNECT.in6 SW8X1_BlockPE10_in1_CONNECT.out0
-net SW8X1_BlockPE10_in1_CONNECT.in7 SW8X1_BlockPE10_in1_CONNECT.out0
-net SW8X1_BlockPE10_in1_CONNECT.out0 BlockPE10.in1
+net SW7X1_BlockPE10_in0_CONNECT.in0 SW7X1_BlockPE10_in0_CONNECT.out0
+net SW7X1_BlockPE10_in0_CONNECT.in1 SW7X1_BlockPE10_in0_CONNECT.out0
+net SW7X1_BlockPE10_in0_CONNECT.in2 SW7X1_BlockPE10_in0_CONNECT.out0
+net SW7X1_BlockPE10_in0_CONNECT.in3 SW7X1_BlockPE10_in0_CONNECT.out0
+net SW7X1_BlockPE10_in0_CONNECT.in4 SW7X1_BlockPE10_in0_CONNECT.out0
+net SW7X1_BlockPE10_in0_CONNECT.in5 SW7X1_BlockPE10_in0_CONNECT.out0
+net SW7X1_BlockPE10_in0_CONNECT.in6 SW7X1_BlockPE10_in0_CONNECT.out0
+net SW7X1_BlockPE10_in0_CONNECT.out0 BlockPE10.in0
+net SW7X1_BlockPE10_in1_CONNECT.in0 SW7X1_BlockPE10_in1_CONNECT.out0
+net SW7X1_BlockPE10_in1_CONNECT.in1 SW7X1_BlockPE10_in1_CONNECT.out0
+net SW7X1_BlockPE10_in1_CONNECT.in2 SW7X1_BlockPE10_in1_CONNECT.out0
+net SW7X1_BlockPE10_in1_CONNECT.in3 SW7X1_BlockPE10_in1_CONNECT.out0
+net SW7X1_BlockPE10_in1_CONNECT.in4 SW7X1_BlockPE10_in1_CONNECT.out0
+net SW7X1_BlockPE10_in1_CONNECT.in5 SW7X1_BlockPE10_in1_CONNECT.out0
+net SW7X1_BlockPE10_in1_CONNECT.in6 SW7X1_BlockPE10_in1_CONNECT.out0
+net SW7X1_BlockPE10_in1_CONNECT.out0 BlockPE10.in1
+net SW9X1_BlockPE11_in0_CONNECT.in0 SW9X1_BlockPE11_in0_CONNECT.out0
+net SW9X1_BlockPE11_in0_CONNECT.in1 SW9X1_BlockPE11_in0_CONNECT.out0
+net SW9X1_BlockPE11_in0_CONNECT.in2 SW9X1_BlockPE11_in0_CONNECT.out0
+net SW9X1_BlockPE11_in0_CONNECT.in3 SW9X1_BlockPE11_in0_CONNECT.out0
+net SW9X1_BlockPE11_in0_CONNECT.in4 SW9X1_BlockPE11_in0_CONNECT.out0
+net SW9X1_BlockPE11_in0_CONNECT.in5 SW9X1_BlockPE11_in0_CONNECT.out0
+net SW9X1_BlockPE11_in0_CONNECT.in6 SW9X1_BlockPE11_in0_CONNECT.out0
+net SW9X1_BlockPE11_in0_CONNECT.in7 SW9X1_BlockPE11_in0_CONNECT.out0
+net SW9X1_BlockPE11_in0_CONNECT.in8 SW9X1_BlockPE11_in0_CONNECT.out0
+net SW9X1_BlockPE11_in0_CONNECT.out0 BlockPE11.in0
+net SW9X1_BlockPE11_in1_CONNECT.in0 SW9X1_BlockPE11_in1_CONNECT.out0
+net SW9X1_BlockPE11_in1_CONNECT.in1 SW9X1_BlockPE11_in1_CONNECT.out0
+net SW9X1_BlockPE11_in1_CONNECT.in2 SW9X1_BlockPE11_in1_CONNECT.out0
+net SW9X1_BlockPE11_in1_CONNECT.in3 SW9X1_BlockPE11_in1_CONNECT.out0
+net SW9X1_BlockPE11_in1_CONNECT.in4 SW9X1_BlockPE11_in1_CONNECT.out0
+net SW9X1_BlockPE11_in1_CONNECT.in5 SW9X1_BlockPE11_in1_CONNECT.out0
+net SW9X1_BlockPE11_in1_CONNECT.in6 SW9X1_BlockPE11_in1_CONNECT.out0
+net SW9X1_BlockPE11_in1_CONNECT.in7 SW9X1_BlockPE11_in1_CONNECT.out0
+net SW9X1_BlockPE11_in1_CONNECT.in8 SW9X1_BlockPE11_in1_CONNECT.out0
+net SW9X1_BlockPE11_in1_CONNECT.out0 BlockPE11.in1
 net SW1X1_BlockIO0_in0_CONNECT.in0 SW1X1_BlockIO0_in0_CONNECT.out0
 net SW1X1_BlockIO0_in0_CONNECT.out0 BlockIO0.in0
 net SW1X1_BlockIO0_in1_CONNECT.in0 SW1X1_BlockIO0_in1_CONNECT.out0
@@ -4072,22 +3952,14 @@ net SW1X1_BlockMEM7_in1_CONNECT.in0 SW1X1_BlockMEM7_in1_CONNECT.out0
 net SW1X1_BlockMEM7_in1_CONNECT.out0 BlockMEM7.in1
 net BlockPE0.in0 BlockPE0.SW_INPORT_FU.in0
 net BlockPE0.in1 BlockPE0.SW_INPORT_FU.in1
-net BlockPE0.out0 SW9X1_BlockPE12_in0_CONNECT.in0
-net BlockPE0.out0 SW9X1_BlockPE12_in1_CONNECT.in0
-net BlockPE0.out0 SW10X1_BlockPE4_in0_CONNECT.in0
-net BlockPE0.out0 SW10X1_BlockPE4_in1_CONNECT.in0
-net BlockPE0.out0 SW10X1_BlockPE3_in0_CONNECT.in0
-net BlockPE0.out0 SW10X1_BlockPE3_in0_CONNECT.in1
-net BlockPE0.out0 SW10X1_BlockPE3_in1_CONNECT.in0
-net BlockPE0.out0 SW10X1_BlockPE3_in1_CONNECT.in1
+net BlockPE0.out0 SW8X1_BlockPE12_in0_CONNECT.in0
+net BlockPE0.out0 SW8X1_BlockPE12_in1_CONNECT.in0
+net BlockPE0.out0 SW9X1_BlockPE4_in0_CONNECT.in0
+net BlockPE0.out0 SW9X1_BlockPE4_in1_CONNECT.in0
+net BlockPE0.out0 SW9X1_BlockPE3_in0_CONNECT.in0
+net BlockPE0.out0 SW9X1_BlockPE3_in1_CONNECT.in0
 net BlockPE0.out0 SW9X1_BlockPE1_in0_CONNECT.in0
 net BlockPE0.out0 SW9X1_BlockPE1_in1_CONNECT.in0
-net BlockPE0.out0 SW10X1_BlockPE11_in0_CONNECT.in0
-net BlockPE0.out0 SW10X1_BlockPE11_in1_CONNECT.in0
-net BlockPE0.out0 SW7X1_BlockPE13_in0_CONNECT.in0
-net BlockPE0.out0 SW7X1_BlockPE13_in1_CONNECT.in0
-net BlockPE0.out0 SW8X1_BlockPE5_in0_CONNECT.in0
-net BlockPE0.out0 SW8X1_BlockPE5_in1_CONNECT.in0
 net BlockPE0.out0 SW1X1_BlockIO0_in0_CONNECT.in0
 net BlockPE0.out0 SW1X1_BlockIO0_in1_CONNECT.in0
 net BlockPE0.out0 SW1X1_BlockMEM0_in0_CONNECT.in0
@@ -4128,22 +4000,22 @@ net BlockPE0.SW_FU_OUTPORT.in1 BlockPE0.SW_FU_OUTPORT.out0
 net BlockPE0.SW_FU_OUTPORT.out0 BlockPE0.out0
 net BlockPE1.in0 BlockPE1.SW_INPORT_FU.in0
 net BlockPE1.in1 BlockPE1.SW_INPORT_FU.in1
-net BlockPE1.out0 SW9X1_BlockPE12_in0_CONNECT.in1
-net BlockPE1.out0 SW9X1_BlockPE12_in1_CONNECT.in1
-net BlockPE1.out0 SW10X1_BlockPE4_in0_CONNECT.in1
-net BlockPE1.out0 SW10X1_BlockPE4_in1_CONNECT.in1
-net BlockPE1.out0 SW7X1_BlockPE13_in0_CONNECT.in1
-net BlockPE1.out0 SW7X1_BlockPE13_in1_CONNECT.in1
-net BlockPE1.out0 SW8X1_BlockPE5_in0_CONNECT.in1
-net BlockPE1.out0 SW8X1_BlockPE5_in1_CONNECT.in1
-net BlockPE1.out0 SW9X1_BlockPE0_in0_CONNECT.in0
-net BlockPE1.out0 SW9X1_BlockPE0_in1_CONNECT.in0
-net BlockPE1.out0 SW8X1_BlockPE2_in0_CONNECT.in0
-net BlockPE1.out0 SW8X1_BlockPE2_in1_CONNECT.in0
-net BlockPE1.out0 SW8X1_BlockPE14_in0_CONNECT.in0
-net BlockPE1.out0 SW8X1_BlockPE14_in1_CONNECT.in0
-net BlockPE1.out0 SW9X1_BlockPE6_in0_CONNECT.in0
-net BlockPE1.out0 SW9X1_BlockPE6_in1_CONNECT.in0
+net BlockPE1.out0 SW8X1_BlockPE12_in0_CONNECT.in1
+net BlockPE1.out0 SW8X1_BlockPE12_in1_CONNECT.in1
+net BlockPE1.out0 SW9X1_BlockPE4_in0_CONNECT.in1
+net BlockPE1.out0 SW9X1_BlockPE4_in1_CONNECT.in1
+net BlockPE1.out0 SW6X1_BlockPE13_in0_CONNECT.in0
+net BlockPE1.out0 SW6X1_BlockPE13_in1_CONNECT.in0
+net BlockPE1.out0 SW7X1_BlockPE5_in0_CONNECT.in0
+net BlockPE1.out0 SW7X1_BlockPE5_in1_CONNECT.in0
+net BlockPE1.out0 SW8X1_BlockPE0_in0_CONNECT.in0
+net BlockPE1.out0 SW8X1_BlockPE0_in1_CONNECT.in0
+net BlockPE1.out0 SW7X1_BlockPE2_in0_CONNECT.in0
+net BlockPE1.out0 SW7X1_BlockPE2_in1_CONNECT.in0
+net BlockPE1.out0 SW7X1_BlockPE14_in0_CONNECT.in0
+net BlockPE1.out0 SW7X1_BlockPE14_in1_CONNECT.in0
+net BlockPE1.out0 SW8X1_BlockPE6_in0_CONNECT.in0
+net BlockPE1.out0 SW8X1_BlockPE6_in1_CONNECT.in0
 net BlockPE1.out0 SW1X1_BlockIO1_in0_CONNECT.in0
 net BlockPE1.out0 SW1X1_BlockIO1_in1_CONNECT.in0
 net BlockPE1.ALU0 BlockPE1.ALU0.out0
@@ -4182,14 +4054,14 @@ net BlockPE1.SW_FU_OUTPORT.in1 BlockPE1.SW_FU_OUTPORT.out0
 net BlockPE1.SW_FU_OUTPORT.out0 BlockPE1.out0
 net BlockPE2.in0 BlockPE2.SW_INPORT_FU.in0
 net BlockPE2.in1 BlockPE2.SW_INPORT_FU.in1
-net BlockPE2.out0 SW10X1_BlockPE3_in0_CONNECT.in2
-net BlockPE2.out0 SW10X1_BlockPE3_in1_CONNECT.in2
+net BlockPE2.out0 SW9X1_BlockPE3_in0_CONNECT.in1
+net BlockPE2.out0 SW9X1_BlockPE3_in1_CONNECT.in1
 net BlockPE2.out0 SW9X1_BlockPE1_in0_CONNECT.in1
 net BlockPE2.out0 SW9X1_BlockPE1_in1_CONNECT.in1
-net BlockPE2.out0 SW8X1_BlockPE14_in0_CONNECT.in1
-net BlockPE2.out0 SW8X1_BlockPE14_in1_CONNECT.in1
-net BlockPE2.out0 SW9X1_BlockPE6_in0_CONNECT.in1
-net BlockPE2.out0 SW9X1_BlockPE6_in1_CONNECT.in1
+net BlockPE2.out0 SW7X1_BlockPE14_in0_CONNECT.in1
+net BlockPE2.out0 SW7X1_BlockPE14_in1_CONNECT.in1
+net BlockPE2.out0 SW8X1_BlockPE6_in0_CONNECT.in1
+net BlockPE2.out0 SW8X1_BlockPE6_in1_CONNECT.in1
 net BlockPE2.out0 SW1X1_BlockIO2_in0_CONNECT.in0
 net BlockPE2.out0 SW1X1_BlockIO2_in1_CONNECT.in0
 net BlockPE2.ALU0 BlockPE2.ALU0.out0
@@ -4228,18 +4100,18 @@ net BlockPE2.SW_FU_OUTPORT.in1 BlockPE2.SW_FU_OUTPORT.out0
 net BlockPE2.SW_FU_OUTPORT.out0 BlockPE2.out0
 net BlockPE3.in0 BlockPE3.SW_INPORT_FU.in0
 net BlockPE3.in1 BlockPE3.SW_INPORT_FU.in1
-net BlockPE3.out0 SW9X1_BlockPE12_in0_CONNECT.in2
-net BlockPE3.out0 SW9X1_BlockPE12_in1_CONNECT.in2
-net BlockPE3.out0 SW10X1_BlockPE4_in0_CONNECT.in2
-net BlockPE3.out0 SW10X1_BlockPE4_in1_CONNECT.in2
-net BlockPE3.out0 SW9X1_BlockPE0_in0_CONNECT.in1
-net BlockPE3.out0 SW9X1_BlockPE0_in1_CONNECT.in1
-net BlockPE3.out0 SW8X1_BlockPE2_in0_CONNECT.in1
-net BlockPE3.out0 SW8X1_BlockPE2_in1_CONNECT.in1
-net BlockPE3.out0 SW8X1_BlockPE14_in0_CONNECT.in2
-net BlockPE3.out0 SW8X1_BlockPE14_in1_CONNECT.in2
-net BlockPE3.out0 SW9X1_BlockPE6_in0_CONNECT.in2
-net BlockPE3.out0 SW9X1_BlockPE6_in1_CONNECT.in2
+net BlockPE3.out0 SW8X1_BlockPE12_in0_CONNECT.in2
+net BlockPE3.out0 SW8X1_BlockPE12_in1_CONNECT.in2
+net BlockPE3.out0 SW9X1_BlockPE4_in0_CONNECT.in2
+net BlockPE3.out0 SW9X1_BlockPE4_in1_CONNECT.in2
+net BlockPE3.out0 SW8X1_BlockPE0_in0_CONNECT.in1
+net BlockPE3.out0 SW8X1_BlockPE0_in1_CONNECT.in1
+net BlockPE3.out0 SW7X1_BlockPE2_in0_CONNECT.in1
+net BlockPE3.out0 SW7X1_BlockPE2_in1_CONNECT.in1
+net BlockPE3.out0 SW7X1_BlockPE14_in0_CONNECT.in2
+net BlockPE3.out0 SW7X1_BlockPE14_in1_CONNECT.in2
+net BlockPE3.out0 SW8X1_BlockPE6_in0_CONNECT.in2
+net BlockPE3.out0 SW8X1_BlockPE6_in1_CONNECT.in2
 net BlockPE3.out0 SW8X1_BlockPE15_in0_CONNECT.in0
 net BlockPE3.out0 SW8X1_BlockPE15_in1_CONNECT.in0
 net BlockPE3.out0 SW9X1_BlockPE7_in0_CONNECT.in0
@@ -4286,18 +4158,18 @@ net BlockPE4.in0 BlockPE4.SW_INPORT_FU.in0
 net BlockPE4.in1 BlockPE4.SW_INPORT_FU.in1
 net BlockPE4.out0 SW9X1_BlockPE1_in0_CONNECT.in2
 net BlockPE4.out0 SW9X1_BlockPE1_in1_CONNECT.in2
-net BlockPE4.out0 SW8X1_BlockPE5_in0_CONNECT.in2
-net BlockPE4.out0 SW8X1_BlockPE5_in1_CONNECT.in2
-net BlockPE4.out0 SW9X1_BlockPE0_in0_CONNECT.in2
-net BlockPE4.out0 SW9X1_BlockPE0_in1_CONNECT.in2
+net BlockPE4.out0 SW7X1_BlockPE5_in0_CONNECT.in1
+net BlockPE4.out0 SW7X1_BlockPE5_in1_CONNECT.in1
+net BlockPE4.out0 SW8X1_BlockPE0_in0_CONNECT.in2
+net BlockPE4.out0 SW8X1_BlockPE0_in1_CONNECT.in2
 net BlockPE4.out0 SW8X1_BlockPE15_in0_CONNECT.in1
 net BlockPE4.out0 SW8X1_BlockPE15_in1_CONNECT.in1
 net BlockPE4.out0 SW9X1_BlockPE7_in0_CONNECT.in1
 net BlockPE4.out0 SW9X1_BlockPE7_in0_CONNECT.in2
 net BlockPE4.out0 SW9X1_BlockPE7_in1_CONNECT.in1
 net BlockPE4.out0 SW9X1_BlockPE7_in1_CONNECT.in2
-net BlockPE4.out0 SW9X1_BlockPE8_in0_CONNECT.in0
-net BlockPE4.out0 SW9X1_BlockPE8_in1_CONNECT.in0
+net BlockPE4.out0 SW8X1_BlockPE8_in0_CONNECT.in0
+net BlockPE4.out0 SW8X1_BlockPE8_in1_CONNECT.in0
 net BlockPE4.out0 SW9X1_BlockPE9_in0_CONNECT.in0
 net BlockPE4.out0 SW9X1_BlockPE9_in1_CONNECT.in0
 net BlockPE4.out0 SW1X1_BlockIO4_in0_CONNECT.in0
@@ -4340,22 +4212,22 @@ net BlockPE4.SW_FU_OUTPORT.in1 BlockPE4.SW_FU_OUTPORT.out0
 net BlockPE4.SW_FU_OUTPORT.out0 BlockPE4.out0
 net BlockPE5.in0 BlockPE5.SW_INPORT_FU.in0
 net BlockPE5.in1 BlockPE5.SW_INPORT_FU.in1
-net BlockPE5.out0 SW10X1_BlockPE4_in0_CONNECT.in3
-net BlockPE5.out0 SW10X1_BlockPE4_in1_CONNECT.in3
+net BlockPE5.out0 SW9X1_BlockPE4_in0_CONNECT.in3
+net BlockPE5.out0 SW9X1_BlockPE4_in1_CONNECT.in3
 net BlockPE5.out0 SW9X1_BlockPE1_in0_CONNECT.in3
 net BlockPE5.out0 SW9X1_BlockPE1_in1_CONNECT.in3
-net BlockPE5.out0 SW9X1_BlockPE0_in0_CONNECT.in3
-net BlockPE5.out0 SW9X1_BlockPE0_in1_CONNECT.in3
-net BlockPE5.out0 SW8X1_BlockPE2_in0_CONNECT.in2
-net BlockPE5.out0 SW8X1_BlockPE2_in1_CONNECT.in2
-net BlockPE5.out0 SW9X1_BlockPE6_in0_CONNECT.in3
-net BlockPE5.out0 SW9X1_BlockPE6_in1_CONNECT.in3
-net BlockPE5.out0 SW9X1_BlockPE8_in0_CONNECT.in1
-net BlockPE5.out0 SW9X1_BlockPE8_in1_CONNECT.in1
+net BlockPE5.out0 SW8X1_BlockPE0_in0_CONNECT.in3
+net BlockPE5.out0 SW8X1_BlockPE0_in1_CONNECT.in3
+net BlockPE5.out0 SW7X1_BlockPE2_in0_CONNECT.in2
+net BlockPE5.out0 SW7X1_BlockPE2_in1_CONNECT.in2
+net BlockPE5.out0 SW8X1_BlockPE6_in0_CONNECT.in3
+net BlockPE5.out0 SW8X1_BlockPE6_in1_CONNECT.in3
+net BlockPE5.out0 SW8X1_BlockPE8_in0_CONNECT.in1
+net BlockPE5.out0 SW8X1_BlockPE8_in1_CONNECT.in1
 net BlockPE5.out0 SW9X1_BlockPE9_in0_CONNECT.in1
 net BlockPE5.out0 SW9X1_BlockPE9_in1_CONNECT.in1
-net BlockPE5.out0 SW8X1_BlockPE10_in0_CONNECT.in0
-net BlockPE5.out0 SW8X1_BlockPE10_in1_CONNECT.in0
+net BlockPE5.out0 SW7X1_BlockPE10_in0_CONNECT.in0
+net BlockPE5.out0 SW7X1_BlockPE10_in1_CONNECT.in0
 net BlockPE5.out0 SW1X1_BlockIO5_in0_CONNECT.in0
 net BlockPE5.out0 SW1X1_BlockIO5_in1_CONNECT.in0
 net BlockPE5.ALU0 BlockPE5.ALU0.out0
@@ -4394,22 +4266,22 @@ net BlockPE5.SW_FU_OUTPORT.in1 BlockPE5.SW_FU_OUTPORT.out0
 net BlockPE5.SW_FU_OUTPORT.out0 BlockPE5.out0
 net BlockPE6.in0 BlockPE6.SW_INPORT_FU.in0
 net BlockPE6.in1 BlockPE6.SW_INPORT_FU.in1
-net BlockPE6.out0 SW10X1_BlockPE3_in0_CONNECT.in3
-net BlockPE6.out0 SW10X1_BlockPE3_in1_CONNECT.in3
+net BlockPE6.out0 SW9X1_BlockPE3_in0_CONNECT.in2
+net BlockPE6.out0 SW9X1_BlockPE3_in1_CONNECT.in2
 net BlockPE6.out0 SW9X1_BlockPE1_in0_CONNECT.in4
 net BlockPE6.out0 SW9X1_BlockPE1_in1_CONNECT.in4
-net BlockPE6.out0 SW10X1_BlockPE11_in0_CONNECT.in1
-net BlockPE6.out0 SW10X1_BlockPE11_in1_CONNECT.in1
-net BlockPE6.out0 SW8X1_BlockPE5_in0_CONNECT.in3
-net BlockPE6.out0 SW8X1_BlockPE5_in1_CONNECT.in3
-net BlockPE6.out0 SW8X1_BlockPE2_in0_CONNECT.in3
-net BlockPE6.out0 SW8X1_BlockPE2_in1_CONNECT.in3
+net BlockPE6.out0 SW7X1_BlockPE5_in0_CONNECT.in2
+net BlockPE6.out0 SW7X1_BlockPE5_in1_CONNECT.in2
+net BlockPE6.out0 SW7X1_BlockPE2_in0_CONNECT.in3
+net BlockPE6.out0 SW7X1_BlockPE2_in1_CONNECT.in3
 net BlockPE6.out0 SW9X1_BlockPE7_in0_CONNECT.in3
 net BlockPE6.out0 SW9X1_BlockPE7_in1_CONNECT.in3
 net BlockPE6.out0 SW9X1_BlockPE9_in0_CONNECT.in2
 net BlockPE6.out0 SW9X1_BlockPE9_in1_CONNECT.in2
-net BlockPE6.out0 SW8X1_BlockPE10_in0_CONNECT.in1
-net BlockPE6.out0 SW8X1_BlockPE10_in1_CONNECT.in1
+net BlockPE6.out0 SW7X1_BlockPE10_in0_CONNECT.in1
+net BlockPE6.out0 SW7X1_BlockPE10_in1_CONNECT.in1
+net BlockPE6.out0 SW9X1_BlockPE11_in0_CONNECT.in0
+net BlockPE6.out0 SW9X1_BlockPE11_in1_CONNECT.in0
 net BlockPE6.out0 SW1X1_BlockIO6_in0_CONNECT.in0
 net BlockPE6.out0 SW1X1_BlockIO6_in1_CONNECT.in0
 net BlockPE6.ALU0 BlockPE6.ALU0.out0
@@ -4448,22 +4320,14 @@ net BlockPE6.SW_FU_OUTPORT.in1 BlockPE6.SW_FU_OUTPORT.out0
 net BlockPE6.SW_FU_OUTPORT.out0 BlockPE6.out0
 net BlockPE7.in0 BlockPE7.SW_INPORT_FU.in0
 net BlockPE7.in1 BlockPE7.SW_INPORT_FU.in1
-net BlockPE7.out0 SW10X1_BlockPE4_in0_CONNECT.in4
-net BlockPE7.out0 SW10X1_BlockPE4_in1_CONNECT.in4
-net BlockPE7.out0 SW10X1_BlockPE3_in0_CONNECT.in4
-net BlockPE7.out0 SW10X1_BlockPE3_in1_CONNECT.in4
-net BlockPE7.out0 SW10X1_BlockPE11_in0_CONNECT.in2
-net BlockPE7.out0 SW10X1_BlockPE11_in1_CONNECT.in2
-net BlockPE7.out0 SW9X1_BlockPE0_in0_CONNECT.in4
-net BlockPE7.out0 SW9X1_BlockPE0_in1_CONNECT.in4
-net BlockPE7.out0 SW8X1_BlockPE2_in0_CONNECT.in4
-net BlockPE7.out0 SW8X1_BlockPE2_in1_CONNECT.in4
-net BlockPE7.out0 SW9X1_BlockPE6_in0_CONNECT.in4
-net BlockPE7.out0 SW9X1_BlockPE6_in1_CONNECT.in4
-net BlockPE7.out0 SW9X1_BlockPE8_in0_CONNECT.in2
-net BlockPE7.out0 SW9X1_BlockPE8_in1_CONNECT.in2
-net BlockPE7.out0 SW8X1_BlockPE10_in0_CONNECT.in2
-net BlockPE7.out0 SW8X1_BlockPE10_in1_CONNECT.in2
+net BlockPE7.out0 SW9X1_BlockPE4_in0_CONNECT.in4
+net BlockPE7.out0 SW9X1_BlockPE4_in1_CONNECT.in4
+net BlockPE7.out0 SW9X1_BlockPE3_in0_CONNECT.in3
+net BlockPE7.out0 SW9X1_BlockPE3_in1_CONNECT.in3
+net BlockPE7.out0 SW8X1_BlockPE6_in0_CONNECT.in4
+net BlockPE7.out0 SW8X1_BlockPE6_in1_CONNECT.in4
+net BlockPE7.out0 SW9X1_BlockPE11_in0_CONNECT.in1
+net BlockPE7.out0 SW9X1_BlockPE11_in1_CONNECT.in1
 net BlockPE7.out0 SW1X1_BlockIO7_in0_CONNECT.in0
 net BlockPE7.out0 SW1X1_BlockIO7_in1_CONNECT.in0
 net BlockPE7.out0 SW1X1_BlockMEM5_in0_CONNECT.in0
@@ -4504,22 +4368,22 @@ net BlockPE7.SW_FU_OUTPORT.in1 BlockPE7.SW_FU_OUTPORT.out0
 net BlockPE7.SW_FU_OUTPORT.out0 BlockPE7.out0
 net BlockPE8.in0 BlockPE8.SW_INPORT_FU.in0
 net BlockPE8.in1 BlockPE8.SW_INPORT_FU.in1
-net BlockPE8.out0 SW9X1_BlockPE12_in0_CONNECT.in3
-net BlockPE8.out0 SW9X1_BlockPE12_in1_CONNECT.in3
-net BlockPE8.out0 SW10X1_BlockPE4_in0_CONNECT.in5
-net BlockPE8.out0 SW10X1_BlockPE4_in1_CONNECT.in5
-net BlockPE8.out0 SW10X1_BlockPE3_in0_CONNECT.in5
-net BlockPE8.out0 SW10X1_BlockPE3_in1_CONNECT.in5
-net BlockPE8.out0 SW10X1_BlockPE11_in0_CONNECT.in3
-net BlockPE8.out0 SW10X1_BlockPE11_in0_CONNECT.in4
-net BlockPE8.out0 SW10X1_BlockPE11_in1_CONNECT.in3
-net BlockPE8.out0 SW10X1_BlockPE11_in1_CONNECT.in4
-net BlockPE8.out0 SW7X1_BlockPE13_in0_CONNECT.in2
-net BlockPE8.out0 SW7X1_BlockPE13_in1_CONNECT.in2
-net BlockPE8.out0 SW8X1_BlockPE5_in0_CONNECT.in4
-net BlockPE8.out0 SW8X1_BlockPE5_in1_CONNECT.in4
+net BlockPE8.out0 SW8X1_BlockPE12_in0_CONNECT.in3
+net BlockPE8.out0 SW8X1_BlockPE12_in1_CONNECT.in3
+net BlockPE8.out0 SW9X1_BlockPE4_in0_CONNECT.in5
+net BlockPE8.out0 SW9X1_BlockPE4_in1_CONNECT.in5
+net BlockPE8.out0 SW9X1_BlockPE3_in0_CONNECT.in4
+net BlockPE8.out0 SW9X1_BlockPE3_in1_CONNECT.in4
+net BlockPE8.out0 SW6X1_BlockPE13_in0_CONNECT.in1
+net BlockPE8.out0 SW6X1_BlockPE13_in1_CONNECT.in1
+net BlockPE8.out0 SW7X1_BlockPE5_in0_CONNECT.in3
+net BlockPE8.out0 SW7X1_BlockPE5_in1_CONNECT.in3
 net BlockPE8.out0 SW9X1_BlockPE9_in0_CONNECT.in3
 net BlockPE8.out0 SW9X1_BlockPE9_in1_CONNECT.in3
+net BlockPE8.out0 SW9X1_BlockPE11_in0_CONNECT.in2
+net BlockPE8.out0 SW9X1_BlockPE11_in0_CONNECT.in3
+net BlockPE8.out0 SW9X1_BlockPE11_in1_CONNECT.in2
+net BlockPE8.out0 SW9X1_BlockPE11_in1_CONNECT.in3
 net BlockPE8.out0 SW1X1_BlockIO8_in0_CONNECT.in0
 net BlockPE8.out0 SW1X1_BlockIO8_in1_CONNECT.in0
 net BlockPE8.out0 SW1X1_BlockMEM2_in0_CONNECT.in0
@@ -4560,22 +4424,22 @@ net BlockPE8.SW_FU_OUTPORT.in1 BlockPE8.SW_FU_OUTPORT.out0
 net BlockPE8.SW_FU_OUTPORT.out0 BlockPE8.out0
 net BlockPE9.in0 BlockPE9.SW_INPORT_FU.in0
 net BlockPE9.in1 BlockPE9.SW_INPORT_FU.in1
-net BlockPE9.out0 SW9X1_BlockPE12_in0_CONNECT.in4
-net BlockPE9.out0 SW9X1_BlockPE12_in1_CONNECT.in4
-net BlockPE9.out0 SW10X1_BlockPE4_in0_CONNECT.in6
-net BlockPE9.out0 SW10X1_BlockPE4_in1_CONNECT.in6
-net BlockPE9.out0 SW7X1_BlockPE13_in0_CONNECT.in3
-net BlockPE9.out0 SW7X1_BlockPE13_in1_CONNECT.in3
-net BlockPE9.out0 SW8X1_BlockPE5_in0_CONNECT.in5
-net BlockPE9.out0 SW8X1_BlockPE5_in1_CONNECT.in5
-net BlockPE9.out0 SW8X1_BlockPE14_in0_CONNECT.in3
-net BlockPE9.out0 SW8X1_BlockPE14_in1_CONNECT.in3
-net BlockPE9.out0 SW9X1_BlockPE6_in0_CONNECT.in5
-net BlockPE9.out0 SW9X1_BlockPE6_in1_CONNECT.in5
-net BlockPE9.out0 SW9X1_BlockPE8_in0_CONNECT.in3
-net BlockPE9.out0 SW9X1_BlockPE8_in1_CONNECT.in3
-net BlockPE9.out0 SW8X1_BlockPE10_in0_CONNECT.in3
-net BlockPE9.out0 SW8X1_BlockPE10_in1_CONNECT.in3
+net BlockPE9.out0 SW8X1_BlockPE12_in0_CONNECT.in4
+net BlockPE9.out0 SW8X1_BlockPE12_in1_CONNECT.in4
+net BlockPE9.out0 SW9X1_BlockPE4_in0_CONNECT.in6
+net BlockPE9.out0 SW9X1_BlockPE4_in1_CONNECT.in6
+net BlockPE9.out0 SW6X1_BlockPE13_in0_CONNECT.in2
+net BlockPE9.out0 SW6X1_BlockPE13_in1_CONNECT.in2
+net BlockPE9.out0 SW7X1_BlockPE5_in0_CONNECT.in4
+net BlockPE9.out0 SW7X1_BlockPE5_in1_CONNECT.in4
+net BlockPE9.out0 SW7X1_BlockPE14_in0_CONNECT.in3
+net BlockPE9.out0 SW7X1_BlockPE14_in1_CONNECT.in3
+net BlockPE9.out0 SW8X1_BlockPE6_in0_CONNECT.in5
+net BlockPE9.out0 SW8X1_BlockPE6_in1_CONNECT.in5
+net BlockPE9.out0 SW8X1_BlockPE8_in0_CONNECT.in2
+net BlockPE9.out0 SW8X1_BlockPE8_in1_CONNECT.in2
+net BlockPE9.out0 SW7X1_BlockPE10_in0_CONNECT.in2
+net BlockPE9.out0 SW7X1_BlockPE10_in1_CONNECT.in2
 net BlockPE9.out0 SW1X1_BlockIO9_in0_CONNECT.in0
 net BlockPE9.out0 SW1X1_BlockIO9_in1_CONNECT.in0
 net BlockPE9.ALU0 BlockPE9.ALU0.out0
@@ -4614,22 +4478,22 @@ net BlockPE9.SW_FU_OUTPORT.in1 BlockPE9.SW_FU_OUTPORT.out0
 net BlockPE9.SW_FU_OUTPORT.out0 BlockPE9.out0
 net BlockPE10.in0 BlockPE10.SW_INPORT_FU.in0
 net BlockPE10.in1 BlockPE10.SW_INPORT_FU.in1
-net BlockPE10.out0 SW10X1_BlockPE11_in0_CONNECT.in5
-net BlockPE10.out0 SW10X1_BlockPE11_in1_CONNECT.in5
-net BlockPE10.out0 SW7X1_BlockPE13_in0_CONNECT.in4
-net BlockPE10.out0 SW7X1_BlockPE13_in1_CONNECT.in4
-net BlockPE10.out0 SW8X1_BlockPE5_in0_CONNECT.in6
-net BlockPE10.out0 SW8X1_BlockPE5_in1_CONNECT.in6
-net BlockPE10.out0 SW8X1_BlockPE14_in0_CONNECT.in4
-net BlockPE10.out0 SW8X1_BlockPE14_in1_CONNECT.in4
-net BlockPE10.out0 SW9X1_BlockPE6_in0_CONNECT.in6
-net BlockPE10.out0 SW9X1_BlockPE6_in1_CONNECT.in6
+net BlockPE10.out0 SW6X1_BlockPE13_in0_CONNECT.in3
+net BlockPE10.out0 SW6X1_BlockPE13_in1_CONNECT.in3
+net BlockPE10.out0 SW7X1_BlockPE5_in0_CONNECT.in5
+net BlockPE10.out0 SW7X1_BlockPE5_in1_CONNECT.in5
+net BlockPE10.out0 SW7X1_BlockPE14_in0_CONNECT.in4
+net BlockPE10.out0 SW7X1_BlockPE14_in1_CONNECT.in4
+net BlockPE10.out0 SW8X1_BlockPE6_in0_CONNECT.in6
+net BlockPE10.out0 SW8X1_BlockPE6_in1_CONNECT.in6
 net BlockPE10.out0 SW8X1_BlockPE15_in0_CONNECT.in2
 net BlockPE10.out0 SW8X1_BlockPE15_in1_CONNECT.in2
 net BlockPE10.out0 SW9X1_BlockPE7_in0_CONNECT.in4
 net BlockPE10.out0 SW9X1_BlockPE7_in1_CONNECT.in4
 net BlockPE10.out0 SW9X1_BlockPE9_in0_CONNECT.in4
 net BlockPE10.out0 SW9X1_BlockPE9_in1_CONNECT.in4
+net BlockPE10.out0 SW9X1_BlockPE11_in0_CONNECT.in4
+net BlockPE10.out0 SW9X1_BlockPE11_in1_CONNECT.in4
 net BlockPE10.out0 SW1X1_BlockIO10_in0_CONNECT.in0
 net BlockPE10.out0 SW1X1_BlockIO10_in1_CONNECT.in0
 net BlockPE10.ALU0 BlockPE10.ALU0.out0
@@ -4668,22 +4532,14 @@ net BlockPE10.SW_FU_OUTPORT.in1 BlockPE10.SW_FU_OUTPORT.out0
 net BlockPE10.SW_FU_OUTPORT.out0 BlockPE10.out0
 net BlockPE11.in0 BlockPE11.SW_INPORT_FU.in0
 net BlockPE11.in1 BlockPE11.SW_INPORT_FU.in1
-net BlockPE11.out0 SW9X1_BlockPE12_in0_CONNECT.in5
-net BlockPE11.out0 SW9X1_BlockPE12_in1_CONNECT.in5
-net BlockPE11.out0 SW10X1_BlockPE4_in0_CONNECT.in7
-net BlockPE11.out0 SW10X1_BlockPE4_in1_CONNECT.in7
-net BlockPE11.out0 SW8X1_BlockPE14_in0_CONNECT.in5
-net BlockPE11.out0 SW8X1_BlockPE14_in1_CONNECT.in5
-net BlockPE11.out0 SW9X1_BlockPE6_in0_CONNECT.in7
-net BlockPE11.out0 SW9X1_BlockPE6_in1_CONNECT.in7
 net BlockPE11.out0 SW8X1_BlockPE15_in0_CONNECT.in3
 net BlockPE11.out0 SW8X1_BlockPE15_in1_CONNECT.in3
 net BlockPE11.out0 SW9X1_BlockPE7_in0_CONNECT.in5
 net BlockPE11.out0 SW9X1_BlockPE7_in1_CONNECT.in5
-net BlockPE11.out0 SW9X1_BlockPE8_in0_CONNECT.in4
-net BlockPE11.out0 SW9X1_BlockPE8_in1_CONNECT.in4
-net BlockPE11.out0 SW8X1_BlockPE10_in0_CONNECT.in4
-net BlockPE11.out0 SW8X1_BlockPE10_in1_CONNECT.in4
+net BlockPE11.out0 SW8X1_BlockPE8_in0_CONNECT.in3
+net BlockPE11.out0 SW8X1_BlockPE8_in1_CONNECT.in3
+net BlockPE11.out0 SW7X1_BlockPE10_in0_CONNECT.in3
+net BlockPE11.out0 SW7X1_BlockPE10_in1_CONNECT.in3
 net BlockPE11.out0 SW1X1_BlockIO11_in0_CONNECT.in0
 net BlockPE11.out0 SW1X1_BlockIO11_in1_CONNECT.in0
 net BlockPE11.out0 SW1X1_BlockMEM6_in0_CONNECT.in0
@@ -4726,18 +4582,18 @@ net BlockPE12.in0 BlockPE12.SW_INPORT_FU.in0
 net BlockPE12.in1 BlockPE12.SW_INPORT_FU.in1
 net BlockPE12.out0 SW9X1_BlockPE1_in0_CONNECT.in5
 net BlockPE12.out0 SW9X1_BlockPE1_in1_CONNECT.in5
-net BlockPE12.out0 SW7X1_BlockPE13_in0_CONNECT.in5
-net BlockPE12.out0 SW7X1_BlockPE13_in1_CONNECT.in5
-net BlockPE12.out0 SW9X1_BlockPE0_in0_CONNECT.in5
-net BlockPE12.out0 SW9X1_BlockPE0_in1_CONNECT.in5
+net BlockPE12.out0 SW6X1_BlockPE13_in0_CONNECT.in4
+net BlockPE12.out0 SW6X1_BlockPE13_in1_CONNECT.in4
+net BlockPE12.out0 SW8X1_BlockPE0_in0_CONNECT.in4
+net BlockPE12.out0 SW8X1_BlockPE0_in1_CONNECT.in4
 net BlockPE12.out0 SW8X1_BlockPE15_in0_CONNECT.in4
 net BlockPE12.out0 SW8X1_BlockPE15_in0_CONNECT.in5
 net BlockPE12.out0 SW8X1_BlockPE15_in1_CONNECT.in4
 net BlockPE12.out0 SW8X1_BlockPE15_in1_CONNECT.in5
 net BlockPE12.out0 SW9X1_BlockPE7_in0_CONNECT.in6
 net BlockPE12.out0 SW9X1_BlockPE7_in1_CONNECT.in6
-net BlockPE12.out0 SW9X1_BlockPE8_in0_CONNECT.in5
-net BlockPE12.out0 SW9X1_BlockPE8_in1_CONNECT.in5
+net BlockPE12.out0 SW8X1_BlockPE8_in0_CONNECT.in4
+net BlockPE12.out0 SW8X1_BlockPE8_in1_CONNECT.in4
 net BlockPE12.out0 SW9X1_BlockPE9_in0_CONNECT.in5
 net BlockPE12.out0 SW9X1_BlockPE9_in1_CONNECT.in5
 net BlockPE12.out0 SW1X1_BlockMEM3_in0_CONNECT.in0
@@ -4778,22 +4634,22 @@ net BlockPE12.SW_FU_OUTPORT.in1 BlockPE12.SW_FU_OUTPORT.out0
 net BlockPE12.SW_FU_OUTPORT.out0 BlockPE12.out0
 net BlockPE13.in0 BlockPE13.SW_INPORT_FU.in0
 net BlockPE13.in1 BlockPE13.SW_INPORT_FU.in1
-net BlockPE13.out0 SW9X1_BlockPE12_in0_CONNECT.in6
-net BlockPE13.out0 SW9X1_BlockPE12_in1_CONNECT.in6
+net BlockPE13.out0 SW8X1_BlockPE12_in0_CONNECT.in5
+net BlockPE13.out0 SW8X1_BlockPE12_in1_CONNECT.in5
 net BlockPE13.out0 SW9X1_BlockPE1_in0_CONNECT.in6
 net BlockPE13.out0 SW9X1_BlockPE1_in1_CONNECT.in6
-net BlockPE13.out0 SW9X1_BlockPE0_in0_CONNECT.in6
-net BlockPE13.out0 SW9X1_BlockPE0_in1_CONNECT.in6
-net BlockPE13.out0 SW8X1_BlockPE2_in0_CONNECT.in5
-net BlockPE13.out0 SW8X1_BlockPE2_in1_CONNECT.in5
-net BlockPE13.out0 SW8X1_BlockPE14_in0_CONNECT.in6
-net BlockPE13.out0 SW8X1_BlockPE14_in1_CONNECT.in6
-net BlockPE13.out0 SW9X1_BlockPE8_in0_CONNECT.in6
-net BlockPE13.out0 SW9X1_BlockPE8_in1_CONNECT.in6
+net BlockPE13.out0 SW8X1_BlockPE0_in0_CONNECT.in5
+net BlockPE13.out0 SW8X1_BlockPE0_in1_CONNECT.in5
+net BlockPE13.out0 SW7X1_BlockPE2_in0_CONNECT.in4
+net BlockPE13.out0 SW7X1_BlockPE2_in1_CONNECT.in4
+net BlockPE13.out0 SW7X1_BlockPE14_in0_CONNECT.in5
+net BlockPE13.out0 SW7X1_BlockPE14_in1_CONNECT.in5
+net BlockPE13.out0 SW8X1_BlockPE8_in0_CONNECT.in5
+net BlockPE13.out0 SW8X1_BlockPE8_in1_CONNECT.in5
 net BlockPE13.out0 SW9X1_BlockPE9_in0_CONNECT.in6
 net BlockPE13.out0 SW9X1_BlockPE9_in1_CONNECT.in6
-net BlockPE13.out0 SW8X1_BlockPE10_in0_CONNECT.in5
-net BlockPE13.out0 SW8X1_BlockPE10_in1_CONNECT.in5
+net BlockPE13.out0 SW7X1_BlockPE10_in0_CONNECT.in4
+net BlockPE13.out0 SW7X1_BlockPE10_in1_CONNECT.in4
 net BlockPE13.ALU0 BlockPE13.ALU0.out0
 net BlockPE13.ALU0.in0 BlockPE13.ALU0
 net BlockPE13.ALU0.in1 BlockPE13.ALU0
@@ -4830,22 +4686,22 @@ net BlockPE13.SW_FU_OUTPORT.in1 BlockPE13.SW_FU_OUTPORT.out0
 net BlockPE13.SW_FU_OUTPORT.out0 BlockPE13.out0
 net BlockPE14.in0 BlockPE14.SW_INPORT_FU.in0
 net BlockPE14.in1 BlockPE14.SW_INPORT_FU.in1
-net BlockPE14.out0 SW10X1_BlockPE3_in0_CONNECT.in6
-net BlockPE14.out0 SW10X1_BlockPE3_in1_CONNECT.in6
+net BlockPE14.out0 SW9X1_BlockPE3_in0_CONNECT.in5
+net BlockPE14.out0 SW9X1_BlockPE3_in1_CONNECT.in5
 net BlockPE14.out0 SW9X1_BlockPE1_in0_CONNECT.in7
 net BlockPE14.out0 SW9X1_BlockPE1_in1_CONNECT.in7
-net BlockPE14.out0 SW10X1_BlockPE11_in0_CONNECT.in6
-net BlockPE14.out0 SW10X1_BlockPE11_in1_CONNECT.in6
-net BlockPE14.out0 SW7X1_BlockPE13_in0_CONNECT.in6
-net BlockPE14.out0 SW7X1_BlockPE13_in1_CONNECT.in6
-net BlockPE14.out0 SW8X1_BlockPE2_in0_CONNECT.in6
-net BlockPE14.out0 SW8X1_BlockPE2_in1_CONNECT.in6
+net BlockPE14.out0 SW6X1_BlockPE13_in0_CONNECT.in5
+net BlockPE14.out0 SW6X1_BlockPE13_in1_CONNECT.in5
+net BlockPE14.out0 SW7X1_BlockPE2_in0_CONNECT.in5
+net BlockPE14.out0 SW7X1_BlockPE2_in1_CONNECT.in5
 net BlockPE14.out0 SW8X1_BlockPE15_in0_CONNECT.in6
 net BlockPE14.out0 SW8X1_BlockPE15_in1_CONNECT.in6
 net BlockPE14.out0 SW9X1_BlockPE9_in0_CONNECT.in7
 net BlockPE14.out0 SW9X1_BlockPE9_in1_CONNECT.in7
-net BlockPE14.out0 SW8X1_BlockPE10_in0_CONNECT.in6
-net BlockPE14.out0 SW8X1_BlockPE10_in1_CONNECT.in6
+net BlockPE14.out0 SW7X1_BlockPE10_in0_CONNECT.in5
+net BlockPE14.out0 SW7X1_BlockPE10_in1_CONNECT.in5
+net BlockPE14.out0 SW9X1_BlockPE11_in0_CONNECT.in5
+net BlockPE14.out0 SW9X1_BlockPE11_in1_CONNECT.in5
 net BlockPE14.ALU0 BlockPE14.ALU0.out0
 net BlockPE14.ALU0.in0 BlockPE14.ALU0
 net BlockPE14.ALU0.in1 BlockPE14.ALU0
@@ -4882,14 +4738,14 @@ net BlockPE14.SW_FU_OUTPORT.in1 BlockPE14.SW_FU_OUTPORT.out0
 net BlockPE14.SW_FU_OUTPORT.out0 BlockPE14.out0
 net BlockPE15.in0 BlockPE15.SW_INPORT_FU.in0
 net BlockPE15.in1 BlockPE15.SW_INPORT_FU.in1
-net BlockPE15.out0 SW9X1_BlockPE12_in0_CONNECT.in7
-net BlockPE15.out0 SW9X1_BlockPE12_in1_CONNECT.in7
-net BlockPE15.out0 SW10X1_BlockPE3_in0_CONNECT.in7
-net BlockPE15.out0 SW10X1_BlockPE3_in1_CONNECT.in7
-net BlockPE15.out0 SW10X1_BlockPE11_in0_CONNECT.in7
-net BlockPE15.out0 SW10X1_BlockPE11_in1_CONNECT.in7
-net BlockPE15.out0 SW8X1_BlockPE14_in0_CONNECT.in7
-net BlockPE15.out0 SW8X1_BlockPE14_in1_CONNECT.in7
+net BlockPE15.out0 SW8X1_BlockPE12_in0_CONNECT.in6
+net BlockPE15.out0 SW8X1_BlockPE12_in1_CONNECT.in6
+net BlockPE15.out0 SW9X1_BlockPE3_in0_CONNECT.in6
+net BlockPE15.out0 SW9X1_BlockPE3_in1_CONNECT.in6
+net BlockPE15.out0 SW7X1_BlockPE14_in0_CONNECT.in6
+net BlockPE15.out0 SW7X1_BlockPE14_in1_CONNECT.in6
+net BlockPE15.out0 SW9X1_BlockPE11_in0_CONNECT.in6
+net BlockPE15.out0 SW9X1_BlockPE11_in1_CONNECT.in6
 net BlockPE15.out0 SW1X1_BlockMEM7_in0_CONNECT.in0
 net BlockPE15.out0 SW1X1_BlockMEM7_in1_CONNECT.in0
 net BlockPE15.ALU0 BlockPE15.ALU0.out0
@@ -4928,8 +4784,8 @@ net BlockPE15.SW_FU_OUTPORT.in1 BlockPE15.SW_FU_OUTPORT.out0
 net BlockPE15.SW_FU_OUTPORT.out0 BlockPE15.out0
 net BlockMEM0.in0 BlockMEM0.MEM0.in0
 net BlockMEM0.in1 BlockMEM0.MEM0.in1
-net BlockMEM0.out0 SW9X1_BlockPE0_in0_CONNECT.in8
-net BlockMEM0.out0 SW9X1_BlockPE0_in1_CONNECT.in8
+net BlockMEM0.out0 SW8X1_BlockPE0_in0_CONNECT.in7
+net BlockMEM0.out0 SW8X1_BlockPE0_in1_CONNECT.in7
 net BlockMEM0.MEM0 BlockMEM0.MEM0.out0
 net BlockMEM0.MEM0.in0 BlockMEM0.MEM0
 net BlockMEM0.MEM0.in1 BlockMEM0.MEM0
@@ -4937,8 +4793,8 @@ net BlockMEM0.MEM0.in2 BlockMEM0.MEM0
 net BlockMEM0.MEM0.out0 BlockMEM0.out0
 net BlockMEM1.in0 BlockMEM1.MEM0.in0
 net BlockMEM1.in1 BlockMEM1.MEM0.in1
-net BlockMEM1.out0 SW10X1_BlockPE4_in0_CONNECT.in9
-net BlockMEM1.out0 SW10X1_BlockPE4_in1_CONNECT.in9
+net BlockMEM1.out0 SW9X1_BlockPE4_in0_CONNECT.in8
+net BlockMEM1.out0 SW9X1_BlockPE4_in1_CONNECT.in8
 net BlockMEM1.MEM0 BlockMEM1.MEM0.out0
 net BlockMEM1.MEM0.in0 BlockMEM1.MEM0
 net BlockMEM1.MEM0.in1 BlockMEM1.MEM0
@@ -4946,8 +4802,8 @@ net BlockMEM1.MEM0.in2 BlockMEM1.MEM0
 net BlockMEM1.MEM0.out0 BlockMEM1.out0
 net BlockMEM2.in0 BlockMEM2.MEM0.in0
 net BlockMEM2.in1 BlockMEM2.MEM0.in1
-net BlockMEM2.out0 SW9X1_BlockPE8_in0_CONNECT.in8
-net BlockMEM2.out0 SW9X1_BlockPE8_in1_CONNECT.in8
+net BlockMEM2.out0 SW8X1_BlockPE8_in0_CONNECT.in7
+net BlockMEM2.out0 SW8X1_BlockPE8_in1_CONNECT.in7
 net BlockMEM2.MEM0 BlockMEM2.MEM0.out0
 net BlockMEM2.MEM0.in0 BlockMEM2.MEM0
 net BlockMEM2.MEM0.in1 BlockMEM2.MEM0
@@ -4955,8 +4811,8 @@ net BlockMEM2.MEM0.in2 BlockMEM2.MEM0
 net BlockMEM2.MEM0.out0 BlockMEM2.out0
 net BlockMEM3.in0 BlockMEM3.MEM0.in0
 net BlockMEM3.in1 BlockMEM3.MEM0.in1
-net BlockMEM3.out0 SW9X1_BlockPE12_in0_CONNECT.in8
-net BlockMEM3.out0 SW9X1_BlockPE12_in1_CONNECT.in8
+net BlockMEM3.out0 SW8X1_BlockPE12_in0_CONNECT.in7
+net BlockMEM3.out0 SW8X1_BlockPE12_in1_CONNECT.in7
 net BlockMEM3.MEM0 BlockMEM3.MEM0.out0
 net BlockMEM3.MEM0.in0 BlockMEM3.MEM0
 net BlockMEM3.MEM0.in1 BlockMEM3.MEM0
@@ -4964,8 +4820,8 @@ net BlockMEM3.MEM0.in2 BlockMEM3.MEM0
 net BlockMEM3.MEM0.out0 BlockMEM3.out0
 net BlockMEM4.in0 BlockMEM4.MEM0.in0
 net BlockMEM4.in1 BlockMEM4.MEM0.in1
-net BlockMEM4.out0 SW10X1_BlockPE3_in0_CONNECT.in9
-net BlockMEM4.out0 SW10X1_BlockPE3_in1_CONNECT.in9
+net BlockMEM4.out0 SW9X1_BlockPE3_in0_CONNECT.in8
+net BlockMEM4.out0 SW9X1_BlockPE3_in1_CONNECT.in8
 net BlockMEM4.MEM0 BlockMEM4.MEM0.out0
 net BlockMEM4.MEM0.in0 BlockMEM4.MEM0
 net BlockMEM4.MEM0.in1 BlockMEM4.MEM0
@@ -4982,8 +4838,8 @@ net BlockMEM5.MEM0.in2 BlockMEM5.MEM0
 net BlockMEM5.MEM0.out0 BlockMEM5.out0
 net BlockMEM6.in0 BlockMEM6.MEM0.in0
 net BlockMEM6.in1 BlockMEM6.MEM0.in1
-net BlockMEM6.out0 SW10X1_BlockPE11_in0_CONNECT.in9
-net BlockMEM6.out0 SW10X1_BlockPE11_in1_CONNECT.in9
+net BlockMEM6.out0 SW9X1_BlockPE11_in0_CONNECT.in8
+net BlockMEM6.out0 SW9X1_BlockPE11_in1_CONNECT.in8
 net BlockMEM6.MEM0 BlockMEM6.MEM0.out0
 net BlockMEM6.MEM0.in0 BlockMEM6.MEM0
 net BlockMEM6.MEM0.in1 BlockMEM6.MEM0
@@ -5000,8 +4856,8 @@ net BlockMEM7.MEM0.in2 BlockMEM7.MEM0
 net BlockMEM7.MEM0.out0 BlockMEM7.out0
 net BlockIO0.in0 BlockIO0.SW2X2_INPORT.in0
 net BlockIO0.in1 BlockIO0.SW2X2_INPORT.in1
-net BlockIO0.out0 SW9X1_BlockPE0_in0_CONNECT.in7
-net BlockIO0.out0 SW9X1_BlockPE0_in1_CONNECT.in7
+net BlockIO0.out0 SW8X1_BlockPE0_in0_CONNECT.in6
+net BlockIO0.out0 SW8X1_BlockPE0_in1_CONNECT.in6
 net BlockIO0.IO0 BlockIO0.IO0.out0
 net BlockIO0.IO0.in0 BlockIO0.IO0
 net BlockIO0.IO0.in1 BlockIO0.IO0
@@ -5032,8 +4888,8 @@ net BlockIO1.SW1X1_OUTPORT.in0 BlockIO1.SW1X1_OUTPORT.out0
 net BlockIO1.SW1X1_OUTPORT.out0 BlockIO1.out0
 net BlockIO2.in0 BlockIO2.SW2X2_INPORT.in0
 net BlockIO2.in1 BlockIO2.SW2X2_INPORT.in1
-net BlockIO2.out0 SW8X1_BlockPE2_in0_CONNECT.in7
-net BlockIO2.out0 SW8X1_BlockPE2_in1_CONNECT.in7
+net BlockIO2.out0 SW7X1_BlockPE2_in0_CONNECT.in6
+net BlockIO2.out0 SW7X1_BlockPE2_in1_CONNECT.in6
 net BlockIO2.IO0 BlockIO2.IO0.out0
 net BlockIO2.IO0.in0 BlockIO2.IO0
 net BlockIO2.IO0.in1 BlockIO2.IO0
@@ -5048,8 +4904,8 @@ net BlockIO2.SW1X1_OUTPORT.in0 BlockIO2.SW1X1_OUTPORT.out0
 net BlockIO2.SW1X1_OUTPORT.out0 BlockIO2.out0
 net BlockIO3.in0 BlockIO3.SW2X2_INPORT.in0
 net BlockIO3.in1 BlockIO3.SW2X2_INPORT.in1
-net BlockIO3.out0 SW10X1_BlockPE3_in0_CONNECT.in8
-net BlockIO3.out0 SW10X1_BlockPE3_in1_CONNECT.in8
+net BlockIO3.out0 SW9X1_BlockPE3_in0_CONNECT.in7
+net BlockIO3.out0 SW9X1_BlockPE3_in1_CONNECT.in7
 net BlockIO3.IO0 BlockIO3.IO0.out0
 net BlockIO3.IO0.in0 BlockIO3.IO0
 net BlockIO3.IO0.in1 BlockIO3.IO0
@@ -5064,8 +4920,8 @@ net BlockIO3.SW1X1_OUTPORT.in0 BlockIO3.SW1X1_OUTPORT.out0
 net BlockIO3.SW1X1_OUTPORT.out0 BlockIO3.out0
 net BlockIO4.in0 BlockIO4.SW2X2_INPORT.in0
 net BlockIO4.in1 BlockIO4.SW2X2_INPORT.in1
-net BlockIO4.out0 SW10X1_BlockPE4_in0_CONNECT.in8
-net BlockIO4.out0 SW10X1_BlockPE4_in1_CONNECT.in8
+net BlockIO4.out0 SW9X1_BlockPE4_in0_CONNECT.in7
+net BlockIO4.out0 SW9X1_BlockPE4_in1_CONNECT.in7
 net BlockIO4.IO0 BlockIO4.IO0.out0
 net BlockIO4.IO0.in0 BlockIO4.IO0
 net BlockIO4.IO0.in1 BlockIO4.IO0
@@ -5080,8 +4936,8 @@ net BlockIO4.SW1X1_OUTPORT.in0 BlockIO4.SW1X1_OUTPORT.out0
 net BlockIO4.SW1X1_OUTPORT.out0 BlockIO4.out0
 net BlockIO5.in0 BlockIO5.SW2X2_INPORT.in0
 net BlockIO5.in1 BlockIO5.SW2X2_INPORT.in1
-net BlockIO5.out0 SW8X1_BlockPE5_in0_CONNECT.in7
-net BlockIO5.out0 SW8X1_BlockPE5_in1_CONNECT.in7
+net BlockIO5.out0 SW7X1_BlockPE5_in0_CONNECT.in6
+net BlockIO5.out0 SW7X1_BlockPE5_in1_CONNECT.in6
 net BlockIO5.IO0 BlockIO5.IO0.out0
 net BlockIO5.IO0.in0 BlockIO5.IO0
 net BlockIO5.IO0.in1 BlockIO5.IO0
@@ -5096,8 +4952,8 @@ net BlockIO5.SW1X1_OUTPORT.in0 BlockIO5.SW1X1_OUTPORT.out0
 net BlockIO5.SW1X1_OUTPORT.out0 BlockIO5.out0
 net BlockIO6.in0 BlockIO6.SW2X2_INPORT.in0
 net BlockIO6.in1 BlockIO6.SW2X2_INPORT.in1
-net BlockIO6.out0 SW9X1_BlockPE6_in0_CONNECT.in8
-net BlockIO6.out0 SW9X1_BlockPE6_in1_CONNECT.in8
+net BlockIO6.out0 SW8X1_BlockPE6_in0_CONNECT.in7
+net BlockIO6.out0 SW8X1_BlockPE6_in1_CONNECT.in7
 net BlockIO6.IO0 BlockIO6.IO0.out0
 net BlockIO6.IO0.in0 BlockIO6.IO0
 net BlockIO6.IO0.in1 BlockIO6.IO0
@@ -5128,8 +4984,8 @@ net BlockIO7.SW1X1_OUTPORT.in0 BlockIO7.SW1X1_OUTPORT.out0
 net BlockIO7.SW1X1_OUTPORT.out0 BlockIO7.out0
 net BlockIO8.in0 BlockIO8.SW2X2_INPORT.in0
 net BlockIO8.in1 BlockIO8.SW2X2_INPORT.in1
-net BlockIO8.out0 SW9X1_BlockPE8_in0_CONNECT.in7
-net BlockIO8.out0 SW9X1_BlockPE8_in1_CONNECT.in7
+net BlockIO8.out0 SW8X1_BlockPE8_in0_CONNECT.in6
+net BlockIO8.out0 SW8X1_BlockPE8_in1_CONNECT.in6
 net BlockIO8.IO0 BlockIO8.IO0.out0
 net BlockIO8.IO0.in0 BlockIO8.IO0
 net BlockIO8.IO0.in1 BlockIO8.IO0
@@ -5160,8 +5016,8 @@ net BlockIO9.SW1X1_OUTPORT.in0 BlockIO9.SW1X1_OUTPORT.out0
 net BlockIO9.SW1X1_OUTPORT.out0 BlockIO9.out0
 net BlockIO10.in0 BlockIO10.SW2X2_INPORT.in0
 net BlockIO10.in1 BlockIO10.SW2X2_INPORT.in1
-net BlockIO10.out0 SW8X1_BlockPE10_in0_CONNECT.in7
-net BlockIO10.out0 SW8X1_BlockPE10_in1_CONNECT.in7
+net BlockIO10.out0 SW7X1_BlockPE10_in0_CONNECT.in6
+net BlockIO10.out0 SW7X1_BlockPE10_in1_CONNECT.in6
 net BlockIO10.IO0 BlockIO10.IO0.out0
 net BlockIO10.IO0.in0 BlockIO10.IO0
 net BlockIO10.IO0.in1 BlockIO10.IO0
@@ -5176,8 +5032,8 @@ net BlockIO10.SW1X1_OUTPORT.in0 BlockIO10.SW1X1_OUTPORT.out0
 net BlockIO10.SW1X1_OUTPORT.out0 BlockIO10.out0
 net BlockIO11.in0 BlockIO11.SW2X2_INPORT.in0
 net BlockIO11.in1 BlockIO11.SW2X2_INPORT.in1
-net BlockIO11.out0 SW10X1_BlockPE11_in0_CONNECT.in8
-net BlockIO11.out0 SW10X1_BlockPE11_in1_CONNECT.in8
+net BlockIO11.out0 SW9X1_BlockPE11_in0_CONNECT.in7
+net BlockIO11.out0 SW9X1_BlockPE11_in1_CONNECT.in7
 net BlockIO11.IO0 BlockIO11.IO0.out0
 net BlockIO11.IO0.in0 BlockIO11.IO0
 net BlockIO11.IO0.in1 BlockIO11.IO0

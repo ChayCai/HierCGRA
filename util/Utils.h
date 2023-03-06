@@ -5,7 +5,7 @@
 #include "../common/HyperGraph.h"
 #include "../util/NetworkAnalyzer.h"
 #include "../util/NOrderValidator.h"
-#include "../util/VanillaValidator.h"
+#include "../util/Validator.h"
 
 namespace FastCGRA
 {
