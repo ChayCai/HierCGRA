@@ -1,0 +1,4 @@
+fsub3.in1 ALU5.in1
+fsub3 ALU5
+fsub3.in0 ALU5.in0
+fsub3.out0 ALU5.out0

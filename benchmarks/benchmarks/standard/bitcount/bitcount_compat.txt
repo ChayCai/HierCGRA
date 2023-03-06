@@ -1,0 +1,31 @@
+input_argument0 INPUT
+add3 ADD ALU
+and1 ALU
+lshr1 ALU
+ret0 OUTPUT
+input_constint9 INPUT
+and3 ALU
+input_constint3 INPUT
+and4 ALU
+and6 ALU
+input_constint0 INPUT
+input_constint1 INPUT
+input_constint6 INPUT
+input_constint4 INPUT
+input_constint5 INPUT
+add0 ADD ALU
+and7 ALU
+input_constint7 INPUT
+add4 ADD ALU
+add1 ADD ALU
+lshr4 ALU
+and2 ALU
+and0 ALU
+input_constint8 INPUT
+lshr0 ALU
+add2 ADD ALU
+lshr3 ALU
+and8 ALU
+input_constint2 INPUT
+lshr2 ALU
+and5 ALU

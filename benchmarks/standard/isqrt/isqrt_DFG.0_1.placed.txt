@@ -1,0 +1,4 @@
+add0.in0 ALU5.in0
+add0.in1 ALU5.in1
+add0.out0 ALU5.out0
+add0 ALU5

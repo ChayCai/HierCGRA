@@ -1,0 +1,30 @@
+attr __file__ str ./benchmarks/standard/mac/mac_DFG.1_0.txt
+attr __name__ str ./benchmarks/standard/mac/mac_DFG.1_0.txt
+vertex __inserted_inport_1.out0
+vertex add1.in1
+vertex add1.in0
+vertex __inserted_inport_1.in0
+vertex __inserted_inport_0.out0
+vertex __inserted_inport_0.in0
+vertex mul0.in1
+vertex add1
+vertex __inserted_inport_1
+vertex add1.out0
+vertex mul0.out0
+vertex mul0.in0
+vertex mul0
+vertex __inserted_inport_0
+net __inserted_inport_1.out0 mul0.in0
+net add1.in1 add1
+net add1.in0 add1
+net __inserted_inport_1.in0 __inserted_inport_1
+net __inserted_inport_0.out0 mul0.in1
+net __inserted_inport_0.in0 __inserted_inport_0
+net mul0.in1 mul0
+net add1 add1.out0
+net __inserted_inport_1 __inserted_inport_1.out0
+net add1.out0 add1.in1
+net mul0.out0 add1.in0
+net mul0.in0 mul0
+net mul0 mul0.out0
+net __inserted_inport_0 __inserted_inport_0.out0

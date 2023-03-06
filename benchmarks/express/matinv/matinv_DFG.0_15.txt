@@ -1,0 +1,9 @@
+vertex MUL_509
+vertex MUL_509.out0
+vertex ADD_512.in0
+vertex ADD_512.out0
+vertex ADD_512
+net MUL_509 MUL_509.out0
+net MUL_509.out0 ADD_512.in0
+net ADD_512.in0 ADD_512
+net ADD_512 ADD_512.out0

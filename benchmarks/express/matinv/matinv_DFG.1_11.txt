@@ -1,0 +1,18 @@
+vertex MUL_492.out0
+vertex ADD_495
+vertex ADD_495.in0
+vertex ADD_368.out0
+vertex MUL_492
+vertex ADD_368
+vertex ADD_368.in0
+vertex ADD_495.out0
+vertex MUL_365.out0
+vertex MUL_365
+net MUL_492.out0 ADD_495.in0
+net ADD_495 ADD_495.out0
+net ADD_495.in0 ADD_495
+net MUL_492 MUL_492.out0
+net ADD_368 ADD_368.out0
+net ADD_368.in0 ADD_368
+net MUL_365.out0 ADD_368.in0
+net MUL_365 MUL_365.out0

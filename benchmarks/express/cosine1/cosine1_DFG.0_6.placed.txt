@@ -1,0 +1,7 @@
+22.out0 ALU3.out0
+22.in1 ALU3.in1
+22 ALU3
+22.in0 ALU3.in0
+41 ALU0
+41.in0 ALU0.in0
+41.out0 ALU0.out0

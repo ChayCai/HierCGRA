@@ -1,0 +1,18 @@
+vertex ADD_60.in0
+vertex ADD_321
+vertex ADD_321.out0
+vertex ADD_321.in0
+vertex ADD_60
+vertex MUL_57
+vertex MUL_57.out0
+vertex ADD_60.out0
+vertex MUL_318
+vertex MUL_318.out0
+net ADD_60.in0 ADD_60
+net ADD_321 ADD_321.out0
+net ADD_321.in0 ADD_321
+net ADD_60 ADD_60.out0
+net MUL_57 MUL_57.out0
+net MUL_57.out0 ADD_60.in0
+net MUL_318 MUL_318.out0
+net MUL_318.out0 ADD_321.in0

@@ -1,0 +1,47 @@
+attr __file__ str ./benchmarks/express/matinv/matinv_DFG.0_27.txt
+attr __name__ str ./benchmarks/express/matinv/matinv_DFG.0_27.txt
+vertex __inserted_outport_2.out0
+vertex __inserted_outport_2.in0
+vertex __inserted_outport_1.out0
+vertex __inserted_outport_1
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0
+vertex ADD_395.in0
+vertex MUL_392.out0
+vertex MUL_402
+vertex ADD_405
+vertex ADD_405.in0
+vertex __inserted_outport_0.in0
+vertex MUL_254
+vertex ADD_395.out0
+vertex ADD_405.out0
+vertex ADD_257.out0
+vertex MUL_254.out0
+vertex __inserted_outport_1.in0
+vertex ADD_395
+vertex MUL_402.out0
+vertex ADD_257
+vertex MUL_392
+vertex __inserted_outport_2
+vertex ADD_257.in0
+net __inserted_outport_2.in0 __inserted_outport_2
+net __inserted_outport_1 __inserted_outport_1.out0
+net __inserted_outport_0 __inserted_outport_0.out0
+net ADD_395.in0 ADD_395
+net MUL_392.out0 ADD_395.in0
+net MUL_402 MUL_402.out0
+net ADD_405 ADD_405.out0
+net ADD_405.in0 ADD_405
+net __inserted_outport_0.in0 __inserted_outport_0
+net MUL_254 MUL_254.out0
+net ADD_395.out0 __inserted_outport_2.in0
+net ADD_405.out0 __inserted_outport_1.in0
+net ADD_257.out0 __inserted_outport_0.in0
+net MUL_254.out0 ADD_257.in0
+net __inserted_outport_1.in0 __inserted_outport_1
+net ADD_395 ADD_395.out0
+net MUL_402.out0 ADD_405.in0
+net ADD_257 ADD_257.out0
+net MUL_392 MUL_392.out0
+net __inserted_outport_2 __inserted_outport_2.out0
+net ADD_257.in0 ADD_257

@@ -1,0 +1,93 @@
+attr __file__ str ./benchmarks/standard/isqrt/isqrt_DFG.0_0.txt
+attr __name__ str ./benchmarks/standard/isqrt/isqrt_DFG.0_0.txt
+vertex __inserted_outport_1
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_inport_4.out0
+vertex __inserted_outport_1.in0
+vertex __inserted_inport_4.in0
+vertex __inserted_inport_4
+vertex __inserted_inport_3.out0
+vertex __inserted_inport_3.in0
+vertex __inserted_inport_2.in0
+vertex __inserted_inport_1.out0
+vertex __inserted_outport_0
+vertex __inserted_inport_3
+vertex icmp0.out0
+vertex __inserted_inport_2.out0
+vertex shl1.in1
+vertex shl1
+vertex and0
+vertex shl0
+vertex lshr0.in1
+vertex lshr0
+vertex shl0.in1
+vertex shl0.out0
+vertex __inserted_inport_0.out0
+vertex shl1.out0
+vertex and0.in1
+vertex __inserted_outport_1.out0
+vertex or0
+vertex and0.in0
+vertex icmp0.in0
+vertex lshr0.out0
+vertex icmp0
+vertex lshr0.in0
+vertex __inserted_inport_2
+vertex icmp0.in1
+vertex and0.out0
+vertex or0.in1
+vertex __inserted_inport_0
+vertex shl1.in0
+vertex or0.in0
+vertex __inserted_inport_0.in0
+vertex shl0.in0
+vertex or0.out0
+vertex __inserted_inport_1
+vertex __inserted_inport_1.in0
+net __inserted_outport_1 __inserted_outport_1.out0
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_inport_4.out0 shl0.in0
+net __inserted_outport_1.in0 __inserted_outport_1
+net __inserted_inport_4.in0 __inserted_inport_4
+net __inserted_inport_4 __inserted_inport_4.out0
+net __inserted_inport_3.out0 shl0.in1
+net __inserted_inport_3.out0 shl1.in1
+net __inserted_inport_3.in0 __inserted_inport_3
+net __inserted_inport_2.in0 __inserted_inport_2
+net __inserted_inport_1.out0 lshr0.in1
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_3 __inserted_inport_3.out0
+net icmp0.out0 __inserted_outport_0.in0
+net __inserted_inport_2.out0 and0.in1
+net shl1.in1 shl1
+net shl1 shl1.out0
+net and0 and0.out0
+net shl0 shl0.out0
+net lshr0.in1 lshr0
+net lshr0 lshr0.out0
+net shl0.in1 shl0
+net shl0.out0 or0.in0
+net __inserted_inport_0.out0 icmp0.in1
+net shl1.out0 lshr0.in0
+net shl1.out0 shl1.in0
+net and0.in1 and0
+net or0 or0.out0
+net and0.in0 and0
+net icmp0.in0 icmp0
+net lshr0.out0 and0.in0
+net icmp0 icmp0.out0
+net lshr0.in0 lshr0
+net __inserted_inport_2 __inserted_inport_2.out0
+net icmp0.in1 icmp0
+net and0.out0 or0.in1
+net or0.in1 or0
+net __inserted_inport_0 __inserted_inport_0.out0
+net shl1.in0 shl1
+net or0.in0 or0
+net __inserted_inport_0.in0 __inserted_inport_0
+net shl0.in0 shl0
+net or0.out0 icmp0.in0
+net or0.out0 __inserted_outport_1.in0
+net __inserted_inport_1 __inserted_inport_1.out0
+net __inserted_inport_1.in0 __inserted_inport_1

@@ -1,0 +1,36 @@
+vertex MUL_450.out0
+vertex ADD_453
+vertex ADD_439
+vertex MUL_436.out0
+vertex MUL_375
+vertex ADD_453.out0
+vertex ADD_378.out0
+vertex ADD_453.in0
+vertex MUL_425
+vertex ADD_378.in0
+vertex ADD_439.out0
+vertex MUL_425.out0
+vertex ADD_378
+vertex MUL_436
+vertex MUL_450
+vertex ADD_428.out0
+vertex ADD_428
+vertex MUL_375.out0
+vertex ADD_428.in0
+vertex ADD_439.in0
+net MUL_450.out0 ADD_453.in0
+net ADD_453 ADD_453.out0
+net ADD_439 ADD_439.out0
+net MUL_436.out0 ADD_439.in0
+net MUL_375 MUL_375.out0
+net ADD_453.in0 ADD_453
+net MUL_425 MUL_425.out0
+net ADD_378.in0 ADD_378
+net MUL_425.out0 ADD_428.in0
+net ADD_378 ADD_378.out0
+net MUL_436 MUL_436.out0
+net MUL_450 MUL_450.out0
+net ADD_428 ADD_428.out0
+net MUL_375.out0 ADD_378.in0
+net ADD_428.in0 ADD_428
+net ADD_439.in0 ADD_439

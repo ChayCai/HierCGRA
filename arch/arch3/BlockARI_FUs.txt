@@ -1,0 +1,8 @@
+MUL0 MUL MUL inputs in0 in1 outputs out0
+MUL1 MUL MUL inputs in0 in1 outputs out0
+MUL2 MUL MUL inputs in0 in1 outputs out0
+MUL3 MUL MUL inputs in0 in1 outputs out0
+ADD0 ADD ADD inputs in0 in1 outputs out0
+ADD1 ADD ADD inputs in0 in1 outputs out0
+SUB0 SUB SUB inputs in0 in1 outputs out0
+DIV0 DIV DIV inputs in0 outputs out0

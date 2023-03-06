@@ -1,0 +1,21 @@
+vertex MUL_56.out0
+vertex ADD_59.in0
+vertex ADD_59.out0
+vertex ADD_59
+vertex ADD_61.in1
+vertex ADD_61
+vertex ADD_61.out0
+vertex ADD_61.in0
+vertex MUL_54.out0
+vertex MUL_56
+vertex MUL_54
+net MUL_56.out0 ADD_59.in0
+net ADD_59.in0 ADD_59
+net ADD_59.out0 ADD_61.in1
+net ADD_59 ADD_59.out0
+net ADD_61.in1 ADD_61
+net ADD_61 ADD_61.out0
+net ADD_61.in0 ADD_61
+net MUL_54.out0 ADD_61.in0
+net MUL_56 MUL_56.out0
+net MUL_54 MUL_54.out0

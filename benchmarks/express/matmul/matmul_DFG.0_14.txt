@@ -1,0 +1,18 @@
+vertex MUL_63
+vertex ADD_66.in0
+vertex ADD_66.out0
+vertex MUL_63.out0
+vertex ADD_66
+vertex ADD_150
+vertex ADD_150.in0
+vertex MUL_147.out0
+vertex ADD_150.out0
+vertex MUL_147
+net MUL_63 MUL_63.out0
+net ADD_66.in0 ADD_66
+net MUL_63.out0 ADD_66.in0
+net ADD_66 ADD_66.out0
+net ADD_150 ADD_150.out0
+net ADD_150.in0 ADD_150
+net MUL_147.out0 ADD_150.in0
+net MUL_147 MUL_147.out0

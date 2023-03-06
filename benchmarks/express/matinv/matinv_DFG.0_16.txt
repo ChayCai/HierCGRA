@@ -1,0 +1,54 @@
+vertex MUL_481
+vertex MUL_498.out0
+vertex MUL_481.in0
+vertex MUL_498
+vertex MUL_501.out0
+vertex ADD_499
+vertex SUB_490.in0
+vertex ADD_499.out0
+vertex MUL_481.out0
+vertex MUL_481.in1
+vertex SUB_490.out0
+vertex MUL_501.in1
+vertex NEG_500
+vertex MUL_501.in0
+vertex MUL_498.in0
+vertex MUL_498.in1
+vertex SUB_490
+vertex NEG_500.out0
+vertex MUL_501
+vertex NEG_500.in0
+vertex ADD_499.in1
+vertex ADD_208.out0
+vertex ADD_499.in0
+vertex SUB_490.in1
+vertex ADD_208.in0
+vertex MUL_205
+vertex MUL_205.out0
+vertex ADD_208
+net MUL_481 MUL_481.out0
+net MUL_498.out0 ADD_499.in1
+net MUL_481.in0 MUL_481
+net MUL_498 MUL_498.out0
+net ADD_499 ADD_499.out0
+net SUB_490.in0 SUB_490
+net ADD_499.out0 NEG_500.in0
+net MUL_481.out0 SUB_490.in0
+net MUL_481.in1 MUL_481
+net SUB_490.out0 ADD_499.in0
+net MUL_501.in1 MUL_501
+net NEG_500 NEG_500.out0
+net MUL_501.in0 MUL_501
+net MUL_498.in0 MUL_498
+net MUL_498.in1 MUL_498
+net SUB_490 SUB_490.out0
+net NEG_500.out0 MUL_501.in1
+net MUL_501 MUL_501.out0
+net NEG_500.in0 NEG_500
+net ADD_499.in1 ADD_499
+net ADD_499.in0 ADD_499
+net SUB_490.in1 SUB_490
+net ADD_208.in0 ADD_208
+net MUL_205 MUL_205.out0
+net MUL_205.out0 ADD_208.in0
+net ADD_208 ADD_208.out0

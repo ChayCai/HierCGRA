@@ -1,0 +1,7 @@
+vertex MUL_6.in0
+vertex MUL_6.in1
+vertex MUL_6
+vertex MUL_6.out0
+net MUL_6.in0 MUL_6
+net MUL_6.in1 MUL_6
+net MUL_6 MUL_6.out0

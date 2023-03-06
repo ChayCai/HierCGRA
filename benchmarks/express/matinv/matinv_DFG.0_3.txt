@@ -1,0 +1,46 @@
+vertex MUL_584.out0
+vertex MUL_584
+vertex ADD_587
+vertex ADD_587.out0
+vertex ADD_596
+vertex NEG_601
+vertex NEG_601.in0
+vertex NEG_601.out0
+vertex ADD_587.in0
+vertex ADD_596.out0
+vertex MUL_593.out0
+vertex ADD_558.in0
+vertex ADD_558.out0
+vertex ADD_558.in1
+vertex ADD_596.in0
+vertex MUL_557
+vertex MUL_602
+vertex ADD_558
+vertex MUL_557.in1
+vertex MUL_593
+vertex MUL_557.out0
+vertex MUL_602.in0
+vertex MUL_557.in0
+vertex MUL_602.in1
+vertex MUL_602.out0
+net MUL_584.out0 ADD_587.in0
+net MUL_584 MUL_584.out0
+net ADD_587 ADD_587.out0
+net ADD_596 ADD_596.out0
+net NEG_601 NEG_601.out0
+net NEG_601.in0 NEG_601
+net NEG_601.out0 MUL_602.in1
+net ADD_587.in0 ADD_587
+net MUL_593.out0 ADD_596.in0
+net ADD_558.in0 ADD_558
+net ADD_558.in1 ADD_558
+net ADD_596.in0 ADD_596
+net MUL_557 MUL_557.out0
+net MUL_602 MUL_602.out0
+net ADD_558 ADD_558.out0
+net MUL_557.in1 MUL_557
+net MUL_593 MUL_593.out0
+net MUL_557.out0 ADD_558.in1
+net MUL_602.in0 MUL_602
+net MUL_557.in0 MUL_557
+net MUL_602.in1 MUL_602

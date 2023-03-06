@@ -1,0 +1,63 @@
+attr __file__ str ./benchmarks/express/ewf/ewf_DFG.0_4.txt
+attr __name__ str ./benchmarks/express/ewf/ewf_DFG.0_4.txt
+vertex __inserted_outport_1.out0
+vertex __inserted_outport_1.in0
+vertex ADD_4.out0
+vertex ADD_2.out0
+vertex ADD_4
+vertex ADD_5.in1
+vertex __inserted_inport_0.out0
+vertex MUL_25.in0
+vertex ADD_29.in0
+vertex __inserted_inport_1
+vertex __inserted_inport_0.in0
+vertex ADD_5.in0
+vertex __inserted_inport_1.out0
+vertex MUL_25
+vertex ADD_21.in0
+vertex ADD_21
+vertex ADD_21.out0
+vertex __inserted_outport_0.in0
+vertex ADD_5
+vertex ADD_4.in0
+vertex __inserted_outport_0.out0
+vertex ADD_29.in1
+vertex __inserted_inport_0
+vertex ADD_5.out0
+vertex ADD_29.out0
+vertex MUL_25.out0
+vertex ADD_2
+vertex ADD_29
+vertex __inserted_inport_1.in0
+vertex __inserted_outport_0
+vertex __inserted_outport_1
+net __inserted_outport_1.in0 __inserted_outport_1
+net ADD_4.out0 ADD_5.in1
+net ADD_2.out0 ADD_5.in0
+net ADD_2.out0 __inserted_outport_0.in0
+net ADD_4 ADD_4.out0
+net ADD_5.in1 ADD_5
+net __inserted_inport_0.out0 ADD_21.in0
+net __inserted_inport_0.out0 ADD_29.in0
+net MUL_25.in0 MUL_25
+net ADD_29.in0 ADD_29
+net __inserted_inport_1 __inserted_inport_1.out0
+net __inserted_inport_0.in0 __inserted_inport_0
+net ADD_5.in0 ADD_5
+net __inserted_inport_1.out0 ADD_4.in0
+net MUL_25 MUL_25.out0
+net ADD_21.in0 ADD_21
+net ADD_21 ADD_21.out0
+net ADD_21.out0 MUL_25.in0
+net __inserted_outport_0.in0 __inserted_outport_0
+net ADD_5 ADD_5.out0
+net ADD_4.in0 ADD_4
+net ADD_29.in1 ADD_29
+net __inserted_inport_0 __inserted_inport_0.out0
+net ADD_5.out0 __inserted_outport_1.in0
+net MUL_25.out0 ADD_29.in1
+net ADD_2 ADD_2.out0
+net ADD_29 ADD_29.out0
+net __inserted_inport_1.in0 __inserted_inport_1
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_outport_1 __inserted_outport_1.out0

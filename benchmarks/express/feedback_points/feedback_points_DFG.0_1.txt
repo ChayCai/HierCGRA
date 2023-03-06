@@ -1,0 +1,27 @@
+vertex MUL_35
+vertex MUL_34.out0
+vertex MUL_34
+vertex ADD_41.in1
+vertex ADD_41.out0
+vertex MUL_35.out0
+vertex ADD_39.in0
+vertex ADD_41.in0
+vertex ADD_37
+vertex ADD_37.out0
+vertex ADD_39.out0
+vertex ADD_39.in1
+vertex ADD_41
+vertex ADD_39
+net MUL_35 MUL_35.out0
+net MUL_34.out0 ADD_41.in0
+net MUL_34 MUL_34.out0
+net ADD_41.in1 ADD_41
+net MUL_35.out0 ADD_39.in0
+net ADD_39.in0 ADD_39
+net ADD_41.in0 ADD_41
+net ADD_37 ADD_37.out0
+net ADD_37.out0 ADD_39.in1
+net ADD_39.out0 ADD_41.in1
+net ADD_39.in1 ADD_39
+net ADD_41 ADD_41.out0
+net ADD_39 ADD_39.out0

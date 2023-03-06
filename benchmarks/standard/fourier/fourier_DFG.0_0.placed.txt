@@ -1,0 +1,4 @@
+fadd2 ALU5
+fadd2.in1 ALU5.in1
+fadd2.in0 ALU5.in0
+fadd2.out0 ALU5.out0

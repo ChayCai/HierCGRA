@@ -1,0 +1,7 @@
+vertex fadd2.in1
+vertex fadd2.in0
+vertex fadd2
+vertex fadd2.out0
+net fadd2.in1 fadd2
+net fadd2.in0 fadd2
+net fadd2 fadd2.out0

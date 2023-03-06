@@ -1,0 +1,231 @@
+vertex and7.in0
+    attr optype str and.in0
+vertex add2.in0
+    attr optype str add.in0
+vertex add0
+    attr optype str add
+vertex add0.in0
+    attr optype str add.in0
+vertex and4.in1
+    attr optype str and.in1
+vertex lshr0.in1
+    attr optype str lshr.in1
+vertex and4
+    attr optype str and
+vertex lshr3.out0
+    attr optype str lshr.out0
+vertex and5
+    attr optype str and
+vertex add3.out0
+    attr optype str add.out0
+vertex and7
+    attr optype str and
+vertex lshr4.in0
+    attr optype str lshr.in0
+vertex add3.in0
+    attr optype str add.in0
+vertex and4.in0
+    attr optype str and.in0
+vertex lshr2
+    attr optype str lshr
+vertex lshr4
+    attr optype str lshr
+vertex add1.in1
+    attr optype str add.in1
+vertex and8.in0
+    attr optype str and.in0
+vertex add2.out0
+    attr optype str add.out0
+vertex lshr3.in0
+    attr optype str lshr.in0
+vertex and6.in0
+    attr optype str and.in0
+vertex add1.out0
+    attr optype str add.out0
+vertex and7.out0
+    attr optype str and.out0
+vertex and6.out0
+    attr optype str and.out0
+vertex lshr4.in1
+    attr optype str lshr.in1
+vertex and5.in0
+    attr optype str and.in0
+vertex add1
+    attr optype str add
+vertex add4.out0
+    attr optype str add.out0
+vertex add4.in0
+    attr optype str add.in0
+vertex and8.out0
+    attr optype str and.out0
+vertex and2.in1
+    attr optype str and.in1
+vertex add2.in1
+    attr optype str add.in1
+vertex and3
+    attr optype str and
+vertex and0.out0
+    attr optype str and.out0
+vertex lshr1
+    attr optype str lshr
+vertex lshr3
+    attr optype str lshr
+vertex lshr4.out0
+    attr optype str lshr.out0
+vertex and2.in0
+    attr optype str and.in0
+vertex and4.out0
+    attr optype str and.out0
+vertex and0.in0
+    attr optype str and.in0
+vertex add0.out0
+    attr optype str add.out0
+vertex and1.in0
+    attr optype str and.in0
+vertex lshr1.in1
+    attr optype str lshr.in1
+vertex lshr0
+    attr optype str lshr
+vertex lshr2.in0
+    attr optype str lshr.in0
+vertex add3
+    attr optype str add
+vertex lshr2.out0
+    attr optype str lshr.out0
+vertex lshr2.in1
+    attr optype str lshr.in1
+vertex and2.out0
+    attr optype str and.out0
+vertex and8.in1
+    attr optype str and.in1
+vertex lshr1.out0
+    attr optype str lshr.out0
+vertex add1.in0
+    attr optype str add.in0
+vertex and7.in1
+    attr optype str and.in1
+vertex add4
+    attr optype str add
+vertex and6.in1
+    attr optype str and.in1
+vertex and8
+    attr optype str and
+vertex and5.in1
+    attr optype str and.in1
+vertex add4.in1
+    attr optype str add.in1
+vertex and1.in1
+    attr optype str and.in1
+vertex and6
+    attr optype str and
+vertex and3.out0
+    attr optype str and.out0
+vertex and3.in0
+    attr optype str and.in0
+vertex and0
+    attr optype str and
+vertex and2
+    attr optype str and
+vertex lshr1.in0
+    attr optype str lshr.in0
+vertex and3.in1
+    attr optype str and.in1
+vertex lshr0.out0
+    attr optype str lshr.out0
+vertex add2
+    attr optype str add
+vertex add3.in1
+    attr optype str add.in1
+vertex lshr3.in1
+    attr optype str lshr.in1
+vertex and0.in1
+    attr optype str and.in1
+vertex and5.out0
+    attr optype str and.out0
+vertex and1.out0
+    attr optype str and.out0
+vertex add0.in1
+    attr optype str add.in1
+vertex lshr0.in0
+    attr optype str lshr.in0
+vertex and1
+    attr optype str and
+net and7.in0 and7
+net add2.in0 add2
+net add0 add0.out0
+net add0.in0 add0
+net and4.in1 and4
+net lshr0.in1 lshr0
+net and4 and4.out0
+net lshr3.out0 and6.in0
+net and5 and5.out0
+net add3.out0 lshr4.in0
+net add3.out0 and8.in0
+net and7 and7.out0
+net lshr4.in0 lshr4
+net add3.in0 add3
+net and4.in0 and4
+net lshr2 lshr2.out0
+net lshr4 lshr4.out0
+net add1.in1 add1
+net and8.in0 and8
+net add2.out0 lshr3.in0
+net add2.out0 and7.in0
+net lshr3.in0 lshr3
+net and6.in0 and6
+net add1.out0 lshr2.in0
+net add1.out0 and5.in0
+net and7.out0 add3.in1
+net and6.out0 add3.in0
+net lshr4.in1 lshr4
+net and5.in0 and5
+net add1 add1.out0
+net add4.in0 add4
+net and8.out0 add4.in1
+net and2.in1 and2
+net add2.in1 add2
+net and3 and3.out0
+net and0.out0 add0.in0
+net lshr1 lshr1.out0
+net lshr3 lshr3.out0
+net lshr4.out0 add4.in0
+net and2.in0 and2
+net and4.out0 add2.in0
+net and0.in0 and0
+net add0.out0 lshr1.in0
+net add0.out0 and3.in0
+net and1.in0 and1
+net lshr1.in1 lshr1
+net lshr0 lshr0.out0
+net lshr2.in0 lshr2
+net add3 add3.out0
+net lshr2.out0 and4.in0
+net lshr2.in1 lshr2
+net and2.out0 add1.in0
+net and8.in1 and8
+net lshr1.out0 and2.in0
+net add1.in0 add1
+net and7.in1 and7
+net add4 add4.out0
+net and6.in1 and6
+net and8 and8.out0
+net and5.in1 and5
+net add4.in1 add4
+net and1.in1 and1
+net and6 and6.out0
+net and3.out0 add1.in1
+net and3.in0 and3
+net and0 and0.out0
+net and2 and2.out0
+net lshr1.in0 lshr1
+net and3.in1 and3
+net lshr0.out0 and0.in0
+net add2 add2.out0
+net add3.in1 add3
+net lshr3.in1 lshr3
+net and0.in1 and0
+net and5.out0 add2.in1
+net and1.out0 add0.in1
+net add0.in1 add0
+net lshr0.in0 lshr0
+net and1 and1.out0

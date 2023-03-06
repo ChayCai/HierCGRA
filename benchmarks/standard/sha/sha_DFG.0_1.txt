@@ -1,0 +1,57 @@
+vertex add12.in1
+vertex add12.in0
+vertex add12
+vertex lshr2.in0
+vertex lshr2.in1
+vertex shl2
+vertex lshr2.out0
+vertex shl2.in0
+vertex shl2.out0
+vertex shl2.in1
+vertex add11.in0
+vertex or2.out0
+vertex or1.in1
+vertex add12.out0
+vertex and1.out0
+vertex add11.in1
+vertex add11.out0
+vertex or2.in1
+vertex add11
+vertex or2
+vertex and1.in1
+vertex or2.in0
+vertex lshr2
+vertex or1.in0
+vertex and1.in0
+vertex and1
+vertex or1
+vertex or1.out0
+net add12.in1 add12
+net add12.in0 add12
+net add12 add12.out0
+net lshr2.in0 lshr2
+net lshr2.in1 lshr2
+net shl2 shl2.out0
+net lshr2.out0 or2.in1
+net shl2.in0 shl2
+net shl2.out0 or2.in0
+net shl2.in1 shl2
+net add11.in0 add11
+net or2.out0 and1.in0
+net or1.in1 or1
+net add12.out0 shl2.in0
+net add12.out0 lshr2.in0
+net and1.out0 or1.in0
+net add11.in1 add11
+net add11.out0 add12.in0
+net or2.in1 or2
+net add11 add11.out0
+net or2 or2.out0
+net and1.in1 and1
+net or2.in0 or2
+net lshr2 lshr2.out0
+net or1.in0 or1
+net and1.in0 and1
+net and1 and1.out0
+net or1 or1.out0
+net or1.out0 add11.in1

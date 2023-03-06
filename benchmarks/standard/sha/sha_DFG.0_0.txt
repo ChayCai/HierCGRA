@@ -1,0 +1,53 @@
+vertex shl1.in1
+vertex shl1.out0
+vertex shl1.in0
+vertex or0.in0
+vertex and0.out0
+vertex and0.in0
+vertex or0
+vertex and0.in1
+vertex shl1
+vertex and0
+vertex lshr1.in0
+vertex lshr1.in1
+vertex lshr1.out0
+vertex xor4.out0
+vertex add10.out0
+vertex add9.out0
+vertex xor4.in0
+vertex add10.in0
+vertex add9.in0
+vertex xor4
+vertex add10
+vertex or0.in1
+vertex xor4.in1
+vertex add10.in1
+vertex add9
+vertex or0.out0
+vertex add9.in1
+vertex lshr1
+net shl1.in1 shl1
+net shl1.out0 or0.in0
+net shl1.in0 shl1
+net or0.in0 or0
+net and0.in0 and0
+net or0 or0.out0
+net and0.in1 and0
+net shl1 shl1.out0
+net and0 and0.out0
+net lshr1.in0 lshr1
+net lshr1.in1 lshr1
+net lshr1.out0 or0.in1
+net add9.out0 add10.in0
+net xor4.in0 xor4
+net add10.in0 add10
+net add9.in0 add9
+net xor4 xor4.out0
+net add10 add10.out0
+net or0.in1 or0
+net xor4.in1 xor4
+net add10.in1 add10
+net add9 add9.out0
+net or0.out0 add9.in0
+net add9.in1 add9
+net lshr1 lshr1.out0

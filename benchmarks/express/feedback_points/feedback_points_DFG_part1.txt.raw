@@ -1,0 +1,301 @@
+attr __file__ str ./benchmarks/express/feedback_points/feedback_points_DFG_part1.txt
+attr __name__ str ./benchmarks/express/feedback_points/feedback_points_DFG_part1.txt
+vertex __inserted_outport_0
+vertex ADD_21
+    attr optype str add
+vertex MUL_26.in0
+    attr optype str mul.in0
+vertex MUL_3
+    attr optype str mul
+vertex MUL_53
+    attr optype str mul
+vertex MUL_44.in1
+    attr optype str mul.in1
+vertex MUL_26
+    attr optype str mul
+vertex MUL_26.in1
+    attr optype str mul.in1
+vertex LOD_11
+    attr optype str lod
+vertex MUL_44
+    attr optype str mul
+vertex MUL_44.out0
+    attr optype str mul.out0
+vertex ADD_41
+    attr optype str add
+vertex DIV_13.in0
+    attr optype str div.in0
+vertex DIV_13
+    attr optype str div
+vertex ADD_31.in0
+    attr optype str add.in0
+vertex MUL_62.out0
+    attr optype str mul.out0
+vertex MUL_17
+    attr optype str mul
+vertex MUL_4.out0
+    attr optype str mul.out0
+vertex LOD_24.in0
+    attr optype str lod.in0
+vertex ADD_10
+    attr optype str add
+vertex MUL_34.out0
+    attr optype str mul.out0
+vertex ADD_8.out0
+    attr optype str add.out0
+vertex ADD_8
+    attr optype str add
+vertex LOD_24.out0
+    attr optype str lod.out0
+vertex ADD_59
+    attr optype str add
+vertex MUL_3.out0
+    attr optype str mul.out0
+vertex LOD_42.in0
+    attr optype str lod.in0
+vertex ADD_59.out0
+    attr optype str add.out0
+vertex LOD_60.out0
+    attr optype str lod.out0
+vertex LOD_11.in0
+    attr optype str lod.in0
+vertex ADD_39.in1
+    attr optype str add.in1
+vertex MUL_53.out0
+    attr optype str mul.out0
+vertex STR_32.out0
+    attr optype str str.out0
+vertex ADD_10.in1
+    attr optype str add.in1
+vertex ADD_8.in1
+    attr optype str add.in1
+vertex ADD_59.in0
+    attr optype str add.in0
+vertex MUL_28
+    attr optype str mul
+vertex ADD_57
+    attr optype str add
+vertex MUL_34
+    attr optype str mul
+vertex DIV_13.out0
+    attr optype str div.out0
+vertex MUL_52.out0
+    attr optype str mul.out0
+vertex ADD_31
+    attr optype str add
+vertex ADD_21.in0
+    attr optype str add.in0
+vertex ADD_6
+    attr optype str add
+vertex MUL_17.out0
+    attr optype str mul.out0
+vertex ADD_23.out0
+    attr optype str add.out0
+vertex ADD_39.in0
+    attr optype str add.in0
+vertex ADD_21.in1
+    attr optype str add.in1
+vertex MUL_62.in1
+    attr optype str mul.in1
+vertex ADD_55
+    attr optype str add
+vertex MUL_4
+    attr optype str mul
+vertex __inserted_inport_0.in0
+vertex STR_32
+    attr optype str str
+vertex __inserted_inport_0
+vertex ADD_23.in0
+    attr optype str add.in0
+vertex LOD_42
+    attr optype str lod
+vertex STR_32.in1
+    attr optype str str.in1
+vertex STR_32.in0
+    attr optype str str.in0
+vertex ADD_39.out0
+    attr optype str add.out0
+vertex ADD_21.out0
+    attr optype str add.out0
+vertex ADD_37
+    attr optype str add
+vertex ADD_41.in0
+    attr optype str add.in0
+vertex LOD_60
+    attr optype str lod
+vertex MUL_44.in0
+    attr optype str mul.in0
+vertex ADD_37.out0
+    attr optype str add.out0
+vertex ADD_10.out0
+    attr optype str add.out0
+vertex ADD_39
+    attr optype str add
+vertex MUL_35.out0
+    attr optype str mul.out0
+vertex MUL_16
+    attr optype str mul
+vertex ADD_41.out0
+    attr optype str add.out0
+vertex ADD_41.in1
+    attr optype str add.in1
+vertex ADD_19.out0
+    attr optype str add.out0
+vertex MUL_52
+    attr optype str mul
+vertex ADD_23.in1
+    attr optype str add.in1
+vertex LOD_60.in0
+    attr optype str lod.in0
+vertex LOD_42.out0
+    attr optype str lod.out0
+vertex STR_50
+    attr optype str str
+vertex ADD_19
+    attr optype str add
+vertex ADD_57.in1
+    attr optype str add.in1
+vertex ADD_31.out0
+    attr optype str add.out0
+vertex __inserted_outport_0.out0
+vertex MUL_62
+    attr optype str mul
+vertex ADD_8.in0
+    attr optype str add.in0
+vertex ADD_10.in0
+    attr optype str add.in0
+vertex MUL_16.out0
+    attr optype str mul.out0
+vertex ADD_57.in0
+    attr optype str add.in0
+vertex STR_50.in0
+    attr optype str str.in0
+vertex ADD_23
+    attr optype str add
+vertex MUL_35
+    attr optype str mul
+vertex MUL_26.out0
+    attr optype str mul.out0
+vertex MUL_28.out0
+    attr optype str mul.out0
+vertex ADD_59.in1
+    attr optype str add.in1
+vertex LOD_11.out0
+    attr optype str lod.out0
+vertex LOD_24
+    attr optype str lod
+vertex __inserted_inport_0.out0
+vertex STR_50.in1
+    attr optype str str.in1
+vertex STR_50.out0
+    attr optype str str.out0
+vertex ADD_6.out0
+    attr optype str add.out0
+vertex ADD_55.out0
+    attr optype str add.out0
+vertex __inserted_outport_0.in0
+vertex MUL_62.in0
+    attr optype str mul.in0
+vertex ADD_57.out0
+    attr optype str add.out0
+net __inserted_outport_0 __inserted_outport_0.out0
+net ADD_21 ADD_21.out0
+net MUL_26.in0 MUL_26
+net MUL_3 MUL_3.out0
+net MUL_53 MUL_53.out0
+net MUL_44.in1 MUL_44
+net MUL_26 MUL_26.out0
+net MUL_26.in1 MUL_26
+net LOD_11 LOD_11.out0
+net MUL_44 MUL_44.out0
+net MUL_44.out0 STR_50.in0
+net ADD_41 ADD_41.out0
+net DIV_13.in0 DIV_13
+net DIV_13 DIV_13.out0
+net ADD_31.in0 ADD_31
+net MUL_62.out0 __inserted_outport_0.in0
+net MUL_17 MUL_17.out0
+net MUL_4.out0 ADD_8.in0
+net LOD_24.in0 LOD_24
+net ADD_10 ADD_10.out0
+net MUL_34.out0 ADD_41.in0
+net ADD_8.out0 ADD_10.in1
+net ADD_8 ADD_8.out0
+net LOD_24.out0 MUL_26.in1
+net ADD_59 ADD_59.out0
+net MUL_3.out0 ADD_10.in0
+net LOD_42.in0 LOD_42
+net ADD_59.out0 LOD_60.in0
+net LOD_60.out0 MUL_62.in1
+net LOD_11.in0 LOD_11
+net ADD_39.in1 ADD_39
+net MUL_53.out0 ADD_57.in0
+net ADD_10.in1 ADD_10
+net ADD_8.in1 ADD_8
+net ADD_59.in0 ADD_59
+net MUL_28 MUL_28.out0
+net ADD_57 ADD_57.out0
+net MUL_34 MUL_34.out0
+net DIV_13.out0 MUL_26.in0
+net DIV_13.out0 MUL_44.in0
+net DIV_13.out0 MUL_62.in0
+net MUL_52.out0 ADD_59.in0
+net ADD_31 ADD_31.out0
+net ADD_21.in0 ADD_21
+net ADD_6 ADD_6.out0
+net MUL_17.out0 ADD_21.in0
+net ADD_23.out0 LOD_24.in0
+net ADD_39.in0 ADD_39
+net ADD_21.in1 ADD_21
+net MUL_62.in1 MUL_62
+net ADD_55 ADD_55.out0
+net MUL_4 MUL_4.out0
+net __inserted_inport_0.in0 __inserted_inport_0
+net STR_32 STR_32.out0
+net __inserted_inport_0 __inserted_inport_0.out0
+net ADD_23.in0 ADD_23
+net LOD_42 LOD_42.out0
+net STR_32.in1 STR_32
+net STR_32.in0 STR_32
+net ADD_39.out0 ADD_41.in1
+net ADD_21.out0 ADD_23.in1
+net ADD_37 ADD_37.out0
+net ADD_41.in0 ADD_41
+net LOD_60 LOD_60.out0
+net MUL_44.in0 MUL_44
+net ADD_37.out0 ADD_39.in1
+net ADD_10.out0 LOD_11.in0
+net ADD_39 ADD_39.out0
+net MUL_35.out0 ADD_39.in0
+net MUL_16 MUL_16.out0
+net ADD_41.out0 LOD_42.in0
+net ADD_41.in1 ADD_41
+net ADD_19.out0 ADD_21.in1
+net MUL_52 MUL_52.out0
+net ADD_23.in1 ADD_23
+net LOD_60.in0 LOD_60
+net LOD_42.out0 MUL_44.in1
+net STR_50 STR_50.out0
+net ADD_19 ADD_19.out0
+net ADD_57.in1 ADD_57
+net ADD_31.out0 STR_32.in1
+net MUL_62 MUL_62.out0
+net ADD_8.in0 ADD_8
+net ADD_10.in0 ADD_10
+net MUL_16.out0 ADD_23.in0
+net ADD_57.in0 ADD_57
+net STR_50.in0 STR_50
+net ADD_23 ADD_23.out0
+net MUL_35 MUL_35.out0
+net MUL_26.out0 STR_32.in0
+net MUL_28.out0 ADD_31.in0
+net ADD_59.in1 ADD_59
+net LOD_11.out0 DIV_13.in0
+net LOD_24 LOD_24.out0
+net __inserted_inport_0.out0 STR_50.in1
+net STR_50.in1 STR_50
+net ADD_6.out0 ADD_8.in1
+net ADD_55.out0 ADD_57.in1
+net __inserted_outport_0.in0 __inserted_outport_0
+net MUL_62.in0 MUL_62
+net ADD_57.out0 ADD_59.in1

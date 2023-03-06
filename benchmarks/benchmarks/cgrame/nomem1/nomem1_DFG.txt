@@ -1,0 +1,39 @@
+vertex add4.in1
+vertex mul0
+vertex add4.in0
+vertex const1.out0
+vertex const5
+vertex output3.out0
+vertex add2.in1
+vertex output3.in0
+vertex mul0.in1
+vertex mul0.in0
+vertex output3
+vertex add2.out0
+vertex add2.in0
+vertex const5.out0
+vertex mul0.out0
+vertex const1
+vertex add4
+vertex add2
+vertex add4.out0
+edge mul0.out0 add2.in0
+edge add2.out0 output3.in0
+edge add2.out0 add2.in1
+edge add4.out0 mul0.in0
+edge add4.out0 add4.in0
+edge const1.out0 mul0.in1
+edge const5.out0 add4.in1
+edge add4.in1 add4
+edge add4.in0 add4
+edge const1 const1.out0
+edge output3 output3.out0
+edge add2.in1 add2
+edge output3.in0 output3
+edge mul0.in1 mul0
+edge mul0.in0 mul0
+edge add2 add2.out0
+edge add2.in0 add2
+edge const5 const5.out0
+edge mul0 mul0.out0
+edge add4 add4.out0

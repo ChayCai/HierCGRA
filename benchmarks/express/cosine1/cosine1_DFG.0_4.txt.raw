@@ -1,0 +1,88 @@
+attr __file__ str ./benchmarks/express/cosine1/cosine1_DFG.0_4.txt
+attr __name__ str ./benchmarks/express/cosine1/cosine1_DFG.0_4.txt
+vertex __inserted_outport_2.out0
+vertex __inserted_outport_2.in0
+vertex __inserted_outport_2
+vertex __inserted_outport_0.out0
+vertex __inserted_inport_3.in0
+vertex __inserted_inport_2.out0
+vertex __inserted_inport_2.in0
+vertex 64.in1
+vertex 73
+vertex 69
+vertex __inserted_outport_1.in0
+vertex 73.in1
+vertex __inserted_inport_1.in0
+vertex 69.in0
+vertex 73.out0
+vertex 69.out0
+vertex __inserted_inport_0.out0
+vertex 70
+vertex 74.in0
+vertex 40.in1
+vertex __inserted_outport_1
+vertex 40.in0
+vertex __inserted_outport_1.out0
+vertex 64.out0
+vertex __inserted_inport_3.out0
+vertex 64.in0
+vertex __inserted_inport_1
+vertex 74
+vertex 74.in1
+vertex 64
+vertex __inserted_inport_0.in0
+vertex 70.out0
+vertex __inserted_outport_0.in0
+vertex 74.out0
+vertex __inserted_outport_0
+vertex __inserted_inport_3
+vertex 40
+vertex 70.in0
+vertex __inserted_inport_0
+vertex 40.out0
+vertex __inserted_inport_1.out0
+vertex 73.in0
+vertex __inserted_inport_2
+net __inserted_outport_2.in0 __inserted_outport_2
+net __inserted_outport_2 __inserted_outport_2.out0
+net __inserted_inport_3.in0 __inserted_inport_3
+net __inserted_inport_2.out0 40.in0
+net __inserted_inport_2.in0 __inserted_inport_2
+net 64.in1 64
+net 73 73.out0
+net 69 69.out0
+net __inserted_outport_1.in0 __inserted_outport_1
+net 73.in1 73
+net __inserted_inport_1.in0 __inserted_inport_1
+net 69.in0 69
+net 73.out0 __inserted_outport_0.in0
+net 69.out0 73.in0
+net 69.out0 74.in0
+net __inserted_inport_0.out0 69.in0
+net 70 70.out0
+net 74.in0 74
+net 40.in1 40
+net __inserted_outport_1 __inserted_outport_1.out0
+net 40.in0 40
+net 64.out0 70.in0
+net __inserted_inport_3.out0 64.in0
+net 64.in0 64
+net __inserted_inport_1 __inserted_inport_1.out0
+net 74 74.out0
+net 74.in1 74
+net 64 64.out0
+net __inserted_inport_0.in0 __inserted_inport_0
+net 70.out0 73.in1
+net 70.out0 74.in1
+net __inserted_outport_0.in0 __inserted_outport_0
+net 74.out0 __inserted_outport_2.in0
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_3 __inserted_inport_3.out0
+net 40 40.out0
+net 70.in0 70
+net __inserted_inport_0 __inserted_inport_0.out0
+net 40.out0 64.in1
+net 40.out0 __inserted_outport_1.in0
+net __inserted_inport_1.out0 40.in1
+net 73.in0 73
+net __inserted_inport_2 __inserted_inport_2.out0

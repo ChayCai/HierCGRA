@@ -1,0 +1,34 @@
+vertex MUL_190.out0
+vertex MUL_190
+vertex MUL_124.out0
+vertex ADD_127.out0
+vertex ADD_127
+vertex ADD_193.out0
+vertex ADD_147
+vertex MUL_549.in0
+vertex MUL_549.out0
+vertex MUL_144
+vertex ADD_193
+vertex MUL_144.out0
+vertex ADD_147.out0
+vertex MUL_549.in1
+vertex ADD_193.in0
+vertex ADD_147.in0
+vertex ADD_127.in0
+vertex MUL_124
+vertex MUL_549
+net MUL_190.out0 ADD_193.in0
+net MUL_190 MUL_190.out0
+net MUL_124.out0 ADD_127.in0
+net ADD_127 ADD_127.out0
+net ADD_147 ADD_147.out0
+net MUL_549.in0 MUL_549
+net MUL_144 MUL_144.out0
+net ADD_193 ADD_193.out0
+net MUL_144.out0 ADD_147.in0
+net MUL_549.in1 MUL_549
+net ADD_193.in0 ADD_193
+net ADD_147.in0 ADD_147
+net ADD_127.in0 ADD_127
+net MUL_124 MUL_124.out0
+net MUL_549 MUL_549.out0

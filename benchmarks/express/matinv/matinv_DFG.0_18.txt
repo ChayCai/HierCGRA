@@ -1,0 +1,43 @@
+vertex ADD_573.out0
+vertex NEG_141.out0
+vertex NEG_141.in0
+vertex NEG_141
+vertex MUL_211.in0
+vertex MUL_570.out0
+vertex MUL_211.out0
+vertex MUL_45.in0
+vertex MUL_142.out0
+vertex MUL_45.out0
+vertex MUL_570
+vertex MUL_211.in1
+vertex MUL_45
+vertex MUL_142.in1
+vertex ADD_573.in0
+vertex MUL_142.in0
+vertex MUL_175.in0
+vertex MUL_142
+vertex MUL_175.out0
+vertex MUL_45.in1
+vertex MUL_175.in1
+vertex MUL_175
+vertex ADD_573
+vertex MUL_211
+net NEG_141.out0 MUL_142.in1
+net NEG_141.in0 NEG_141
+net NEG_141 NEG_141.out0
+net MUL_211.in0 MUL_211
+net MUL_570.out0 ADD_573.in0
+net MUL_45.in0 MUL_45
+net MUL_570 MUL_570.out0
+net MUL_211.in1 MUL_211
+net MUL_45 MUL_45.out0
+net MUL_142.in1 MUL_142
+net ADD_573.in0 ADD_573
+net MUL_142.in0 MUL_142
+net MUL_175.in0 MUL_175
+net MUL_142 MUL_142.out0
+net MUL_45.in1 MUL_45
+net MUL_175.in1 MUL_175
+net MUL_175 MUL_175.out0
+net ADD_573 ADD_573.out0
+net MUL_211 MUL_211.out0

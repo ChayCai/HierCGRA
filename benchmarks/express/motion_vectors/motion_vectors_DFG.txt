@@ -1,0 +1,276 @@
+vertex ADD_45.in0
+    attr optype str add.in0
+vertex ADD_61
+    attr optype str add
+vertex MUL_26
+    attr optype str mul
+vertex ADD_36.in1
+    attr optype str add.in1
+vertex ADD_32.out0
+    attr optype str add.out0
+vertex ADD_6.in0
+    attr optype str add.in0
+vertex ADD_22.in1
+    attr optype str add.in1
+vertex STR_64.out0
+    attr optype str str.out0
+vertex LOD_50
+    attr optype str lod
+vertex ADD_45.out0
+    attr optype str add.out0
+vertex ADD_8.in0
+    attr optype str add.in0
+vertex MUL_42.out0
+    attr optype str mul.out0
+vertex ADD_49.out0
+    attr optype str add.out0
+vertex ADD_6.out0
+    attr optype str add.out0
+vertex ADD_59.out0
+    attr optype str add.out0
+vertex MUL_39
+    attr optype str mul
+vertex ADD_22.in0
+    attr optype str add.in0
+vertex ADD_47.out0
+    attr optype str add.out0
+vertex ADD_18
+    attr optype str add
+vertex ADD_20
+    attr optype str add
+vertex MUL_15.out0
+    attr optype str mul.out0
+vertex ADD_49
+    attr optype str add
+vertex ADD_47.in1
+    attr optype str add.in1
+vertex LOD_50.out0
+    attr optype str lod.out0
+vertex ADD_47
+    attr optype str add
+vertex ADD_20.in0
+    attr optype str add.in0
+vertex ADD_63
+    attr optype str add
+vertex ADD_22.out0
+    attr optype str add.out0
+vertex MUL_42
+    attr optype str mul
+vertex STR_64.in1
+    attr optype str str.in1
+vertex ADD_63.out0
+    attr optype str add.out0
+vertex STR_37.in0
+    attr optype str str.in0
+vertex ADD_18.in0
+    attr optype str add.in0
+vertex MUL_40.out0
+    attr optype str mul.out0
+vertex ADD_32
+    attr optype str add
+vertex ADD_36.out0
+    attr optype str add.out0
+vertex MUL_40
+    attr optype str mul
+vertex MUL_1.out0
+    attr optype str mul.out0
+vertex ADD_6
+    attr optype str add
+vertex MUL_13
+    attr optype str mul
+vertex ADD_8.in1
+    attr optype str add.in1
+vertex MUL_12
+    attr optype str mul
+vertex ADD_61.out0
+    attr optype str add.out0
+vertex STR_64
+    attr optype str str
+vertex ADD_8.out0
+    attr optype str add.out0
+vertex ADD_47.in0
+    attr optype str add.in0
+vertex ADD_18.out0
+    attr optype str add.out0
+vertex MUL_53.out0
+    attr optype str mul.out0
+vertex ADD_20.out0
+    attr optype str add.out0
+vertex MUL_27
+    attr optype str mul
+vertex ADD_49.in1
+    attr optype str add.in1
+vertex LOD_23.out0
+    attr optype str lod.out0
+vertex LOD_23
+    attr optype str lod
+vertex MUL_12.out0
+    attr optype str mul.out0
+vertex MUL_53
+    attr optype str mul
+vertex ADD_36
+    attr optype str add
+vertex ADD_45
+    attr optype str add
+vertex ADD_59
+    attr optype str add
+vertex STR_37.in1
+    attr optype str str.in1
+vertex ADD_61.in1
+    attr optype str add.in1
+vertex MUL_56
+    attr optype str mul
+vertex MUL_56.out0
+    attr optype str mul.out0
+vertex ADD_63.in1
+    attr optype str add.in1
+vertex ADD_32.in0
+    attr optype str add.in0
+vertex ADD_59.in0
+    attr optype str add.in0
+vertex ADD_61.in0
+    attr optype str add.in0
+vertex ADD_8
+    attr optype str add
+vertex MUL_54
+    attr optype str mul
+vertex ADD_36.in0
+    attr optype str add.in0
+vertex LOD_23.in0
+    attr optype str lod.in0
+vertex ADD_22
+    attr optype str add
+vertex MUL_13.out0
+    attr optype str mul.out0
+vertex MUL_3.out0
+    attr optype str mul.out0
+vertex MUL_27.out0
+    attr optype str mul.out0
+vertex MUL_26.out0
+    attr optype str mul.out0
+vertex ADD_63.in0
+    attr optype str add.in0
+vertex STR_37
+    attr optype str str
+vertex ADD_49.in0
+    attr optype str add.in0
+vertex ADD_34.in0
+    attr optype str add.in0
+vertex LOD_50.in0
+    attr optype str lod.in0
+vertex MUL_1
+    attr optype str mul
+vertex MUL_15
+    attr optype str mul
+vertex MUL_39.out0
+    attr optype str mul.out0
+vertex STR_64.in0
+    attr optype str str.in0
+vertex ADD_20.in1
+    attr optype str add.in1
+vertex ADD_34.in1
+    attr optype str add.in1
+vertex MUL_3
+    attr optype str mul
+vertex STR_37.out0
+    attr optype str str.out0
+vertex MUL_29
+    attr optype str mul
+vertex MUL_29.out0
+    attr optype str mul.out0
+vertex MUL_54.out0
+    attr optype str mul.out0
+vertex ADD_34.out0
+    attr optype str add.out0
+vertex ADD_34
+    attr optype str add
+edge MUL_1.out0 ADD_8.in0
+edge MUL_3.out0 ADD_6.in0
+edge ADD_6.out0 ADD_8.in1
+edge MUL_12.out0 ADD_22.in0
+edge MUL_13.out0 ADD_20.in0
+edge MUL_15.out0 ADD_18.in0
+edge ADD_18.out0 ADD_20.in1
+edge ADD_20.out0 ADD_22.in1
+edge ADD_22.out0 LOD_23.in0
+edge LOD_23.out0 STR_37.in0
+edge MUL_26.out0 ADD_36.in0
+edge MUL_27.out0 ADD_34.in0
+edge MUL_29.out0 ADD_32.in0
+edge ADD_32.out0 ADD_34.in1
+edge ADD_34.out0 ADD_36.in1
+edge ADD_36.out0 STR_37.in1
+edge MUL_39.out0 ADD_49.in0
+edge MUL_40.out0 ADD_47.in0
+edge MUL_42.out0 ADD_45.in0
+edge ADD_45.out0 ADD_47.in1
+edge ADD_47.out0 ADD_49.in1
+edge ADD_49.out0 LOD_50.in0
+edge LOD_50.out0 STR_64.in0
+edge MUL_53.out0 ADD_63.in0
+edge MUL_54.out0 ADD_61.in0
+edge MUL_56.out0 ADD_59.in0
+edge ADD_59.out0 ADD_61.in1
+edge ADD_61.out0 ADD_63.in1
+edge ADD_63.out0 STR_64.in1
+edge ADD_45.in0 ADD_45
+edge ADD_36.in1 ADD_36
+edge ADD_32 ADD_32.out0
+edge ADD_6.in0 ADD_6
+edge ADD_22.in1 ADD_22
+edge STR_64 STR_64.out0
+edge ADD_45 ADD_45.out0
+edge ADD_8.in0 ADD_8
+edge MUL_42 MUL_42.out0
+edge ADD_49 ADD_49.out0
+edge ADD_6 ADD_6.out0
+edge ADD_59 ADD_59.out0
+edge ADD_22.in0 ADD_22
+edge ADD_47 ADD_47.out0
+edge MUL_15 MUL_15.out0
+edge ADD_47.in1 ADD_47
+edge LOD_50 LOD_50.out0
+edge ADD_20.in0 ADD_20
+edge ADD_22 ADD_22.out0
+edge STR_64.in1 STR_64
+edge ADD_63 ADD_63.out0
+edge STR_37.in0 STR_37
+edge ADD_18.in0 ADD_18
+edge MUL_40 MUL_40.out0
+edge ADD_36 ADD_36.out0
+edge MUL_1 MUL_1.out0
+edge ADD_8.in1 ADD_8
+edge ADD_61 ADD_61.out0
+edge ADD_8 ADD_8.out0
+edge ADD_47.in0 ADD_47
+edge ADD_18 ADD_18.out0
+edge MUL_53 MUL_53.out0
+edge ADD_20 ADD_20.out0
+edge ADD_49.in1 ADD_49
+edge LOD_23 LOD_23.out0
+edge MUL_12 MUL_12.out0
+edge STR_37.in1 STR_37
+edge ADD_61.in1 ADD_61
+edge MUL_56 MUL_56.out0
+edge ADD_63.in1 ADD_63
+edge ADD_32.in0 ADD_32
+edge ADD_59.in0 ADD_59
+edge ADD_61.in0 ADD_61
+edge ADD_36.in0 ADD_36
+edge LOD_23.in0 LOD_23
+edge MUL_13 MUL_13.out0
+edge MUL_3 MUL_3.out0
+edge MUL_27 MUL_27.out0
+edge MUL_26 MUL_26.out0
+edge ADD_63.in0 ADD_63
+edge ADD_49.in0 ADD_49
+edge ADD_34.in0 ADD_34
+edge LOD_50.in0 LOD_50
+edge MUL_39 MUL_39.out0
+edge STR_64.in0 STR_64
+edge ADD_20.in1 ADD_20
+edge ADD_34.in1 ADD_34
+edge STR_37 STR_37.out0
+edge MUL_29 MUL_29.out0
+edge MUL_54 MUL_54.out0
+edge ADD_34 ADD_34.out0

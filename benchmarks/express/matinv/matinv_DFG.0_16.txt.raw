@@ -1,0 +1,104 @@
+attr __file__ str ./benchmarks/express/matinv/matinv_DFG.0_16.txt
+attr __name__ str ./benchmarks/express/matinv/matinv_DFG.0_16.txt
+vertex __inserted_outport_1.out0
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_inport_5.out0
+vertex __inserted_inport_5.in0
+vertex __inserted_inport_5
+vertex __inserted_inport_4.out0
+vertex __inserted_outport_1.in0
+vertex __inserted_inport_4.in0
+vertex __inserted_inport_4
+vertex __inserted_inport_3.out0
+vertex __inserted_inport_3.in0
+vertex __inserted_inport_2.in0
+vertex __inserted_inport_1.out0
+vertex __inserted_inport_1.in0
+vertex __inserted_inport_0.out0
+vertex __inserted_inport_0.in0
+vertex __inserted_outport_1
+vertex MUL_481.in1
+vertex __inserted_inport_1
+vertex ADD_499
+vertex SUB_490.in0
+vertex MUL_501.out0
+vertex SUB_490.out0
+vertex MUL_498
+vertex MUL_481.in0
+vertex __inserted_inport_2.out0
+vertex MUL_501.in1
+vertex __inserted_inport_2
+vertex NEG_500
+vertex MUL_481.out0
+vertex ADD_499.out0
+vertex MUL_481
+vertex MUL_501.in0
+vertex MUL_498.in0
+vertex MUL_498.in1
+vertex SUB_490
+vertex NEG_500.out0
+vertex MUL_501
+vertex NEG_500.in0
+vertex ADD_499.in1
+vertex ADD_208.out0
+vertex ADD_499.in0
+vertex SUB_490.in1
+vertex __inserted_outport_0
+vertex __inserted_inport_3
+vertex ADD_208.in0
+vertex MUL_205.out0
+vertex ADD_208
+vertex MUL_498.out0
+vertex MUL_205
+vertex __inserted_inport_0
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_inport_5.out0 SUB_490.in1
+net __inserted_inport_5.in0 __inserted_inport_5
+net __inserted_inport_5 __inserted_inport_5.out0
+net __inserted_inport_4.out0 MUL_498.in0
+net __inserted_outport_1.in0 __inserted_outport_1
+net __inserted_inport_4.in0 __inserted_inport_4
+net __inserted_inport_4 __inserted_inport_4.out0
+net __inserted_inport_3.out0 MUL_498.in1
+net __inserted_inport_3.in0 __inserted_inport_3
+net __inserted_inport_2.in0 __inserted_inport_2
+net __inserted_inport_1.out0 MUL_481.in0
+net __inserted_inport_1.in0 __inserted_inport_1
+net __inserted_inport_0.out0 MUL_481.in1
+net __inserted_inport_0.in0 __inserted_inport_0
+net __inserted_outport_1 __inserted_outport_1.out0
+net MUL_481.in1 MUL_481
+net __inserted_inport_1 __inserted_inport_1.out0
+net ADD_499 ADD_499.out0
+net SUB_490.in0 SUB_490
+net MUL_501.out0 __inserted_outport_0.in0
+net SUB_490.out0 ADD_499.in0
+net MUL_498 MUL_498.out0
+net MUL_481.in0 MUL_481
+net __inserted_inport_2.out0 MUL_501.in0
+net MUL_501.in1 MUL_501
+net __inserted_inport_2 __inserted_inport_2.out0
+net NEG_500 NEG_500.out0
+net MUL_481.out0 SUB_490.in0
+net ADD_499.out0 NEG_500.in0
+net MUL_481 MUL_481.out0
+net MUL_501.in0 MUL_501
+net MUL_498.in0 MUL_498
+net MUL_498.in1 MUL_498
+net SUB_490 SUB_490.out0
+net NEG_500.out0 MUL_501.in1
+net MUL_501 MUL_501.out0
+net NEG_500.in0 NEG_500
+net ADD_499.in1 ADD_499
+net ADD_208.out0 __inserted_outport_1.in0
+net ADD_499.in0 ADD_499
+net SUB_490.in1 SUB_490
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_3 __inserted_inport_3.out0
+net ADD_208.in0 ADD_208
+net MUL_205.out0 ADD_208.in0
+net ADD_208 ADD_208.out0
+net MUL_498.out0 ADD_499.in1
+net MUL_205 MUL_205.out0
+net __inserted_inport_0 __inserted_inport_0.out0

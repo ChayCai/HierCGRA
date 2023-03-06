@@ -1,0 +1,15 @@
+Pack
+Pack SUCCESS
+Partition
+Partition SUCCESS
+PlaceCore
+8 threads is running for placeCore
+8 threads is running for placeCoretmul/matmul_DFG_part0.txt success. 
+placeCore: ./benchmarks/express/matmul/matmul_DFG_part1.txt success. 
+placeCore: ./benchmarks/express/matmul/matmul_DFG_part1.txt success.
+placeCore: ./benchmarks/express/matmul/matmul_DFG_part1.txt success.
+4 threads is running for placeCorePlaceCore SUCCESSart1.txt success.
+PlaceTop
+8 threads is running for placeTop
+placeTop: success. PlaceTop SUCCESS
+[ ./benchmarks/express/matmul/matmul_DFG.txt ] Mapping Time: 95.168625 s

@@ -1,0 +1,4 @@
+66.in0 MUL1.in0
+66.in1 MUL1.in1
+66 MUL1
+66.out0 MUL1.out0

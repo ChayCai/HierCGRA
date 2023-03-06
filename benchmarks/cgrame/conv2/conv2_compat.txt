@@ -1,0 +1,16 @@
+mul13 ALU
+const4 CONST IO
+add12 ALU
+const8 CONST IO
+add5 ALU
+load2 MEM
+mul10 ALU
+load9 MEM
+const6 CONST IO
+const11 CONST IO
+mul0 ALU
+const14 CONST IO
+const1 CONST IO
+store15 MEM
+mul7 ALU
+mul3 ALU

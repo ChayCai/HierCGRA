@@ -1,0 +1,75 @@
+attr __file__ str ./benchmarks/express/ewf/ewf_DFG.0_1.txt
+attr __name__ str ./benchmarks/express/ewf/ewf_DFG.0_1.txt
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_inport_1
+vertex __inserted_inport_0.out0
+vertex ADD_17.out0
+vertex __inserted_inport_1.in0
+vertex ADD_34.out0
+vertex ADD_20
+vertex ADD_12.in0
+vertex __inserted_inport_1.out0
+vertex ADD_34
+vertex ADD_34.in0
+vertex ADD_32
+vertex MUL_28.in0
+vertex MUL_28
+vertex ADD_12
+vertex ADD_32.in0
+vertex ADD_12.in1
+vertex ADD_20.in0
+vertex ADD_24.in0
+vertex ADD_32.out0
+vertex ADD_17.in0
+vertex ADD_24.out0
+vertex MUL_15.in0
+vertex ADD_12.out0
+vertex __inserted_outport_0
+vertex ADD_20.in1
+vertex MUL_28.out0
+vertex MUL_15
+vertex ADD_17
+vertex ADD_24
+vertex MUL_15.out0
+vertex ADD_20.out0
+vertex __inserted_inport_0.in0
+vertex ADD_34.in1
+vertex __inserted_inport_0
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_inport_1 __inserted_inport_1.out0
+net __inserted_inport_0.out0 ADD_12.in0
+net ADD_17.out0 ADD_20.in1
+net ADD_17.out0 __inserted_outport_0.in0
+net __inserted_inport_1.in0 __inserted_inport_1
+net ADD_20 ADD_20.out0
+net ADD_12.in0 ADD_12
+net __inserted_inport_1.out0 ADD_20.in0
+net __inserted_inport_1.out0 ADD_12.in1
+net ADD_34 ADD_34.out0
+net ADD_34.in0 ADD_34
+net ADD_32 ADD_32.out0
+net MUL_28.in0 MUL_28
+net MUL_28 MUL_28.out0
+net ADD_12 ADD_12.out0
+net ADD_32.in0 ADD_32
+net ADD_12.in1 ADD_12
+net ADD_20.in0 ADD_20
+net ADD_24.in0 ADD_24
+net ADD_32.out0 ADD_34.in1
+net ADD_17.in0 ADD_17
+net ADD_24.out0 MUL_28.in0
+net ADD_24.out0 ADD_34.in0
+net MUL_15.in0 MUL_15
+net ADD_12.out0 MUL_15.in0
+net __inserted_outport_0 __inserted_outport_0.out0
+net ADD_20.in1 ADD_20
+net MUL_28.out0 ADD_32.in0
+net MUL_15 MUL_15.out0
+net ADD_17 ADD_17.out0
+net ADD_24 ADD_24.out0
+net MUL_15.out0 ADD_17.in0
+net ADD_20.out0 ADD_24.in0
+net __inserted_inport_0.in0 __inserted_inport_0
+net ADD_34.in1 ADD_34
+net __inserted_inport_0 __inserted_inport_0.out0

@@ -1,0 +1,204 @@
+attr __file__ str ./benchmarks/standard/bitcount/bitcount_DFG.0_1.txt
+attr __name__ str ./benchmarks/standard/bitcount/bitcount_DFG.0_1.txt
+vertex __inserted_outport_4.in0
+vertex __inserted_outport_4
+vertex __inserted_outport_2.in0
+vertex __inserted_outport_1.in0
+vertex __inserted_outport_1
+vertex __inserted_outport_0
+vertex __inserted_inport_10
+vertex __inserted_inport_10.in0
+vertex __inserted_inport_8
+vertex __inserted_outport_1.out0
+vertex __inserted_outport_0.out0
+vertex __inserted_inport_7.out0
+vertex __inserted_inport_6
+vertex __inserted_inport_5.out0
+vertex __inserted_inport_5.in0
+vertex __inserted_inport_5
+vertex __inserted_outport_3.in0
+vertex __inserted_inport_4.out0
+vertex __inserted_inport_4.in0
+vertex __inserted_inport_4
+vertex __inserted_inport_3.in0
+vertex __inserted_inport_2.out0
+vertex __inserted_outport_2.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_inport_2.in0
+vertex and8
+vertex and6.in1
+vertex add1
+vertex add4.out0
+vertex add0.in0
+vertex and8.in1
+vertex __inserted_inport_0.out0
+vertex add1.out0
+vertex and6.in0
+vertex and4.in1
+vertex and2.out0
+vertex __inserted_inport_7
+vertex and7
+vertex and7.in0
+vertex add3.in1
+vertex add0.in1
+vertex __inserted_inport_1
+vertex and5
+vertex __inserted_inport_10.out0
+vertex and1.in0
+vertex add3
+vertex and1.out0
+vertex __inserted_outport_3.out0
+vertex __inserted_inport_9
+vertex and5.out0
+vertex and1
+vertex __inserted_inport_3.out0
+vertex and5.in0
+vertex and1.in1
+vertex and6
+vertex and3.out0
+vertex and3
+vertex __inserted_inport_2
+vertex __inserted_inport_6.in0
+vertex add4
+vertex add2
+vertex and7.in1
+vertex __inserted_outport_4.out0
+vertex __inserted_inport_7.in0
+vertex add1.in0
+vertex and7.out0
+vertex and6.out0
+vertex __inserted_inport_9.in0
+vertex and8.out0
+vertex add4.in0
+vertex __inserted_outport_2
+vertex add0
+vertex add3.in0
+vertex and4.in0
+vertex and3.in0
+vertex __inserted_inport_9.out0
+vertex __inserted_inport_8.out0
+vertex __inserted_inport_6.out0
+vertex and2
+vertex and4.out0
+vertex and2.in0
+vertex and4
+vertex and3.in1
+vertex __inserted_inport_3
+vertex add2.in0
+vertex and2.in1
+vertex add2.in1
+vertex add4.in1
+vertex and5.in1
+vertex __inserted_outport_3
+vertex __inserted_inport_8.in0
+vertex and8.in0
+vertex add2.out0
+vertex add1.in1
+vertex __inserted_inport_1.out0
+vertex __inserted_inport_0
+vertex add0.out0
+vertex __inserted_inport_0.in0
+vertex add3.out0
+vertex __inserted_inport_1.in0
+net __inserted_outport_4.in0 __inserted_outport_4
+net __inserted_outport_4 __inserted_outport_4.out0
+net __inserted_outport_2.in0 __inserted_outport_2
+net __inserted_outport_1.in0 __inserted_outport_1
+net __inserted_outport_1 __inserted_outport_1.out0
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_10 __inserted_inport_10.out0
+net __inserted_inport_10.in0 __inserted_inport_10
+net __inserted_inport_8 __inserted_inport_8.out0
+net __inserted_inport_7.out0 and2.in0
+net __inserted_inport_6 __inserted_inport_6.out0
+net __inserted_inport_5.out0 and4.in0
+net __inserted_inport_5.in0 __inserted_inport_5
+net __inserted_inport_5 __inserted_inport_5.out0
+net __inserted_outport_3.in0 __inserted_outport_3
+net __inserted_inport_4.out0 and7.in1
+net __inserted_inport_4.out0 and6.in1
+net __inserted_inport_4.in0 __inserted_inport_4
+net __inserted_inport_4 __inserted_inport_4.out0
+net __inserted_inport_3.in0 __inserted_inport_3
+net __inserted_inport_2.out0 and1.in1
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_inport_2.in0 __inserted_inport_2
+net and8 and8.out0
+net and6.in1 and6
+net add1 add1.out0
+net add4.out0 __inserted_outport_0.in0
+net add0.in0 add0
+net and8.in1 and8
+net __inserted_inport_0.out0 and8.in1
+net add1.out0 and5.in0
+net add1.out0 __inserted_outport_3.in0
+net and6.in0 and6
+net and4.in1 and4
+net and2.out0 add1.in0
+net __inserted_inport_7 __inserted_inport_7.out0
+net and7 and7.out0
+net and7.in0 and7
+net add3.in1 add3
+net add0.in1 add0
+net __inserted_inport_1 __inserted_inport_1.out0
+net and5 and5.out0
+net __inserted_inport_10.out0 and5.in1
+net __inserted_inport_10.out0 and4.in1
+net and1.in0 and1
+net add3 add3.out0
+net and1.out0 add0.in1
+net __inserted_inport_9 __inserted_inport_9.out0
+net and5.out0 add2.in1
+net and1 and1.out0
+net __inserted_inport_3.out0 and1.in0
+net and5.in0 and5
+net and1.in1 and1
+net and6 and6.out0
+net and3.out0 add1.in1
+net and3 and3.out0
+net __inserted_inport_2 __inserted_inport_2.out0
+net __inserted_inport_6.in0 __inserted_inport_6
+net add4 add4.out0
+net add2 add2.out0
+net and7.in1 and7
+net __inserted_inport_7.in0 __inserted_inport_7
+net add1.in0 add1
+net and7.out0 add3.in1
+net and6.out0 add3.in0
+net __inserted_inport_9.in0 __inserted_inport_9
+net and8.out0 add4.in1
+net add4.in0 add4
+net __inserted_outport_2 __inserted_outport_2.out0
+net add0 add0.out0
+net add3.in0 add3
+net and4.in0 and4
+net and3.in0 and3
+net __inserted_inport_9.out0 and2.in1
+net __inserted_inport_9.out0 and3.in1
+net __inserted_inport_8.out0 add0.in0
+net __inserted_inport_6.out0 add4.in0
+net and2 and2.out0
+net and4.out0 add2.in0
+net and2.in0 and2
+net and4 and4.out0
+net and3.in1 and3
+net __inserted_inport_3 __inserted_inport_3.out0
+net add2.in0 add2
+net and2.in1 and2
+net add2.in1 add2
+net add4.in1 add4
+net and5.in1 and5
+net __inserted_outport_3 __inserted_outport_3.out0
+net __inserted_inport_8.in0 __inserted_inport_8
+net and8.in0 and8
+net add2.out0 and7.in0
+net add2.out0 __inserted_outport_4.in0
+net add1.in1 add1
+net __inserted_inport_1.out0 and6.in0
+net __inserted_inport_0 __inserted_inport_0.out0
+net add0.out0 and3.in0
+net add0.out0 __inserted_outport_2.in0
+net __inserted_inport_0.in0 __inserted_inport_0
+net add3.out0 and8.in0
+net add3.out0 __inserted_outport_1.in0
+net __inserted_inport_1.in0 __inserted_inport_1

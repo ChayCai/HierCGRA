@@ -1,0 +1,20 @@
+Pack
+Pack SUCCESS
+Partition
+Partition SUCCESS
+PlaceCore
+8 threads is running for placeCore
+placeCore: ./benchmarks/express/cosine1/cosine1_DFG_part0.txt success.
+placeCore: ./benchmarks/express/cosine1/cosine1_DFG_part0.txt success.
+placeCore: ./benchmarks/express/cosine1/cosine1_DFG_part0.txt success.
+placeCore: ./benchmarks/express/cosine1/cosine1_DFG_part0.txt success.
+placeCore: ./benchmarks/express/cosine1/cosine1_DFG_part0.txt success.
+placeCore: ./benchmarks/express/cosine1/cosine1_DFG_part0.txt success.
+placeCore: ./benchmarks/express/cosine1/cosine1_DFG_part0.txt success.
+placeCore: ./benchmarks/express/cosine1/cosine1_DFG_part0.txt success.
+PlaceCore SUCCESS
+PlaceTop
+8 threads is running for placeTop
+placeTop: success.
+PlaceTop SUCCESS
+[ ./benchmarks/express/cosine1/cosine1_DFG.txt ] Mapping Time: 219.265948 s

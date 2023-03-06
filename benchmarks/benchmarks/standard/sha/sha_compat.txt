@@ -1,0 +1,21 @@
+input_constint31 INPUT
+or2 ALU
+add11 ADD ALU
+add9 ADD ALU
+and1 ALU
+load11 MEM
+input_constint15 INPUT
+shl2 ALU
+xor4 ALU
+or1 ALU
+input_constint33 INPUT
+lshr1 ALU
+add12 ADD ALU
+and0 ALU
+shl1 ALU
+lshr2 ALU
+input_constint32 INPUT
+input_constint5 INPUT
+add10 ADD ALU
+input_constint30 INPUT
+or0 ALU

@@ -1,0 +1,19 @@
+vertex MUL_23.out0
+vertex MUL_23.in0
+vertex ADD_26.in1
+vertex ADD_26
+vertex MUL_23
+vertex ADD_26.in0
+vertex MUL_24.out0
+vertex ADD_26.out0
+vertex MUL_24
+vertex MUL_24.in0
+net MUL_23.out0 ADD_26.in0
+net MUL_23.in0 MUL_23
+net ADD_26.in1 ADD_26
+net ADD_26 ADD_26.out0
+net MUL_23 MUL_23.out0
+net ADD_26.in0 ADD_26
+net MUL_24.out0 ADD_26.in1
+net MUL_24 MUL_24.out0
+net MUL_24.in0 MUL_24

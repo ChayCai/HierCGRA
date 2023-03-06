@@ -1,0 +1,24 @@
+vertex MUL_566.in1
+vertex ADD_563.in0
+vertex ADD_563
+vertex ADD_567.out0
+vertex ADD_567.in0
+vertex ADD_567
+vertex MUL_566.in0
+vertex ADD_567.in1
+vertex MUL_566
+vertex MUL_566.out0
+vertex MUL_560.out0
+vertex ADD_563.out0
+vertex MUL_560
+net MUL_566.in1 MUL_566
+net ADD_563.in0 ADD_563
+net ADD_563 ADD_563.out0
+net ADD_567.in0 ADD_567
+net ADD_567 ADD_567.out0
+net MUL_566.in0 MUL_566
+net ADD_567.in1 ADD_567
+net MUL_566 MUL_566.out0
+net MUL_566.out0 ADD_567.in1
+net MUL_560.out0 ADD_563.in0
+net MUL_560 MUL_560.out0

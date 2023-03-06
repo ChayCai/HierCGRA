@@ -1,0 +1,5 @@
+attr __file__ str ./benchmarks/express/matmul/matmul_DFG.1_1.txt
+attr __name__ str ./benchmarks/express/matmul/matmul_DFG.1_1.txt
+vertex ADD_206.out0
+vertex ADD_206
+net ADD_206 ADD_206.out0

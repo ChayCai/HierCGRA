@@ -1,0 +1,42 @@
+vertex ADD_69.out0
+vertex ADD_69.in0
+vertex ADD_69
+vertex MUL_66.out0
+vertex MUL_66
+vertex ADD_113
+vertex ADD_113.out0
+vertex ADD_304
+vertex ADD_304.out0
+vertex MUL_110.out0
+vertex SUB_244.in0
+vertex SUB_244.out0
+vertex MUL_243.in0
+vertex MUL_243
+vertex MUL_301.out0
+vertex SUB_244.in1
+vertex MUL_243.out0
+vertex ADD_113.in0
+vertex SUB_244
+vertex MUL_301
+vertex MUL_243.in1
+vertex MUL_110
+vertex ADD_304.in0
+net ADD_69.in0 ADD_69
+net ADD_69 ADD_69.out0
+net MUL_66.out0 ADD_69.in0
+net MUL_66 MUL_66.out0
+net ADD_113 ADD_113.out0
+net ADD_304 ADD_304.out0
+net MUL_110.out0 ADD_113.in0
+net SUB_244.in0 SUB_244
+net MUL_243.in0 MUL_243
+net MUL_243 MUL_243.out0
+net MUL_301.out0 ADD_304.in0
+net SUB_244.in1 SUB_244
+net MUL_243.out0 SUB_244.in1
+net ADD_113.in0 ADD_113
+net SUB_244 SUB_244.out0
+net MUL_301 MUL_301.out0
+net MUL_243.in1 MUL_243
+net MUL_110 MUL_110.out0
+net ADD_304.in0 ADD_304

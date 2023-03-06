@@ -1,0 +1,78 @@
+attr __file__ str ./benchmarks/standard/cap/cap_DFG.0_0.txt
+attr __name__ str ./benchmarks/standard/cap/cap_DFG.0_0.txt
+vertex __inserted_outport_0.in0
+vertex __inserted_inport_4.out0
+vertex __inserted_inport_4.in0
+vertex __inserted_inport_4
+vertex __inserted_inport_3.out0
+vertex __inserted_inport_3.in0
+vertex __inserted_outport_0.out0
+vertex ashr1
+vertex ashr0.out0
+vertex mul5
+vertex mul3
+vertex __inserted_inport_0.out0
+vertex mul3.in1
+vertex mul5.out0
+vertex __inserted_inport_1.out0
+vertex mul4.in0
+vertex mul4.out0
+vertex mul4.in1
+vertex mul3.out0
+vertex ashr0.in1
+vertex mul4
+vertex ashr1.in0
+vertex ashr1.out0
+vertex mul3.in0
+vertex ashr1.in1
+vertex __inserted_inport_2.in0
+vertex ashr0.in0
+vertex ashr0
+vertex __inserted_outport_0
+vertex __inserted_inport_3
+vertex mul5.in0
+vertex __inserted_inport_0
+vertex __inserted_inport_0.in0
+vertex __inserted_inport_1
+vertex mul5.in1
+vertex __inserted_inport_1.in0
+vertex __inserted_inport_2
+vertex __inserted_inport_2.out0
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_inport_4.out0 ashr0.in0
+net __inserted_inport_4.in0 __inserted_inport_4
+net __inserted_inport_4 __inserted_inport_4.out0
+net __inserted_inport_3.out0 ashr1.in1
+net __inserted_inport_3.out0 ashr0.in1
+net __inserted_inport_3.in0 __inserted_inport_3
+net ashr1 ashr1.out0
+net ashr0.out0 mul4.in1
+net mul5 mul5.out0
+net mul3 mul3.out0
+net __inserted_inport_0.out0 mul3.in1
+net mul3.in1 mul3
+net mul5.out0 __inserted_outport_0.in0
+net __inserted_inport_1.out0 ashr1.in0
+net mul4.in0 mul4
+net mul4.out0 mul5.in0
+net mul4.in1 mul4
+net mul3.out0 mul4.in0
+net ashr0.in1 ashr0
+net mul4 mul4.out0
+net ashr1.in0 ashr1
+net ashr1.out0 mul5.in1
+net mul3.in0 mul3
+net ashr1.in1 ashr1
+net __inserted_inport_2.in0 __inserted_inport_2
+net ashr0.in0 ashr0
+net ashr0 ashr0.out0
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_3 __inserted_inport_3.out0
+net mul5.in0 mul5
+net __inserted_inport_0 __inserted_inport_0.out0
+net __inserted_inport_0.in0 __inserted_inport_0
+net __inserted_inport_1 __inserted_inport_1.out0
+net mul5.in1 mul5
+net __inserted_inport_1.in0 __inserted_inport_1
+net __inserted_inport_2 __inserted_inport_2.out0
+net __inserted_inport_2.out0 mul3.in0

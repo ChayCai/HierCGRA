@@ -1,0 +1,15 @@
+vertex 6
+vertex 6.in1
+vertex 6.in0
+vertex 6.out0
+vertex 26.in1
+vertex 26.in0
+vertex 26.out0
+vertex 26
+net 6 6.out0
+net 6.in1 6
+net 6.in0 6
+net 6.out0 26.in0
+net 26.in1 26
+net 26.in0 26
+net 26 26.out0

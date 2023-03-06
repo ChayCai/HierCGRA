@@ -1,0 +1,21 @@
+or2 ALU
+shl2 ALU
+input_constint1 INPUT
+input_constint3 INPUT
+lshr0 ALU
+xor0 ALU
+shl3 ALU
+and0 ALU
+input_constint4 INPUT
+or0 ALU
+input_constint5 INPUT
+input_constint7 INPUT
+add0 ADD ALU
+shl0 ALU
+or1 ALU
+input_constint2 INPUT
+icmp0 ALU
+sub0 SUB ALU
+input_constint6 INPUT
+select0 ALU
+shl1 ALU

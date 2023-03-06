@@ -1,0 +1,83 @@
+attr __file__ str ./benchmarks/express/matmul/matmul_DFG.0_6.txt
+attr __name__ str ./benchmarks/express/matmul/matmul_DFG.0_6.txt
+vertex __inserted_outport_2.out0
+vertex __inserted_outport_2.in0
+vertex __inserted_outport_1.in0
+vertex __inserted_outport_1
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_outport_0
+vertex __inserted_inport_2.in0
+vertex __inserted_outport_2
+vertex ADD_156.out0
+vertex ADD_32
+vertex MUL_69
+vertex MUL_157
+vertex MUL_157.in0
+vertex __inserted_outport_1.out0
+vertex ADD_156
+vertex MUL_157.out0
+vertex ADD_70
+vertex ADD_70.out0
+vertex __inserted_inport_1.out0
+vertex ADD_28.out0
+vertex __inserted_inport_1.in0
+vertex __inserted_inport_2
+vertex MUL_29.out0
+vertex ADD_28
+vertex __inserted_inport_2.out0
+vertex ADD_160.out0
+vertex ADD_32.in0
+vertex MUL_69.out0
+vertex MUL_29.in0
+vertex ADD_160
+vertex MUL_69.in1
+vertex MUL_29
+vertex ADD_160.in0
+vertex ADD_32.out0
+vertex MUL_69.in0
+vertex ADD_70.in1
+vertex __inserted_inport_0
+vertex ADD_70.in0
+vertex __inserted_inport_0.in0
+vertex __inserted_inport_0.out0
+vertex __inserted_inport_1
+net __inserted_outport_2.in0 __inserted_outport_2
+net __inserted_outport_1.in0 __inserted_outport_1
+net __inserted_outport_1 __inserted_outport_1.out0
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_2.in0 __inserted_inport_2
+net __inserted_outport_2 __inserted_outport_2.out0
+net ADD_156.out0 MUL_157.in0
+net ADD_32 ADD_32.out0
+net MUL_69 MUL_69.out0
+net MUL_157 MUL_157.out0
+net MUL_157.in0 MUL_157
+net ADD_156 ADD_156.out0
+net MUL_157.out0 ADD_160.in0
+net ADD_70 ADD_70.out0
+net ADD_70.out0 __inserted_outport_0.in0
+net __inserted_inport_1.out0 MUL_69.in1
+net ADD_28.out0 MUL_29.in0
+net __inserted_inport_1.in0 __inserted_inport_1
+net __inserted_inport_2 __inserted_inport_2.out0
+net MUL_29.out0 ADD_32.in0
+net ADD_28 ADD_28.out0
+net __inserted_inport_2.out0 MUL_69.in0
+net ADD_160.out0 __inserted_outport_1.in0
+net ADD_32.in0 ADD_32
+net MUL_69.out0 ADD_70.in1
+net MUL_29.in0 MUL_29
+net ADD_160 ADD_160.out0
+net MUL_69.in1 MUL_69
+net MUL_29 MUL_29.out0
+net ADD_160.in0 ADD_160
+net ADD_32.out0 __inserted_outport_2.in0
+net MUL_69.in0 MUL_69
+net ADD_70.in1 ADD_70
+net __inserted_inport_0 __inserted_inport_0.out0
+net ADD_70.in0 ADD_70
+net __inserted_inport_0.in0 __inserted_inport_0
+net __inserted_inport_0.out0 ADD_70.in0
+net __inserted_inport_1 __inserted_inport_1.out0

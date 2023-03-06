@@ -1,0 +1,55 @@
+vertex MUL_381.in0
+vertex MUL_339.out0
+vertex MUL_381.in1
+vertex MUL_339.in1
+vertex MUL_311.out0
+vertex MUL_311
+vertex SUB_340
+vertex SUB_340.out0
+vertex MUL_339.in0
+vertex SUB_340.in1
+vertex SUB_340.in0
+vertex MUL_324.in1
+vertex MUL_324.out0
+vertex MUL_398.in1
+vertex MUL_398.in0
+vertex SUB_390.out0
+vertex ADD_314.out0
+vertex MUL_324
+vertex MUL_339
+vertex SUB_390
+vertex SUB_390.in1
+vertex MUL_381.out0
+vertex MUL_398
+vertex ADD_314.in0
+vertex SUB_390.in0
+vertex ADD_314
+vertex MUL_381
+vertex MUL_398.out0
+vertex MUL_324.in0
+net MUL_381.in0 MUL_381
+net MUL_339.out0 SUB_340.in1
+net MUL_381.in1 MUL_381
+net MUL_339.in1 MUL_339
+net MUL_311.out0 ADD_314.in0
+net MUL_311 MUL_311.out0
+net SUB_340 SUB_340.out0
+net SUB_340.out0 MUL_381.in0
+net MUL_339.in0 MUL_339
+net SUB_340.in1 SUB_340
+net SUB_340.in0 SUB_340
+net MUL_324.in1 MUL_324
+net MUL_324.out0 SUB_340.in0
+net MUL_398.in1 MUL_398
+net MUL_398.in0 MUL_398
+net MUL_324 MUL_324.out0
+net MUL_339 MUL_339.out0
+net SUB_390 SUB_390.out0
+net SUB_390.in1 SUB_390
+net MUL_381.out0 SUB_390.in0
+net MUL_398 MUL_398.out0
+net ADD_314.in0 ADD_314
+net SUB_390.in0 SUB_390
+net ADD_314 ADD_314.out0
+net MUL_381 MUL_381.out0
+net MUL_324.in0 MUL_324

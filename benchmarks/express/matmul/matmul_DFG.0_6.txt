@@ -1,0 +1,45 @@
+vertex MUL_29.in0
+vertex MUL_29.out0
+vertex ADD_28.out0
+vertex ADD_70
+vertex ADD_70.out0
+vertex MUL_69.in1
+vertex MUL_157.out0
+vertex ADD_156
+vertex MUL_157.in0
+vertex ADD_32.in0
+vertex MUL_157
+vertex MUL_69
+vertex ADD_70.in0
+vertex ADD_156.out0
+vertex ADD_32
+vertex ADD_28
+vertex ADD_160.out0
+vertex MUL_69.out0
+vertex ADD_160
+vertex MUL_29
+vertex ADD_70.in1
+vertex ADD_160.in0
+vertex ADD_32.out0
+vertex MUL_69.in0
+net MUL_29.in0 MUL_29
+net MUL_29.out0 ADD_32.in0
+net ADD_28.out0 MUL_29.in0
+net ADD_70 ADD_70.out0
+net MUL_69.in1 MUL_69
+net MUL_157.out0 ADD_160.in0
+net ADD_156 ADD_156.out0
+net MUL_157.in0 MUL_157
+net ADD_32.in0 ADD_32
+net MUL_157 MUL_157.out0
+net MUL_69 MUL_69.out0
+net ADD_70.in0 ADD_70
+net ADD_156.out0 MUL_157.in0
+net ADD_32 ADD_32.out0
+net ADD_28 ADD_28.out0
+net MUL_69.out0 ADD_70.in1
+net ADD_160 ADD_160.out0
+net MUL_29 MUL_29.out0
+net ADD_70.in1 ADD_70
+net ADD_160.in0 ADD_160
+net MUL_69.in0 MUL_69

@@ -1,0 +1,14 @@
+MUL_0.out0 ALU1.out0
+__inserted_outport_0 out2
+__inserted_outport_0.in0 out2.in0
+MUL_0 ALU1
+ADD_5.in0 ALU0.in0
+MUL_2 ALU3
+ADD_5.out0 ALU0.out0
+__inserted_outport_0.out0 out2.out0
+ADD_5 ALU0
+MUL_2.in0 ALU3.in0
+MUL_2.out0 ALU3.out0
+ADD_1.out0 ALU2.out0
+ADD_1.in0 ALU2.in0
+ADD_1 ALU2

@@ -1,0 +1,17 @@
+MUL_526.out0 MUL0.out0
+MUL_526 MUL0
+ADD_529 ADD0
+__inserted_outport_0.in0 out4.in0
+__inserted_inport_0.in0 in7.in0
+ADD_529.in0 ADD0.in0
+ADD_529.out0 ADD0.out0
+__inserted_outport_0.out0 out4.out0
+__inserted_outport_0 out4
+MUL_156 MUL1
+__inserted_inport_0 in7
+__inserted_inport_0.out0 in7.out0
+MUL_156.out0 MUL1.out0
+MUL_156.in0 MUL1.in0
+__inserted_outport_1 out7
+__inserted_outport_1.in0 out7.in0
+__inserted_outport_1.out0 out7.out0

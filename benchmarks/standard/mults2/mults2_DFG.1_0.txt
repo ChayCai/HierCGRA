@@ -1,0 +1,56 @@
+vertex mul0
+vertex mul0.out0
+vertex mul0.in0
+vertex add4.in0
+vertex mul0.in1
+vertex add4.out0
+vertex add2.in1
+vertex add5.in0
+vertex add5
+vertex add2.in0
+vertex add5.out0
+vertex mul1.in1
+vertex mul2.in0
+vertex add4
+vertex add2
+vertex mul3.in0
+vertex add4.in1
+vertex mul1.out0
+vertex mul1
+vertex mul1.in0
+vertex mul2
+vertex add5.in1
+vertex mul2.in1
+vertex add2.out0
+vertex mul3.out0
+vertex mul3.in1
+vertex mul2.out0
+vertex mul3
+net mul0 mul0.out0
+net mul0.out0 mul1.in0
+net mul0.in0 mul0
+net add4.in0 add4
+net mul0.in1 mul0
+net add4.out0 mul3.in1
+net add2.in1 add2
+net add5.in0 add5
+net add5 add5.out0
+net add2.in0 add2
+net add5.out0 add5.in1
+net mul1.in1 mul1
+net mul2.in0 mul2
+net add4 add4.out0
+net add2 add2.out0
+net mul3.in0 mul3
+net add4.in1 add4
+net mul1.out0 mul2.in0
+net mul1 mul1.out0
+net mul1.in0 mul1
+net mul2 mul2.out0
+net add5.in1 add5
+net mul2.in1 mul2
+net add2.out0 mul0.in0
+net mul3.out0 add5.in0
+net mul3.in1 mul3
+net mul2.out0 mul3.in0
+net mul3 mul3.out0

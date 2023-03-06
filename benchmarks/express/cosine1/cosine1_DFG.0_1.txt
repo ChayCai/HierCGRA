@@ -1,0 +1,52 @@
+vertex 37
+vertex 63.out0
+vertex 63.in0
+vertex 63
+vertex 63.in1
+vertex 37.in1
+vertex 34.out0
+vertex 37.out0
+vertex 34
+vertex 37.in0
+vertex 65.out0
+vertex 67.in0
+vertex 62.out0
+vertex 71.in1
+vertex 71.in0
+vertex 71
+vertex 67
+vertex 65.in0
+vertex 67.out0
+vertex 65
+vertex 62.in0
+vertex 62
+vertex 34.in1
+vertex 34.in0
+vertex 71.out0
+vertex 62.in1
+net 37 37.out0
+net 63.in0 63
+net 63 63.out0
+net 63.in1 63
+net 37.in1 37
+net 34.out0 63.in0
+net 34.out0 62.in0
+net 37.out0 63.in1
+net 37.out0 62.in1
+net 34 34.out0
+net 37.in0 37
+net 65.out0 71.in0
+net 67.in0 67
+net 62.out0 67.in0
+net 71.in1 71
+net 71.in0 71
+net 71 71.out0
+net 67 67.out0
+net 65.in0 65
+net 67.out0 71.in1
+net 65 65.out0
+net 62.in0 62
+net 62 62.out0
+net 34.in1 34
+net 34.in0 34
+net 62.in1 62

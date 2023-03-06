@@ -1,0 +1,251 @@
+vertex 39.in0
+    attr optype str mul.in0
+vertex 29.in1
+    attr optype str add.in1
+vertex 17
+    attr optype str add
+vertex 14
+    attr optype str add
+vertex 34
+    attr optype str mul
+vertex 17.in0
+    attr optype str add.in0
+vertex 29
+    attr optype str add
+vertex 34.out0
+    attr optype str mul.out0
+vertex 14.in0
+    attr optype str add.in0
+vertex 11
+    attr optype str add
+vertex 11.in0
+    attr optype str add.in0
+vertex 33.in0
+    attr optype str mul.in0
+vertex 34.in0
+    attr optype str mul.in0
+vertex 33
+    attr optype str mul
+vertex 11.in1
+    attr optype str add.in1
+vertex 35
+    attr optype str mul
+vertex 23.in1
+    attr optype str add.in1
+vertex 20.out0
+    attr optype str add.out0
+vertex 45
+    attr optype str add
+vertex 35.out0
+    attr optype str mul.out0
+vertex 20
+    attr optype str add
+vertex 43.in0
+    attr optype str add.in0
+vertex 36.out0
+    attr optype str mul.out0
+vertex 36
+    attr optype str mul
+vertex 29.in0
+    attr optype str add.in0
+vertex 44.in1
+    attr optype str add.in1
+vertex 44
+    attr optype str add
+vertex 37.in0
+    attr optype str mul.in0
+vertex 42.in0
+    attr optype str add.in0
+vertex 26
+    attr optype str add
+vertex 32
+    attr optype str add
+vertex 38.in0
+    attr optype str mul.in0
+vertex 32.in1
+    attr optype str add.in1
+vertex 20.in1
+    attr optype str add.in1
+vertex 44.in0
+    attr optype str add.in0
+vertex 23.out0
+    attr optype str add.out0
+vertex 42.in1
+    attr optype str add.in1
+vertex 38.out0
+    attr optype str mul.out0
+vertex 46.in1
+    attr optype str add.in1
+vertex 42
+    attr optype str add
+vertex 41
+    attr optype str add
+vertex 43.out0
+    attr optype str add.out0
+vertex 41.in1
+    attr optype str add.in1
+vertex 17.out0
+    attr optype str add.out0
+vertex 14.out0
+    attr optype str add.out0
+vertex 47.in1
+    attr optype str add.in1
+vertex 23
+    attr optype str add
+vertex 44.out0
+    attr optype str add.out0
+vertex 39.out0
+    attr optype str mul.out0
+vertex 47.in0
+    attr optype str add.in0
+vertex 41.out0
+    attr optype str add.out0
+vertex 36.in0
+    attr optype str mul.in0
+vertex 20.in0
+    attr optype str add.in0
+vertex 38
+    attr optype str mul
+vertex 43
+    attr optype str add
+vertex 47
+    attr optype str add
+vertex 40.in0
+    attr optype str mul.in0
+vertex 26.in0
+    attr optype str add.in0
+vertex 39
+    attr optype str mul
+vertex 32.in0
+    attr optype str add.in0
+vertex 46.out0
+    attr optype str add.out0
+vertex 29.out0
+    attr optype str add.out0
+vertex 14.in1
+    attr optype str add.in1
+vertex 23.in0
+    attr optype str add.in0
+vertex 45.out0
+    attr optype str add.out0
+vertex 37.out0
+    attr optype str mul.out0
+vertex 41.in0
+    attr optype str add.in0
+vertex 45.in1
+    attr optype str add.in1
+vertex 43.in1
+    attr optype str add.in1
+vertex 45.in0
+    attr optype str add.in0
+vertex 17.in1
+    attr optype str add.in1
+vertex 42.out0
+    attr optype str add.out0
+vertex 37
+    attr optype str mul
+vertex 46
+    attr optype str add
+vertex 35.in0
+    attr optype str mul.in0
+vertex 11.out0
+    attr optype str add.out0
+vertex 47.out0
+    attr optype str add.out0
+vertex 32.out0
+    attr optype str add.out0
+vertex 26.in1
+    attr optype str add.in1
+vertex 40
+    attr optype str mul
+vertex 26.out0
+    attr optype str add.out0
+vertex 46.in0
+    attr optype str add.in0
+vertex 40.out0
+    attr optype str mul.out0
+vertex 33.out0
+    attr optype str mul.out0
+net 39.in0 39
+net 29.in1 29
+net 17 17.out0
+net 14 14.out0
+net 34 34.out0
+net 17.in0 17
+net 29 29.out0
+net 34.out0 41.in1
+net 14.in0 14
+net 11 11.out0
+net 11.in0 11
+net 33.in0 33
+net 34.in0 34
+net 33 33.out0
+net 11.in1 11
+net 35 35.out0
+net 23.in1 23
+net 20.out0 36.in0
+net 45 45.out0
+net 35.out0 42.in0
+net 20 20.out0
+net 43.in0 43
+net 36.out0 43.in0
+net 36 36.out0
+net 29.in0 29
+net 44.in1 44
+net 44 44.out0
+net 37.in0 37
+net 42.in0 42
+net 26 26.out0
+net 32 32.out0
+net 38.in0 38
+net 32.in1 32
+net 20.in1 20
+net 44.in0 44
+net 23.out0 37.in0
+net 42.in1 42
+net 38.out0 45.in0
+net 46.in1 46
+net 42 42.out0
+net 41 41.out0
+net 43.out0 44.in1
+net 41.in1 41
+net 17.out0 35.in0
+net 14.out0 34.in0
+net 47.in1 47
+net 23 23.out0
+net 44.out0 45.in1
+net 39.out0 46.in0
+net 47.in0 47
+net 41.out0 42.in1
+net 36.in0 36
+net 20.in0 20
+net 38 38.out0
+net 43 43.out0
+net 47 47.out0
+net 40.in0 40
+net 26.in0 26
+net 39 39.out0
+net 32.in0 32
+net 46.out0 47.in1
+net 29.out0 39.in0
+net 14.in1 14
+net 23.in0 23
+net 45.out0 46.in1
+net 37.out0 44.in0
+net 41.in0 41
+net 45.in1 45
+net 43.in1 43
+net 45.in0 45
+net 17.in1 17
+net 42.out0 43.in1
+net 37 37.out0
+net 46 46.out0
+net 35.in0 35
+net 11.out0 33.in0
+net 32.out0 40.in0
+net 26.in1 26
+net 40 40.out0
+net 26.out0 38.in0
+net 46.in0 46
+net 40.out0 47.in0
+net 33.out0 41.in0

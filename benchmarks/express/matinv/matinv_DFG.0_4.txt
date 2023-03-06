@@ -1,0 +1,36 @@
+vertex MUL_537
+vertex MUL_537.out0
+vertex MUL_442
+vertex ADD_445.in0
+vertex ADD_445
+vertex ADD_540
+vertex MUL_610
+vertex ADD_540.in0
+vertex ADD_613
+vertex MUL_551
+vertex MUL_442.out0
+vertex ADD_445.out0
+vertex MUL_551.out0
+vertex ADD_554.in0
+vertex ADD_613.in0
+vertex ADD_554
+vertex ADD_613.out0
+vertex ADD_554.out0
+vertex ADD_540.out0
+vertex MUL_610.out0
+net MUL_537 MUL_537.out0
+net MUL_537.out0 ADD_540.in0
+net MUL_442 MUL_442.out0
+net ADD_445.in0 ADD_445
+net ADD_445 ADD_445.out0
+net ADD_540 ADD_540.out0
+net MUL_610 MUL_610.out0
+net ADD_540.in0 ADD_540
+net ADD_613 ADD_613.out0
+net MUL_551 MUL_551.out0
+net MUL_442.out0 ADD_445.in0
+net MUL_551.out0 ADD_554.in0
+net ADD_554.in0 ADD_554
+net ADD_613.in0 ADD_613
+net ADD_554 ADD_554.out0
+net MUL_610.out0 ADD_613.in0

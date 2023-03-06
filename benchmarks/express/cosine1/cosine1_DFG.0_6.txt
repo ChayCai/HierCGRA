@@ -1,0 +1,13 @@
+vertex 22.in1
+vertex 22.in0
+vertex 22.out0
+vertex 22
+vertex 41.in0
+vertex 41
+vertex 41.out0
+net 22.in1 22
+net 22.in0 22
+net 22.out0 41.in0
+net 22 22.out0
+net 41.in0 41
+net 41 41.out0

@@ -1,0 +1,9 @@
+vertex ADD_48.out0
+vertex ADD_48.in0
+vertex ADD_48
+vertex MUL_45
+vertex MUL_45.out0
+net ADD_48.in0 ADD_48
+net ADD_48 ADD_48.out0
+net MUL_45 MUL_45.out0
+net MUL_45.out0 ADD_48.in0

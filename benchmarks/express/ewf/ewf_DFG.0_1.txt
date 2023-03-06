@@ -1,0 +1,54 @@
+vertex ADD_32.out0
+vertex ADD_32.in0
+vertex ADD_12
+vertex MUL_28
+vertex MUL_28.in0
+vertex ADD_32
+vertex ADD_34
+vertex ADD_34.in0
+vertex ADD_34.in1
+vertex ADD_34.out0
+vertex ADD_12.in0
+vertex ADD_20
+vertex ADD_17.out0
+vertex ADD_12.in1
+vertex ADD_20.in0
+vertex ADD_24.in0
+vertex ADD_17.in0
+vertex ADD_17
+vertex ADD_24.out0
+vertex MUL_15.in0
+vertex ADD_12.out0
+vertex ADD_20.in1
+vertex MUL_15.out0
+vertex MUL_28.out0
+vertex ADD_20.out0
+vertex MUL_15
+vertex ADD_24
+net ADD_32.out0 ADD_34.in1
+net ADD_32.in0 ADD_32
+net ADD_12 ADD_12.out0
+net MUL_28 MUL_28.out0
+net MUL_28.in0 MUL_28
+net ADD_32 ADD_32.out0
+net ADD_34 ADD_34.out0
+net ADD_34.in0 ADD_34
+net ADD_34.in1 ADD_34
+net ADD_12.in0 ADD_12
+net ADD_20 ADD_20.out0
+net ADD_17.out0 ADD_20.in1
+net ADD_12.in1 ADD_12
+net ADD_20.in0 ADD_20
+net ADD_24.in0 ADD_24
+net ADD_17.in0 ADD_17
+net ADD_17 ADD_17.out0
+net ADD_24.out0 MUL_28.in0
+net ADD_24.out0 ADD_34.in0
+net MUL_15.in0 MUL_15
+net ADD_12.out0 MUL_15.in0
+net ADD_20.in1 ADD_20
+net MUL_15.out0 ADD_17.in0
+net MUL_28.out0 ADD_32.in0
+net ADD_20.out0 ADD_24.in0
+net MUL_15 MUL_15.out0
+net ADD_24 ADD_24.out0

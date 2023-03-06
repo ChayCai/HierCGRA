@@ -1,0 +1,10 @@
+55.out0 ALU3.out0
+55.in0 ALU3.in0
+57.in0 ALU0.in0
+57 ALU0
+49 ALU1
+55 ALU3
+57.in1 ALU0.in1
+57.out0 ALU0.out0
+49.in0 ALU1.in0
+49.out0 ALU1.out0

@@ -1,0 +1,78 @@
+vertex add2.in1
+vertex add2.in0
+vertex add0
+vertex add0.in1
+vertex add0.in0
+vertex and0.in0
+vertex and0.out0
+vertex and4.in1
+vertex and1.in1
+vertex add0.out0
+vertex and4.out0
+vertex and5.in0
+vertex and7.in1
+vertex and0
+vertex and7.in0
+vertex lshr3.in1
+vertex add3.in1
+vertex lshr0.in0
+vertex add2.out0
+vertex lshr3.in0
+vertex and5.in1
+vertex and7
+vertex add2
+vertex lshr0.out0
+vertex add3.in0
+vertex and4.in0
+vertex add3
+vertex and5.out0
+vertex and1.out0
+vertex and0.in1
+vertex and7.out0
+vertex lshr3.out0
+vertex and4
+vertex lshr3
+vertex add3.out0
+vertex and5
+vertex and1.in0
+vertex and1
+vertex lshr0.in1
+vertex lshr0
+net add2.in1 add2
+net add2.in0 add2
+net add0 add0.out0
+net add0.in1 add0
+net add0.in0 add0
+net and0.in0 and0
+net and0.out0 add0.in0
+net and4.in1 and4
+net and1.in1 and1
+net and4.out0 add2.in0
+net and5.in0 and5
+net and7.in1 and7
+net and0 and0.out0
+net and7.in0 and7
+net lshr3.in1 lshr3
+net add3.in1 add3
+net lshr0.in0 lshr0
+net add2.out0 lshr3.in0
+net add2.out0 and7.in0
+net lshr3.in0 lshr3
+net and5.in1 and5
+net and7 and7.out0
+net add2 add2.out0
+net lshr0.out0 and0.in0
+net add3.in0 add3
+net and4.in0 and4
+net add3 add3.out0
+net and5.out0 add2.in1
+net and1.out0 add0.in1
+net and0.in1 and0
+net and7.out0 add3.in1
+net and4 and4.out0
+net lshr3 lshr3.out0
+net and5 and5.out0
+net and1.in0 and1
+net and1 and1.out0
+net lshr0.in1 lshr0
+net lshr0 lshr0.out0

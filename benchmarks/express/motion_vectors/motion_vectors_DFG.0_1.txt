@@ -1,0 +1,21 @@
+vertex MUL_1
+vertex MUL_3
+vertex ADD_8
+vertex MUL_3.out0
+vertex ADD_8.in1
+vertex MUL_1.out0
+vertex ADD_6.out0
+vertex ADD_8.in0
+vertex ADD_6
+vertex ADD_8.out0
+vertex ADD_6.in0
+net MUL_1 MUL_1.out0
+net MUL_3 MUL_3.out0
+net ADD_8 ADD_8.out0
+net MUL_3.out0 ADD_6.in0
+net ADD_8.in1 ADD_8
+net MUL_1.out0 ADD_8.in0
+net ADD_6.out0 ADD_8.in1
+net ADD_8.in0 ADD_8
+net ADD_6 ADD_6.out0
+net ADD_6.in0 ADD_6

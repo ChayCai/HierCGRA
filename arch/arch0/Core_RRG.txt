@@ -1,0 +1,3360 @@
+vertex SW4X2_Core_MESH0.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH0.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH0.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH0.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH0.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH0.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH1.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH1.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH1.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH1.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH1.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH1.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH2.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH2.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH2.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH2.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH2.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH2.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH3.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH3.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH3.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH3.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH3.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH3.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH4.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH4.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH4.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH4.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH4.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH4.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH5.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH5.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH5.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH5.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH5.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH5.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH6.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH6.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH6.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH6.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH6.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH6.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH7.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH7.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH7.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH7.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH7.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH7.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH8.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH8.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH8.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH8.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH8.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH8.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH9.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH9.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH9.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH9.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH9.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH9.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH10.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH10.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH10.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH10.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH10.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH10.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH11.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH11.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH11.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH11.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH11.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH11.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH12.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH12.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH12.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH12.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH12.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH12.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH13.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH13.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH13.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH13.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH13.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH13.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH14.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH14.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH14.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH14.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH14.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH14.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH15.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH15.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH15.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH15.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH15.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH15.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH16.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH16.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH16.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH16.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH16.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH16.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH17.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH17.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH17.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH17.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH17.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH17.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH18.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH18.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH18.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH18.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH18.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH18.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH19.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH19.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH19.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH19.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH19.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH19.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH20.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH20.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH20.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH20.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH20.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH20.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH21.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH21.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH21.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH21.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH21.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH21.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH22.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH22.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH22.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH22.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH22.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH22.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH23.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH23.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in1
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH23.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in2
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH23.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_4X2.in3
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH23.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out0
+    attr switch str FULLYCONN_4X2
+vertex SW4X2_Core_MESH23.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_4X2.out1
+    attr switch str FULLYCONN_4X2
+vertex Block0.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block0.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block0.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block0.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block0.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block0.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block0.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block0.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block0.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block0.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block0.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block0.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block0.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block0.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block0.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block0.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block0.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block0.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block0.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block0.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block0.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block0.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block0.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block0.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block0.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block1.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in0
+vertex Block1.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in1
+vertex Block1.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockIO.out0
+vertex Block1.IO0
+    attr type str IO
+    attr device str IO
+    attr unit str IO
+vertex Block1.IO0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in0
+vertex Block1.IO0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in1
+vertex Block1.IO0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str IO.out0
+vertex Block1.SW2X2_INPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block1.SW2X2_INPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block1.SW2X2_INPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block1.SW2X2_INPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block1.SW1X1_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X1.in0
+    attr switch str FULLYCONN_1X1
+vertex Block1.SW1X1_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X1.out0
+    attr switch str FULLYCONN_1X1
+vertex Block2.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in0
+vertex Block2.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in1
+vertex Block2.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockIO.out0
+vertex Block2.IO0
+    attr type str IO
+    attr device str IO
+    attr unit str IO
+vertex Block2.IO0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in0
+vertex Block2.IO0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in1
+vertex Block2.IO0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str IO.out0
+vertex Block2.SW2X2_INPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block2.SW2X2_INPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block2.SW2X2_INPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block2.SW2X2_INPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block2.SW1X1_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X1.in0
+    attr switch str FULLYCONN_1X1
+vertex Block2.SW1X1_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X1.out0
+    attr switch str FULLYCONN_1X1
+vertex Block3.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block3.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block3.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block3.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block3.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block3.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block3.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block3.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block3.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block3.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block3.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block3.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block3.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block3.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block3.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block3.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block3.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block3.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block3.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block3.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block3.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block3.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block3.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block3.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block3.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block4.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in0
+vertex Block4.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in1
+vertex Block4.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockIO.out0
+vertex Block4.IO0
+    attr type str IO
+    attr device str IO
+    attr unit str IO
+vertex Block4.IO0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in0
+vertex Block4.IO0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in1
+vertex Block4.IO0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str IO.out0
+vertex Block4.SW2X2_INPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block4.SW2X2_INPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block4.SW2X2_INPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block4.SW2X2_INPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block4.SW1X1_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X1.in0
+    attr switch str FULLYCONN_1X1
+vertex Block4.SW1X1_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X1.out0
+    attr switch str FULLYCONN_1X1
+vertex Block5.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block5.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block5.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block5.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block5.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block5.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block5.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block5.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block5.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block5.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block5.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block5.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block5.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block5.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block5.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block5.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block5.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block5.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block5.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block5.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block5.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block5.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block5.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block5.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block5.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block6.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block6.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block6.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block6.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block6.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block6.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block6.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block6.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block6.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block6.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block6.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block6.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block6.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block6.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block6.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block6.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block6.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block6.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block6.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block6.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block6.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block6.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block6.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block6.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block6.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block7.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in0
+vertex Block7.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in1
+vertex Block7.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockIO.out0
+vertex Block7.IO0
+    attr type str IO
+    attr device str IO
+    attr unit str IO
+vertex Block7.IO0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in0
+vertex Block7.IO0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in1
+vertex Block7.IO0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str IO.out0
+vertex Block7.SW2X2_INPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block7.SW2X2_INPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block7.SW2X2_INPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block7.SW2X2_INPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block7.SW1X1_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X1.in0
+    attr switch str FULLYCONN_1X1
+vertex Block7.SW1X1_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X1.out0
+    attr switch str FULLYCONN_1X1
+vertex Block8.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block8.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block8.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block8.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block8.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block8.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block8.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block8.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block8.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block8.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block8.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block8.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block8.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block8.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block8.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block8.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block8.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block8.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block8.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block8.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block8.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block8.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block8.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block8.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block8.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block9.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block9.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block9.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block9.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block9.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block9.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block9.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block9.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block9.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block9.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block9.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block9.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block9.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block9.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block9.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block9.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block9.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block9.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block9.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block9.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block9.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block9.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block9.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block9.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block9.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block10.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block10.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block10.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block10.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block10.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block10.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block10.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block10.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block10.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block10.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block10.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block10.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block10.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block10.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block10.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block10.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block10.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block10.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block10.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block10.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block10.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block10.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block10.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block10.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block10.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block11.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block11.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block11.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block11.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block11.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block11.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block11.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block11.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block11.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block11.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block11.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block11.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block11.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block11.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block11.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block11.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block11.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block11.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block11.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block11.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block11.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block11.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block11.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block11.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block11.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block12.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block12.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block12.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block12.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block12.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block12.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block12.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block12.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block12.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block12.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block12.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block12.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block12.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block12.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block12.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block12.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block12.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block12.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block12.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block12.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block12.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block12.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block12.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block12.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block12.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block13.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block13.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block13.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block13.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block13.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block13.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block13.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block13.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block13.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block13.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block13.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block13.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block13.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block13.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block13.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block13.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block13.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block13.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block13.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block13.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block13.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block13.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block13.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block13.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block13.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block14.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block14.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block14.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block14.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block14.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block14.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block14.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block14.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block14.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block14.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block14.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block14.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block14.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block14.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block14.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block14.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block14.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block14.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block14.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block14.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block14.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block14.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block14.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block14.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block14.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block15.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block15.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block15.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block15.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block15.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block15.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block15.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block15.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block15.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block15.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block15.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block15.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block15.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block15.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block15.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block15.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block15.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block15.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block15.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block15.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block15.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block15.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block15.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block15.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block15.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block16.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in0
+vertex Block16.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in1
+vertex Block16.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockIO.out0
+vertex Block16.IO0
+    attr type str IO
+    attr device str IO
+    attr unit str IO
+vertex Block16.IO0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in0
+vertex Block16.IO0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in1
+vertex Block16.IO0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str IO.out0
+vertex Block16.SW2X2_INPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block16.SW2X2_INPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block16.SW2X2_INPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block16.SW2X2_INPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block16.SW1X1_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X1.in0
+    attr switch str FULLYCONN_1X1
+vertex Block16.SW1X1_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X1.out0
+    attr switch str FULLYCONN_1X1
+vertex Block17.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block17.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block17.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block17.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block17.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block17.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block17.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block17.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block17.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block17.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block17.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block17.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block17.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block17.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block17.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block17.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block17.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block17.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block17.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block17.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block17.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block17.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block17.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block17.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block17.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block18.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block18.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block18.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block18.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block18.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block18.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block18.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block18.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block18.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block18.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block18.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block18.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block18.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block18.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block18.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block18.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block18.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block18.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block18.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block18.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block18.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block18.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block18.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block18.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block18.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block19.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in0
+vertex Block19.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in1
+vertex Block19.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockIO.out0
+vertex Block19.IO0
+    attr type str IO
+    attr device str IO
+    attr unit str IO
+vertex Block19.IO0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in0
+vertex Block19.IO0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in1
+vertex Block19.IO0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str IO.out0
+vertex Block19.SW2X2_INPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block19.SW2X2_INPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block19.SW2X2_INPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block19.SW2X2_INPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block19.SW1X1_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X1.in0
+    attr switch str FULLYCONN_1X1
+vertex Block19.SW1X1_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X1.out0
+    attr switch str FULLYCONN_1X1
+vertex Block20.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block20.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block20.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block20.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block20.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block20.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block20.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block20.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block20.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block20.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block20.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block20.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block20.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block20.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block20.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block20.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block20.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block20.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block20.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block20.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block20.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block20.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block20.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block20.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block20.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block21.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in0
+vertex Block21.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in1
+vertex Block21.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockIO.out0
+vertex Block21.IO0
+    attr type str IO
+    attr device str IO
+    attr unit str IO
+vertex Block21.IO0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in0
+vertex Block21.IO0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in1
+vertex Block21.IO0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str IO.out0
+vertex Block21.SW2X2_INPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block21.SW2X2_INPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block21.SW2X2_INPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block21.SW2X2_INPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block21.SW1X1_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X1.in0
+    attr switch str FULLYCONN_1X1
+vertex Block21.SW1X1_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X1.out0
+    attr switch str FULLYCONN_1X1
+vertex Block22.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in0
+vertex Block22.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockIO.in1
+vertex Block22.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockIO.out0
+vertex Block22.IO0
+    attr type str IO
+    attr device str IO
+    attr unit str IO
+vertex Block22.IO0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in0
+vertex Block22.IO0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in1
+vertex Block22.IO0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str IO.out0
+vertex Block22.SW2X2_INPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block22.SW2X2_INPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block22.SW2X2_INPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block22.SW2X2_INPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex Block22.SW1X1_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X1.in0
+    attr switch str FULLYCONN_1X1
+vertex Block22.SW1X1_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X1.out0
+    attr switch str FULLYCONN_1X1
+vertex Block23.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in0
+vertex Block23.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str BlockPE.in1
+vertex Block23.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str BlockPE.out0
+vertex Block23.ALU0
+    attr type str ALU
+    attr device str ALU
+    attr unit str ALU
+vertex Block23.ALU0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in0
+vertex Block23.ALU0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str ALU.in1
+vertex Block23.ALU0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str ALU.out0
+vertex Block23.MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex Block23.MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex Block23.MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex Block23.MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex Block23.MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex Block23.SW_INPORT_FU.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in0
+    attr switch str FULLYCONN_2X4
+vertex Block23.SW_INPORT_FU.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X4.in1
+    attr switch str FULLYCONN_2X4
+vertex Block23.SW_INPORT_FU.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out0
+    attr switch str FULLYCONN_2X4
+vertex Block23.SW_INPORT_FU.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out1
+    attr switch str FULLYCONN_2X4
+vertex Block23.SW_INPORT_FU.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out2
+    attr switch str FULLYCONN_2X4
+vertex Block23.SW_INPORT_FU.out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X4.out3
+    attr switch str FULLYCONN_2X4
+vertex Block23.SW_ALU_MEM.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X2.in0
+    attr switch str FULLYCONN_1X2
+vertex Block23.SW_ALU_MEM.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out0
+    attr switch str FULLYCONN_1X2
+vertex Block23.SW_ALU_MEM.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X2.out1
+    attr switch str FULLYCONN_1X2
+vertex Block23.SW_FU_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex Block23.SW_FU_OUTPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex Block23.SW_FU_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex Block23.SW_FU_OUTPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+net SW4X2_Core_MESH0.in0 SW4X2_Core_MESH0.out0
+net SW4X2_Core_MESH0.in0 SW4X2_Core_MESH0.out1
+net SW4X2_Core_MESH0.in1 SW4X2_Core_MESH0.out0
+net SW4X2_Core_MESH0.in1 SW4X2_Core_MESH0.out1
+net SW4X2_Core_MESH0.in2 SW4X2_Core_MESH0.out0
+net SW4X2_Core_MESH0.in2 SW4X2_Core_MESH0.out1
+net SW4X2_Core_MESH0.in3 SW4X2_Core_MESH0.out0
+net SW4X2_Core_MESH0.in3 SW4X2_Core_MESH0.out1
+net SW4X2_Core_MESH0.out0 Block0.in0
+net SW4X2_Core_MESH0.out1 Block0.in1
+net SW4X2_Core_MESH1.in0 SW4X2_Core_MESH1.out0
+net SW4X2_Core_MESH1.in0 SW4X2_Core_MESH1.out1
+net SW4X2_Core_MESH1.in1 SW4X2_Core_MESH1.out0
+net SW4X2_Core_MESH1.in1 SW4X2_Core_MESH1.out1
+net SW4X2_Core_MESH1.in2 SW4X2_Core_MESH1.out0
+net SW4X2_Core_MESH1.in2 SW4X2_Core_MESH1.out1
+net SW4X2_Core_MESH1.in3 SW4X2_Core_MESH1.out0
+net SW4X2_Core_MESH1.in3 SW4X2_Core_MESH1.out1
+net SW4X2_Core_MESH1.out0 Block1.in0
+net SW4X2_Core_MESH1.out1 Block1.in1
+net SW4X2_Core_MESH2.in0 SW4X2_Core_MESH2.out0
+net SW4X2_Core_MESH2.in0 SW4X2_Core_MESH2.out1
+net SW4X2_Core_MESH2.in1 SW4X2_Core_MESH2.out0
+net SW4X2_Core_MESH2.in1 SW4X2_Core_MESH2.out1
+net SW4X2_Core_MESH2.in2 SW4X2_Core_MESH2.out0
+net SW4X2_Core_MESH2.in2 SW4X2_Core_MESH2.out1
+net SW4X2_Core_MESH2.in3 SW4X2_Core_MESH2.out0
+net SW4X2_Core_MESH2.in3 SW4X2_Core_MESH2.out1
+net SW4X2_Core_MESH2.out0 Block2.in0
+net SW4X2_Core_MESH2.out1 Block2.in1
+net SW4X2_Core_MESH3.in0 SW4X2_Core_MESH3.out0
+net SW4X2_Core_MESH3.in0 SW4X2_Core_MESH3.out1
+net SW4X2_Core_MESH3.in1 SW4X2_Core_MESH3.out0
+net SW4X2_Core_MESH3.in1 SW4X2_Core_MESH3.out1
+net SW4X2_Core_MESH3.in2 SW4X2_Core_MESH3.out0
+net SW4X2_Core_MESH3.in2 SW4X2_Core_MESH3.out1
+net SW4X2_Core_MESH3.in3 SW4X2_Core_MESH3.out0
+net SW4X2_Core_MESH3.in3 SW4X2_Core_MESH3.out1
+net SW4X2_Core_MESH3.out0 Block3.in0
+net SW4X2_Core_MESH3.out1 Block3.in1
+net SW4X2_Core_MESH4.in0 SW4X2_Core_MESH4.out0
+net SW4X2_Core_MESH4.in0 SW4X2_Core_MESH4.out1
+net SW4X2_Core_MESH4.in1 SW4X2_Core_MESH4.out0
+net SW4X2_Core_MESH4.in1 SW4X2_Core_MESH4.out1
+net SW4X2_Core_MESH4.in2 SW4X2_Core_MESH4.out0
+net SW4X2_Core_MESH4.in2 SW4X2_Core_MESH4.out1
+net SW4X2_Core_MESH4.in3 SW4X2_Core_MESH4.out0
+net SW4X2_Core_MESH4.in3 SW4X2_Core_MESH4.out1
+net SW4X2_Core_MESH4.out0 Block4.in0
+net SW4X2_Core_MESH4.out1 Block4.in1
+net SW4X2_Core_MESH5.in0 SW4X2_Core_MESH5.out0
+net SW4X2_Core_MESH5.in0 SW4X2_Core_MESH5.out1
+net SW4X2_Core_MESH5.in1 SW4X2_Core_MESH5.out0
+net SW4X2_Core_MESH5.in1 SW4X2_Core_MESH5.out1
+net SW4X2_Core_MESH5.in2 SW4X2_Core_MESH5.out0
+net SW4X2_Core_MESH5.in2 SW4X2_Core_MESH5.out1
+net SW4X2_Core_MESH5.in3 SW4X2_Core_MESH5.out0
+net SW4X2_Core_MESH5.in3 SW4X2_Core_MESH5.out1
+net SW4X2_Core_MESH5.out0 Block5.in0
+net SW4X2_Core_MESH5.out1 Block5.in1
+net SW4X2_Core_MESH6.in0 SW4X2_Core_MESH6.out0
+net SW4X2_Core_MESH6.in0 SW4X2_Core_MESH6.out1
+net SW4X2_Core_MESH6.in1 SW4X2_Core_MESH6.out0
+net SW4X2_Core_MESH6.in1 SW4X2_Core_MESH6.out1
+net SW4X2_Core_MESH6.in2 SW4X2_Core_MESH6.out0
+net SW4X2_Core_MESH6.in2 SW4X2_Core_MESH6.out1
+net SW4X2_Core_MESH6.in3 SW4X2_Core_MESH6.out0
+net SW4X2_Core_MESH6.in3 SW4X2_Core_MESH6.out1
+net SW4X2_Core_MESH6.out0 Block6.in0
+net SW4X2_Core_MESH6.out1 Block6.in1
+net SW4X2_Core_MESH7.in0 SW4X2_Core_MESH7.out0
+net SW4X2_Core_MESH7.in0 SW4X2_Core_MESH7.out1
+net SW4X2_Core_MESH7.in1 SW4X2_Core_MESH7.out0
+net SW4X2_Core_MESH7.in1 SW4X2_Core_MESH7.out1
+net SW4X2_Core_MESH7.in2 SW4X2_Core_MESH7.out0
+net SW4X2_Core_MESH7.in2 SW4X2_Core_MESH7.out1
+net SW4X2_Core_MESH7.in3 SW4X2_Core_MESH7.out0
+net SW4X2_Core_MESH7.in3 SW4X2_Core_MESH7.out1
+net SW4X2_Core_MESH7.out0 Block7.in0
+net SW4X2_Core_MESH7.out1 Block7.in1
+net SW4X2_Core_MESH8.in0 SW4X2_Core_MESH8.out0
+net SW4X2_Core_MESH8.in0 SW4X2_Core_MESH8.out1
+net SW4X2_Core_MESH8.in1 SW4X2_Core_MESH8.out0
+net SW4X2_Core_MESH8.in1 SW4X2_Core_MESH8.out1
+net SW4X2_Core_MESH8.in2 SW4X2_Core_MESH8.out0
+net SW4X2_Core_MESH8.in2 SW4X2_Core_MESH8.out1
+net SW4X2_Core_MESH8.in3 SW4X2_Core_MESH8.out0
+net SW4X2_Core_MESH8.in3 SW4X2_Core_MESH8.out1
+net SW4X2_Core_MESH8.out0 Block8.in0
+net SW4X2_Core_MESH8.out1 Block8.in1
+net SW4X2_Core_MESH9.in0 SW4X2_Core_MESH9.out0
+net SW4X2_Core_MESH9.in0 SW4X2_Core_MESH9.out1
+net SW4X2_Core_MESH9.in1 SW4X2_Core_MESH9.out0
+net SW4X2_Core_MESH9.in1 SW4X2_Core_MESH9.out1
+net SW4X2_Core_MESH9.in2 SW4X2_Core_MESH9.out0
+net SW4X2_Core_MESH9.in2 SW4X2_Core_MESH9.out1
+net SW4X2_Core_MESH9.in3 SW4X2_Core_MESH9.out0
+net SW4X2_Core_MESH9.in3 SW4X2_Core_MESH9.out1
+net SW4X2_Core_MESH9.out0 Block9.in0
+net SW4X2_Core_MESH9.out1 Block9.in1
+net SW4X2_Core_MESH10.in0 SW4X2_Core_MESH10.out0
+net SW4X2_Core_MESH10.in0 SW4X2_Core_MESH10.out1
+net SW4X2_Core_MESH10.in1 SW4X2_Core_MESH10.out0
+net SW4X2_Core_MESH10.in1 SW4X2_Core_MESH10.out1
+net SW4X2_Core_MESH10.in2 SW4X2_Core_MESH10.out0
+net SW4X2_Core_MESH10.in2 SW4X2_Core_MESH10.out1
+net SW4X2_Core_MESH10.in3 SW4X2_Core_MESH10.out0
+net SW4X2_Core_MESH10.in3 SW4X2_Core_MESH10.out1
+net SW4X2_Core_MESH10.out0 Block10.in0
+net SW4X2_Core_MESH10.out1 Block10.in1
+net SW4X2_Core_MESH11.in0 SW4X2_Core_MESH11.out0
+net SW4X2_Core_MESH11.in0 SW4X2_Core_MESH11.out1
+net SW4X2_Core_MESH11.in1 SW4X2_Core_MESH11.out0
+net SW4X2_Core_MESH11.in1 SW4X2_Core_MESH11.out1
+net SW4X2_Core_MESH11.in2 SW4X2_Core_MESH11.out0
+net SW4X2_Core_MESH11.in2 SW4X2_Core_MESH11.out1
+net SW4X2_Core_MESH11.in3 SW4X2_Core_MESH11.out0
+net SW4X2_Core_MESH11.in3 SW4X2_Core_MESH11.out1
+net SW4X2_Core_MESH11.out0 Block11.in0
+net SW4X2_Core_MESH11.out1 Block11.in1
+net SW4X2_Core_MESH12.in0 SW4X2_Core_MESH12.out0
+net SW4X2_Core_MESH12.in0 SW4X2_Core_MESH12.out1
+net SW4X2_Core_MESH12.in1 SW4X2_Core_MESH12.out0
+net SW4X2_Core_MESH12.in1 SW4X2_Core_MESH12.out1
+net SW4X2_Core_MESH12.in2 SW4X2_Core_MESH12.out0
+net SW4X2_Core_MESH12.in2 SW4X2_Core_MESH12.out1
+net SW4X2_Core_MESH12.in3 SW4X2_Core_MESH12.out0
+net SW4X2_Core_MESH12.in3 SW4X2_Core_MESH12.out1
+net SW4X2_Core_MESH12.out0 Block12.in0
+net SW4X2_Core_MESH12.out1 Block12.in1
+net SW4X2_Core_MESH13.in0 SW4X2_Core_MESH13.out0
+net SW4X2_Core_MESH13.in0 SW4X2_Core_MESH13.out1
+net SW4X2_Core_MESH13.in1 SW4X2_Core_MESH13.out0
+net SW4X2_Core_MESH13.in1 SW4X2_Core_MESH13.out1
+net SW4X2_Core_MESH13.in2 SW4X2_Core_MESH13.out0
+net SW4X2_Core_MESH13.in2 SW4X2_Core_MESH13.out1
+net SW4X2_Core_MESH13.in3 SW4X2_Core_MESH13.out0
+net SW4X2_Core_MESH13.in3 SW4X2_Core_MESH13.out1
+net SW4X2_Core_MESH13.out0 Block13.in0
+net SW4X2_Core_MESH13.out1 Block13.in1
+net SW4X2_Core_MESH14.in0 SW4X2_Core_MESH14.out0
+net SW4X2_Core_MESH14.in0 SW4X2_Core_MESH14.out1
+net SW4X2_Core_MESH14.in1 SW4X2_Core_MESH14.out0
+net SW4X2_Core_MESH14.in1 SW4X2_Core_MESH14.out1
+net SW4X2_Core_MESH14.in2 SW4X2_Core_MESH14.out0
+net SW4X2_Core_MESH14.in2 SW4X2_Core_MESH14.out1
+net SW4X2_Core_MESH14.in3 SW4X2_Core_MESH14.out0
+net SW4X2_Core_MESH14.in3 SW4X2_Core_MESH14.out1
+net SW4X2_Core_MESH14.out0 Block14.in0
+net SW4X2_Core_MESH14.out1 Block14.in1
+net SW4X2_Core_MESH15.in0 SW4X2_Core_MESH15.out0
+net SW4X2_Core_MESH15.in0 SW4X2_Core_MESH15.out1
+net SW4X2_Core_MESH15.in1 SW4X2_Core_MESH15.out0
+net SW4X2_Core_MESH15.in1 SW4X2_Core_MESH15.out1
+net SW4X2_Core_MESH15.in2 SW4X2_Core_MESH15.out0
+net SW4X2_Core_MESH15.in2 SW4X2_Core_MESH15.out1
+net SW4X2_Core_MESH15.in3 SW4X2_Core_MESH15.out0
+net SW4X2_Core_MESH15.in3 SW4X2_Core_MESH15.out1
+net SW4X2_Core_MESH15.out0 Block15.in0
+net SW4X2_Core_MESH15.out1 Block15.in1
+net SW4X2_Core_MESH16.in0 SW4X2_Core_MESH16.out0
+net SW4X2_Core_MESH16.in0 SW4X2_Core_MESH16.out1
+net SW4X2_Core_MESH16.in1 SW4X2_Core_MESH16.out0
+net SW4X2_Core_MESH16.in1 SW4X2_Core_MESH16.out1
+net SW4X2_Core_MESH16.in2 SW4X2_Core_MESH16.out0
+net SW4X2_Core_MESH16.in2 SW4X2_Core_MESH16.out1
+net SW4X2_Core_MESH16.in3 SW4X2_Core_MESH16.out0
+net SW4X2_Core_MESH16.in3 SW4X2_Core_MESH16.out1
+net SW4X2_Core_MESH16.out0 Block16.in0
+net SW4X2_Core_MESH16.out1 Block16.in1
+net SW4X2_Core_MESH17.in0 SW4X2_Core_MESH17.out0
+net SW4X2_Core_MESH17.in0 SW4X2_Core_MESH17.out1
+net SW4X2_Core_MESH17.in1 SW4X2_Core_MESH17.out0
+net SW4X2_Core_MESH17.in1 SW4X2_Core_MESH17.out1
+net SW4X2_Core_MESH17.in2 SW4X2_Core_MESH17.out0
+net SW4X2_Core_MESH17.in2 SW4X2_Core_MESH17.out1
+net SW4X2_Core_MESH17.in3 SW4X2_Core_MESH17.out0
+net SW4X2_Core_MESH17.in3 SW4X2_Core_MESH17.out1
+net SW4X2_Core_MESH17.out0 Block17.in0
+net SW4X2_Core_MESH17.out1 Block17.in1
+net SW4X2_Core_MESH18.in0 SW4X2_Core_MESH18.out0
+net SW4X2_Core_MESH18.in0 SW4X2_Core_MESH18.out1
+net SW4X2_Core_MESH18.in1 SW4X2_Core_MESH18.out0
+net SW4X2_Core_MESH18.in1 SW4X2_Core_MESH18.out1
+net SW4X2_Core_MESH18.in2 SW4X2_Core_MESH18.out0
+net SW4X2_Core_MESH18.in2 SW4X2_Core_MESH18.out1
+net SW4X2_Core_MESH18.in3 SW4X2_Core_MESH18.out0
+net SW4X2_Core_MESH18.in3 SW4X2_Core_MESH18.out1
+net SW4X2_Core_MESH18.out0 Block18.in0
+net SW4X2_Core_MESH18.out1 Block18.in1
+net SW4X2_Core_MESH19.in0 SW4X2_Core_MESH19.out0
+net SW4X2_Core_MESH19.in0 SW4X2_Core_MESH19.out1
+net SW4X2_Core_MESH19.in1 SW4X2_Core_MESH19.out0
+net SW4X2_Core_MESH19.in1 SW4X2_Core_MESH19.out1
+net SW4X2_Core_MESH19.in2 SW4X2_Core_MESH19.out0
+net SW4X2_Core_MESH19.in2 SW4X2_Core_MESH19.out1
+net SW4X2_Core_MESH19.in3 SW4X2_Core_MESH19.out0
+net SW4X2_Core_MESH19.in3 SW4X2_Core_MESH19.out1
+net SW4X2_Core_MESH19.out0 Block19.in0
+net SW4X2_Core_MESH19.out1 Block19.in1
+net SW4X2_Core_MESH20.in0 SW4X2_Core_MESH20.out0
+net SW4X2_Core_MESH20.in0 SW4X2_Core_MESH20.out1
+net SW4X2_Core_MESH20.in1 SW4X2_Core_MESH20.out0
+net SW4X2_Core_MESH20.in1 SW4X2_Core_MESH20.out1
+net SW4X2_Core_MESH20.in2 SW4X2_Core_MESH20.out0
+net SW4X2_Core_MESH20.in2 SW4X2_Core_MESH20.out1
+net SW4X2_Core_MESH20.in3 SW4X2_Core_MESH20.out0
+net SW4X2_Core_MESH20.in3 SW4X2_Core_MESH20.out1
+net SW4X2_Core_MESH20.out0 Block20.in0
+net SW4X2_Core_MESH20.out1 Block20.in1
+net SW4X2_Core_MESH21.in0 SW4X2_Core_MESH21.out0
+net SW4X2_Core_MESH21.in0 SW4X2_Core_MESH21.out1
+net SW4X2_Core_MESH21.in1 SW4X2_Core_MESH21.out0
+net SW4X2_Core_MESH21.in1 SW4X2_Core_MESH21.out1
+net SW4X2_Core_MESH21.in2 SW4X2_Core_MESH21.out0
+net SW4X2_Core_MESH21.in2 SW4X2_Core_MESH21.out1
+net SW4X2_Core_MESH21.in3 SW4X2_Core_MESH21.out0
+net SW4X2_Core_MESH21.in3 SW4X2_Core_MESH21.out1
+net SW4X2_Core_MESH21.out0 Block21.in0
+net SW4X2_Core_MESH21.out1 Block21.in1
+net SW4X2_Core_MESH22.in0 SW4X2_Core_MESH22.out0
+net SW4X2_Core_MESH22.in0 SW4X2_Core_MESH22.out1
+net SW4X2_Core_MESH22.in1 SW4X2_Core_MESH22.out0
+net SW4X2_Core_MESH22.in1 SW4X2_Core_MESH22.out1
+net SW4X2_Core_MESH22.in2 SW4X2_Core_MESH22.out0
+net SW4X2_Core_MESH22.in2 SW4X2_Core_MESH22.out1
+net SW4X2_Core_MESH22.in3 SW4X2_Core_MESH22.out0
+net SW4X2_Core_MESH22.in3 SW4X2_Core_MESH22.out1
+net SW4X2_Core_MESH22.out0 Block22.in0
+net SW4X2_Core_MESH22.out1 Block22.in1
+net SW4X2_Core_MESH23.in0 SW4X2_Core_MESH23.out0
+net SW4X2_Core_MESH23.in0 SW4X2_Core_MESH23.out1
+net SW4X2_Core_MESH23.in1 SW4X2_Core_MESH23.out0
+net SW4X2_Core_MESH23.in1 SW4X2_Core_MESH23.out1
+net SW4X2_Core_MESH23.in2 SW4X2_Core_MESH23.out0
+net SW4X2_Core_MESH23.in2 SW4X2_Core_MESH23.out1
+net SW4X2_Core_MESH23.in3 SW4X2_Core_MESH23.out0
+net SW4X2_Core_MESH23.in3 SW4X2_Core_MESH23.out1
+net SW4X2_Core_MESH23.out0 Block23.in0
+net SW4X2_Core_MESH23.out1 Block23.in1
+net Block0.in0 Block0.SW_INPORT_FU.in0
+net Block0.in1 Block0.SW_INPORT_FU.in1
+net Block0.out0 SW4X2_Core_MESH1.in0
+net Block0.out0 SW4X2_Core_MESH3.in0
+net Block0.out0 SW4X2_Core_MESH4.in0
+net Block0.out0 SW4X2_Core_MESH20.in0
+net Block0.ALU0 Block0.ALU0.out0
+net Block0.ALU0.in0 Block0.ALU0
+net Block0.ALU0.in1 Block0.ALU0
+net Block0.ALU0.out0 Block0.SW_ALU_MEM.in0
+net Block0.ALU0.out0 Block0.SW_FU_OUTPORT.in0
+net Block0.MEM0 Block0.MEM0.out0
+net Block0.MEM0.in0 Block0.MEM0
+net Block0.MEM0.in1 Block0.MEM0
+net Block0.MEM0.in2 Block0.MEM0
+net Block0.MEM0.out0 Block0.SW_FU_OUTPORT.in1
+net Block0.SW_INPORT_FU.in0 Block0.SW_INPORT_FU.out0
+net Block0.SW_INPORT_FU.in0 Block0.SW_INPORT_FU.out1
+net Block0.SW_INPORT_FU.in0 Block0.SW_INPORT_FU.out2
+net Block0.SW_INPORT_FU.in0 Block0.SW_INPORT_FU.out3
+net Block0.SW_INPORT_FU.in1 Block0.SW_INPORT_FU.out0
+net Block0.SW_INPORT_FU.in1 Block0.SW_INPORT_FU.out1
+net Block0.SW_INPORT_FU.in1 Block0.SW_INPORT_FU.out2
+net Block0.SW_INPORT_FU.in1 Block0.SW_INPORT_FU.out3
+net Block0.SW_INPORT_FU.out0 Block0.ALU0.in0
+net Block0.SW_INPORT_FU.out1 Block0.ALU0.in1
+net Block0.SW_INPORT_FU.out2 Block0.MEM0.in0
+net Block0.SW_INPORT_FU.out3 Block0.MEM0.in1
+net Block0.SW_ALU_MEM.in0 Block0.SW_ALU_MEM.out0
+net Block0.SW_ALU_MEM.in0 Block0.SW_ALU_MEM.out1
+net Block0.SW_ALU_MEM.out0 Block0.MEM0.in0
+net Block0.SW_ALU_MEM.out1 Block0.MEM0.in1
+net Block0.SW_FU_OUTPORT.in0 Block0.SW_FU_OUTPORT.out0
+net Block0.SW_FU_OUTPORT.in0 Block0.SW_FU_OUTPORT.out1
+net Block0.SW_FU_OUTPORT.in1 Block0.SW_FU_OUTPORT.out0
+net Block0.SW_FU_OUTPORT.in1 Block0.SW_FU_OUTPORT.out1
+net Block0.SW_FU_OUTPORT.out0 Block0.out0
+net Block1.in0 Block1.SW2X2_INPORT.in0
+net Block1.in1 Block1.SW2X2_INPORT.in1
+net Block1.out0 SW4X2_Core_MESH0.in0
+net Block1.out0 SW4X2_Core_MESH2.in0
+net Block1.out0 SW4X2_Core_MESH5.in0
+net Block1.out0 SW4X2_Core_MESH21.in0
+net Block1.IO0 Block1.IO0.out0
+net Block1.IO0.in0 Block1.IO0
+net Block1.IO0.in1 Block1.IO0
+net Block1.IO0.out0 Block1.SW1X1_OUTPORT.in0
+net Block1.SW2X2_INPORT.in0 Block1.SW2X2_INPORT.out0
+net Block1.SW2X2_INPORT.in0 Block1.SW2X2_INPORT.out1
+net Block1.SW2X2_INPORT.in1 Block1.SW2X2_INPORT.out0
+net Block1.SW2X2_INPORT.in1 Block1.SW2X2_INPORT.out1
+net Block1.SW2X2_INPORT.out0 Block1.IO0.in0
+net Block1.SW2X2_INPORT.out1 Block1.IO0.in1
+net Block1.SW1X1_OUTPORT.in0 Block1.SW1X1_OUTPORT.out0
+net Block1.SW1X1_OUTPORT.out0 Block1.out0
+net Block2.in0 Block2.SW2X2_INPORT.in0
+net Block2.in1 Block2.SW2X2_INPORT.in1
+net Block2.out0 SW4X2_Core_MESH1.in1
+net Block2.out0 SW4X2_Core_MESH3.in1
+net Block2.out0 SW4X2_Core_MESH6.in0
+net Block2.out0 SW4X2_Core_MESH22.in0
+net Block2.IO0 Block2.IO0.out0
+net Block2.IO0.in0 Block2.IO0
+net Block2.IO0.in1 Block2.IO0
+net Block2.IO0.out0 Block2.SW1X1_OUTPORT.in0
+net Block2.SW2X2_INPORT.in0 Block2.SW2X2_INPORT.out0
+net Block2.SW2X2_INPORT.in0 Block2.SW2X2_INPORT.out1
+net Block2.SW2X2_INPORT.in1 Block2.SW2X2_INPORT.out0
+net Block2.SW2X2_INPORT.in1 Block2.SW2X2_INPORT.out1
+net Block2.SW2X2_INPORT.out0 Block2.IO0.in0
+net Block2.SW2X2_INPORT.out1 Block2.IO0.in1
+net Block2.SW1X1_OUTPORT.in0 Block2.SW1X1_OUTPORT.out0
+net Block2.SW1X1_OUTPORT.out0 Block2.out0
+net Block3.in0 Block3.SW_INPORT_FU.in0
+net Block3.in1 Block3.SW_INPORT_FU.in1
+net Block3.out0 SW4X2_Core_MESH0.in1
+net Block3.out0 SW4X2_Core_MESH2.in1
+net Block3.out0 SW4X2_Core_MESH7.in0
+net Block3.out0 SW4X2_Core_MESH23.in0
+net Block3.ALU0 Block3.ALU0.out0
+net Block3.ALU0.in0 Block3.ALU0
+net Block3.ALU0.in1 Block3.ALU0
+net Block3.ALU0.out0 Block3.SW_ALU_MEM.in0
+net Block3.ALU0.out0 Block3.SW_FU_OUTPORT.in0
+net Block3.MEM0 Block3.MEM0.out0
+net Block3.MEM0.in0 Block3.MEM0
+net Block3.MEM0.in1 Block3.MEM0
+net Block3.MEM0.in2 Block3.MEM0
+net Block3.MEM0.out0 Block3.SW_FU_OUTPORT.in1
+net Block3.SW_INPORT_FU.in0 Block3.SW_INPORT_FU.out0
+net Block3.SW_INPORT_FU.in0 Block3.SW_INPORT_FU.out1
+net Block3.SW_INPORT_FU.in0 Block3.SW_INPORT_FU.out2
+net Block3.SW_INPORT_FU.in0 Block3.SW_INPORT_FU.out3
+net Block3.SW_INPORT_FU.in1 Block3.SW_INPORT_FU.out0
+net Block3.SW_INPORT_FU.in1 Block3.SW_INPORT_FU.out1
+net Block3.SW_INPORT_FU.in1 Block3.SW_INPORT_FU.out2
+net Block3.SW_INPORT_FU.in1 Block3.SW_INPORT_FU.out3
+net Block3.SW_INPORT_FU.out0 Block3.ALU0.in0
+net Block3.SW_INPORT_FU.out1 Block3.ALU0.in1
+net Block3.SW_INPORT_FU.out2 Block3.MEM0.in0
+net Block3.SW_INPORT_FU.out3 Block3.MEM0.in1
+net Block3.SW_ALU_MEM.in0 Block3.SW_ALU_MEM.out0
+net Block3.SW_ALU_MEM.in0 Block3.SW_ALU_MEM.out1
+net Block3.SW_ALU_MEM.out0 Block3.MEM0.in0
+net Block3.SW_ALU_MEM.out1 Block3.MEM0.in1
+net Block3.SW_FU_OUTPORT.in0 Block3.SW_FU_OUTPORT.out0
+net Block3.SW_FU_OUTPORT.in0 Block3.SW_FU_OUTPORT.out1
+net Block3.SW_FU_OUTPORT.in1 Block3.SW_FU_OUTPORT.out0
+net Block3.SW_FU_OUTPORT.in1 Block3.SW_FU_OUTPORT.out1
+net Block3.SW_FU_OUTPORT.out0 Block3.out0
+net Block4.in0 Block4.SW2X2_INPORT.in0
+net Block4.in1 Block4.SW2X2_INPORT.in1
+net Block4.out0 SW4X2_Core_MESH0.in2
+net Block4.out0 SW4X2_Core_MESH5.in1
+net Block4.out0 SW4X2_Core_MESH7.in1
+net Block4.out0 SW4X2_Core_MESH8.in0
+net Block4.IO0 Block4.IO0.out0
+net Block4.IO0.in0 Block4.IO0
+net Block4.IO0.in1 Block4.IO0
+net Block4.IO0.out0 Block4.SW1X1_OUTPORT.in0
+net Block4.SW2X2_INPORT.in0 Block4.SW2X2_INPORT.out0
+net Block4.SW2X2_INPORT.in0 Block4.SW2X2_INPORT.out1
+net Block4.SW2X2_INPORT.in1 Block4.SW2X2_INPORT.out0
+net Block4.SW2X2_INPORT.in1 Block4.SW2X2_INPORT.out1
+net Block4.SW2X2_INPORT.out0 Block4.IO0.in0
+net Block4.SW2X2_INPORT.out1 Block4.IO0.in1
+net Block4.SW1X1_OUTPORT.in0 Block4.SW1X1_OUTPORT.out0
+net Block4.SW1X1_OUTPORT.out0 Block4.out0
+net Block5.in0 Block5.SW_INPORT_FU.in0
+net Block5.in1 Block5.SW_INPORT_FU.in1
+net Block5.out0 SW4X2_Core_MESH1.in2
+net Block5.out0 SW4X2_Core_MESH4.in1
+net Block5.out0 SW4X2_Core_MESH6.in1
+net Block5.out0 SW4X2_Core_MESH9.in0
+net Block5.ALU0 Block5.ALU0.out0
+net Block5.ALU0.in0 Block5.ALU0
+net Block5.ALU0.in1 Block5.ALU0
+net Block5.ALU0.out0 Block5.SW_ALU_MEM.in0
+net Block5.ALU0.out0 Block5.SW_FU_OUTPORT.in0
+net Block5.MEM0 Block5.MEM0.out0
+net Block5.MEM0.in0 Block5.MEM0
+net Block5.MEM0.in1 Block5.MEM0
+net Block5.MEM0.in2 Block5.MEM0
+net Block5.MEM0.out0 Block5.SW_FU_OUTPORT.in1
+net Block5.SW_INPORT_FU.in0 Block5.SW_INPORT_FU.out0
+net Block5.SW_INPORT_FU.in0 Block5.SW_INPORT_FU.out1
+net Block5.SW_INPORT_FU.in0 Block5.SW_INPORT_FU.out2
+net Block5.SW_INPORT_FU.in0 Block5.SW_INPORT_FU.out3
+net Block5.SW_INPORT_FU.in1 Block5.SW_INPORT_FU.out0
+net Block5.SW_INPORT_FU.in1 Block5.SW_INPORT_FU.out1
+net Block5.SW_INPORT_FU.in1 Block5.SW_INPORT_FU.out2
+net Block5.SW_INPORT_FU.in1 Block5.SW_INPORT_FU.out3
+net Block5.SW_INPORT_FU.out0 Block5.ALU0.in0
+net Block5.SW_INPORT_FU.out1 Block5.ALU0.in1
+net Block5.SW_INPORT_FU.out2 Block5.MEM0.in0
+net Block5.SW_INPORT_FU.out3 Block5.MEM0.in1
+net Block5.SW_ALU_MEM.in0 Block5.SW_ALU_MEM.out0
+net Block5.SW_ALU_MEM.in0 Block5.SW_ALU_MEM.out1
+net Block5.SW_ALU_MEM.out0 Block5.MEM0.in0
+net Block5.SW_ALU_MEM.out1 Block5.MEM0.in1
+net Block5.SW_FU_OUTPORT.in0 Block5.SW_FU_OUTPORT.out0
+net Block5.SW_FU_OUTPORT.in0 Block5.SW_FU_OUTPORT.out1
+net Block5.SW_FU_OUTPORT.in1 Block5.SW_FU_OUTPORT.out0
+net Block5.SW_FU_OUTPORT.in1 Block5.SW_FU_OUTPORT.out1
+net Block5.SW_FU_OUTPORT.out0 Block5.out0
+net Block6.in0 Block6.SW_INPORT_FU.in0
+net Block6.in1 Block6.SW_INPORT_FU.in1
+net Block6.out0 SW4X2_Core_MESH2.in2
+net Block6.out0 SW4X2_Core_MESH5.in2
+net Block6.out0 SW4X2_Core_MESH7.in2
+net Block6.out0 SW4X2_Core_MESH10.in0
+net Block6.ALU0 Block6.ALU0.out0
+net Block6.ALU0.in0 Block6.ALU0
+net Block6.ALU0.in1 Block6.ALU0
+net Block6.ALU0.out0 Block6.SW_ALU_MEM.in0
+net Block6.ALU0.out0 Block6.SW_FU_OUTPORT.in0
+net Block6.MEM0 Block6.MEM0.out0
+net Block6.MEM0.in0 Block6.MEM0
+net Block6.MEM0.in1 Block6.MEM0
+net Block6.MEM0.in2 Block6.MEM0
+net Block6.MEM0.out0 Block6.SW_FU_OUTPORT.in1
+net Block6.SW_INPORT_FU.in0 Block6.SW_INPORT_FU.out0
+net Block6.SW_INPORT_FU.in0 Block6.SW_INPORT_FU.out1
+net Block6.SW_INPORT_FU.in0 Block6.SW_INPORT_FU.out2
+net Block6.SW_INPORT_FU.in0 Block6.SW_INPORT_FU.out3
+net Block6.SW_INPORT_FU.in1 Block6.SW_INPORT_FU.out0
+net Block6.SW_INPORT_FU.in1 Block6.SW_INPORT_FU.out1
+net Block6.SW_INPORT_FU.in1 Block6.SW_INPORT_FU.out2
+net Block6.SW_INPORT_FU.in1 Block6.SW_INPORT_FU.out3
+net Block6.SW_INPORT_FU.out0 Block6.ALU0.in0
+net Block6.SW_INPORT_FU.out1 Block6.ALU0.in1
+net Block6.SW_INPORT_FU.out2 Block6.MEM0.in0
+net Block6.SW_INPORT_FU.out3 Block6.MEM0.in1
+net Block6.SW_ALU_MEM.in0 Block6.SW_ALU_MEM.out0
+net Block6.SW_ALU_MEM.in0 Block6.SW_ALU_MEM.out1
+net Block6.SW_ALU_MEM.out0 Block6.MEM0.in0
+net Block6.SW_ALU_MEM.out1 Block6.MEM0.in1
+net Block6.SW_FU_OUTPORT.in0 Block6.SW_FU_OUTPORT.out0
+net Block6.SW_FU_OUTPORT.in0 Block6.SW_FU_OUTPORT.out1
+net Block6.SW_FU_OUTPORT.in1 Block6.SW_FU_OUTPORT.out0
+net Block6.SW_FU_OUTPORT.in1 Block6.SW_FU_OUTPORT.out1
+net Block6.SW_FU_OUTPORT.out0 Block6.out0
+net Block7.in0 Block7.SW2X2_INPORT.in0
+net Block7.in1 Block7.SW2X2_INPORT.in1
+net Block7.out0 SW4X2_Core_MESH3.in2
+net Block7.out0 SW4X2_Core_MESH4.in2
+net Block7.out0 SW4X2_Core_MESH6.in2
+net Block7.out0 SW4X2_Core_MESH11.in0
+net Block7.IO0 Block7.IO0.out0
+net Block7.IO0.in0 Block7.IO0
+net Block7.IO0.in1 Block7.IO0
+net Block7.IO0.out0 Block7.SW1X1_OUTPORT.in0
+net Block7.SW2X2_INPORT.in0 Block7.SW2X2_INPORT.out0
+net Block7.SW2X2_INPORT.in0 Block7.SW2X2_INPORT.out1
+net Block7.SW2X2_INPORT.in1 Block7.SW2X2_INPORT.out0
+net Block7.SW2X2_INPORT.in1 Block7.SW2X2_INPORT.out1
+net Block7.SW2X2_INPORT.out0 Block7.IO0.in0
+net Block7.SW2X2_INPORT.out1 Block7.IO0.in1
+net Block7.SW1X1_OUTPORT.in0 Block7.SW1X1_OUTPORT.out0
+net Block7.SW1X1_OUTPORT.out0 Block7.out0
+net Block8.in0 Block8.SW_INPORT_FU.in0
+net Block8.in1 Block8.SW_INPORT_FU.in1
+net Block8.out0 SW4X2_Core_MESH4.in3
+net Block8.out0 SW4X2_Core_MESH9.in1
+net Block8.out0 SW4X2_Core_MESH11.in1
+net Block8.out0 SW4X2_Core_MESH12.in0
+net Block8.ALU0 Block8.ALU0.out0
+net Block8.ALU0.in0 Block8.ALU0
+net Block8.ALU0.in1 Block8.ALU0
+net Block8.ALU0.out0 Block8.SW_ALU_MEM.in0
+net Block8.ALU0.out0 Block8.SW_FU_OUTPORT.in0
+net Block8.MEM0 Block8.MEM0.out0
+net Block8.MEM0.in0 Block8.MEM0
+net Block8.MEM0.in1 Block8.MEM0
+net Block8.MEM0.in2 Block8.MEM0
+net Block8.MEM0.out0 Block8.SW_FU_OUTPORT.in1
+net Block8.SW_INPORT_FU.in0 Block8.SW_INPORT_FU.out0
+net Block8.SW_INPORT_FU.in0 Block8.SW_INPORT_FU.out1
+net Block8.SW_INPORT_FU.in0 Block8.SW_INPORT_FU.out2
+net Block8.SW_INPORT_FU.in0 Block8.SW_INPORT_FU.out3
+net Block8.SW_INPORT_FU.in1 Block8.SW_INPORT_FU.out0
+net Block8.SW_INPORT_FU.in1 Block8.SW_INPORT_FU.out1
+net Block8.SW_INPORT_FU.in1 Block8.SW_INPORT_FU.out2
+net Block8.SW_INPORT_FU.in1 Block8.SW_INPORT_FU.out3
+net Block8.SW_INPORT_FU.out0 Block8.ALU0.in0
+net Block8.SW_INPORT_FU.out1 Block8.ALU0.in1
+net Block8.SW_INPORT_FU.out2 Block8.MEM0.in0
+net Block8.SW_INPORT_FU.out3 Block8.MEM0.in1
+net Block8.SW_ALU_MEM.in0 Block8.SW_ALU_MEM.out0
+net Block8.SW_ALU_MEM.in0 Block8.SW_ALU_MEM.out1
+net Block8.SW_ALU_MEM.out0 Block8.MEM0.in0
+net Block8.SW_ALU_MEM.out1 Block8.MEM0.in1
+net Block8.SW_FU_OUTPORT.in0 Block8.SW_FU_OUTPORT.out0
+net Block8.SW_FU_OUTPORT.in0 Block8.SW_FU_OUTPORT.out1
+net Block8.SW_FU_OUTPORT.in1 Block8.SW_FU_OUTPORT.out0
+net Block8.SW_FU_OUTPORT.in1 Block8.SW_FU_OUTPORT.out1
+net Block8.SW_FU_OUTPORT.out0 Block8.out0
+net Block9.in0 Block9.SW_INPORT_FU.in0
+net Block9.in1 Block9.SW_INPORT_FU.in1
+net Block9.out0 SW4X2_Core_MESH5.in3
+net Block9.out0 SW4X2_Core_MESH8.in1
+net Block9.out0 SW4X2_Core_MESH10.in1
+net Block9.out0 SW4X2_Core_MESH13.in0
+net Block9.ALU0 Block9.ALU0.out0
+net Block9.ALU0.in0 Block9.ALU0
+net Block9.ALU0.in1 Block9.ALU0
+net Block9.ALU0.out0 Block9.SW_ALU_MEM.in0
+net Block9.ALU0.out0 Block9.SW_FU_OUTPORT.in0
+net Block9.MEM0 Block9.MEM0.out0
+net Block9.MEM0.in0 Block9.MEM0
+net Block9.MEM0.in1 Block9.MEM0
+net Block9.MEM0.in2 Block9.MEM0
+net Block9.MEM0.out0 Block9.SW_FU_OUTPORT.in1
+net Block9.SW_INPORT_FU.in0 Block9.SW_INPORT_FU.out0
+net Block9.SW_INPORT_FU.in0 Block9.SW_INPORT_FU.out1
+net Block9.SW_INPORT_FU.in0 Block9.SW_INPORT_FU.out2
+net Block9.SW_INPORT_FU.in0 Block9.SW_INPORT_FU.out3
+net Block9.SW_INPORT_FU.in1 Block9.SW_INPORT_FU.out0
+net Block9.SW_INPORT_FU.in1 Block9.SW_INPORT_FU.out1
+net Block9.SW_INPORT_FU.in1 Block9.SW_INPORT_FU.out2
+net Block9.SW_INPORT_FU.in1 Block9.SW_INPORT_FU.out3
+net Block9.SW_INPORT_FU.out0 Block9.ALU0.in0
+net Block9.SW_INPORT_FU.out1 Block9.ALU0.in1
+net Block9.SW_INPORT_FU.out2 Block9.MEM0.in0
+net Block9.SW_INPORT_FU.out3 Block9.MEM0.in1
+net Block9.SW_ALU_MEM.in0 Block9.SW_ALU_MEM.out0
+net Block9.SW_ALU_MEM.in0 Block9.SW_ALU_MEM.out1
+net Block9.SW_ALU_MEM.out0 Block9.MEM0.in0
+net Block9.SW_ALU_MEM.out1 Block9.MEM0.in1
+net Block9.SW_FU_OUTPORT.in0 Block9.SW_FU_OUTPORT.out0
+net Block9.SW_FU_OUTPORT.in0 Block9.SW_FU_OUTPORT.out1
+net Block9.SW_FU_OUTPORT.in1 Block9.SW_FU_OUTPORT.out0
+net Block9.SW_FU_OUTPORT.in1 Block9.SW_FU_OUTPORT.out1
+net Block9.SW_FU_OUTPORT.out0 Block9.out0
+net Block10.in0 Block10.SW_INPORT_FU.in0
+net Block10.in1 Block10.SW_INPORT_FU.in1
+net Block10.out0 SW4X2_Core_MESH6.in3
+net Block10.out0 SW4X2_Core_MESH9.in2
+net Block10.out0 SW4X2_Core_MESH11.in2
+net Block10.out0 SW4X2_Core_MESH14.in0
+net Block10.ALU0 Block10.ALU0.out0
+net Block10.ALU0.in0 Block10.ALU0
+net Block10.ALU0.in1 Block10.ALU0
+net Block10.ALU0.out0 Block10.SW_ALU_MEM.in0
+net Block10.ALU0.out0 Block10.SW_FU_OUTPORT.in0
+net Block10.MEM0 Block10.MEM0.out0
+net Block10.MEM0.in0 Block10.MEM0
+net Block10.MEM0.in1 Block10.MEM0
+net Block10.MEM0.in2 Block10.MEM0
+net Block10.MEM0.out0 Block10.SW_FU_OUTPORT.in1
+net Block10.SW_INPORT_FU.in0 Block10.SW_INPORT_FU.out0
+net Block10.SW_INPORT_FU.in0 Block10.SW_INPORT_FU.out1
+net Block10.SW_INPORT_FU.in0 Block10.SW_INPORT_FU.out2
+net Block10.SW_INPORT_FU.in0 Block10.SW_INPORT_FU.out3
+net Block10.SW_INPORT_FU.in1 Block10.SW_INPORT_FU.out0
+net Block10.SW_INPORT_FU.in1 Block10.SW_INPORT_FU.out1
+net Block10.SW_INPORT_FU.in1 Block10.SW_INPORT_FU.out2
+net Block10.SW_INPORT_FU.in1 Block10.SW_INPORT_FU.out3
+net Block10.SW_INPORT_FU.out0 Block10.ALU0.in0
+net Block10.SW_INPORT_FU.out1 Block10.ALU0.in1
+net Block10.SW_INPORT_FU.out2 Block10.MEM0.in0
+net Block10.SW_INPORT_FU.out3 Block10.MEM0.in1
+net Block10.SW_ALU_MEM.in0 Block10.SW_ALU_MEM.out0
+net Block10.SW_ALU_MEM.in0 Block10.SW_ALU_MEM.out1
+net Block10.SW_ALU_MEM.out0 Block10.MEM0.in0
+net Block10.SW_ALU_MEM.out1 Block10.MEM0.in1
+net Block10.SW_FU_OUTPORT.in0 Block10.SW_FU_OUTPORT.out0
+net Block10.SW_FU_OUTPORT.in0 Block10.SW_FU_OUTPORT.out1
+net Block10.SW_FU_OUTPORT.in1 Block10.SW_FU_OUTPORT.out0
+net Block10.SW_FU_OUTPORT.in1 Block10.SW_FU_OUTPORT.out1
+net Block10.SW_FU_OUTPORT.out0 Block10.out0
+net Block11.in0 Block11.SW_INPORT_FU.in0
+net Block11.in1 Block11.SW_INPORT_FU.in1
+net Block11.out0 SW4X2_Core_MESH7.in3
+net Block11.out0 SW4X2_Core_MESH8.in2
+net Block11.out0 SW4X2_Core_MESH10.in2
+net Block11.out0 SW4X2_Core_MESH15.in0
+net Block11.ALU0 Block11.ALU0.out0
+net Block11.ALU0.in0 Block11.ALU0
+net Block11.ALU0.in1 Block11.ALU0
+net Block11.ALU0.out0 Block11.SW_ALU_MEM.in0
+net Block11.ALU0.out0 Block11.SW_FU_OUTPORT.in0
+net Block11.MEM0 Block11.MEM0.out0
+net Block11.MEM0.in0 Block11.MEM0
+net Block11.MEM0.in1 Block11.MEM0
+net Block11.MEM0.in2 Block11.MEM0
+net Block11.MEM0.out0 Block11.SW_FU_OUTPORT.in1
+net Block11.SW_INPORT_FU.in0 Block11.SW_INPORT_FU.out0
+net Block11.SW_INPORT_FU.in0 Block11.SW_INPORT_FU.out1
+net Block11.SW_INPORT_FU.in0 Block11.SW_INPORT_FU.out2
+net Block11.SW_INPORT_FU.in0 Block11.SW_INPORT_FU.out3
+net Block11.SW_INPORT_FU.in1 Block11.SW_INPORT_FU.out0
+net Block11.SW_INPORT_FU.in1 Block11.SW_INPORT_FU.out1
+net Block11.SW_INPORT_FU.in1 Block11.SW_INPORT_FU.out2
+net Block11.SW_INPORT_FU.in1 Block11.SW_INPORT_FU.out3
+net Block11.SW_INPORT_FU.out0 Block11.ALU0.in0
+net Block11.SW_INPORT_FU.out1 Block11.ALU0.in1
+net Block11.SW_INPORT_FU.out2 Block11.MEM0.in0
+net Block11.SW_INPORT_FU.out3 Block11.MEM0.in1
+net Block11.SW_ALU_MEM.in0 Block11.SW_ALU_MEM.out0
+net Block11.SW_ALU_MEM.in0 Block11.SW_ALU_MEM.out1
+net Block11.SW_ALU_MEM.out0 Block11.MEM0.in0
+net Block11.SW_ALU_MEM.out1 Block11.MEM0.in1
+net Block11.SW_FU_OUTPORT.in0 Block11.SW_FU_OUTPORT.out0
+net Block11.SW_FU_OUTPORT.in0 Block11.SW_FU_OUTPORT.out1
+net Block11.SW_FU_OUTPORT.in1 Block11.SW_FU_OUTPORT.out0
+net Block11.SW_FU_OUTPORT.in1 Block11.SW_FU_OUTPORT.out1
+net Block11.SW_FU_OUTPORT.out0 Block11.out0
+net Block12.in0 Block12.SW_INPORT_FU.in0
+net Block12.in1 Block12.SW_INPORT_FU.in1
+net Block12.out0 SW4X2_Core_MESH8.in3
+net Block12.out0 SW4X2_Core_MESH13.in1
+net Block12.out0 SW4X2_Core_MESH15.in1
+net Block12.out0 SW4X2_Core_MESH16.in0
+net Block12.ALU0 Block12.ALU0.out0
+net Block12.ALU0.in0 Block12.ALU0
+net Block12.ALU0.in1 Block12.ALU0
+net Block12.ALU0.out0 Block12.SW_ALU_MEM.in0
+net Block12.ALU0.out0 Block12.SW_FU_OUTPORT.in0
+net Block12.MEM0 Block12.MEM0.out0
+net Block12.MEM0.in0 Block12.MEM0
+net Block12.MEM0.in1 Block12.MEM0
+net Block12.MEM0.in2 Block12.MEM0
+net Block12.MEM0.out0 Block12.SW_FU_OUTPORT.in1
+net Block12.SW_INPORT_FU.in0 Block12.SW_INPORT_FU.out0
+net Block12.SW_INPORT_FU.in0 Block12.SW_INPORT_FU.out1
+net Block12.SW_INPORT_FU.in0 Block12.SW_INPORT_FU.out2
+net Block12.SW_INPORT_FU.in0 Block12.SW_INPORT_FU.out3
+net Block12.SW_INPORT_FU.in1 Block12.SW_INPORT_FU.out0
+net Block12.SW_INPORT_FU.in1 Block12.SW_INPORT_FU.out1
+net Block12.SW_INPORT_FU.in1 Block12.SW_INPORT_FU.out2
+net Block12.SW_INPORT_FU.in1 Block12.SW_INPORT_FU.out3
+net Block12.SW_INPORT_FU.out0 Block12.ALU0.in0
+net Block12.SW_INPORT_FU.out1 Block12.ALU0.in1
+net Block12.SW_INPORT_FU.out2 Block12.MEM0.in0
+net Block12.SW_INPORT_FU.out3 Block12.MEM0.in1
+net Block12.SW_ALU_MEM.in0 Block12.SW_ALU_MEM.out0
+net Block12.SW_ALU_MEM.in0 Block12.SW_ALU_MEM.out1
+net Block12.SW_ALU_MEM.out0 Block12.MEM0.in0
+net Block12.SW_ALU_MEM.out1 Block12.MEM0.in1
+net Block12.SW_FU_OUTPORT.in0 Block12.SW_FU_OUTPORT.out0
+net Block12.SW_FU_OUTPORT.in0 Block12.SW_FU_OUTPORT.out1
+net Block12.SW_FU_OUTPORT.in1 Block12.SW_FU_OUTPORT.out0
+net Block12.SW_FU_OUTPORT.in1 Block12.SW_FU_OUTPORT.out1
+net Block12.SW_FU_OUTPORT.out0 Block12.out0
+net Block13.in0 Block13.SW_INPORT_FU.in0
+net Block13.in1 Block13.SW_INPORT_FU.in1
+net Block13.out0 SW4X2_Core_MESH9.in3
+net Block13.out0 SW4X2_Core_MESH12.in1
+net Block13.out0 SW4X2_Core_MESH14.in1
+net Block13.out0 SW4X2_Core_MESH17.in0
+net Block13.ALU0 Block13.ALU0.out0
+net Block13.ALU0.in0 Block13.ALU0
+net Block13.ALU0.in1 Block13.ALU0
+net Block13.ALU0.out0 Block13.SW_ALU_MEM.in0
+net Block13.ALU0.out0 Block13.SW_FU_OUTPORT.in0
+net Block13.MEM0 Block13.MEM0.out0
+net Block13.MEM0.in0 Block13.MEM0
+net Block13.MEM0.in1 Block13.MEM0
+net Block13.MEM0.in2 Block13.MEM0
+net Block13.MEM0.out0 Block13.SW_FU_OUTPORT.in1
+net Block13.SW_INPORT_FU.in0 Block13.SW_INPORT_FU.out0
+net Block13.SW_INPORT_FU.in0 Block13.SW_INPORT_FU.out1
+net Block13.SW_INPORT_FU.in0 Block13.SW_INPORT_FU.out2
+net Block13.SW_INPORT_FU.in0 Block13.SW_INPORT_FU.out3
+net Block13.SW_INPORT_FU.in1 Block13.SW_INPORT_FU.out0
+net Block13.SW_INPORT_FU.in1 Block13.SW_INPORT_FU.out1
+net Block13.SW_INPORT_FU.in1 Block13.SW_INPORT_FU.out2
+net Block13.SW_INPORT_FU.in1 Block13.SW_INPORT_FU.out3
+net Block13.SW_INPORT_FU.out0 Block13.ALU0.in0
+net Block13.SW_INPORT_FU.out1 Block13.ALU0.in1
+net Block13.SW_INPORT_FU.out2 Block13.MEM0.in0
+net Block13.SW_INPORT_FU.out3 Block13.MEM0.in1
+net Block13.SW_ALU_MEM.in0 Block13.SW_ALU_MEM.out0
+net Block13.SW_ALU_MEM.in0 Block13.SW_ALU_MEM.out1
+net Block13.SW_ALU_MEM.out0 Block13.MEM0.in0
+net Block13.SW_ALU_MEM.out1 Block13.MEM0.in1
+net Block13.SW_FU_OUTPORT.in0 Block13.SW_FU_OUTPORT.out0
+net Block13.SW_FU_OUTPORT.in0 Block13.SW_FU_OUTPORT.out1
+net Block13.SW_FU_OUTPORT.in1 Block13.SW_FU_OUTPORT.out0
+net Block13.SW_FU_OUTPORT.in1 Block13.SW_FU_OUTPORT.out1
+net Block13.SW_FU_OUTPORT.out0 Block13.out0
+net Block14.in0 Block14.SW_INPORT_FU.in0
+net Block14.in1 Block14.SW_INPORT_FU.in1
+net Block14.out0 SW4X2_Core_MESH10.in3
+net Block14.out0 SW4X2_Core_MESH13.in2
+net Block14.out0 SW4X2_Core_MESH15.in2
+net Block14.out0 SW4X2_Core_MESH18.in0
+net Block14.ALU0 Block14.ALU0.out0
+net Block14.ALU0.in0 Block14.ALU0
+net Block14.ALU0.in1 Block14.ALU0
+net Block14.ALU0.out0 Block14.SW_ALU_MEM.in0
+net Block14.ALU0.out0 Block14.SW_FU_OUTPORT.in0
+net Block14.MEM0 Block14.MEM0.out0
+net Block14.MEM0.in0 Block14.MEM0
+net Block14.MEM0.in1 Block14.MEM0
+net Block14.MEM0.in2 Block14.MEM0
+net Block14.MEM0.out0 Block14.SW_FU_OUTPORT.in1
+net Block14.SW_INPORT_FU.in0 Block14.SW_INPORT_FU.out0
+net Block14.SW_INPORT_FU.in0 Block14.SW_INPORT_FU.out1
+net Block14.SW_INPORT_FU.in0 Block14.SW_INPORT_FU.out2
+net Block14.SW_INPORT_FU.in0 Block14.SW_INPORT_FU.out3
+net Block14.SW_INPORT_FU.in1 Block14.SW_INPORT_FU.out0
+net Block14.SW_INPORT_FU.in1 Block14.SW_INPORT_FU.out1
+net Block14.SW_INPORT_FU.in1 Block14.SW_INPORT_FU.out2
+net Block14.SW_INPORT_FU.in1 Block14.SW_INPORT_FU.out3
+net Block14.SW_INPORT_FU.out0 Block14.ALU0.in0
+net Block14.SW_INPORT_FU.out1 Block14.ALU0.in1
+net Block14.SW_INPORT_FU.out2 Block14.MEM0.in0
+net Block14.SW_INPORT_FU.out3 Block14.MEM0.in1
+net Block14.SW_ALU_MEM.in0 Block14.SW_ALU_MEM.out0
+net Block14.SW_ALU_MEM.in0 Block14.SW_ALU_MEM.out1
+net Block14.SW_ALU_MEM.out0 Block14.MEM0.in0
+net Block14.SW_ALU_MEM.out1 Block14.MEM0.in1
+net Block14.SW_FU_OUTPORT.in0 Block14.SW_FU_OUTPORT.out0
+net Block14.SW_FU_OUTPORT.in0 Block14.SW_FU_OUTPORT.out1
+net Block14.SW_FU_OUTPORT.in1 Block14.SW_FU_OUTPORT.out0
+net Block14.SW_FU_OUTPORT.in1 Block14.SW_FU_OUTPORT.out1
+net Block14.SW_FU_OUTPORT.out0 Block14.out0
+net Block15.in0 Block15.SW_INPORT_FU.in0
+net Block15.in1 Block15.SW_INPORT_FU.in1
+net Block15.out0 SW4X2_Core_MESH11.in3
+net Block15.out0 SW4X2_Core_MESH12.in2
+net Block15.out0 SW4X2_Core_MESH14.in2
+net Block15.out0 SW4X2_Core_MESH19.in0
+net Block15.ALU0 Block15.ALU0.out0
+net Block15.ALU0.in0 Block15.ALU0
+net Block15.ALU0.in1 Block15.ALU0
+net Block15.ALU0.out0 Block15.SW_ALU_MEM.in0
+net Block15.ALU0.out0 Block15.SW_FU_OUTPORT.in0
+net Block15.MEM0 Block15.MEM0.out0
+net Block15.MEM0.in0 Block15.MEM0
+net Block15.MEM0.in1 Block15.MEM0
+net Block15.MEM0.in2 Block15.MEM0
+net Block15.MEM0.out0 Block15.SW_FU_OUTPORT.in1
+net Block15.SW_INPORT_FU.in0 Block15.SW_INPORT_FU.out0
+net Block15.SW_INPORT_FU.in0 Block15.SW_INPORT_FU.out1
+net Block15.SW_INPORT_FU.in0 Block15.SW_INPORT_FU.out2
+net Block15.SW_INPORT_FU.in0 Block15.SW_INPORT_FU.out3
+net Block15.SW_INPORT_FU.in1 Block15.SW_INPORT_FU.out0
+net Block15.SW_INPORT_FU.in1 Block15.SW_INPORT_FU.out1
+net Block15.SW_INPORT_FU.in1 Block15.SW_INPORT_FU.out2
+net Block15.SW_INPORT_FU.in1 Block15.SW_INPORT_FU.out3
+net Block15.SW_INPORT_FU.out0 Block15.ALU0.in0
+net Block15.SW_INPORT_FU.out1 Block15.ALU0.in1
+net Block15.SW_INPORT_FU.out2 Block15.MEM0.in0
+net Block15.SW_INPORT_FU.out3 Block15.MEM0.in1
+net Block15.SW_ALU_MEM.in0 Block15.SW_ALU_MEM.out0
+net Block15.SW_ALU_MEM.in0 Block15.SW_ALU_MEM.out1
+net Block15.SW_ALU_MEM.out0 Block15.MEM0.in0
+net Block15.SW_ALU_MEM.out1 Block15.MEM0.in1
+net Block15.SW_FU_OUTPORT.in0 Block15.SW_FU_OUTPORT.out0
+net Block15.SW_FU_OUTPORT.in0 Block15.SW_FU_OUTPORT.out1
+net Block15.SW_FU_OUTPORT.in1 Block15.SW_FU_OUTPORT.out0
+net Block15.SW_FU_OUTPORT.in1 Block15.SW_FU_OUTPORT.out1
+net Block15.SW_FU_OUTPORT.out0 Block15.out0
+net Block16.in0 Block16.SW2X2_INPORT.in0
+net Block16.in1 Block16.SW2X2_INPORT.in1
+net Block16.out0 SW4X2_Core_MESH12.in3
+net Block16.out0 SW4X2_Core_MESH17.in1
+net Block16.out0 SW4X2_Core_MESH19.in1
+net Block16.out0 SW4X2_Core_MESH20.in1
+net Block16.IO0 Block16.IO0.out0
+net Block16.IO0.in0 Block16.IO0
+net Block16.IO0.in1 Block16.IO0
+net Block16.IO0.out0 Block16.SW1X1_OUTPORT.in0
+net Block16.SW2X2_INPORT.in0 Block16.SW2X2_INPORT.out0
+net Block16.SW2X2_INPORT.in0 Block16.SW2X2_INPORT.out1
+net Block16.SW2X2_INPORT.in1 Block16.SW2X2_INPORT.out0
+net Block16.SW2X2_INPORT.in1 Block16.SW2X2_INPORT.out1
+net Block16.SW2X2_INPORT.out0 Block16.IO0.in0
+net Block16.SW2X2_INPORT.out1 Block16.IO0.in1
+net Block16.SW1X1_OUTPORT.in0 Block16.SW1X1_OUTPORT.out0
+net Block16.SW1X1_OUTPORT.out0 Block16.out0
+net Block17.in0 Block17.SW_INPORT_FU.in0
+net Block17.in1 Block17.SW_INPORT_FU.in1
+net Block17.out0 SW4X2_Core_MESH13.in3
+net Block17.out0 SW4X2_Core_MESH16.in1
+net Block17.out0 SW4X2_Core_MESH18.in1
+net Block17.out0 SW4X2_Core_MESH21.in1
+net Block17.ALU0 Block17.ALU0.out0
+net Block17.ALU0.in0 Block17.ALU0
+net Block17.ALU0.in1 Block17.ALU0
+net Block17.ALU0.out0 Block17.SW_ALU_MEM.in0
+net Block17.ALU0.out0 Block17.SW_FU_OUTPORT.in0
+net Block17.MEM0 Block17.MEM0.out0
+net Block17.MEM0.in0 Block17.MEM0
+net Block17.MEM0.in1 Block17.MEM0
+net Block17.MEM0.in2 Block17.MEM0
+net Block17.MEM0.out0 Block17.SW_FU_OUTPORT.in1
+net Block17.SW_INPORT_FU.in0 Block17.SW_INPORT_FU.out0
+net Block17.SW_INPORT_FU.in0 Block17.SW_INPORT_FU.out1
+net Block17.SW_INPORT_FU.in0 Block17.SW_INPORT_FU.out2
+net Block17.SW_INPORT_FU.in0 Block17.SW_INPORT_FU.out3
+net Block17.SW_INPORT_FU.in1 Block17.SW_INPORT_FU.out0
+net Block17.SW_INPORT_FU.in1 Block17.SW_INPORT_FU.out1
+net Block17.SW_INPORT_FU.in1 Block17.SW_INPORT_FU.out2
+net Block17.SW_INPORT_FU.in1 Block17.SW_INPORT_FU.out3
+net Block17.SW_INPORT_FU.out0 Block17.ALU0.in0
+net Block17.SW_INPORT_FU.out1 Block17.ALU0.in1
+net Block17.SW_INPORT_FU.out2 Block17.MEM0.in0
+net Block17.SW_INPORT_FU.out3 Block17.MEM0.in1
+net Block17.SW_ALU_MEM.in0 Block17.SW_ALU_MEM.out0
+net Block17.SW_ALU_MEM.in0 Block17.SW_ALU_MEM.out1
+net Block17.SW_ALU_MEM.out0 Block17.MEM0.in0
+net Block17.SW_ALU_MEM.out1 Block17.MEM0.in1
+net Block17.SW_FU_OUTPORT.in0 Block17.SW_FU_OUTPORT.out0
+net Block17.SW_FU_OUTPORT.in0 Block17.SW_FU_OUTPORT.out1
+net Block17.SW_FU_OUTPORT.in1 Block17.SW_FU_OUTPORT.out0
+net Block17.SW_FU_OUTPORT.in1 Block17.SW_FU_OUTPORT.out1
+net Block17.SW_FU_OUTPORT.out0 Block17.out0
+net Block18.in0 Block18.SW_INPORT_FU.in0
+net Block18.in1 Block18.SW_INPORT_FU.in1
+net Block18.out0 SW4X2_Core_MESH14.in3
+net Block18.out0 SW4X2_Core_MESH17.in2
+net Block18.out0 SW4X2_Core_MESH19.in2
+net Block18.out0 SW4X2_Core_MESH22.in1
+net Block18.ALU0 Block18.ALU0.out0
+net Block18.ALU0.in0 Block18.ALU0
+net Block18.ALU0.in1 Block18.ALU0
+net Block18.ALU0.out0 Block18.SW_ALU_MEM.in0
+net Block18.ALU0.out0 Block18.SW_FU_OUTPORT.in0
+net Block18.MEM0 Block18.MEM0.out0
+net Block18.MEM0.in0 Block18.MEM0
+net Block18.MEM0.in1 Block18.MEM0
+net Block18.MEM0.in2 Block18.MEM0
+net Block18.MEM0.out0 Block18.SW_FU_OUTPORT.in1
+net Block18.SW_INPORT_FU.in0 Block18.SW_INPORT_FU.out0
+net Block18.SW_INPORT_FU.in0 Block18.SW_INPORT_FU.out1
+net Block18.SW_INPORT_FU.in0 Block18.SW_INPORT_FU.out2
+net Block18.SW_INPORT_FU.in0 Block18.SW_INPORT_FU.out3
+net Block18.SW_INPORT_FU.in1 Block18.SW_INPORT_FU.out0
+net Block18.SW_INPORT_FU.in1 Block18.SW_INPORT_FU.out1
+net Block18.SW_INPORT_FU.in1 Block18.SW_INPORT_FU.out2
+net Block18.SW_INPORT_FU.in1 Block18.SW_INPORT_FU.out3
+net Block18.SW_INPORT_FU.out0 Block18.ALU0.in0
+net Block18.SW_INPORT_FU.out1 Block18.ALU0.in1
+net Block18.SW_INPORT_FU.out2 Block18.MEM0.in0
+net Block18.SW_INPORT_FU.out3 Block18.MEM0.in1
+net Block18.SW_ALU_MEM.in0 Block18.SW_ALU_MEM.out0
+net Block18.SW_ALU_MEM.in0 Block18.SW_ALU_MEM.out1
+net Block18.SW_ALU_MEM.out0 Block18.MEM0.in0
+net Block18.SW_ALU_MEM.out1 Block18.MEM0.in1
+net Block18.SW_FU_OUTPORT.in0 Block18.SW_FU_OUTPORT.out0
+net Block18.SW_FU_OUTPORT.in0 Block18.SW_FU_OUTPORT.out1
+net Block18.SW_FU_OUTPORT.in1 Block18.SW_FU_OUTPORT.out0
+net Block18.SW_FU_OUTPORT.in1 Block18.SW_FU_OUTPORT.out1
+net Block18.SW_FU_OUTPORT.out0 Block18.out0
+net Block19.in0 Block19.SW2X2_INPORT.in0
+net Block19.in1 Block19.SW2X2_INPORT.in1
+net Block19.out0 SW4X2_Core_MESH15.in3
+net Block19.out0 SW4X2_Core_MESH16.in2
+net Block19.out0 SW4X2_Core_MESH18.in2
+net Block19.out0 SW4X2_Core_MESH23.in1
+net Block19.IO0 Block19.IO0.out0
+net Block19.IO0.in0 Block19.IO0
+net Block19.IO0.in1 Block19.IO0
+net Block19.IO0.out0 Block19.SW1X1_OUTPORT.in0
+net Block19.SW2X2_INPORT.in0 Block19.SW2X2_INPORT.out0
+net Block19.SW2X2_INPORT.in0 Block19.SW2X2_INPORT.out1
+net Block19.SW2X2_INPORT.in1 Block19.SW2X2_INPORT.out0
+net Block19.SW2X2_INPORT.in1 Block19.SW2X2_INPORT.out1
+net Block19.SW2X2_INPORT.out0 Block19.IO0.in0
+net Block19.SW2X2_INPORT.out1 Block19.IO0.in1
+net Block19.SW1X1_OUTPORT.in0 Block19.SW1X1_OUTPORT.out0
+net Block19.SW1X1_OUTPORT.out0 Block19.out0
+net Block20.in0 Block20.SW_INPORT_FU.in0
+net Block20.in1 Block20.SW_INPORT_FU.in1
+net Block20.out0 SW4X2_Core_MESH0.in3
+net Block20.out0 SW4X2_Core_MESH16.in3
+net Block20.out0 SW4X2_Core_MESH21.in2
+net Block20.out0 SW4X2_Core_MESH23.in2
+net Block20.ALU0 Block20.ALU0.out0
+net Block20.ALU0.in0 Block20.ALU0
+net Block20.ALU0.in1 Block20.ALU0
+net Block20.ALU0.out0 Block20.SW_ALU_MEM.in0
+net Block20.ALU0.out0 Block20.SW_FU_OUTPORT.in0
+net Block20.MEM0 Block20.MEM0.out0
+net Block20.MEM0.in0 Block20.MEM0
+net Block20.MEM0.in1 Block20.MEM0
+net Block20.MEM0.in2 Block20.MEM0
+net Block20.MEM0.out0 Block20.SW_FU_OUTPORT.in1
+net Block20.SW_INPORT_FU.in0 Block20.SW_INPORT_FU.out0
+net Block20.SW_INPORT_FU.in0 Block20.SW_INPORT_FU.out1
+net Block20.SW_INPORT_FU.in0 Block20.SW_INPORT_FU.out2
+net Block20.SW_INPORT_FU.in0 Block20.SW_INPORT_FU.out3
+net Block20.SW_INPORT_FU.in1 Block20.SW_INPORT_FU.out0
+net Block20.SW_INPORT_FU.in1 Block20.SW_INPORT_FU.out1
+net Block20.SW_INPORT_FU.in1 Block20.SW_INPORT_FU.out2
+net Block20.SW_INPORT_FU.in1 Block20.SW_INPORT_FU.out3
+net Block20.SW_INPORT_FU.out0 Block20.ALU0.in0
+net Block20.SW_INPORT_FU.out1 Block20.ALU0.in1
+net Block20.SW_INPORT_FU.out2 Block20.MEM0.in0
+net Block20.SW_INPORT_FU.out3 Block20.MEM0.in1
+net Block20.SW_ALU_MEM.in0 Block20.SW_ALU_MEM.out0
+net Block20.SW_ALU_MEM.in0 Block20.SW_ALU_MEM.out1
+net Block20.SW_ALU_MEM.out0 Block20.MEM0.in0
+net Block20.SW_ALU_MEM.out1 Block20.MEM0.in1
+net Block20.SW_FU_OUTPORT.in0 Block20.SW_FU_OUTPORT.out0
+net Block20.SW_FU_OUTPORT.in0 Block20.SW_FU_OUTPORT.out1
+net Block20.SW_FU_OUTPORT.in1 Block20.SW_FU_OUTPORT.out0
+net Block20.SW_FU_OUTPORT.in1 Block20.SW_FU_OUTPORT.out1
+net Block20.SW_FU_OUTPORT.out0 Block20.out0
+net Block21.in0 Block21.SW2X2_INPORT.in0
+net Block21.in1 Block21.SW2X2_INPORT.in1
+net Block21.out0 SW4X2_Core_MESH1.in3
+net Block21.out0 SW4X2_Core_MESH17.in3
+net Block21.out0 SW4X2_Core_MESH20.in2
+net Block21.out0 SW4X2_Core_MESH22.in2
+net Block21.IO0 Block21.IO0.out0
+net Block21.IO0.in0 Block21.IO0
+net Block21.IO0.in1 Block21.IO0
+net Block21.IO0.out0 Block21.SW1X1_OUTPORT.in0
+net Block21.SW2X2_INPORT.in0 Block21.SW2X2_INPORT.out0
+net Block21.SW2X2_INPORT.in0 Block21.SW2X2_INPORT.out1
+net Block21.SW2X2_INPORT.in1 Block21.SW2X2_INPORT.out0
+net Block21.SW2X2_INPORT.in1 Block21.SW2X2_INPORT.out1
+net Block21.SW2X2_INPORT.out0 Block21.IO0.in0
+net Block21.SW2X2_INPORT.out1 Block21.IO0.in1
+net Block21.SW1X1_OUTPORT.in0 Block21.SW1X1_OUTPORT.out0
+net Block21.SW1X1_OUTPORT.out0 Block21.out0
+net Block22.in0 Block22.SW2X2_INPORT.in0
+net Block22.in1 Block22.SW2X2_INPORT.in1
+net Block22.out0 SW4X2_Core_MESH2.in3
+net Block22.out0 SW4X2_Core_MESH18.in3
+net Block22.out0 SW4X2_Core_MESH21.in3
+net Block22.out0 SW4X2_Core_MESH23.in3
+net Block22.IO0 Block22.IO0.out0
+net Block22.IO0.in0 Block22.IO0
+net Block22.IO0.in1 Block22.IO0
+net Block22.IO0.out0 Block22.SW1X1_OUTPORT.in0
+net Block22.SW2X2_INPORT.in0 Block22.SW2X2_INPORT.out0
+net Block22.SW2X2_INPORT.in0 Block22.SW2X2_INPORT.out1
+net Block22.SW2X2_INPORT.in1 Block22.SW2X2_INPORT.out0
+net Block22.SW2X2_INPORT.in1 Block22.SW2X2_INPORT.out1
+net Block22.SW2X2_INPORT.out0 Block22.IO0.in0
+net Block22.SW2X2_INPORT.out1 Block22.IO0.in1
+net Block22.SW1X1_OUTPORT.in0 Block22.SW1X1_OUTPORT.out0
+net Block22.SW1X1_OUTPORT.out0 Block22.out0
+net Block23.in0 Block23.SW_INPORT_FU.in0
+net Block23.in1 Block23.SW_INPORT_FU.in1
+net Block23.out0 SW4X2_Core_MESH3.in3
+net Block23.out0 SW4X2_Core_MESH19.in3
+net Block23.out0 SW4X2_Core_MESH20.in3
+net Block23.out0 SW4X2_Core_MESH22.in3
+net Block23.ALU0 Block23.ALU0.out0
+net Block23.ALU0.in0 Block23.ALU0
+net Block23.ALU0.in1 Block23.ALU0
+net Block23.ALU0.out0 Block23.SW_ALU_MEM.in0
+net Block23.ALU0.out0 Block23.SW_FU_OUTPORT.in0
+net Block23.MEM0 Block23.MEM0.out0
+net Block23.MEM0.in0 Block23.MEM0
+net Block23.MEM0.in1 Block23.MEM0
+net Block23.MEM0.in2 Block23.MEM0
+net Block23.MEM0.out0 Block23.SW_FU_OUTPORT.in1
+net Block23.SW_INPORT_FU.in0 Block23.SW_INPORT_FU.out0
+net Block23.SW_INPORT_FU.in0 Block23.SW_INPORT_FU.out1
+net Block23.SW_INPORT_FU.in0 Block23.SW_INPORT_FU.out2
+net Block23.SW_INPORT_FU.in0 Block23.SW_INPORT_FU.out3
+net Block23.SW_INPORT_FU.in1 Block23.SW_INPORT_FU.out0
+net Block23.SW_INPORT_FU.in1 Block23.SW_INPORT_FU.out1
+net Block23.SW_INPORT_FU.in1 Block23.SW_INPORT_FU.out2
+net Block23.SW_INPORT_FU.in1 Block23.SW_INPORT_FU.out3
+net Block23.SW_INPORT_FU.out0 Block23.ALU0.in0
+net Block23.SW_INPORT_FU.out1 Block23.ALU0.in1
+net Block23.SW_INPORT_FU.out2 Block23.MEM0.in0
+net Block23.SW_INPORT_FU.out3 Block23.MEM0.in1
+net Block23.SW_ALU_MEM.in0 Block23.SW_ALU_MEM.out0
+net Block23.SW_ALU_MEM.in0 Block23.SW_ALU_MEM.out1
+net Block23.SW_ALU_MEM.out0 Block23.MEM0.in0
+net Block23.SW_ALU_MEM.out1 Block23.MEM0.in1
+net Block23.SW_FU_OUTPORT.in0 Block23.SW_FU_OUTPORT.out0
+net Block23.SW_FU_OUTPORT.in0 Block23.SW_FU_OUTPORT.out1
+net Block23.SW_FU_OUTPORT.in1 Block23.SW_FU_OUTPORT.out0
+net Block23.SW_FU_OUTPORT.in1 Block23.SW_FU_OUTPORT.out1
+net Block23.SW_FU_OUTPORT.out0 Block23.out0

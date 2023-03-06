@@ -1,0 +1,33 @@
+vertex ADD_32.in0
+vertex MUL_26
+vertex MUL_26.out0
+vertex ADD_36.in1
+vertex ADD_36
+vertex ADD_32.out0
+vertex MUL_29
+vertex MUL_27.out0
+vertex MUL_29.out0
+vertex ADD_36.in0
+vertex ADD_36.out0
+vertex MUL_27
+vertex ADD_34.out0
+vertex ADD_32
+vertex ADD_34
+vertex ADD_34.in0
+vertex ADD_34.in1
+net ADD_32.in0 ADD_32
+net MUL_26 MUL_26.out0
+net MUL_26.out0 ADD_36.in0
+net ADD_36.in1 ADD_36
+net ADD_36 ADD_36.out0
+net ADD_32.out0 ADD_34.in1
+net MUL_29 MUL_29.out0
+net MUL_27.out0 ADD_34.in0
+net MUL_29.out0 ADD_32.in0
+net ADD_36.in0 ADD_36
+net MUL_27 MUL_27.out0
+net ADD_34.out0 ADD_36.in1
+net ADD_32 ADD_32.out0
+net ADD_34 ADD_34.out0
+net ADD_34.in0 ADD_34
+net ADD_34.in1 ADD_34

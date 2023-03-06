@@ -1,0 +1,53 @@
+vertex NEG_433.in0
+vertex ADD_432.out0
+vertex ADD_432.in1
+vertex ADD_233.out0
+vertex ADD_233.in0
+vertex ADD_233
+vertex MUL_230
+vertex MUL_616.in0
+vertex NEG_433.out0
+vertex SUB_625.in0
+vertex ADD_432.in0
+vertex SUB_625
+vertex MUL_624.in1
+vertex MUL_624.out0
+vertex MUL_616.in1
+vertex MUL_624.in0
+vertex ADD_432
+vertex MUL_230.out0
+vertex MUL_624
+vertex SUB_625.in1
+vertex MUL_431
+vertex MUL_431.out0
+vertex MUL_431.in1
+vertex NEG_433
+vertex MUL_431.in0
+vertex MUL_616
+vertex SUB_625.out0
+vertex MUL_616.out0
+net NEG_433.in0 NEG_433
+net ADD_432.out0 NEG_433.in0
+net ADD_432.in1 ADD_432
+net ADD_233.in0 ADD_233
+net ADD_233 ADD_233.out0
+net MUL_230 MUL_230.out0
+net MUL_616.in0 MUL_616
+net SUB_625.in0 SUB_625
+net ADD_432.in0 ADD_432
+net SUB_625 SUB_625.out0
+net MUL_624.in1 MUL_624
+net MUL_624.out0 SUB_625.in1
+net MUL_616.in1 MUL_616
+net MUL_624.in0 MUL_624
+net ADD_432 ADD_432.out0
+net MUL_230.out0 ADD_233.in0
+net MUL_624 MUL_624.out0
+net SUB_625.in1 SUB_625
+net MUL_431 MUL_431.out0
+net MUL_431.out0 ADD_432.in1
+net MUL_431.in1 MUL_431
+net NEG_433 NEG_433.out0
+net MUL_431.in0 MUL_431
+net MUL_616 MUL_616.out0
+net MUL_616.out0 SUB_625.in0

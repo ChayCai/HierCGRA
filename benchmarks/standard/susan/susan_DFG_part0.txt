@@ -1,0 +1,312 @@
+vertex load6.out0
+    attr optype str load.out0
+vertex store0.in0
+    attr optype str store.in0
+vertex store0
+    attr optype str store
+vertex add12.in0
+    attr optype str add.in0
+vertex add12.in1
+    attr optype str add.in1
+vertex add14.out0
+    attr optype str add.out0
+vertex add16.in1
+    attr optype str add.in1
+vertex add8.in1
+    attr optype str add.in1
+vertex add18.out0
+    attr optype str add.out0
+vertex add13.out0
+    attr optype str add.out0
+vertex add16.in0
+    attr optype str add.in0
+vertex add12
+    attr optype str add
+vertex add9.out0
+    attr optype str add.out0
+vertex add7.in0
+    attr optype str add.in0
+vertex add18.in1
+    attr optype str add.in1
+vertex add10.in0
+    attr optype str add.in0
+vertex add14.in0
+    attr optype str add.in0
+vertex add15
+    attr optype str add
+vertex add14
+    attr optype str add
+vertex add7.in1
+    attr optype str add.in1
+vertex add17
+    attr optype str add
+vertex add15.out0
+    attr optype str add.out0
+vertex add10.out0
+    attr optype str add.out0
+vertex store0.in1
+    attr optype str store.in1
+vertex add9.in0
+    attr optype str add.in0
+vertex add7
+    attr optype str add
+vertex add6.in1
+    attr optype str add.in1
+vertex add11
+    attr optype str add
+vertex add9.in1
+    attr optype str add.in1
+vertex add15.in1
+    attr optype str add.in1
+vertex add6.out0
+    attr optype str add.out0
+vertex add8
+    attr optype str add
+vertex load4.in0
+    attr optype str load.in0
+vertex load18
+    attr optype str load
+vertex load16
+    attr optype str load
+vertex add15.in0
+    attr optype str add.in0
+vertex load60.in0
+    attr optype str load.in0
+vertex load36.in0
+    attr optype str load.in0
+vertex load14.out0
+    attr optype str load.out0
+vertex load14.in0
+    attr optype str load.in0
+vertex load8
+    attr optype str load
+vertex load8.out0
+    attr optype str load.out0
+vertex add9
+    attr optype str add
+vertex add18
+    attr optype str add
+vertex load6.in0
+    attr optype str load.in0
+vertex add8.in0
+    attr optype str add.in0
+vertex add7.out0
+    attr optype str add.out0
+vertex load18.out0
+    attr optype str load.out0
+vertex add18.in0
+    attr optype str add.in0
+vertex add10.in1
+    attr optype str add.in1
+vertex load60.out0
+    attr optype str load.out0
+vertex load10
+    attr optype str load
+vertex load64.out0
+    attr optype str load.out0
+vertex add17.in1
+    attr optype str add.in1
+vertex load4.out0
+    attr optype str load.out0
+vertex load64
+    attr optype str load
+vertex load36
+    attr optype str load
+vertex load6
+    attr optype str load
+vertex add12.out0
+    attr optype str add.out0
+vertex load12
+    attr optype str load
+vertex add6
+    attr optype str add
+vertex load2.in0
+    attr optype str load.in0
+vertex add13.in0
+    attr optype str add.in0
+vertex load20
+    attr optype str load
+vertex load48
+    attr optype str load
+vertex add11.out0
+    attr optype str add.out0
+vertex load20.out0
+    attr optype str load.out0
+vertex add14.in1
+    attr optype str add.in1
+vertex load48.in0
+    attr optype str load.in0
+vertex load22.out0
+    attr optype str load.out0
+vertex load16.in0
+    attr optype str load.in0
+vertex load16.out0
+    attr optype str load.out0
+vertex load12.out0
+    attr optype str load.out0
+vertex add8.out0
+    attr optype str add.out0
+vertex load48.out0
+    attr optype str load.out0
+vertex load64.in0
+    attr optype str load.in0
+vertex add11.in0
+    attr optype str add.in0
+vertex load4
+    attr optype str load
+vertex add10
+    attr optype str add
+vertex add11.in1
+    attr optype str add.in1
+vertex load22
+    attr optype str load
+vertex load20.in0
+    attr optype str load.in0
+vertex load24.out0
+    attr optype str load.out0
+vertex load2
+    attr optype str load
+vertex load22.in0
+    attr optype str load.in0
+vertex load12.in0
+    attr optype str load.in0
+vertex load26
+    attr optype str load
+vertex load10.in0
+    attr optype str load.in0
+vertex load18.in0
+    attr optype str load.in0
+vertex load26.out0
+    attr optype str load.out0
+vertex add13
+    attr optype str add
+vertex load36.out0
+    attr optype str load.out0
+vertex load26.in0
+    attr optype str load.in0
+vertex load24
+    attr optype str load
+vertex load60
+    attr optype str load
+vertex load8.in0
+    attr optype str load.in0
+vertex load2.out0
+    attr optype str load.out0
+vertex add17.in0
+    attr optype str add.in0
+vertex add13.in1
+    attr optype str add.in1
+vertex load24.in0
+    attr optype str load.in0
+vertex add16
+    attr optype str add
+vertex load10.out0
+    attr optype str load.out0
+vertex add17.out0
+    attr optype str add.out0
+vertex load14
+    attr optype str load
+vertex add6.in0
+    attr optype str add.in0
+vertex add16.out0
+    attr optype str add.out0
+net load6.out0 add8.in1
+net store0.in0 store0
+net add12.in0 add12
+net add12.in1 add12
+net add14.out0 add15.in0
+net add16.in1 add16
+net add8.in1 add8
+net add13.out0 add14.in0
+net add16.in0 add16
+net add12 add12.out0
+net add9.out0 add10.in0
+net add7.in0 add7
+net add18.in1 add18
+net add10.in0 add10
+net add14.in0 add14
+net add15 add15.out0
+net add14 add14.out0
+net add7.in1 add7
+net add17 add17.out0
+net add15.out0 add16.in0
+net add10.out0 add11.in0
+net store0.in1 store0
+net add9.in0 add9
+net add7 add7.out0
+net add6.in1 add6
+net add11 add11.out0
+net add9.in1 add9
+net add15.in1 add15
+net add6.out0 add7.in0
+net add8 add8.out0
+net load4.in0 load4
+net load18 load18.out0
+net load16 load16.out0
+net add15.in0 add15
+net load60.in0 load60
+net load36.in0 load36
+net load14.out0 add12.in1
+net load14.in0 load14
+net load8 load8.out0
+net load8.out0 add9.in1
+net add9 add9.out0
+net add18 add18.out0
+net load6.in0 load6
+net add8.in0 add8
+net add7.out0 add8.in0
+net load18.out0 add14.in1
+net add18.in0 add18
+net add10.in1 add10
+net load10 load10.out0
+net add17.in1 add17
+net load4.out0 add7.in1
+net load64 load64.out0
+net load36 load36.out0
+net load6 load6.out0
+net add12.out0 add13.in0
+net load12 load12.out0
+net add6 add6.out0
+net load2.in0 load2
+net add13.in0 add13
+net load20 load20.out0
+net load48 load48.out0
+net add11.out0 add12.in0
+net load20.out0 add15.in1
+net add14.in1 add14
+net load48.in0 load48
+net load22.out0 add16.in1
+net load16.in0 load16
+net load16.out0 add13.in1
+net load12.out0 add11.in1
+net add8.out0 add9.in0
+net load64.in0 load64
+net add11.in0 add11
+net load4 load4.out0
+net add10 add10.out0
+net add11.in1 add11
+net load22 load22.out0
+net load20.in0 load20
+net load24.out0 add17.in1
+net load2 load2.out0
+net load22.in0 load22
+net load12.in0 load12
+net load26 load26.out0
+net load10.in0 load10
+net load18.in0 load18
+net load26.out0 add18.in1
+net add13 add13.out0
+net load26.in0 load26
+net load24 load24.out0
+net load60 load60.out0
+net load8.in0 load8
+net load2.out0 add6.in0
+net add17.in0 add17
+net add13.in1 add13
+net load24.in0 load24
+net add16 add16.out0
+net load10.out0 add10.in1
+net add17.out0 add18.in0
+net load14 load14.out0
+net add6.in0 add6
+net add16.out0 add17.in0

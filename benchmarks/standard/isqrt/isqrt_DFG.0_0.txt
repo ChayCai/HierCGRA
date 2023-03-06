@@ -1,0 +1,48 @@
+vertex shl1.out0
+vertex lshr0
+vertex lshr0.in1
+vertex and0.in0
+vertex shl1
+vertex and0
+vertex shl0
+vertex shl1.in1
+vertex shl0.out0
+vertex shl0.in1
+vertex lshr0.out0
+vertex icmp0.in1
+vertex icmp0.out0
+vertex and0.in1
+vertex or0
+vertex icmp0.in0
+vertex icmp0
+vertex lshr0.in0
+vertex and0.out0
+vertex or0.in1
+vertex shl1.in0
+vertex or0.in0
+vertex shl0.in0
+vertex or0.out0
+net shl1.out0 lshr0.in0
+net shl1.out0 shl1.in0
+net lshr0 lshr0.out0
+net lshr0.in1 lshr0
+net and0.in0 and0
+net shl1 shl1.out0
+net and0 and0.out0
+net shl0 shl0.out0
+net shl1.in1 shl1
+net shl0.out0 or0.in0
+net shl0.in1 shl0
+net lshr0.out0 and0.in0
+net icmp0.in1 icmp0
+net and0.in1 and0
+net or0 or0.out0
+net icmp0.in0 icmp0
+net icmp0 icmp0.out0
+net lshr0.in0 lshr0
+net and0.out0 or0.in1
+net or0.in1 or0
+net shl1.in0 shl1
+net or0.in0 or0
+net shl0.in0 shl0
+net or0.out0 icmp0.in0

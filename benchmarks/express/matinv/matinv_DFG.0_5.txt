@@ -1,0 +1,46 @@
+vertex MUL_637.out0
+vertex MUL_434
+vertex MUL_434.in0
+vertex ADD_640.in0
+vertex ADD_640.out0
+vertex MUL_635
+vertex MUL_635.in1
+vertex MUL_635.out0
+vertex MUL_635.in0
+vertex MUL_77.out0
+vertex ADD_80.out0
+vertex MUL_434.out0
+vertex ADD_640
+vertex MUL_75.in1
+vertex ADD_80.in0
+vertex MUL_637
+vertex MUL_75.in0
+vertex MUL_434.in1
+vertex MUL_108
+vertex ADD_80
+vertex MUL_108.in1
+vertex MUL_75.out0
+vertex MUL_77
+vertex MUL_75
+vertex MUL_108.out0
+vertex MUL_108.in0
+net MUL_637.out0 ADD_640.in0
+net MUL_434 MUL_434.out0
+net MUL_434.in0 MUL_434
+net ADD_640.in0 ADD_640
+net MUL_635 MUL_635.out0
+net MUL_635.in1 MUL_635
+net MUL_635.in0 MUL_635
+net MUL_77.out0 ADD_80.in0
+net ADD_640 ADD_640.out0
+net MUL_75.in1 MUL_75
+net ADD_80.in0 ADD_80
+net MUL_637 MUL_637.out0
+net MUL_75.in0 MUL_75
+net MUL_434.in1 MUL_434
+net MUL_108 MUL_108.out0
+net ADD_80 ADD_80.out0
+net MUL_108.in1 MUL_108
+net MUL_77 MUL_77.out0
+net MUL_75 MUL_75.out0
+net MUL_108.in0 MUL_108

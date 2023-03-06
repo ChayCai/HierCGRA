@@ -1,0 +1,55 @@
+vertex MUL_153.in0
+vertex MUL_153
+vertex ADD_154
+vertex MUL_153.out0
+vertex ADD_145.in1
+vertex ADD_145.in0
+vertex ADD_145
+vertex MUL_153.in1
+vertex MUL_127.in1
+vertex ADD_154.in0
+vertex MUL_127.in0
+vertex ADD_136.in0
+vertex MUL_127
+vertex ADD_136.in1
+vertex ADD_136.out0
+vertex ADD_136
+vertex MUL_135.in0
+vertex ADD_145.out0
+vertex MUL_135
+vertex MUL_135.out0
+vertex MUL_144.out0
+vertex ADD_154.out0
+vertex MUL_135.in1
+vertex MUL_144.in0
+vertex ADD_154.in1
+vertex MUL_144
+vertex MUL_144.in1
+vertex MUL_127.out0
+net MUL_153.in0 MUL_153
+net MUL_153 MUL_153.out0
+net ADD_154 ADD_154.out0
+net MUL_153.out0 ADD_154.in1
+net ADD_145.in1 ADD_145
+net ADD_145.in0 ADD_145
+net ADD_145 ADD_145.out0
+net MUL_153.in1 MUL_153
+net MUL_127.in1 MUL_127
+net ADD_154.in0 ADD_154
+net MUL_127.in0 MUL_127
+net ADD_136.in0 ADD_136
+net MUL_127 MUL_127.out0
+net ADD_136.in1 ADD_136
+net ADD_136.out0 ADD_145.in0
+net ADD_136 ADD_136.out0
+net MUL_135.in0 MUL_135
+net ADD_145.out0 ADD_154.in0
+net MUL_135 MUL_135.out0
+net MUL_135.out0 ADD_136.in1
+net MUL_144.out0 ADD_145.in1
+net MUL_135.in1 MUL_135
+net MUL_144.in0 MUL_144
+net ADD_154.in1 ADD_154
+net MUL_144 MUL_144.out0
+net MUL_144.in1 MUL_144
+net MUL_127.out0 ADD_136.in0

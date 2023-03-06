@@ -1,0 +1,61 @@
+attr __file__ str ./benchmarks/standard/cap/cap_DFG.0_1.txt
+attr __name__ str ./benchmarks/standard/cap/cap_DFG.0_1.txt
+vertex __inserted_outport_1.out0
+vertex mul0.out0
+vertex mul0.in0
+vertex __inserted_inport_2.in0
+vertex mul1.in1
+vertex __inserted_inport_3.out0
+vertex __inserted_inport_0
+vertex mul1.out0
+vertex __inserted_inport_2
+vertex mul0
+vertex mul1.in0
+vertex __inserted_inport_2.out0
+vertex mul2.out0
+vertex __inserted_inport_0.out0
+vertex mul0.in1
+vertex mul2
+vertex __inserted_inport_1.in0
+vertex __inserted_outport_0
+vertex __inserted_inport_3
+vertex mul1
+vertex __inserted_inport_0.in0
+vertex mul2.in1
+vertex __inserted_inport_3.in0
+vertex __inserted_inport_1
+vertex mul2.in0
+vertex __inserted_inport_1.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_1
+vertex __inserted_outport_1.in0
+net mul0.out0 mul1.in0
+net mul0.out0 mul2.in0
+net mul0.in0 mul0
+net __inserted_inport_2.in0 __inserted_inport_2
+net mul1.in1 mul1
+net __inserted_inport_3.out0 mul1.in1
+net __inserted_inport_0 __inserted_inport_0.out0
+net mul1.out0 __inserted_outport_1.in0
+net __inserted_inport_2 __inserted_inport_2.out0
+net mul0 mul0.out0
+net mul1.in0 mul1
+net __inserted_inport_2.out0 mul0.in0
+net mul2.out0 __inserted_outport_0.in0
+net __inserted_inport_0.out0 mul0.in1
+net mul0.in1 mul0
+net mul2 mul2.out0
+net __inserted_inport_1.in0 __inserted_inport_1
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_3 __inserted_inport_3.out0
+net mul1 mul1.out0
+net __inserted_inport_0.in0 __inserted_inport_0
+net mul2.in1 mul2
+net __inserted_inport_3.in0 __inserted_inport_3
+net __inserted_inport_1 __inserted_inport_1.out0
+net mul2.in0 mul2
+net __inserted_inport_1.out0 mul2.in1
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_outport_1 __inserted_outport_1.out0
+net __inserted_outport_1.in0 __inserted_outport_1

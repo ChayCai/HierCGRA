@@ -1,0 +1,108 @@
+attr __file__ str ./benchmarks/express/matinv/matinv_DFG.0_0.txt
+attr __name__ str ./benchmarks/express/matinv/matinv_DFG.0_0.txt
+vertex __inserted_outport_4.out0
+vertex __inserted_outport_3.in0
+vertex __inserted_outport_2
+vertex __inserted_outport_1.out0
+vertex __inserted_outport_1
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_inport_4.out0
+vertex __inserted_outport_1.in0
+vertex __inserted_inport_4.in0
+vertex __inserted_outport_3.out0
+vertex __inserted_inport_4
+vertex __inserted_inport_3.out0
+vertex __inserted_inport_2.in0
+vertex __inserted_outport_3
+vertex ADD_180.out0
+vertex MUL_12.in0
+vertex MUL_568.in0
+vertex MUL_12.out0
+vertex __inserted_inport_2.out0
+vertex ADD_180.in0
+vertex MUL_535.in1
+vertex __inserted_inport_3.in0
+vertex MUL_34.in1
+vertex __inserted_inport_1.in0
+vertex MUL_535.in0
+vertex MUL_12.in1
+vertex NEG_534.out0
+vertex __inserted_inport_1
+vertex __inserted_outport_2.in0
+vertex NEG_534.in0
+vertex __inserted_outport_2.out0
+vertex NEG_534
+vertex MUL_568.in1
+vertex MUL_34.out0
+vertex __inserted_inport_0
+vertex __inserted_inport_1.out0
+vertex MUL_568
+vertex MUL_12
+vertex MUL_535.out0
+vertex MUL_535
+vertex __inserted_inport_2
+vertex MUL_177.out0
+vertex __inserted_outport_4.in0
+vertex __inserted_outport_4
+vertex ADD_180
+vertex __inserted_outport_0
+vertex __inserted_inport_3
+vertex MUL_34.in0
+vertex MUL_568.out0
+vertex MUL_177
+vertex MUL_34
+vertex __inserted_inport_0.in0
+vertex __inserted_inport_0.out0
+net __inserted_outport_3.in0 __inserted_outport_3
+net __inserted_outport_2 __inserted_outport_2.out0
+net __inserted_outport_1 __inserted_outport_1.out0
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_inport_4.out0 MUL_34.in0
+net __inserted_inport_4.out0 MUL_535.in0
+net __inserted_inport_4.out0 MUL_568.in0
+net __inserted_inport_4.out0 MUL_12.in0
+net __inserted_outport_1.in0 __inserted_outport_1
+net __inserted_inport_4.in0 __inserted_inport_4
+net __inserted_inport_4 __inserted_inport_4.out0
+net __inserted_inport_3.out0 MUL_568.in1
+net __inserted_inport_2.in0 __inserted_inport_2
+net __inserted_outport_3 __inserted_outport_3.out0
+net ADD_180.out0 __inserted_outport_0.in0
+net MUL_12.in0 MUL_12
+net MUL_568.in0 MUL_568
+net MUL_12.out0 __inserted_outport_1.in0
+net __inserted_inport_2.out0 NEG_534.in0
+net ADD_180.in0 ADD_180
+net MUL_535.in1 MUL_535
+net __inserted_inport_3.in0 __inserted_inport_3
+net MUL_34.in1 MUL_34
+net __inserted_inport_1.in0 __inserted_inport_1
+net MUL_535.in0 MUL_535
+net MUL_12.in1 MUL_12
+net NEG_534.out0 MUL_535.in1
+net __inserted_inport_1 __inserted_inport_1.out0
+net __inserted_outport_2.in0 __inserted_outport_2
+net NEG_534.in0 NEG_534
+net NEG_534 NEG_534.out0
+net MUL_568.in1 MUL_568
+net MUL_34.out0 __inserted_outport_4.in0
+net __inserted_inport_0 __inserted_inport_0.out0
+net __inserted_inport_1.out0 MUL_12.in1
+net MUL_568 MUL_568.out0
+net MUL_12 MUL_12.out0
+net MUL_535.out0 __inserted_outport_2.in0
+net MUL_535 MUL_535.out0
+net __inserted_inport_2 __inserted_inport_2.out0
+net MUL_177.out0 ADD_180.in0
+net __inserted_outport_4.in0 __inserted_outport_4
+net __inserted_outport_4 __inserted_outport_4.out0
+net ADD_180 ADD_180.out0
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_3 __inserted_inport_3.out0
+net MUL_34.in0 MUL_34
+net MUL_568.out0 __inserted_outport_3.in0
+net MUL_177 MUL_177.out0
+net MUL_34 MUL_34.out0
+net __inserted_inport_0.in0 __inserted_inport_0
+net __inserted_inport_0.out0 MUL_34.in1

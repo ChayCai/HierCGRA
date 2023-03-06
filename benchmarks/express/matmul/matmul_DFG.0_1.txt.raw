@@ -1,0 +1,23 @@
+attr __file__ str ./benchmarks/express/matmul/matmul_DFG.0_1.txt
+attr __name__ str ./benchmarks/express/matmul/matmul_DFG.0_1.txt
+vertex __inserted_outport_0.out0
+vertex ADD_76.in0
+vertex ADD_76.out0
+vertex ADD_72.out0
+vertex ADD_76
+vertex MUL_73.in0
+vertex __inserted_outport_0
+vertex MUL_73
+vertex MUL_73.out0
+vertex __inserted_outport_0.in0
+vertex ADD_72
+net ADD_76.in0 ADD_76
+net ADD_76.out0 __inserted_outport_0.in0
+net ADD_72.out0 MUL_73.in0
+net ADD_76 ADD_76.out0
+net MUL_73.in0 MUL_73
+net __inserted_outport_0 __inserted_outport_0.out0
+net MUL_73 MUL_73.out0
+net MUL_73.out0 ADD_76.in0
+net __inserted_outport_0.in0 __inserted_outport_0
+net ADD_72 ADD_72.out0

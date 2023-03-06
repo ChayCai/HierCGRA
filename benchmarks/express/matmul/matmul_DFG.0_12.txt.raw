@@ -1,0 +1,38 @@
+attr __file__ str ./benchmarks/express/matmul/matmul_DFG.0_12.txt
+attr __name__ str ./benchmarks/express/matmul/matmul_DFG.0_12.txt
+vertex __inserted_outport_1.out0
+vertex __inserted_outport_1.in0
+vertex __inserted_outport_1
+vertex __inserted_outport_0.out0
+vertex ADD_166
+vertex ADD_166.out0
+vertex ADD_166.in0
+vertex MUL_163.out0
+vertex __inserted_outport_0
+vertex ADD_23
+vertex MUL_163
+vertex MUL_20
+vertex ADD_23.in0
+vertex MUL_20.out0
+vertex ADD_19
+vertex ADD_23.out0
+vertex __inserted_outport_0.in0
+vertex MUL_20.in0
+vertex ADD_19.out0
+net __inserted_outport_1.in0 __inserted_outport_1
+net __inserted_outport_1 __inserted_outport_1.out0
+net ADD_166 ADD_166.out0
+net ADD_166.out0 __inserted_outport_0.in0
+net ADD_166.in0 ADD_166
+net MUL_163.out0 ADD_166.in0
+net __inserted_outport_0 __inserted_outport_0.out0
+net ADD_23 ADD_23.out0
+net MUL_163 MUL_163.out0
+net MUL_20 MUL_20.out0
+net ADD_23.in0 ADD_23
+net MUL_20.out0 ADD_23.in0
+net ADD_19 ADD_19.out0
+net ADD_23.out0 __inserted_outport_1.in0
+net __inserted_outport_0.in0 __inserted_outport_0
+net MUL_20.in0 MUL_20
+net ADD_19.out0 MUL_20.in0

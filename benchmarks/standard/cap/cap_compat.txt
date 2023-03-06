@@ -1,0 +1,14 @@
+mul3 MUL ALU
+load4 MEM
+input_constint3 INPUT
+mul0 MUL ALU
+input_constint4 INPUT
+ashr1 ALU
+load6 MEM
+mul1 MUL ALU
+store0 MEM
+load3 MEM
+mul4 MUL ALU
+ashr0 ALU
+mul2 MUL ALU
+mul5 MUL ALU

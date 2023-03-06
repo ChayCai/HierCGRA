@@ -1,0 +1,27 @@
+attr __file__ str ./benchmarks/standard/fourier/fourier_DFG.0_0.txt
+attr __name__ str ./benchmarks/standard/fourier/fourier_DFG.0_0.txt
+vertex __inserted_outport_0.out0
+vertex __inserted_inport_1.out0
+vertex __inserted_inport_1
+vertex __inserted_inport_0.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_inport_0.in0
+vertex __inserted_inport_0
+vertex __inserted_inport_1.in0
+vertex fadd2.out0
+vertex __inserted_outport_0
+vertex fadd2
+vertex fadd2.in0
+vertex fadd2.in1
+net __inserted_inport_1.out0 fadd2.in0
+net __inserted_inport_1 __inserted_inport_1.out0
+net __inserted_inport_0.out0 fadd2.in1
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_inport_0.in0 __inserted_inport_0
+net __inserted_inport_0 __inserted_inport_0.out0
+net __inserted_inport_1.in0 __inserted_inport_1
+net fadd2.out0 __inserted_outport_0.in0
+net __inserted_outport_0 __inserted_outport_0.out0
+net fadd2 fadd2.out0
+net fadd2.in0 fadd2
+net fadd2.in1 fadd2

@@ -1,0 +1,12 @@
+const11 CONST
+load2 MEM
+mul0 ALU
+add10 ALU
+const8 CONST
+store9 MEM
+const4 CONST
+mul6 ALU
+const1 CONST
+mul3 ALU
+load5 MEM
+mul7 ALU

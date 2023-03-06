@@ -1,0 +1,15 @@
+vertex ADD_73
+vertex ADD_73.out0
+vertex MUL_71.out0
+vertex ADD_75.in0
+vertex ADD_75.out0
+vertex MUL_71
+vertex ADD_75.in1
+vertex ADD_75
+net ADD_73 ADD_73.out0
+net ADD_73.out0 ADD_75.in1
+net MUL_71.out0 ADD_75.in0
+net ADD_75.in0 ADD_75
+net MUL_71 MUL_71.out0
+net ADD_75.in1 ADD_75
+net ADD_75 ADD_75.out0

@@ -1,0 +1,17 @@
+const1 IO
+mul8 ALU2
+const3 IO
+output14 IO
+mul2 ALU2
+const16 IO
+add15 ALU0 ALU1 ALU2
+const9 IO
+mul6 ALU2
+add10 ALU0 ALU1 ALU2
+add4 ALU0 ALU1 ALU2
+add13 ALU0 ALU1 ALU2
+load11 MEM
+load5 MEM
+const7 IO
+mul12 ALU2
+mul0 ALU2

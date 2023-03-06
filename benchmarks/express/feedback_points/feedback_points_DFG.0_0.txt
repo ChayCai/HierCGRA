@@ -1,0 +1,7 @@
+vertex BGE_98.in1
+vertex BGE_98
+vertex BGE_98.in0
+vertex BGE_98.out0
+net BGE_98.in1 BGE_98
+net BGE_98 BGE_98.out0
+net BGE_98.in0 BGE_98

@@ -1,0 +1,15 @@
+vertex 28.out0
+vertex 28.in0
+vertex 9.in1
+vertex 9.in0
+vertex 28.in1
+vertex 28
+vertex 9
+vertex 9.out0
+net 28.in0 28
+net 9.in1 9
+net 9.in0 9
+net 28.in1 28
+net 28 28.out0
+net 9 9.out0
+net 9.out0 28.in0

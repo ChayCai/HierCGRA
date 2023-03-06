@@ -1,0 +1,15 @@
+vertex ADD_1
+vertex ADD_1.out0
+vertex MUL_2
+vertex MUL_2.in0
+vertex MUL_2.out0
+vertex ADD_5.in0
+vertex ADD_5
+vertex ADD_5.out0
+net ADD_1 ADD_1.out0
+net ADD_1.out0 MUL_2.in0
+net MUL_2 MUL_2.out0
+net MUL_2.in0 MUL_2
+net MUL_2.out0 ADD_5.in0
+net ADD_5.in0 ADD_5
+net ADD_5 ADD_5.out0

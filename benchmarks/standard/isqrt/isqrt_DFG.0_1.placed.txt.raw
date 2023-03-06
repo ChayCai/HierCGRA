@@ -1,0 +1,7 @@
+__inserted_inport_0.out0 in2.out0
+__inserted_inport_0.in0 in2.in0
+__inserted_inport_0 in2
+add0 ALU5
+add0.out0 ALU5.out0
+add0.in1 ALU5.in1
+add0.in0 ALU5.in0

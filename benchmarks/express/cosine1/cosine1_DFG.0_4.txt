@@ -1,0 +1,44 @@
+vertex 64.in0
+vertex 64.out0
+vertex 40
+vertex 40.in0
+vertex 40.in1
+vertex 70
+vertex 69.out0
+vertex 73.out0
+vertex 69.in0
+vertex 64.in1
+vertex 73
+vertex 74.in0
+vertex 69
+vertex 73.in1
+vertex 40.out0
+vertex 74
+vertex 74.in1
+vertex 64
+vertex 73.in0
+vertex 70.out0
+vertex 74.out0
+vertex 70.in0
+net 64.in0 64
+net 64.out0 70.in0
+net 40 40.out0
+net 40.in0 40
+net 40.in1 40
+net 70 70.out0
+net 69.out0 73.in0
+net 69.out0 74.in0
+net 69.in0 69
+net 64.in1 64
+net 73 73.out0
+net 74.in0 74
+net 69 69.out0
+net 73.in1 73
+net 40.out0 64.in1
+net 74 74.out0
+net 74.in1 74
+net 64 64.out0
+net 73.in0 73
+net 70.out0 73.in1
+net 70.out0 74.in1
+net 70.in0 70

@@ -1,0 +1,190 @@
+attr __file__ str ./benchmarks/express/feedback_points/feedback_points_DFG_part0.txt
+attr __name__ str ./benchmarks/express/feedback_points/feedback_points_DFG_part0.txt
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_outport_0
+vertex LOD_96
+    attr optype str lod
+vertex ADD_87.out0
+    attr optype str add.out0
+vertex ADD_75.out0
+    attr optype str add.out0
+vertex MUL_70
+    attr optype str mul
+vertex LOD_90.out0
+    attr optype str lod.out0
+vertex ADD_49.out0
+    attr optype str add.out0
+vertex LOD_90
+    attr optype str lod
+vertex BGE_98
+    attr optype str bge
+vertex ADD_89.in0
+    attr optype str add.in0
+vertex MUL_46
+    attr optype str mul
+vertex ADD_75
+    attr optype str add
+vertex ADD_75.in1
+    attr optype str add.in1
+vertex MUL_64
+    attr optype str mul
+vertex LOD_96.out0
+    attr optype str lod.out0
+vertex ADD_93
+    attr optype str add
+vertex BGE_98.in1
+    attr optype str bge.in1
+vertex ADD_84
+    attr optype str add
+vertex LOD_78
+    attr optype str lod
+vertex ADD_87
+    attr optype str add
+vertex ADD_95.out0
+    attr optype str add.out0
+vertex STR_85.in1
+    attr optype str str.in1
+vertex __inserted_inport_0.in0
+vertex STR_85.out0
+    attr optype str str.out0
+vertex STR_85.in0
+    attr optype str str.in0
+vertex ADD_95
+    attr optype str add
+vertex MUL_71.out0
+    attr optype str mul.out0
+vertex ADD_95.in0
+    attr optype str add.in0
+vertex STR_85
+    attr optype str str
+vertex ADD_77.out0
+    attr optype str add.out0
+vertex STR_68.out0
+    attr optype str str.out0
+vertex STR_68
+    attr optype str str
+vertex ADD_89.out0
+    attr optype str add.out0
+vertex ADD_49.in0
+    attr optype str add.in0
+vertex __inserted_inport_0.out0
+vertex ADD_75.in0
+    attr optype str add.in0
+vertex LOD_90.in0
+    attr optype str lod.in0
+vertex ADD_93.out0
+    attr optype str add.out0
+vertex LOD_78.out0
+    attr optype str lod.out0
+vertex LOD_78.in0
+    attr optype str lod.in0
+vertex STR_68.in1
+    attr optype str str.in1
+vertex MUL_71
+    attr optype str mul
+vertex ADD_73.out0
+    attr optype str add.out0
+vertex MUL_81
+    attr optype str mul
+vertex ADD_73
+    attr optype str add
+vertex ADD_67.out0
+    attr optype str add.out0
+vertex ADD_67.in0
+    attr optype str add.in0
+vertex STR_68.in0
+    attr optype str str.in0
+vertex MUL_64.out0
+    attr optype str mul.out0
+vertex ADD_77.in0
+    attr optype str add.in0
+vertex ADD_77.in1
+    attr optype str add.in1
+vertex ADD_49
+    attr optype str add
+vertex __inserted_inport_0
+vertex BGE_98.in0
+    attr optype str bge.in0
+vertex MUL_81.out0
+    attr optype str mul.out0
+vertex MUL_46.out0
+    attr optype str mul.out0
+vertex BGE_98.out0
+    attr optype str bge.out0
+vertex ADD_84.out0
+    attr optype str add.out0
+vertex ADD_67
+    attr optype str add
+vertex ADD_77
+    attr optype str add
+vertex ADD_89
+    attr optype str add
+vertex LOD_96.in0
+    attr optype str lod.in0
+vertex MUL_70.out0
+    attr optype str mul.out0
+vertex ADD_84.in0
+    attr optype str add.in0
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_outport_0 __inserted_outport_0.out0
+net LOD_96 LOD_96.out0
+net ADD_87.out0 ADD_89.in0
+net ADD_75.out0 ADD_77.in1
+net MUL_70 MUL_70.out0
+net LOD_90.out0 BGE_98.in0
+net ADD_49.out0 __inserted_outport_0.in0
+net LOD_90 LOD_90.out0
+net BGE_98 BGE_98.out0
+net ADD_89.in0 ADD_89
+net MUL_46 MUL_46.out0
+net ADD_75 ADD_75.out0
+net ADD_75.in1 ADD_75
+net MUL_64 MUL_64.out0
+net LOD_96.out0 BGE_98.in1
+net ADD_93 ADD_93.out0
+net BGE_98.in1 BGE_98
+net ADD_84 ADD_84.out0
+net LOD_78 LOD_78.out0
+net ADD_87 ADD_87.out0
+net ADD_95.out0 LOD_96.in0
+net STR_85.in1 STR_85
+net __inserted_inport_0.in0 __inserted_inport_0
+net STR_85.in0 STR_85
+net ADD_95 ADD_95.out0
+net MUL_71.out0 ADD_75.in0
+net ADD_95.in0 ADD_95
+net STR_85 STR_85.out0
+net ADD_77.out0 LOD_78.in0
+net STR_68 STR_68.out0
+net ADD_89.out0 LOD_90.in0
+net ADD_49.in0 ADD_49
+net __inserted_inport_0.out0 STR_68.in0
+net ADD_75.in0 ADD_75
+net LOD_90.in0 LOD_90
+net ADD_93.out0 ADD_95.in0
+net LOD_78.out0 STR_85.in0
+net LOD_78.in0 LOD_78
+net STR_68.in1 STR_68
+net MUL_71 MUL_71.out0
+net ADD_73.out0 ADD_75.in1
+net MUL_81 MUL_81.out0
+net ADD_73 ADD_73.out0
+net ADD_67.out0 STR_68.in1
+net ADD_67.in0 ADD_67
+net STR_68.in0 STR_68
+net MUL_64.out0 ADD_67.in0
+net ADD_77.in0 ADD_77
+net ADD_77.in1 ADD_77
+net ADD_49 ADD_49.out0
+net __inserted_inport_0 __inserted_inport_0.out0
+net BGE_98.in0 BGE_98
+net MUL_81.out0 ADD_84.in0
+net MUL_46.out0 ADD_49.in0
+net ADD_84.out0 STR_85.in1
+net ADD_67 ADD_67.out0
+net ADD_77 ADD_77.out0
+net ADD_89 ADD_89.out0
+net LOD_96.in0 LOD_96
+net MUL_70.out0 ADD_77.in0
+net ADD_84.in0 ADD_84

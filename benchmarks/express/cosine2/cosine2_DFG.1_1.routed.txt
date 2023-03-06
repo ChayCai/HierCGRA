@@ -1,0 +1,3 @@
+MUL1 MUL1.out0
+MUL1.in1 MUL1
+MUL1.in0 MUL1

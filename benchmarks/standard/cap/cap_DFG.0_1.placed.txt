@@ -1,0 +1,12 @@
+mul1 ALU5
+mul1.in0 ALU5.in0
+mul2.in1 ALU8.in1
+mul2.out0 ALU8.out0
+mul0 ALU4
+mul2 ALU8
+mul1.out0 ALU5.out0
+mul0.in0 ALU4.in0
+mul2.in0 ALU8.in0
+mul1.in1 ALU5.in1
+mul0.out0 ALU4.out0
+mul0.in1 ALU4.in1

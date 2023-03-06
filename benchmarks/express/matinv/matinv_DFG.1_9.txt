@@ -1,0 +1,18 @@
+vertex ADD_136
+vertex ADD_136.in0
+vertex ADD_225
+vertex ADD_225.out0
+vertex ADD_225.in0
+vertex MUL_133.out0
+vertex MUL_133
+vertex ADD_136.out0
+vertex MUL_222.out0
+vertex MUL_222
+net ADD_136 ADD_136.out0
+net ADD_136.in0 ADD_136
+net ADD_225 ADD_225.out0
+net ADD_225.in0 ADD_225
+net MUL_133.out0 ADD_136.in0
+net MUL_133 MUL_133.out0
+net MUL_222.out0 ADD_225.in0
+net MUL_222 MUL_222.out0

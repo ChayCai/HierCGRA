@@ -1,0 +1,5 @@
+ -> maxUsage: 50
+ -> maxDegree: 7
+ -> maxOutportNum: 1
+ -> maxInportNum: 11
+

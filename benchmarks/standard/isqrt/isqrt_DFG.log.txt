@@ -1,0 +1,3 @@
+./benchmarks/standard/isqrt/isqrt_DFG.0_0.txt 0
+./benchmarks/standard/isqrt/isqrt_DFG.0_1.txt 0
+./benchmarks/standard/isqrt/isqrt_DFG.0_2.txt 0

@@ -1,0 +1,1388 @@
+{
+    "Function": {
+        "__INPUT__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__OUTPUT__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__ADD__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__SUB__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__MUL__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__AND__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__OR__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__XOR__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__NOT__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LSHIFT__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__RSHIFT__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__MAD__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__CONST__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__REG__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__MEM__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__EQUAL__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__GREATER__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LESS__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LOGICAND2__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LOGICAND3__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LOGICAND4__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LOGICOR2__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LOGICOR3__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LOGICOR4__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__BRANCH2__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0",
+                "out1"
+            ],
+            "width": "32"
+        },
+        "__BRANCH3__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2"
+            ],
+            "width": "32"
+        },
+        "__BRANCH4__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3"
+            ],
+            "width": "32"
+        },
+        "__JOIN2__": {
+            "input": [
+                "in0",
+                "in1",
+                "select"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__JOIN3__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "select"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__JOIN4__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "select"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__ALU__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__DIV__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__IO__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        }
+    },
+    "Unit": {
+        "INPUT": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_INPUT0": "__INPUT__"
+            },
+            "pattern": {
+                "__INPUT__": {
+                    "unit": [
+                        "FUNC_INPUT0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_INPUT0.in0",
+                        "out0": "FUNC_INPUT0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "OUTPUT": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_OUTPUT0": "__OUTPUT__"
+            },
+            "pattern": {
+                "__OUTPUT__": {
+                    "unit": [
+                        "FUNC_OUTPUT0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_OUTPUT0.in0",
+                        "out0": "FUNC_OUTPUT0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "MEM": {
+            "input": [
+                "in0",
+                "in1",
+                "in2"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_MEM0": "__MEM__"
+            },
+            "pattern": {
+                "PATN_MEM0": {
+                    "unit": [
+                        "FUNC_MEM0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_MEM0.in0",
+                        "in1": "FUNC_MEM0.in1",
+                        "in2": "FUNC_MEM0.in2",
+                        "out0": "FUNC_MEM0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "ALU": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_ALU0": "__ALU__"
+            },
+            "pattern": {
+                "PATN_ALU0": {
+                    "unit": [
+                        "FUNC_ALU0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_ALU0.in0",
+                        "in1": "FUNC_ALU0.in1",
+                        "out0": "FUNC_ALU0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "IO": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_ALU0": "__ALU__"
+            },
+            "pattern": {
+                "PATN_ALU0": {
+                    "unit": [
+                        "FUNC_ALU0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_ALU0.in0",
+                        "in1": "FUNC_ALU0.in1",
+                        "out0": "FUNC_ALU0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "ADD": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_ADD0": "__ADD__"
+            },
+            "pattern": {
+                "PATN_ADD0": {
+                    "unit": [
+                        "FUNC_ADD0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_ADD0.in0",
+                        "in1": "FUNC_ADD0.in1",
+                        "out0": "FUNC_ADD0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "MUL": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_MUL0": "__MUL__"
+            },
+            "pattern": {
+                "PATN_MUL0": {
+                    "unit": [
+                        "FUNC_MUL0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_MUL0.in0",
+                        "in1": "FUNC_MUL0.in1",
+                        "out0": "FUNC_MUL0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "SUB": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_SUB0": "__SUB__"
+            },
+            "pattern": {
+                "PATN_SUB0": {
+                    "unit": [
+                        "FUNC_SUB0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_SUB0.in0",
+                        "in1": "FUNC_SUB0.in1",
+                        "out0": "FUNC_SUB0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "DIV": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_DIV0": "__DIV__"
+            },
+            "pattern": {
+                "PATN_DIV0": {
+                    "unit": [
+                        "FUNC_DIV0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_DIV0.in0",
+                        "out0": "FUNC_DIV0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        }
+    },
+    "Switch": {
+        "FULLYCONN_4X4": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3"
+            ],
+            "required": [
+                "in0->out0",
+                "in0->out1",
+                "in0->out2",
+                "in0->out3",
+                "in1->out0",
+                "in1->out1",
+                "in1->out2",
+                "in1->out3",
+                "in2->out0",
+                "in2->out1",
+                "in2->out2",
+                "in2->out3",
+                "in3->out0",
+                "in3->out1",
+                "in3->out2",
+                "in3->out3"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_2X1": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0",
+                "in1->out0"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_2X2": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0",
+                "out1"
+            ],
+            "required": [
+                "in0->out0",
+                "in0->out1",
+                "in1->out0",
+                "in1->out1"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_1X1": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_10X1": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7",
+                "in8",
+                "in9"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0",
+                "in1->out0",
+                "in2->out0",
+                "in3->out0",
+                "in4->out0",
+                "in5->out0",
+                "in6->out0",
+                "in7->out0",
+                "in8->out0",
+                "in9->out0"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_9X1": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7",
+                "in8"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0",
+                "in1->out0",
+                "in2->out0",
+                "in3->out0",
+                "in4->out0",
+                "in5->out0",
+                "in6->out0",
+                "in7->out0",
+                "in8->out0"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_8X1": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0",
+                "in1->out0",
+                "in2->out0",
+                "in3->out0",
+                "in4->out0",
+                "in5->out0",
+                "in6->out0",
+                "in7->out0"
+            ],
+            "graph": ""
+        }
+    },
+    "Module": {
+        "BlockPE": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "module": {},
+            "element": {
+                "ALU0": "ALU",
+                "MEM0": "MEM"
+            },
+            "switch": {
+                "SW_INPORT_FU": "FULLYCONN_4X4",
+                "SW_FU_OUTPORT": "FULLYCONN_2X1"
+            },
+            "connection": [
+                "in0->SW_INPORT_FU.in0",
+                "in1->SW_INPORT_FU.in1",
+                "ALU0.out0->SW_INPORT_FU.in2",
+                "MEM0.out0->SW_INPORT_FU.in3",
+                "SW_INPORT_FU.out0->ALU0.in0",
+                "SW_INPORT_FU.out1->ALU0.in1",
+                "SW_INPORT_FU.out2->MEM0.in0",
+                "SW_INPORT_FU.out3->MEM0.in1",
+                "ALU0.out0->SW_FU_OUTPORT.in0",
+                "MEM0.out0->SW_FU_OUTPORT.in1",
+                "SW_FU_OUTPORT.out0->out0"
+            ]
+        },
+        "BlockIO": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "module": {},
+            "element": {
+                "IO0": "IO"
+            },
+            "switch": {
+                "SW2X2_INPORT": "FULLYCONN_2X2",
+                "SW1X1_OUTPORT": "FULLYCONN_1X1"
+            },
+            "connection": [
+                "in0->SW2X2_INPORT.in0",
+                "in1->SW2X2_INPORT.in1",
+                "SW2X2_INPORT.out0->IO0.in0",
+                "SW2X2_INPORT.out1->IO0.in1",
+                "IO0.out0->SW1X1_OUTPORT.in0",
+                "SW1X1_OUTPORT.out0->out0"
+            ]
+        },
+        "BlockMEM": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "module": {},
+            "element": {
+                "MEM0": "MEM"
+            },
+            "switch": {},
+            "connection": [
+                "in0->MEM0.in0",
+                "in1->MEM0.in1",
+                "MEM0.out0->out0"
+            ]
+        },
+        "Core": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3",
+                "out4",
+                "out5",
+                "out6",
+                "out7"
+            ],
+            "module": {
+                "BlockPE0": "BlockPE",
+                "BlockPE1": "BlockPE",
+                "BlockPE2": "BlockPE",
+                "BlockPE3": "BlockPE",
+                "BlockPE4": "BlockPE",
+                "BlockPE5": "BlockPE",
+                "BlockPE6": "BlockPE",
+                "BlockPE7": "BlockPE",
+                "BlockPE8": "BlockPE",
+                "BlockPE9": "BlockPE",
+                "BlockPE10": "BlockPE",
+                "BlockPE11": "BlockPE",
+                "BlockPE12": "BlockPE",
+                "BlockPE13": "BlockPE",
+                "BlockPE14": "BlockPE",
+                "BlockPE15": "BlockPE",
+                "BlockMEM0": "BlockMEM",
+                "BlockMEM1": "BlockMEM",
+                "BlockMEM2": "BlockMEM",
+                "BlockMEM3": "BlockMEM",
+                "BlockMEM4": "BlockMEM",
+                "BlockMEM5": "BlockMEM",
+                "BlockMEM6": "BlockMEM",
+                "BlockMEM7": "BlockMEM",
+                "BlockIO0": "BlockIO",
+                "BlockIO1": "BlockIO",
+                "BlockIO2": "BlockIO",
+                "BlockIO3": "BlockIO",
+                "BlockIO4": "BlockIO",
+                "BlockIO5": "BlockIO",
+                "BlockIO6": "BlockIO",
+                "BlockIO7": "BlockIO"
+            },
+            "element": {},
+            "switch": {
+                "SW10X1_BlockPE12_in0_CONNECT": "FULLYCONN_10X1",
+                "SW10X1_BlockPE12_in1_CONNECT": "FULLYCONN_10X1",
+                "SW9X1_BlockPE4_in0_CONNECT": "FULLYCONN_9X1",
+                "SW9X1_BlockPE4_in1_CONNECT": "FULLYCONN_9X1",
+                "SW10X1_BlockPE3_in0_CONNECT": "FULLYCONN_10X1",
+                "SW10X1_BlockPE3_in1_CONNECT": "FULLYCONN_10X1",
+                "SW9X1_BlockPE1_in0_CONNECT": "FULLYCONN_9X1",
+                "SW9X1_BlockPE1_in1_CONNECT": "FULLYCONN_9X1",
+                "SW9X1_BlockPE11_in0_CONNECT": "FULLYCONN_9X1",
+                "SW9X1_BlockPE11_in1_CONNECT": "FULLYCONN_9X1",
+                "SW9X1_BlockPE13_in0_CONNECT": "FULLYCONN_9X1",
+                "SW9X1_BlockPE13_in1_CONNECT": "FULLYCONN_9X1",
+                "SW8X1_BlockPE5_in0_CONNECT": "FULLYCONN_8X1",
+                "SW8X1_BlockPE5_in1_CONNECT": "FULLYCONN_8X1",
+                "SW10X1_BlockPE0_in0_CONNECT": "FULLYCONN_10X1",
+                "SW10X1_BlockPE0_in1_CONNECT": "FULLYCONN_10X1",
+                "SW9X1_BlockPE2_in0_CONNECT": "FULLYCONN_9X1",
+                "SW9X1_BlockPE2_in1_CONNECT": "FULLYCONN_9X1",
+                "SW9X1_BlockPE14_in0_CONNECT": "FULLYCONN_9X1",
+                "SW9X1_BlockPE14_in1_CONNECT": "FULLYCONN_9X1",
+                "SW8X1_BlockPE6_in0_CONNECT": "FULLYCONN_8X1",
+                "SW8X1_BlockPE6_in1_CONNECT": "FULLYCONN_8X1",
+                "SW10X1_BlockPE15_in0_CONNECT": "FULLYCONN_10X1",
+                "SW10X1_BlockPE15_in1_CONNECT": "FULLYCONN_10X1",
+                "SW9X1_BlockPE7_in0_CONNECT": "FULLYCONN_9X1",
+                "SW9X1_BlockPE7_in1_CONNECT": "FULLYCONN_9X1",
+                "SW9X1_BlockPE8_in0_CONNECT": "FULLYCONN_9X1",
+                "SW9X1_BlockPE8_in1_CONNECT": "FULLYCONN_9X1",
+                "SW8X1_BlockPE9_in0_CONNECT": "FULLYCONN_8X1",
+                "SW8X1_BlockPE9_in1_CONNECT": "FULLYCONN_8X1",
+                "SW8X1_BlockPE10_in0_CONNECT": "FULLYCONN_8X1",
+                "SW8X1_BlockPE10_in1_CONNECT": "FULLYCONN_8X1",
+                "SW2X1_BlockIO0_in0_CONNECT": "FULLYCONN_2X1",
+                "SW1X1_BlockIO0_in1_CONNECT": "FULLYCONN_1X1",
+                "SW2X1_BlockIO4_in0_CONNECT": "FULLYCONN_2X1",
+                "SW1X1_BlockIO4_in1_CONNECT": "FULLYCONN_1X1",
+                "SW2X1_BlockIO1_in0_CONNECT": "FULLYCONN_2X1",
+                "SW1X1_BlockIO1_in1_CONNECT": "FULLYCONN_1X1",
+                "SW2X1_BlockIO5_in0_CONNECT": "FULLYCONN_2X1",
+                "SW1X1_BlockIO5_in1_CONNECT": "FULLYCONN_1X1",
+                "SW2X1_BlockIO2_in0_CONNECT": "FULLYCONN_2X1",
+                "SW1X1_BlockIO2_in1_CONNECT": "FULLYCONN_1X1",
+                "SW2X1_BlockIO6_in0_CONNECT": "FULLYCONN_2X1",
+                "SW1X1_BlockIO6_in1_CONNECT": "FULLYCONN_1X1",
+                "SW2X1_BlockIO3_in0_CONNECT": "FULLYCONN_2X1",
+                "SW1X1_BlockIO3_in1_CONNECT": "FULLYCONN_1X1",
+                "SW2X1_BlockIO7_in0_CONNECT": "FULLYCONN_2X1",
+                "SW1X1_BlockIO7_in1_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_out0_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_out1_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_out2_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_out3_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_out4_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_out5_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_out6_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_out7_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM0_in0_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM0_in1_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM4_in0_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM4_in1_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM1_in0_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM1_in1_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM5_in0_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM5_in1_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM2_in0_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM2_in1_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM6_in0_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM6_in1_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM3_in0_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM3_in1_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM7_in0_CONNECT": "FULLYCONN_1X1",
+                "SW1X1_BlockMEM7_in1_CONNECT": "FULLYCONN_1X1"
+            },
+            "connection": [
+                "BlockPE0.out0->SW10X1_BlockPE12_in0_CONNECT.in0",
+                "BlockPE1.out0->SW10X1_BlockPE12_in0_CONNECT.in1",
+                "BlockPE3.out0->SW10X1_BlockPE12_in0_CONNECT.in2",
+                "BlockPE8.out0->SW10X1_BlockPE12_in0_CONNECT.in3",
+                "BlockPE9.out0->SW10X1_BlockPE12_in0_CONNECT.in4",
+                "BlockPE11.out0->SW10X1_BlockPE12_in0_CONNECT.in5",
+                "BlockPE13.out0->SW10X1_BlockPE12_in0_CONNECT.in6",
+                "BlockPE15.out0->SW10X1_BlockPE12_in0_CONNECT.in7",
+                "BlockIO4.out0->SW10X1_BlockPE12_in0_CONNECT.in8",
+                "BlockMEM3.out0->SW10X1_BlockPE12_in0_CONNECT.in9",
+                "SW10X1_BlockPE12_in0_CONNECT.out0->BlockPE12.in0",
+                "BlockPE0.out0->SW10X1_BlockPE12_in1_CONNECT.in0",
+                "BlockPE1.out0->SW10X1_BlockPE12_in1_CONNECT.in1",
+                "BlockPE3.out0->SW10X1_BlockPE12_in1_CONNECT.in2",
+                "BlockPE8.out0->SW10X1_BlockPE12_in1_CONNECT.in3",
+                "BlockPE9.out0->SW10X1_BlockPE12_in1_CONNECT.in4",
+                "BlockPE11.out0->SW10X1_BlockPE12_in1_CONNECT.in5",
+                "BlockPE13.out0->SW10X1_BlockPE12_in1_CONNECT.in6",
+                "BlockPE15.out0->SW10X1_BlockPE12_in1_CONNECT.in7",
+                "BlockIO4.out0->SW10X1_BlockPE12_in1_CONNECT.in8",
+                "BlockMEM3.out0->SW10X1_BlockPE12_in1_CONNECT.in9",
+                "SW10X1_BlockPE12_in1_CONNECT.out0->BlockPE12.in1",
+                "BlockPE0.out0->SW9X1_BlockPE4_in0_CONNECT.in0",
+                "BlockPE1.out0->SW9X1_BlockPE4_in0_CONNECT.in1",
+                "BlockPE3.out0->SW9X1_BlockPE4_in0_CONNECT.in2",
+                "BlockPE5.out0->SW9X1_BlockPE4_in0_CONNECT.in3",
+                "BlockPE7.out0->SW9X1_BlockPE4_in0_CONNECT.in4",
+                "BlockPE8.out0->SW9X1_BlockPE4_in0_CONNECT.in5",
+                "BlockPE9.out0->SW9X1_BlockPE4_in0_CONNECT.in6",
+                "BlockPE11.out0->SW9X1_BlockPE4_in0_CONNECT.in7",
+                "BlockMEM1.out0->SW9X1_BlockPE4_in0_CONNECT.in8",
+                "SW9X1_BlockPE4_in0_CONNECT.out0->BlockPE4.in0",
+                "BlockPE0.out0->SW9X1_BlockPE4_in1_CONNECT.in0",
+                "BlockPE1.out0->SW9X1_BlockPE4_in1_CONNECT.in1",
+                "BlockPE3.out0->SW9X1_BlockPE4_in1_CONNECT.in2",
+                "BlockPE5.out0->SW9X1_BlockPE4_in1_CONNECT.in3",
+                "BlockPE7.out0->SW9X1_BlockPE4_in1_CONNECT.in4",
+                "BlockPE8.out0->SW9X1_BlockPE4_in1_CONNECT.in5",
+                "BlockPE9.out0->SW9X1_BlockPE4_in1_CONNECT.in6",
+                "BlockPE11.out0->SW9X1_BlockPE4_in1_CONNECT.in7",
+                "BlockMEM1.out0->SW9X1_BlockPE4_in1_CONNECT.in8",
+                "SW9X1_BlockPE4_in1_CONNECT.out0->BlockPE4.in1",
+                "BlockPE0.out0->SW10X1_BlockPE3_in0_CONNECT.in0",
+                "BlockPE0.out0->SW10X1_BlockPE3_in0_CONNECT.in1",
+                "BlockPE2.out0->SW10X1_BlockPE3_in0_CONNECT.in2",
+                "BlockPE6.out0->SW10X1_BlockPE3_in0_CONNECT.in3",
+                "BlockPE7.out0->SW10X1_BlockPE3_in0_CONNECT.in4",
+                "BlockPE8.out0->SW10X1_BlockPE3_in0_CONNECT.in5",
+                "BlockPE14.out0->SW10X1_BlockPE3_in0_CONNECT.in6",
+                "BlockPE15.out0->SW10X1_BlockPE3_in0_CONNECT.in7",
+                "BlockIO3.out0->SW10X1_BlockPE3_in0_CONNECT.in8",
+                "BlockMEM4.out0->SW10X1_BlockPE3_in0_CONNECT.in9",
+                "SW10X1_BlockPE3_in0_CONNECT.out0->BlockPE3.in0",
+                "BlockPE0.out0->SW10X1_BlockPE3_in1_CONNECT.in0",
+                "BlockPE0.out0->SW10X1_BlockPE3_in1_CONNECT.in1",
+                "BlockPE2.out0->SW10X1_BlockPE3_in1_CONNECT.in2",
+                "BlockPE6.out0->SW10X1_BlockPE3_in1_CONNECT.in3",
+                "BlockPE7.out0->SW10X1_BlockPE3_in1_CONNECT.in4",
+                "BlockPE8.out0->SW10X1_BlockPE3_in1_CONNECT.in5",
+                "BlockPE14.out0->SW10X1_BlockPE3_in1_CONNECT.in6",
+                "BlockPE15.out0->SW10X1_BlockPE3_in1_CONNECT.in7",
+                "BlockIO3.out0->SW10X1_BlockPE3_in1_CONNECT.in8",
+                "BlockMEM4.out0->SW10X1_BlockPE3_in1_CONNECT.in9",
+                "SW10X1_BlockPE3_in1_CONNECT.out0->BlockPE3.in1",
+                "BlockPE0.out0->SW9X1_BlockPE1_in0_CONNECT.in0",
+                "BlockPE2.out0->SW9X1_BlockPE1_in0_CONNECT.in1",
+                "BlockPE4.out0->SW9X1_BlockPE1_in0_CONNECT.in2",
+                "BlockPE5.out0->SW9X1_BlockPE1_in0_CONNECT.in3",
+                "BlockPE6.out0->SW9X1_BlockPE1_in0_CONNECT.in4",
+                "BlockPE12.out0->SW9X1_BlockPE1_in0_CONNECT.in5",
+                "BlockPE13.out0->SW9X1_BlockPE1_in0_CONNECT.in6",
+                "BlockPE14.out0->SW9X1_BlockPE1_in0_CONNECT.in7",
+                "BlockIO1.out0->SW9X1_BlockPE1_in0_CONNECT.in8",
+                "SW9X1_BlockPE1_in0_CONNECT.out0->BlockPE1.in0",
+                "BlockPE0.out0->SW9X1_BlockPE1_in1_CONNECT.in0",
+                "BlockPE2.out0->SW9X1_BlockPE1_in1_CONNECT.in1",
+                "BlockPE4.out0->SW9X1_BlockPE1_in1_CONNECT.in2",
+                "BlockPE5.out0->SW9X1_BlockPE1_in1_CONNECT.in3",
+                "BlockPE6.out0->SW9X1_BlockPE1_in1_CONNECT.in4",
+                "BlockPE12.out0->SW9X1_BlockPE1_in1_CONNECT.in5",
+                "BlockPE13.out0->SW9X1_BlockPE1_in1_CONNECT.in6",
+                "BlockPE14.out0->SW9X1_BlockPE1_in1_CONNECT.in7",
+                "BlockIO1.out0->SW9X1_BlockPE1_in1_CONNECT.in8",
+                "SW9X1_BlockPE1_in1_CONNECT.out0->BlockPE1.in1",
+                "BlockPE0.out0->SW9X1_BlockPE11_in0_CONNECT.in0",
+                "BlockPE6.out0->SW9X1_BlockPE11_in0_CONNECT.in1",
+                "BlockPE7.out0->SW9X1_BlockPE11_in0_CONNECT.in2",
+                "BlockPE8.out0->SW9X1_BlockPE11_in0_CONNECT.in3",
+                "BlockPE8.out0->SW9X1_BlockPE11_in0_CONNECT.in4",
+                "BlockPE10.out0->SW9X1_BlockPE11_in0_CONNECT.in5",
+                "BlockPE14.out0->SW9X1_BlockPE11_in0_CONNECT.in6",
+                "BlockPE15.out0->SW9X1_BlockPE11_in0_CONNECT.in7",
+                "BlockMEM6.out0->SW9X1_BlockPE11_in0_CONNECT.in8",
+                "SW9X1_BlockPE11_in0_CONNECT.out0->BlockPE11.in0",
+                "BlockPE0.out0->SW9X1_BlockPE11_in1_CONNECT.in0",
+                "BlockPE6.out0->SW9X1_BlockPE11_in1_CONNECT.in1",
+                "BlockPE7.out0->SW9X1_BlockPE11_in1_CONNECT.in2",
+                "BlockPE8.out0->SW9X1_BlockPE11_in1_CONNECT.in3",
+                "BlockPE8.out0->SW9X1_BlockPE11_in1_CONNECT.in4",
+                "BlockPE10.out0->SW9X1_BlockPE11_in1_CONNECT.in5",
+                "BlockPE14.out0->SW9X1_BlockPE11_in1_CONNECT.in6",
+                "BlockPE15.out0->SW9X1_BlockPE11_in1_CONNECT.in7",
+                "BlockMEM6.out0->SW9X1_BlockPE11_in1_CONNECT.in8",
+                "SW9X1_BlockPE11_in1_CONNECT.out0->BlockPE11.in1",
+                "BlockPE0.out0->SW9X1_BlockPE13_in0_CONNECT.in0",
+                "BlockPE1.out0->SW9X1_BlockPE13_in0_CONNECT.in1",
+                "BlockPE2.out0->SW9X1_BlockPE13_in0_CONNECT.in2",
+                "BlockPE8.out0->SW9X1_BlockPE13_in0_CONNECT.in3",
+                "BlockPE9.out0->SW9X1_BlockPE13_in0_CONNECT.in4",
+                "BlockPE10.out0->SW9X1_BlockPE13_in0_CONNECT.in5",
+                "BlockPE12.out0->SW9X1_BlockPE13_in0_CONNECT.in6",
+                "BlockPE14.out0->SW9X1_BlockPE13_in0_CONNECT.in7",
+                "BlockIO5.out0->SW9X1_BlockPE13_in0_CONNECT.in8",
+                "SW9X1_BlockPE13_in0_CONNECT.out0->BlockPE13.in0",
+                "BlockPE0.out0->SW9X1_BlockPE13_in1_CONNECT.in0",
+                "BlockPE1.out0->SW9X1_BlockPE13_in1_CONNECT.in1",
+                "BlockPE2.out0->SW9X1_BlockPE13_in1_CONNECT.in2",
+                "BlockPE8.out0->SW9X1_BlockPE13_in1_CONNECT.in3",
+                "BlockPE9.out0->SW9X1_BlockPE13_in1_CONNECT.in4",
+                "BlockPE10.out0->SW9X1_BlockPE13_in1_CONNECT.in5",
+                "BlockPE12.out0->SW9X1_BlockPE13_in1_CONNECT.in6",
+                "BlockPE14.out0->SW9X1_BlockPE13_in1_CONNECT.in7",
+                "BlockIO5.out0->SW9X1_BlockPE13_in1_CONNECT.in8",
+                "SW9X1_BlockPE13_in1_CONNECT.out0->BlockPE13.in1",
+                "BlockPE0.out0->SW8X1_BlockPE5_in0_CONNECT.in0",
+                "BlockPE1.out0->SW8X1_BlockPE5_in0_CONNECT.in1",
+                "BlockPE2.out0->SW8X1_BlockPE5_in0_CONNECT.in2",
+                "BlockPE4.out0->SW8X1_BlockPE5_in0_CONNECT.in3",
+                "BlockPE6.out0->SW8X1_BlockPE5_in0_CONNECT.in4",
+                "BlockPE8.out0->SW8X1_BlockPE5_in0_CONNECT.in5",
+                "BlockPE9.out0->SW8X1_BlockPE5_in0_CONNECT.in6",
+                "BlockPE10.out0->SW8X1_BlockPE5_in0_CONNECT.in7",
+                "SW8X1_BlockPE5_in0_CONNECT.out0->BlockPE5.in0",
+                "BlockPE0.out0->SW8X1_BlockPE5_in1_CONNECT.in0",
+                "BlockPE1.out0->SW8X1_BlockPE5_in1_CONNECT.in1",
+                "BlockPE2.out0->SW8X1_BlockPE5_in1_CONNECT.in2",
+                "BlockPE4.out0->SW8X1_BlockPE5_in1_CONNECT.in3",
+                "BlockPE6.out0->SW8X1_BlockPE5_in1_CONNECT.in4",
+                "BlockPE8.out0->SW8X1_BlockPE5_in1_CONNECT.in5",
+                "BlockPE9.out0->SW8X1_BlockPE5_in1_CONNECT.in6",
+                "BlockPE10.out0->SW8X1_BlockPE5_in1_CONNECT.in7",
+                "SW8X1_BlockPE5_in1_CONNECT.out0->BlockPE5.in1",
+                "BlockPE1.out0->SW10X1_BlockPE0_in0_CONNECT.in0",
+                "BlockPE3.out0->SW10X1_BlockPE0_in0_CONNECT.in1",
+                "BlockPE4.out0->SW10X1_BlockPE0_in0_CONNECT.in2",
+                "BlockPE5.out0->SW10X1_BlockPE0_in0_CONNECT.in3",
+                "BlockPE7.out0->SW10X1_BlockPE0_in0_CONNECT.in4",
+                "BlockPE12.out0->SW10X1_BlockPE0_in0_CONNECT.in5",
+                "BlockPE13.out0->SW10X1_BlockPE0_in0_CONNECT.in6",
+                "BlockPE15.out0->SW10X1_BlockPE0_in0_CONNECT.in7",
+                "BlockIO0.out0->SW10X1_BlockPE0_in0_CONNECT.in8",
+                "BlockMEM0.out0->SW10X1_BlockPE0_in0_CONNECT.in9",
+                "SW10X1_BlockPE0_in0_CONNECT.out0->BlockPE0.in0",
+                "BlockPE1.out0->SW10X1_BlockPE0_in1_CONNECT.in0",
+                "BlockPE3.out0->SW10X1_BlockPE0_in1_CONNECT.in1",
+                "BlockPE4.out0->SW10X1_BlockPE0_in1_CONNECT.in2",
+                "BlockPE5.out0->SW10X1_BlockPE0_in1_CONNECT.in3",
+                "BlockPE7.out0->SW10X1_BlockPE0_in1_CONNECT.in4",
+                "BlockPE12.out0->SW10X1_BlockPE0_in1_CONNECT.in5",
+                "BlockPE13.out0->SW10X1_BlockPE0_in1_CONNECT.in6",
+                "BlockPE15.out0->SW10X1_BlockPE0_in1_CONNECT.in7",
+                "BlockIO0.out0->SW10X1_BlockPE0_in1_CONNECT.in8",
+                "BlockMEM0.out0->SW10X1_BlockPE0_in1_CONNECT.in9",
+                "SW10X1_BlockPE0_in1_CONNECT.out0->BlockPE0.in1",
+                "BlockPE1.out0->SW9X1_BlockPE2_in0_CONNECT.in0",
+                "BlockPE3.out0->SW9X1_BlockPE2_in0_CONNECT.in1",
+                "BlockPE5.out0->SW9X1_BlockPE2_in0_CONNECT.in2",
+                "BlockPE6.out0->SW9X1_BlockPE2_in0_CONNECT.in3",
+                "BlockPE7.out0->SW9X1_BlockPE2_in0_CONNECT.in4",
+                "BlockPE13.out0->SW9X1_BlockPE2_in0_CONNECT.in5",
+                "BlockPE14.out0->SW9X1_BlockPE2_in0_CONNECT.in6",
+                "BlockPE15.out0->SW9X1_BlockPE2_in0_CONNECT.in7",
+                "BlockIO2.out0->SW9X1_BlockPE2_in0_CONNECT.in8",
+                "SW9X1_BlockPE2_in0_CONNECT.out0->BlockPE2.in0",
+                "BlockPE1.out0->SW9X1_BlockPE2_in1_CONNECT.in0",
+                "BlockPE3.out0->SW9X1_BlockPE2_in1_CONNECT.in1",
+                "BlockPE5.out0->SW9X1_BlockPE2_in1_CONNECT.in2",
+                "BlockPE6.out0->SW9X1_BlockPE2_in1_CONNECT.in3",
+                "BlockPE7.out0->SW9X1_BlockPE2_in1_CONNECT.in4",
+                "BlockPE13.out0->SW9X1_BlockPE2_in1_CONNECT.in5",
+                "BlockPE14.out0->SW9X1_BlockPE2_in1_CONNECT.in6",
+                "BlockPE15.out0->SW9X1_BlockPE2_in1_CONNECT.in7",
+                "BlockIO2.out0->SW9X1_BlockPE2_in1_CONNECT.in8",
+                "SW9X1_BlockPE2_in1_CONNECT.out0->BlockPE2.in1",
+                "BlockPE1.out0->SW9X1_BlockPE14_in0_CONNECT.in0",
+                "BlockPE2.out0->SW9X1_BlockPE14_in0_CONNECT.in1",
+                "BlockPE3.out0->SW9X1_BlockPE14_in0_CONNECT.in2",
+                "BlockPE9.out0->SW9X1_BlockPE14_in0_CONNECT.in3",
+                "BlockPE10.out0->SW9X1_BlockPE14_in0_CONNECT.in4",
+                "BlockPE11.out0->SW9X1_BlockPE14_in0_CONNECT.in5",
+                "BlockPE13.out0->SW9X1_BlockPE14_in0_CONNECT.in6",
+                "BlockPE15.out0->SW9X1_BlockPE14_in0_CONNECT.in7",
+                "BlockIO6.out0->SW9X1_BlockPE14_in0_CONNECT.in8",
+                "SW9X1_BlockPE14_in0_CONNECT.out0->BlockPE14.in0",
+                "BlockPE1.out0->SW9X1_BlockPE14_in1_CONNECT.in0",
+                "BlockPE2.out0->SW9X1_BlockPE14_in1_CONNECT.in1",
+                "BlockPE3.out0->SW9X1_BlockPE14_in1_CONNECT.in2",
+                "BlockPE9.out0->SW9X1_BlockPE14_in1_CONNECT.in3",
+                "BlockPE10.out0->SW9X1_BlockPE14_in1_CONNECT.in4",
+                "BlockPE11.out0->SW9X1_BlockPE14_in1_CONNECT.in5",
+                "BlockPE13.out0->SW9X1_BlockPE14_in1_CONNECT.in6",
+                "BlockPE15.out0->SW9X1_BlockPE14_in1_CONNECT.in7",
+                "BlockIO6.out0->SW9X1_BlockPE14_in1_CONNECT.in8",
+                "SW9X1_BlockPE14_in1_CONNECT.out0->BlockPE14.in1",
+                "BlockPE1.out0->SW8X1_BlockPE6_in0_CONNECT.in0",
+                "BlockPE2.out0->SW8X1_BlockPE6_in0_CONNECT.in1",
+                "BlockPE3.out0->SW8X1_BlockPE6_in0_CONNECT.in2",
+                "BlockPE5.out0->SW8X1_BlockPE6_in0_CONNECT.in3",
+                "BlockPE7.out0->SW8X1_BlockPE6_in0_CONNECT.in4",
+                "BlockPE9.out0->SW8X1_BlockPE6_in0_CONNECT.in5",
+                "BlockPE10.out0->SW8X1_BlockPE6_in0_CONNECT.in6",
+                "BlockPE11.out0->SW8X1_BlockPE6_in0_CONNECT.in7",
+                "SW8X1_BlockPE6_in0_CONNECT.out0->BlockPE6.in0",
+                "BlockPE1.out0->SW8X1_BlockPE6_in1_CONNECT.in0",
+                "BlockPE2.out0->SW8X1_BlockPE6_in1_CONNECT.in1",
+                "BlockPE3.out0->SW8X1_BlockPE6_in1_CONNECT.in2",
+                "BlockPE5.out0->SW8X1_BlockPE6_in1_CONNECT.in3",
+                "BlockPE7.out0->SW8X1_BlockPE6_in1_CONNECT.in4",
+                "BlockPE9.out0->SW8X1_BlockPE6_in1_CONNECT.in5",
+                "BlockPE10.out0->SW8X1_BlockPE6_in1_CONNECT.in6",
+                "BlockPE11.out0->SW8X1_BlockPE6_in1_CONNECT.in7",
+                "SW8X1_BlockPE6_in1_CONNECT.out0->BlockPE6.in1",
+                "BlockPE2.out0->SW10X1_BlockPE15_in0_CONNECT.in0",
+                "BlockPE3.out0->SW10X1_BlockPE15_in0_CONNECT.in1",
+                "BlockPE4.out0->SW10X1_BlockPE15_in0_CONNECT.in2",
+                "BlockPE10.out0->SW10X1_BlockPE15_in0_CONNECT.in3",
+                "BlockPE11.out0->SW10X1_BlockPE15_in0_CONNECT.in4",
+                "BlockPE12.out0->SW10X1_BlockPE15_in0_CONNECT.in5",
+                "BlockPE12.out0->SW10X1_BlockPE15_in0_CONNECT.in6",
+                "BlockPE14.out0->SW10X1_BlockPE15_in0_CONNECT.in7",
+                "BlockIO7.out0->SW10X1_BlockPE15_in0_CONNECT.in8",
+                "BlockMEM7.out0->SW10X1_BlockPE15_in0_CONNECT.in9",
+                "SW10X1_BlockPE15_in0_CONNECT.out0->BlockPE15.in0",
+                "BlockPE2.out0->SW10X1_BlockPE15_in1_CONNECT.in0",
+                "BlockPE3.out0->SW10X1_BlockPE15_in1_CONNECT.in1",
+                "BlockPE4.out0->SW10X1_BlockPE15_in1_CONNECT.in2",
+                "BlockPE10.out0->SW10X1_BlockPE15_in1_CONNECT.in3",
+                "BlockPE11.out0->SW10X1_BlockPE15_in1_CONNECT.in4",
+                "BlockPE12.out0->SW10X1_BlockPE15_in1_CONNECT.in5",
+                "BlockPE12.out0->SW10X1_BlockPE15_in1_CONNECT.in6",
+                "BlockPE14.out0->SW10X1_BlockPE15_in1_CONNECT.in7",
+                "BlockIO7.out0->SW10X1_BlockPE15_in1_CONNECT.in8",
+                "BlockMEM7.out0->SW10X1_BlockPE15_in1_CONNECT.in9",
+                "SW10X1_BlockPE15_in1_CONNECT.out0->BlockPE15.in1",
+                "BlockPE2.out0->SW9X1_BlockPE7_in0_CONNECT.in0",
+                "BlockPE3.out0->SW9X1_BlockPE7_in0_CONNECT.in1",
+                "BlockPE4.out0->SW9X1_BlockPE7_in0_CONNECT.in2",
+                "BlockPE4.out0->SW9X1_BlockPE7_in0_CONNECT.in3",
+                "BlockPE6.out0->SW9X1_BlockPE7_in0_CONNECT.in4",
+                "BlockPE10.out0->SW9X1_BlockPE7_in0_CONNECT.in5",
+                "BlockPE11.out0->SW9X1_BlockPE7_in0_CONNECT.in6",
+                "BlockPE12.out0->SW9X1_BlockPE7_in0_CONNECT.in7",
+                "BlockMEM5.out0->SW9X1_BlockPE7_in0_CONNECT.in8",
+                "SW9X1_BlockPE7_in0_CONNECT.out0->BlockPE7.in0",
+                "BlockPE2.out0->SW9X1_BlockPE7_in1_CONNECT.in0",
+                "BlockPE3.out0->SW9X1_BlockPE7_in1_CONNECT.in1",
+                "BlockPE4.out0->SW9X1_BlockPE7_in1_CONNECT.in2",
+                "BlockPE4.out0->SW9X1_BlockPE7_in1_CONNECT.in3",
+                "BlockPE6.out0->SW9X1_BlockPE7_in1_CONNECT.in4",
+                "BlockPE10.out0->SW9X1_BlockPE7_in1_CONNECT.in5",
+                "BlockPE11.out0->SW9X1_BlockPE7_in1_CONNECT.in6",
+                "BlockPE12.out0->SW9X1_BlockPE7_in1_CONNECT.in7",
+                "BlockMEM5.out0->SW9X1_BlockPE7_in1_CONNECT.in8",
+                "SW9X1_BlockPE7_in1_CONNECT.out0->BlockPE7.in1",
+                "BlockPE4.out0->SW9X1_BlockPE8_in0_CONNECT.in0",
+                "BlockPE5.out0->SW9X1_BlockPE8_in0_CONNECT.in1",
+                "BlockPE7.out0->SW9X1_BlockPE8_in0_CONNECT.in2",
+                "BlockPE9.out0->SW9X1_BlockPE8_in0_CONNECT.in3",
+                "BlockPE11.out0->SW9X1_BlockPE8_in0_CONNECT.in4",
+                "BlockPE12.out0->SW9X1_BlockPE8_in0_CONNECT.in5",
+                "BlockPE13.out0->SW9X1_BlockPE8_in0_CONNECT.in6",
+                "BlockPE15.out0->SW9X1_BlockPE8_in0_CONNECT.in7",
+                "BlockMEM2.out0->SW9X1_BlockPE8_in0_CONNECT.in8",
+                "SW9X1_BlockPE8_in0_CONNECT.out0->BlockPE8.in0",
+                "BlockPE4.out0->SW9X1_BlockPE8_in1_CONNECT.in0",
+                "BlockPE5.out0->SW9X1_BlockPE8_in1_CONNECT.in1",
+                "BlockPE7.out0->SW9X1_BlockPE8_in1_CONNECT.in2",
+                "BlockPE9.out0->SW9X1_BlockPE8_in1_CONNECT.in3",
+                "BlockPE11.out0->SW9X1_BlockPE8_in1_CONNECT.in4",
+                "BlockPE12.out0->SW9X1_BlockPE8_in1_CONNECT.in5",
+                "BlockPE13.out0->SW9X1_BlockPE8_in1_CONNECT.in6",
+                "BlockPE15.out0->SW9X1_BlockPE8_in1_CONNECT.in7",
+                "BlockMEM2.out0->SW9X1_BlockPE8_in1_CONNECT.in8",
+                "SW9X1_BlockPE8_in1_CONNECT.out0->BlockPE8.in1",
+                "BlockPE4.out0->SW8X1_BlockPE9_in0_CONNECT.in0",
+                "BlockPE5.out0->SW8X1_BlockPE9_in0_CONNECT.in1",
+                "BlockPE6.out0->SW8X1_BlockPE9_in0_CONNECT.in2",
+                "BlockPE8.out0->SW8X1_BlockPE9_in0_CONNECT.in3",
+                "BlockPE10.out0->SW8X1_BlockPE9_in0_CONNECT.in4",
+                "BlockPE12.out0->SW8X1_BlockPE9_in0_CONNECT.in5",
+                "BlockPE13.out0->SW8X1_BlockPE9_in0_CONNECT.in6",
+                "BlockPE14.out0->SW8X1_BlockPE9_in0_CONNECT.in7",
+                "SW8X1_BlockPE9_in0_CONNECT.out0->BlockPE9.in0",
+                "BlockPE4.out0->SW8X1_BlockPE9_in1_CONNECT.in0",
+                "BlockPE5.out0->SW8X1_BlockPE9_in1_CONNECT.in1",
+                "BlockPE6.out0->SW8X1_BlockPE9_in1_CONNECT.in2",
+                "BlockPE8.out0->SW8X1_BlockPE9_in1_CONNECT.in3",
+                "BlockPE10.out0->SW8X1_BlockPE9_in1_CONNECT.in4",
+                "BlockPE12.out0->SW8X1_BlockPE9_in1_CONNECT.in5",
+                "BlockPE13.out0->SW8X1_BlockPE9_in1_CONNECT.in6",
+                "BlockPE14.out0->SW8X1_BlockPE9_in1_CONNECT.in7",
+                "SW8X1_BlockPE9_in1_CONNECT.out0->BlockPE9.in1",
+                "BlockPE5.out0->SW8X1_BlockPE10_in0_CONNECT.in0",
+                "BlockPE6.out0->SW8X1_BlockPE10_in0_CONNECT.in1",
+                "BlockPE7.out0->SW8X1_BlockPE10_in0_CONNECT.in2",
+                "BlockPE9.out0->SW8X1_BlockPE10_in0_CONNECT.in3",
+                "BlockPE11.out0->SW8X1_BlockPE10_in0_CONNECT.in4",
+                "BlockPE13.out0->SW8X1_BlockPE10_in0_CONNECT.in5",
+                "BlockPE14.out0->SW8X1_BlockPE10_in0_CONNECT.in6",
+                "BlockPE15.out0->SW8X1_BlockPE10_in0_CONNECT.in7",
+                "SW8X1_BlockPE10_in0_CONNECT.out0->BlockPE10.in0",
+                "BlockPE5.out0->SW8X1_BlockPE10_in1_CONNECT.in0",
+                "BlockPE6.out0->SW8X1_BlockPE10_in1_CONNECT.in1",
+                "BlockPE7.out0->SW8X1_BlockPE10_in1_CONNECT.in2",
+                "BlockPE9.out0->SW8X1_BlockPE10_in1_CONNECT.in3",
+                "BlockPE11.out0->SW8X1_BlockPE10_in1_CONNECT.in4",
+                "BlockPE13.out0->SW8X1_BlockPE10_in1_CONNECT.in5",
+                "BlockPE14.out0->SW8X1_BlockPE10_in1_CONNECT.in6",
+                "BlockPE15.out0->SW8X1_BlockPE10_in1_CONNECT.in7",
+                "SW8X1_BlockPE10_in1_CONNECT.out0->BlockPE10.in1",
+                "BlockPE0.out0->SW2X1_BlockIO0_in0_CONNECT.in0",
+                "in0->SW2X1_BlockIO0_in0_CONNECT.in1",
+                "SW2X1_BlockIO0_in0_CONNECT.out0->BlockIO0.in0",
+                "BlockPE0.out0->SW1X1_BlockIO0_in1_CONNECT.in0",
+                "SW1X1_BlockIO0_in1_CONNECT.out0->BlockIO0.in1",
+                "BlockPE12.out0->SW2X1_BlockIO4_in0_CONNECT.in0",
+                "in4->SW2X1_BlockIO4_in0_CONNECT.in1",
+                "SW2X1_BlockIO4_in0_CONNECT.out0->BlockIO4.in0",
+                "BlockPE12.out0->SW1X1_BlockIO4_in1_CONNECT.in0",
+                "SW1X1_BlockIO4_in1_CONNECT.out0->BlockIO4.in1",
+                "BlockPE1.out0->SW2X1_BlockIO1_in0_CONNECT.in0",
+                "in1->SW2X1_BlockIO1_in0_CONNECT.in1",
+                "SW2X1_BlockIO1_in0_CONNECT.out0->BlockIO1.in0",
+                "BlockPE1.out0->SW1X1_BlockIO1_in1_CONNECT.in0",
+                "SW1X1_BlockIO1_in1_CONNECT.out0->BlockIO1.in1",
+                "BlockPE13.out0->SW2X1_BlockIO5_in0_CONNECT.in0",
+                "in5->SW2X1_BlockIO5_in0_CONNECT.in1",
+                "SW2X1_BlockIO5_in0_CONNECT.out0->BlockIO5.in0",
+                "BlockPE13.out0->SW1X1_BlockIO5_in1_CONNECT.in0",
+                "SW1X1_BlockIO5_in1_CONNECT.out0->BlockIO5.in1",
+                "BlockPE2.out0->SW2X1_BlockIO2_in0_CONNECT.in0",
+                "in2->SW2X1_BlockIO2_in0_CONNECT.in1",
+                "SW2X1_BlockIO2_in0_CONNECT.out0->BlockIO2.in0",
+                "BlockPE2.out0->SW1X1_BlockIO2_in1_CONNECT.in0",
+                "SW1X1_BlockIO2_in1_CONNECT.out0->BlockIO2.in1",
+                "BlockPE14.out0->SW2X1_BlockIO6_in0_CONNECT.in0",
+                "in6->SW2X1_BlockIO6_in0_CONNECT.in1",
+                "SW2X1_BlockIO6_in0_CONNECT.out0->BlockIO6.in0",
+                "BlockPE14.out0->SW1X1_BlockIO6_in1_CONNECT.in0",
+                "SW1X1_BlockIO6_in1_CONNECT.out0->BlockIO6.in1",
+                "BlockPE3.out0->SW2X1_BlockIO3_in0_CONNECT.in0",
+                "in3->SW2X1_BlockIO3_in0_CONNECT.in1",
+                "SW2X1_BlockIO3_in0_CONNECT.out0->BlockIO3.in0",
+                "BlockPE3.out0->SW1X1_BlockIO3_in1_CONNECT.in0",
+                "SW1X1_BlockIO3_in1_CONNECT.out0->BlockIO3.in1",
+                "BlockPE15.out0->SW2X1_BlockIO7_in0_CONNECT.in0",
+                "in7->SW2X1_BlockIO7_in0_CONNECT.in1",
+                "SW2X1_BlockIO7_in0_CONNECT.out0->BlockIO7.in0",
+                "BlockPE15.out0->SW1X1_BlockIO7_in1_CONNECT.in0",
+                "SW1X1_BlockIO7_in1_CONNECT.out0->BlockIO7.in1",
+                "BlockIO0.out0->SW1X1_out0_CONNECT.in0",
+                "SW1X1_out0_CONNECT.out0->out0",
+                "BlockIO1.out0->SW1X1_out1_CONNECT.in0",
+                "SW1X1_out1_CONNECT.out0->out1",
+                "BlockIO2.out0->SW1X1_out2_CONNECT.in0",
+                "SW1X1_out2_CONNECT.out0->out2",
+                "BlockIO3.out0->SW1X1_out3_CONNECT.in0",
+                "SW1X1_out3_CONNECT.out0->out3",
+                "BlockIO4.out0->SW1X1_out4_CONNECT.in0",
+                "SW1X1_out4_CONNECT.out0->out4",
+                "BlockIO5.out0->SW1X1_out5_CONNECT.in0",
+                "SW1X1_out5_CONNECT.out0->out5",
+                "BlockIO6.out0->SW1X1_out6_CONNECT.in0",
+                "SW1X1_out6_CONNECT.out0->out6",
+                "BlockIO7.out0->SW1X1_out7_CONNECT.in0",
+                "SW1X1_out7_CONNECT.out0->out7",
+                "BlockPE0.out0->SW1X1_BlockMEM0_in0_CONNECT.in0",
+                "SW1X1_BlockMEM0_in0_CONNECT.out0->BlockMEM0.in0",
+                "BlockPE0.out0->SW1X1_BlockMEM0_in1_CONNECT.in0",
+                "SW1X1_BlockMEM0_in1_CONNECT.out0->BlockMEM0.in1",
+                "BlockPE3.out0->SW1X1_BlockMEM4_in0_CONNECT.in0",
+                "SW1X1_BlockMEM4_in0_CONNECT.out0->BlockMEM4.in0",
+                "BlockPE3.out0->SW1X1_BlockMEM4_in1_CONNECT.in0",
+                "SW1X1_BlockMEM4_in1_CONNECT.out0->BlockMEM4.in1",
+                "BlockPE4.out0->SW1X1_BlockMEM1_in0_CONNECT.in0",
+                "SW1X1_BlockMEM1_in0_CONNECT.out0->BlockMEM1.in0",
+                "BlockPE4.out0->SW1X1_BlockMEM1_in1_CONNECT.in0",
+                "SW1X1_BlockMEM1_in1_CONNECT.out0->BlockMEM1.in1",
+                "BlockPE7.out0->SW1X1_BlockMEM5_in0_CONNECT.in0",
+                "SW1X1_BlockMEM5_in0_CONNECT.out0->BlockMEM5.in0",
+                "BlockPE7.out0->SW1X1_BlockMEM5_in1_CONNECT.in0",
+                "SW1X1_BlockMEM5_in1_CONNECT.out0->BlockMEM5.in1",
+                "BlockPE8.out0->SW1X1_BlockMEM2_in0_CONNECT.in0",
+                "SW1X1_BlockMEM2_in0_CONNECT.out0->BlockMEM2.in0",
+                "BlockPE8.out0->SW1X1_BlockMEM2_in1_CONNECT.in0",
+                "SW1X1_BlockMEM2_in1_CONNECT.out0->BlockMEM2.in1",
+                "BlockPE11.out0->SW1X1_BlockMEM6_in0_CONNECT.in0",
+                "SW1X1_BlockMEM6_in0_CONNECT.out0->BlockMEM6.in0",
+                "BlockPE11.out0->SW1X1_BlockMEM6_in1_CONNECT.in0",
+                "SW1X1_BlockMEM6_in1_CONNECT.out0->BlockMEM6.in1",
+                "BlockPE12.out0->SW1X1_BlockMEM3_in0_CONNECT.in0",
+                "SW1X1_BlockMEM3_in0_CONNECT.out0->BlockMEM3.in0",
+                "BlockPE12.out0->SW1X1_BlockMEM3_in1_CONNECT.in0",
+                "SW1X1_BlockMEM3_in1_CONNECT.out0->BlockMEM3.in1",
+                "BlockPE15.out0->SW1X1_BlockMEM7_in0_CONNECT.in0",
+                "SW1X1_BlockMEM7_in0_CONNECT.out0->BlockMEM7.in0",
+                "BlockPE15.out0->SW1X1_BlockMEM7_in1_CONNECT.in0",
+                "SW1X1_BlockMEM7_in1_CONNECT.out0->BlockMEM7.in1"
+            ]
+        },
+        "TOP": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "module": {},
+            "element": {
+                "ALU0": "ALU",
+                "MEM0": "MEM"
+            },
+            "switch": {
+                "SW_INPORT_FU": "FULLYCONN_4X4",
+                "SW_FU_OUTPORT": "FULLYCONN_2X1"
+            },
+            "connection": [
+                "in0->SW_INPORT_FU.in0",
+                "in1->SW_INPORT_FU.in1",
+                "ALU0.out0->SW_INPORT_FU.in2",
+                "MEM0.out0->SW_INPORT_FU.in3",
+                "SW_INPORT_FU.out0->ALU0.in0",
+                "SW_INPORT_FU.out1->ALU0.in1",
+                "SW_INPORT_FU.out2->MEM0.in0",
+                "SW_INPORT_FU.out3->MEM0.in1",
+                "ALU0.out0->SW_FU_OUTPORT.in0",
+                "MEM0.out0->SW_FU_OUTPORT.in1",
+                "SW_FU_OUTPORT.out0->out0"
+            ]
+        }
+    }
+}

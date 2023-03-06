@@ -1,0 +1,56 @@
+vertex 55.in1
+vertex 55
+vertex 24.in0
+vertex 15.in0
+vertex 15
+vertex 60.in1
+vertex 24
+vertex 15.in1
+vertex 60.in0
+vertex 71
+vertex 71.out0
+vertex 71.in0
+vertex 60.out0
+vertex 71.in1
+vertex 64.out0
+vertex 60
+vertex 55.in0
+vertex 64
+vertex 58.in0
+vertex 58
+vertex 64.in0
+vertex 24.out0
+vertex 15.out0
+vertex 64.in1
+vertex 55.out0
+vertex 58.in1
+vertex 24.in1
+vertex 58.out0
+net 55.in1 55
+net 55 55.out0
+net 24.in0 24
+net 15.in0 15
+net 15 15.out0
+net 60.in1 60
+net 24 24.out0
+net 15.in1 15
+net 60.in0 60
+net 71 71.out0
+net 71.in0 71
+net 60.out0 71.in0
+net 71.in1 71
+net 64.out0 71.in1
+net 60 60.out0
+net 55.in0 55
+net 64 64.out0
+net 58.in0 58
+net 58 58.out0
+net 64.in0 64
+net 24.out0 55.in1
+net 24.out0 58.in1
+net 15.out0 55.in0
+net 15.out0 58.in0
+net 64.in1 64
+net 55.out0 60.in0
+net 58.in1 58
+net 24.in1 24

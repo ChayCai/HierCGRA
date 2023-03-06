@@ -1,0 +1,58 @@
+vertex or2
+vertex or2.out0
+vertex or2.in1
+vertex or2.in0
+vertex select0
+vertex select0.in0
+vertex select0.in2
+vertex select0.in1
+vertex shl2
+vertex shl2.out0
+vertex shl2.in1
+vertex select0.out0
+vertex shl3.in0
+vertex xor0.in0
+vertex shl2.in0
+vertex xor0.in1
+vertex xor0
+vertex or1.in1
+vertex shl3
+vertex sub0.in0
+vertex sub0.out0
+vertex or1
+vertex sub0.in1
+vertex or1.in0
+vertex shl3.out0
+vertex sub0
+vertex xor0.out0
+vertex or1.out0
+vertex shl3.in1
+net or2 or2.out0
+net or2.out0 shl2.in0
+net or2.out0 shl3.in0
+net or2.in1 or2
+net or2.in0 or2
+net select0 select0.out0
+net select0.in0 select0
+net select0.in2 select0
+net select0.in1 select0
+net shl2 shl2.out0
+net shl2.out0 or2.in0
+net shl2.in1 shl2
+net select0.out0 sub0.in1
+net shl3.in0 shl3
+net xor0.in0 xor0
+net shl2.in0 shl2
+net xor0.in1 xor0
+net xor0 xor0.out0
+net or1.in1 or1
+net shl3 shl3.out0
+net sub0.in0 sub0
+net or1 or1.out0
+net sub0.in1 sub0
+net or1.in0 or1
+net shl3.out0 or1.in0
+net sub0 sub0.out0
+net xor0.out0 or2.in1
+net or1.out0 select0.in2
+net shl3.in1 shl3

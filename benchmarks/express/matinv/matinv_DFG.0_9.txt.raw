@@ -1,0 +1,72 @@
+attr __file__ str ./benchmarks/express/matinv/matinv_DFG.0_9.txt
+attr __name__ str ./benchmarks/express/matinv/matinv_DFG.0_9.txt
+vertex __inserted_outport_3.out0
+vertex __inserted_outport_3.in0
+vertex __inserted_outport_3
+vertex __inserted_outport_2.out0
+vertex __inserted_outport_2.in0
+vertex __inserted_outport_2
+vertex __inserted_outport_1.in0
+vertex ADD_193
+vertex MUL_549.out0
+vertex __inserted_outport_1.out0
+vertex ADD_127
+vertex __inserted_outport_0
+vertex ADD_127.out0
+vertex MUL_144
+vertex MUL_124.out0
+vertex MUL_190
+vertex __inserted_inport_1.in0
+vertex MUL_549.in0
+vertex ADD_147
+vertex __inserted_inport_0.in0
+vertex __inserted_inport_1.out0
+vertex ADD_193.out0
+vertex ADD_147.out0
+vertex MUL_190.out0
+vertex MUL_549.in1
+vertex __inserted_outport_0.out0
+vertex ADD_193.in0
+vertex __inserted_outport_1
+vertex ADD_147.in0
+vertex ADD_127.in0
+vertex __inserted_inport_1
+vertex MUL_124
+vertex MUL_144.out0
+vertex MUL_549
+vertex __inserted_inport_0
+vertex __inserted_inport_0.out0
+vertex __inserted_outport_0.in0
+net __inserted_outport_3.in0 __inserted_outport_3
+net __inserted_outport_3 __inserted_outport_3.out0
+net __inserted_outport_2.in0 __inserted_outport_2
+net __inserted_outport_2 __inserted_outport_2.out0
+net __inserted_outport_1.in0 __inserted_outport_1
+net ADD_193 ADD_193.out0
+net MUL_549.out0 __inserted_outport_1.in0
+net ADD_127 ADD_127.out0
+net __inserted_outport_0 __inserted_outport_0.out0
+net ADD_127.out0 __inserted_outport_2.in0
+net MUL_144 MUL_144.out0
+net MUL_124.out0 ADD_127.in0
+net MUL_190 MUL_190.out0
+net __inserted_inport_1.in0 __inserted_inport_1
+net MUL_549.in0 MUL_549
+net ADD_147 ADD_147.out0
+net __inserted_inport_0.in0 __inserted_inport_0
+net __inserted_inport_1.out0 MUL_549.in1
+net ADD_193.out0 __inserted_outport_3.in0
+net ADD_147.out0 __inserted_outport_0.in0
+net MUL_190.out0 ADD_193.in0
+net MUL_549.in1 MUL_549
+net ADD_193.in0 ADD_193
+net __inserted_outport_1 __inserted_outport_1.out0
+net ADD_147.in0 ADD_147
+net ADD_127.in0 ADD_127
+net __inserted_inport_1 __inserted_inport_1.out0
+net MUL_124 MUL_124.out0
+net MUL_144.out0 ADD_147.in0
+net MUL_549 MUL_549.out0
+net __inserted_inport_0 __inserted_inport_0.out0
+net __inserted_inport_0.out0 MUL_549.in0
+net __inserted_outport_0.in0 __inserted_outport_0

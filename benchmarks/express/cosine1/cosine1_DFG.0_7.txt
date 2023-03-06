@@ -1,0 +1,26 @@
+vertex 56.out0
+vertex 50
+vertex 50.in0
+vertex 28.in0
+vertex 60
+vertex 28.out0
+vertex 60.in0
+vertex 56
+vertex 28
+vertex 28.in1
+vertex 60.in1
+vertex 50.out0
+vertex 60.out0
+vertex 56.in0
+net 56.out0 60.in1
+net 50 50.out0
+net 50.in0 50
+net 28.in0 28
+net 60 60.out0
+net 60.in0 60
+net 56 56.out0
+net 28 28.out0
+net 28.in1 28
+net 60.in1 60
+net 50.out0 60.in0
+net 56.in0 56

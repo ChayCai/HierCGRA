@@ -1,0 +1,47 @@
+attr __file__ str ./benchmarks/cgrame/sum/sum_DFG.txt
+attr __name__ str ./benchmarks/cgrame/sum/sum_DFG.txt
+vertex add5.out0
+vertex mul0.in1
+vertex mul0
+vertex load2.in0
+vertex const6.out0
+vertex add3.out0
+vertex output4.out0
+vertex add5
+vertex add3.in0
+vertex output4.in0
+vertex add3
+vertex load2
+vertex const1.out0
+vertex mul0.in0
+vertex mul0.out0
+vertex add3.in1
+vertex add5.in1
+vertex const6
+vertex const1
+vertex output4
+vertex load2.out0
+vertex add5.in0
+net add5.out0 mul0.in1
+net add5.out0 add5.in0
+net mul0.in1 mul0
+net mul0 mul0.out0
+net load2.in0 load2
+net const6.out0 add5.in1
+net add3.out0 output4.in0
+net add3.out0 add3.in1
+net add5 add5.out0
+net add3.in0 add3
+net output4.in0 output4
+net add3 add3.out0
+net load2 load2.out0
+net const1.out0 mul0.in0
+net mul0.in0 mul0
+net mul0.out0 load2.in0
+net add3.in1 add3
+net add5.in1 add5
+net const6 const6.out0
+net const1 const1.out0
+net output4 output4.out0
+net load2.out0 add3.in0
+net add5.in0 add5

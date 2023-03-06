@@ -1,0 +1,2140 @@
+vertex in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in0
+vertex in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in1
+vertex in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in2
+vertex in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in3
+vertex in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in4
+vertex in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in5
+vertex in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in6
+vertex in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in7
+vertex in8
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in8
+vertex in9
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in9
+vertex in10
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in10
+vertex in11
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in11
+vertex in12
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in12
+vertex in13
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in13
+vertex in14
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in14
+vertex in15
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in15
+vertex out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out0
+vertex out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out1
+vertex out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out2
+vertex out3
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out3
+vertex out4
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out4
+vertex out5
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out5
+vertex out6
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out6
+vertex out7
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out7
+vertex out8
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out8
+vertex out9
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out9
+vertex out10
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out10
+vertex out11
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out11
+vertex out12
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out12
+vertex out13
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out13
+vertex out14
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out14
+vertex out15
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out15
+vertex MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex MEM1
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex MEM1.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex MEM1.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex MEM1.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex MEM1.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex MEM2
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex MEM2.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex MEM2.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex MEM2.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex MEM2.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex MEM3
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex MEM3.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex MEM3.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex MEM3.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex MEM3.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex MEM4
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex MEM4.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex MEM4.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex MEM4.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex MEM4.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex MEM5
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex MEM5.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex MEM5.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex MEM5.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex MEM5.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex MEM6
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex MEM6.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex MEM6.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex MEM6.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex MEM6.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex MEM7
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex MEM7.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex MEM7.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex MEM7.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex MEM7.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+vertex SW1X3_MEMs_HOP0_6.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP0_6.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP0_6.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP0_6.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP0_7.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP0_7.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP0_7.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP0_7.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP0_1.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP0_1.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP0_1.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP0_1.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP1_7.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP1_7.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP1_7.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP1_7.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP1_0.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP1_0.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP1_0.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP1_0.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP1_2.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP1_2.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP1_2.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP1_2.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP2_0.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP2_0.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP2_0.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP2_0.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP2_1.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP2_1.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP2_1.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP2_1.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP2_3.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP2_3.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP2_3.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP2_3.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP3_1.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP3_1.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP3_1.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP3_1.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP3_2.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP3_2.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP3_2.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP3_2.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP3_4.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP3_4.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP3_4.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP3_4.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP4_2.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP4_2.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP4_2.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP4_2.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP4_3.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP4_3.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP4_3.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP4_3.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP4_5.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP4_5.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP4_5.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP4_5.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP5_3.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP5_3.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP5_3.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP5_3.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP5_4.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP5_4.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP5_4.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP5_4.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP5_6.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP5_6.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP5_6.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP5_6.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP6_4.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP6_4.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP6_4.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP6_4.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP6_5.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP6_5.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP6_5.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP6_5.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP6_7.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP6_7.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP6_7.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP6_7.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP7_5.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP7_5.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP7_5.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP7_5.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP7_6.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP7_6.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP7_6.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP7_6.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP7_0.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X3.in0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP7_0.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out0
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP7_0.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out1
+    attr switch str FULLYCONN_1X3
+vertex SW1X3_MEMs_HOP7_0.out2
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X3.out2
+    attr switch str FULLYCONN_1X3
+vertex SW8X1_UNROLL0.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL0.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in1
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL0.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in2
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL0.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in3
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL0.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in4
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL0.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in5
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL0.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in6
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL0.in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in7
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL0.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_8X1.out0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL1.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL1.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in1
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL1.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in2
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL1.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in3
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL1.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in4
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL1.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in5
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL1.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in6
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL1.in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in7
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL1.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_8X1.out0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL2.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL2.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in1
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL2.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in2
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL2.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in3
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL2.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in4
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL2.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in5
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL2.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in6
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL2.in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in7
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL2.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_8X1.out0
+    attr switch str FULLYCONN_8X1
+vertex SW7X1_UNROLL3.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL3.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL3.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL3.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL3.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL3.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL3.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL3.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL4.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL4.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL4.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL4.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL4.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL4.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL4.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL4.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL5.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL5.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL5.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL5.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL5.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL5.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL5.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL5.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL6.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL6.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL6.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL6.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL6.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL6.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL6.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL6.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL7.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL7.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL7.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL7.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL7.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL7.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL7.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL7.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL8.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL8.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL8.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL8.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL8.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL8.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL8.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL8.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW6X1_UNROLL9.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in0
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL9.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in1
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL9.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in2
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL9.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in3
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL9.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in4
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL9.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in5
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL9.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_6X1.out0
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL10.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in0
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL10.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in1
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL10.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in2
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL10.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in3
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL10.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in4
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL10.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in5
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL10.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_6X1.out0
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL11.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in0
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL11.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in1
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL11.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in2
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL11.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in3
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL11.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in4
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL11.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_6X1.in5
+    attr switch str FULLYCONN_6X1
+vertex SW6X1_UNROLL11.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_6X1.out0
+    attr switch str FULLYCONN_6X1
+vertex SW8X1_UNROLL12.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL12.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in1
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL12.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in2
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL12.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in3
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL12.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in4
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL12.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in5
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL12.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in6
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL12.in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in7
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL12.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_8X1.out0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL13.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL13.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in1
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL13.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in2
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL13.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in3
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL13.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in4
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL13.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in5
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL13.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in6
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL13.in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in7
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL13.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_8X1.out0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL14.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL14.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in1
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL14.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in2
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL14.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in3
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL14.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in4
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL14.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in5
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL14.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in6
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL14.in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in7
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL14.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_8X1.out0
+    attr switch str FULLYCONN_8X1
+vertex SW7X1_UNROLL15.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL15.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL15.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL15.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL15.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL15.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL15.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL15.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL16.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL16.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL16.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL16.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL16.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL16.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL16.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL16.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL17.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL17.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL17.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL17.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL17.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL17.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL17.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL17.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW8X1_UNROLL18.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL18.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in1
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL18.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in2
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL18.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in3
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL18.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in4
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL18.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in5
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL18.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in6
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL18.in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in7
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL18.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_8X1.out0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL19.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL19.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in1
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL19.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in2
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL19.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in3
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL19.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in4
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL19.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in5
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL19.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in6
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL19.in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in7
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL19.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_8X1.out0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL20.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in0
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL20.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in1
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL20.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in2
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL20.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in3
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL20.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in4
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL20.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in5
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL20.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in6
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL20.in7
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_8X1.in7
+    attr switch str FULLYCONN_8X1
+vertex SW8X1_UNROLL20.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_8X1.out0
+    attr switch str FULLYCONN_8X1
+vertex SW7X1_UNROLL21.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL21.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL21.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL21.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL21.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL21.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL21.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL21.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL22.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL22.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL22.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL22.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL22.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL22.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL22.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL22.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL23.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in0
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL23.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in1
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL23.in2
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in2
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL23.in3
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in3
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL23.in4
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in4
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL23.in5
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in5
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL23.in6
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_7X1.in6
+    attr switch str FULLYCONN_7X1
+vertex SW7X1_UNROLL23.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_7X1.out0
+    attr switch str FULLYCONN_7X1
+vertex SW2X1_UNROLL24.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL24.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL24.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL25.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL25.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL25.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL26.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL26.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL26.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL27.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL27.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL27.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL28.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL28.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL28.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL29.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL29.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL29.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL30.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL30.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL30.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL31.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL31.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL31.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL32.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL32.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL32.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL33.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL33.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL33.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL34.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL34.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL34.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL35.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL35.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL35.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL36.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL36.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL36.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL37.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in0
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL37.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X1.in1
+    attr switch str FULLYCONN_2X1
+vertex SW2X1_UNROLL37.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X1.out0
+    attr switch str FULLYCONN_2X1
+net in0 SW7X1_UNROLL6.in3
+net in0 SW7X1_UNROLL7.in3
+net in0 SW7X1_UNROLL8.in3
+net in0 SW6X1_UNROLL9.in4
+net in0 SW6X1_UNROLL10.in4
+net in0 SW6X1_UNROLL11.in4
+net in1 SW7X1_UNROLL6.in4
+net in1 SW7X1_UNROLL7.in4
+net in1 SW7X1_UNROLL8.in4
+net in1 SW6X1_UNROLL9.in5
+net in1 SW6X1_UNROLL10.in5
+net in1 SW6X1_UNROLL11.in5
+net in2 SW7X1_UNROLL6.in5
+net in2 SW7X1_UNROLL7.in5
+net in2 SW7X1_UNROLL8.in5
+net in2 SW8X1_UNROLL12.in4
+net in2 SW8X1_UNROLL13.in4
+net in2 SW8X1_UNROLL14.in4
+net in3 SW7X1_UNROLL6.in6
+net in3 SW7X1_UNROLL7.in6
+net in3 SW7X1_UNROLL8.in6
+net in3 SW8X1_UNROLL12.in5
+net in3 SW8X1_UNROLL13.in5
+net in3 SW8X1_UNROLL14.in5
+net in4 SW8X1_UNROLL12.in6
+net in4 SW8X1_UNROLL13.in6
+net in4 SW8X1_UNROLL14.in6
+net in4 SW7X1_UNROLL15.in3
+net in4 SW7X1_UNROLL16.in3
+net in4 SW7X1_UNROLL17.in3
+net in5 SW8X1_UNROLL12.in7
+net in5 SW8X1_UNROLL13.in7
+net in5 SW8X1_UNROLL14.in7
+net in5 SW7X1_UNROLL15.in4
+net in5 SW7X1_UNROLL16.in4
+net in5 SW7X1_UNROLL17.in4
+net in6 SW7X1_UNROLL15.in5
+net in6 SW7X1_UNROLL16.in5
+net in6 SW7X1_UNROLL17.in5
+net in6 SW8X1_UNROLL18.in4
+net in6 SW8X1_UNROLL19.in4
+net in6 SW8X1_UNROLL20.in4
+net in7 SW7X1_UNROLL15.in6
+net in7 SW7X1_UNROLL16.in6
+net in7 SW7X1_UNROLL17.in6
+net in7 SW8X1_UNROLL18.in5
+net in7 SW8X1_UNROLL19.in5
+net in7 SW8X1_UNROLL20.in5
+net in8 SW8X1_UNROLL18.in6
+net in8 SW8X1_UNROLL19.in6
+net in8 SW8X1_UNROLL20.in6
+net in8 SW7X1_UNROLL21.in3
+net in8 SW7X1_UNROLL22.in3
+net in8 SW7X1_UNROLL23.in3
+net in9 SW8X1_UNROLL18.in7
+net in9 SW8X1_UNROLL19.in7
+net in9 SW8X1_UNROLL20.in7
+net in9 SW7X1_UNROLL21.in4
+net in9 SW7X1_UNROLL22.in4
+net in9 SW7X1_UNROLL23.in4
+net in10 SW8X1_UNROLL0.in4
+net in10 SW8X1_UNROLL1.in4
+net in10 SW8X1_UNROLL2.in4
+net in10 SW7X1_UNROLL21.in5
+net in10 SW7X1_UNROLL22.in5
+net in10 SW7X1_UNROLL23.in5
+net in11 SW8X1_UNROLL0.in5
+net in11 SW8X1_UNROLL1.in5
+net in11 SW8X1_UNROLL2.in5
+net in11 SW7X1_UNROLL21.in6
+net in11 SW7X1_UNROLL22.in6
+net in11 SW7X1_UNROLL23.in6
+net in12 SW8X1_UNROLL0.in6
+net in12 SW8X1_UNROLL1.in6
+net in12 SW8X1_UNROLL2.in6
+net in12 SW7X1_UNROLL3.in3
+net in12 SW7X1_UNROLL4.in3
+net in12 SW7X1_UNROLL5.in3
+net in13 SW8X1_UNROLL0.in7
+net in13 SW8X1_UNROLL1.in7
+net in13 SW8X1_UNROLL2.in7
+net in13 SW7X1_UNROLL3.in4
+net in13 SW7X1_UNROLL4.in4
+net in13 SW7X1_UNROLL5.in4
+net in14 SW7X1_UNROLL3.in5
+net in14 SW7X1_UNROLL4.in5
+net in14 SW7X1_UNROLL5.in5
+net in15 SW7X1_UNROLL3.in6
+net in15 SW7X1_UNROLL4.in6
+net in15 SW7X1_UNROLL5.in6
+net MEM0 MEM0.out0
+net MEM0.in0 MEM0
+net MEM0.in1 MEM0
+net MEM0.in2 MEM0
+net MEM0.out0 SW1X3_MEMs_HOP0_6.in0
+net MEM0.out0 SW1X3_MEMs_HOP0_7.in0
+net MEM0.out0 SW1X3_MEMs_HOP0_1.in0
+net MEM0.out0 SW6X1_UNROLL9.in3
+net MEM0.out0 SW6X1_UNROLL10.in3
+net MEM0.out0 SW6X1_UNROLL11.in3
+net MEM0.out0 SW2X1_UNROLL24.in0
+net MEM0.out0 SW2X1_UNROLL25.in0
+net MEM1 MEM1.out0
+net MEM1.in0 MEM1
+net MEM1.in1 MEM1
+net MEM1.in2 MEM1
+net MEM1.out0 SW1X3_MEMs_HOP1_7.in0
+net MEM1.out0 SW1X3_MEMs_HOP1_0.in0
+net MEM1.out0 SW1X3_MEMs_HOP1_2.in0
+net MEM1.out0 SW2X1_UNROLL24.in1
+net MEM1.out0 SW2X1_UNROLL25.in1
+net MEM1.out0 SW2X1_UNROLL26.in0
+net MEM1.out0 SW2X1_UNROLL27.in0
+net MEM2 MEM2.out0
+net MEM2.in0 MEM2
+net MEM2.in1 MEM2
+net MEM2.in2 MEM2
+net MEM2.out0 SW1X3_MEMs_HOP2_0.in0
+net MEM2.out0 SW1X3_MEMs_HOP2_1.in0
+net MEM2.out0 SW1X3_MEMs_HOP2_3.in0
+net MEM2.out0 SW8X1_UNROLL12.in3
+net MEM2.out0 SW8X1_UNROLL13.in3
+net MEM2.out0 SW8X1_UNROLL14.in3
+net MEM2.out0 SW2X1_UNROLL26.in1
+net MEM2.out0 SW2X1_UNROLL27.in1
+net MEM2.out0 SW2X1_UNROLL28.in0
+net MEM2.out0 SW2X1_UNROLL29.in0
+net MEM3 MEM3.out0
+net MEM3.in0 MEM3
+net MEM3.in1 MEM3
+net MEM3.in2 MEM3
+net MEM3.out0 SW1X3_MEMs_HOP3_1.in0
+net MEM3.out0 SW1X3_MEMs_HOP3_2.in0
+net MEM3.out0 SW1X3_MEMs_HOP3_4.in0
+net MEM3.out0 SW2X1_UNROLL28.in1
+net MEM3.out0 SW2X1_UNROLL29.in1
+net MEM3.out0 SW2X1_UNROLL30.in0
+net MEM3.out0 SW2X1_UNROLL31.in0
+net MEM4 MEM4.out0
+net MEM4.in0 MEM4
+net MEM4.in1 MEM4
+net MEM4.in2 MEM4
+net MEM4.out0 SW1X3_MEMs_HOP4_2.in0
+net MEM4.out0 SW1X3_MEMs_HOP4_3.in0
+net MEM4.out0 SW1X3_MEMs_HOP4_5.in0
+net MEM4.out0 SW8X1_UNROLL18.in3
+net MEM4.out0 SW8X1_UNROLL19.in3
+net MEM4.out0 SW8X1_UNROLL20.in3
+net MEM4.out0 SW2X1_UNROLL30.in1
+net MEM4.out0 SW2X1_UNROLL31.in1
+net MEM4.out0 SW2X1_UNROLL32.in0
+net MEM4.out0 SW2X1_UNROLL33.in0
+net MEM5 MEM5.out0
+net MEM5.in0 MEM5
+net MEM5.in1 MEM5
+net MEM5.in2 MEM5
+net MEM5.out0 SW1X3_MEMs_HOP5_3.in0
+net MEM5.out0 SW1X3_MEMs_HOP5_4.in0
+net MEM5.out0 SW1X3_MEMs_HOP5_6.in0
+net MEM5.out0 SW2X1_UNROLL32.in1
+net MEM5.out0 SW2X1_UNROLL33.in1
+net MEM5.out0 SW2X1_UNROLL34.in0
+net MEM5.out0 SW2X1_UNROLL35.in0
+net MEM6 MEM6.out0
+net MEM6.in0 MEM6
+net MEM6.in1 MEM6
+net MEM6.in2 MEM6
+net MEM6.out0 SW1X3_MEMs_HOP6_4.in0
+net MEM6.out0 SW1X3_MEMs_HOP6_5.in0
+net MEM6.out0 SW1X3_MEMs_HOP6_7.in0
+net MEM6.out0 SW8X1_UNROLL0.in3
+net MEM6.out0 SW8X1_UNROLL1.in3
+net MEM6.out0 SW8X1_UNROLL2.in3
+net MEM6.out0 SW2X1_UNROLL34.in1
+net MEM6.out0 SW2X1_UNROLL35.in1
+net MEM6.out0 SW2X1_UNROLL36.in0
+net MEM6.out0 SW2X1_UNROLL37.in0
+net MEM7 MEM7.out0
+net MEM7.in0 MEM7
+net MEM7.in1 MEM7
+net MEM7.in2 MEM7
+net MEM7.out0 SW1X3_MEMs_HOP7_5.in0
+net MEM7.out0 SW1X3_MEMs_HOP7_6.in0
+net MEM7.out0 SW1X3_MEMs_HOP7_0.in0
+net MEM7.out0 out14
+net MEM7.out0 out15
+net MEM7.out0 SW2X1_UNROLL36.in1
+net MEM7.out0 SW2X1_UNROLL37.in1
+net SW1X3_MEMs_HOP0_6.in0 SW1X3_MEMs_HOP0_6.out0
+net SW1X3_MEMs_HOP0_6.in0 SW1X3_MEMs_HOP0_6.out1
+net SW1X3_MEMs_HOP0_6.in0 SW1X3_MEMs_HOP0_6.out2
+net SW1X3_MEMs_HOP0_6.out0 SW8X1_UNROLL0.in0
+net SW1X3_MEMs_HOP0_6.out1 SW8X1_UNROLL1.in0
+net SW1X3_MEMs_HOP0_6.out2 SW8X1_UNROLL2.in0
+net SW1X3_MEMs_HOP0_7.in0 SW1X3_MEMs_HOP0_7.out0
+net SW1X3_MEMs_HOP0_7.in0 SW1X3_MEMs_HOP0_7.out1
+net SW1X3_MEMs_HOP0_7.in0 SW1X3_MEMs_HOP0_7.out2
+net SW1X3_MEMs_HOP0_7.out0 SW7X1_UNROLL3.in0
+net SW1X3_MEMs_HOP0_7.out1 SW7X1_UNROLL4.in0
+net SW1X3_MEMs_HOP0_7.out2 SW7X1_UNROLL5.in0
+net SW1X3_MEMs_HOP0_1.in0 SW1X3_MEMs_HOP0_1.out0
+net SW1X3_MEMs_HOP0_1.in0 SW1X3_MEMs_HOP0_1.out1
+net SW1X3_MEMs_HOP0_1.in0 SW1X3_MEMs_HOP0_1.out2
+net SW1X3_MEMs_HOP0_1.out0 SW7X1_UNROLL6.in0
+net SW1X3_MEMs_HOP0_1.out1 SW7X1_UNROLL7.in0
+net SW1X3_MEMs_HOP0_1.out2 SW7X1_UNROLL8.in0
+net SW1X3_MEMs_HOP1_7.in0 SW1X3_MEMs_HOP1_7.out0
+net SW1X3_MEMs_HOP1_7.in0 SW1X3_MEMs_HOP1_7.out1
+net SW1X3_MEMs_HOP1_7.in0 SW1X3_MEMs_HOP1_7.out2
+net SW1X3_MEMs_HOP1_7.out0 SW7X1_UNROLL3.in1
+net SW1X3_MEMs_HOP1_7.out1 SW7X1_UNROLL4.in1
+net SW1X3_MEMs_HOP1_7.out2 SW7X1_UNROLL5.in1
+net SW1X3_MEMs_HOP1_0.in0 SW1X3_MEMs_HOP1_0.out0
+net SW1X3_MEMs_HOP1_0.in0 SW1X3_MEMs_HOP1_0.out1
+net SW1X3_MEMs_HOP1_0.in0 SW1X3_MEMs_HOP1_0.out2
+net SW1X3_MEMs_HOP1_0.out0 SW6X1_UNROLL9.in0
+net SW1X3_MEMs_HOP1_0.out1 SW6X1_UNROLL10.in0
+net SW1X3_MEMs_HOP1_0.out2 SW6X1_UNROLL11.in0
+net SW1X3_MEMs_HOP1_2.in0 SW1X3_MEMs_HOP1_2.out0
+net SW1X3_MEMs_HOP1_2.in0 SW1X3_MEMs_HOP1_2.out1
+net SW1X3_MEMs_HOP1_2.in0 SW1X3_MEMs_HOP1_2.out2
+net SW1X3_MEMs_HOP1_2.out0 SW8X1_UNROLL12.in0
+net SW1X3_MEMs_HOP1_2.out1 SW8X1_UNROLL13.in0
+net SW1X3_MEMs_HOP1_2.out2 SW8X1_UNROLL14.in0
+net SW1X3_MEMs_HOP2_0.in0 SW1X3_MEMs_HOP2_0.out0
+net SW1X3_MEMs_HOP2_0.in0 SW1X3_MEMs_HOP2_0.out1
+net SW1X3_MEMs_HOP2_0.in0 SW1X3_MEMs_HOP2_0.out2
+net SW1X3_MEMs_HOP2_0.out0 SW6X1_UNROLL9.in1
+net SW1X3_MEMs_HOP2_0.out1 SW6X1_UNROLL10.in1
+net SW1X3_MEMs_HOP2_0.out2 SW6X1_UNROLL11.in1
+net SW1X3_MEMs_HOP2_1.in0 SW1X3_MEMs_HOP2_1.out0
+net SW1X3_MEMs_HOP2_1.in0 SW1X3_MEMs_HOP2_1.out1
+net SW1X3_MEMs_HOP2_1.in0 SW1X3_MEMs_HOP2_1.out2
+net SW1X3_MEMs_HOP2_1.out0 SW7X1_UNROLL6.in1
+net SW1X3_MEMs_HOP2_1.out1 SW7X1_UNROLL7.in1
+net SW1X3_MEMs_HOP2_1.out2 SW7X1_UNROLL8.in1
+net SW1X3_MEMs_HOP2_3.in0 SW1X3_MEMs_HOP2_3.out0
+net SW1X3_MEMs_HOP2_3.in0 SW1X3_MEMs_HOP2_3.out1
+net SW1X3_MEMs_HOP2_3.in0 SW1X3_MEMs_HOP2_3.out2
+net SW1X3_MEMs_HOP2_3.out0 SW7X1_UNROLL15.in0
+net SW1X3_MEMs_HOP2_3.out1 SW7X1_UNROLL16.in0
+net SW1X3_MEMs_HOP2_3.out2 SW7X1_UNROLL17.in0
+net SW1X3_MEMs_HOP3_1.in0 SW1X3_MEMs_HOP3_1.out0
+net SW1X3_MEMs_HOP3_1.in0 SW1X3_MEMs_HOP3_1.out1
+net SW1X3_MEMs_HOP3_1.in0 SW1X3_MEMs_HOP3_1.out2
+net SW1X3_MEMs_HOP3_1.out0 SW7X1_UNROLL6.in2
+net SW1X3_MEMs_HOP3_1.out1 SW7X1_UNROLL7.in2
+net SW1X3_MEMs_HOP3_1.out2 SW7X1_UNROLL8.in2
+net SW1X3_MEMs_HOP3_2.in0 SW1X3_MEMs_HOP3_2.out0
+net SW1X3_MEMs_HOP3_2.in0 SW1X3_MEMs_HOP3_2.out1
+net SW1X3_MEMs_HOP3_2.in0 SW1X3_MEMs_HOP3_2.out2
+net SW1X3_MEMs_HOP3_2.out0 SW8X1_UNROLL12.in1
+net SW1X3_MEMs_HOP3_2.out1 SW8X1_UNROLL13.in1
+net SW1X3_MEMs_HOP3_2.out2 SW8X1_UNROLL14.in1
+net SW1X3_MEMs_HOP3_4.in0 SW1X3_MEMs_HOP3_4.out0
+net SW1X3_MEMs_HOP3_4.in0 SW1X3_MEMs_HOP3_4.out1
+net SW1X3_MEMs_HOP3_4.in0 SW1X3_MEMs_HOP3_4.out2
+net SW1X3_MEMs_HOP3_4.out0 SW8X1_UNROLL18.in0
+net SW1X3_MEMs_HOP3_4.out1 SW8X1_UNROLL19.in0
+net SW1X3_MEMs_HOP3_4.out2 SW8X1_UNROLL20.in0
+net SW1X3_MEMs_HOP4_2.in0 SW1X3_MEMs_HOP4_2.out0
+net SW1X3_MEMs_HOP4_2.in0 SW1X3_MEMs_HOP4_2.out1
+net SW1X3_MEMs_HOP4_2.in0 SW1X3_MEMs_HOP4_2.out2
+net SW1X3_MEMs_HOP4_2.out0 SW8X1_UNROLL12.in2
+net SW1X3_MEMs_HOP4_2.out1 SW8X1_UNROLL13.in2
+net SW1X3_MEMs_HOP4_2.out2 SW8X1_UNROLL14.in2
+net SW1X3_MEMs_HOP4_3.in0 SW1X3_MEMs_HOP4_3.out0
+net SW1X3_MEMs_HOP4_3.in0 SW1X3_MEMs_HOP4_3.out1
+net SW1X3_MEMs_HOP4_3.in0 SW1X3_MEMs_HOP4_3.out2
+net SW1X3_MEMs_HOP4_3.out0 SW7X1_UNROLL15.in1
+net SW1X3_MEMs_HOP4_3.out1 SW7X1_UNROLL16.in1
+net SW1X3_MEMs_HOP4_3.out2 SW7X1_UNROLL17.in1
+net SW1X3_MEMs_HOP4_5.in0 SW1X3_MEMs_HOP4_5.out0
+net SW1X3_MEMs_HOP4_5.in0 SW1X3_MEMs_HOP4_5.out1
+net SW1X3_MEMs_HOP4_5.in0 SW1X3_MEMs_HOP4_5.out2
+net SW1X3_MEMs_HOP4_5.out0 SW7X1_UNROLL21.in0
+net SW1X3_MEMs_HOP4_5.out1 SW7X1_UNROLL22.in0
+net SW1X3_MEMs_HOP4_5.out2 SW7X1_UNROLL23.in0
+net SW1X3_MEMs_HOP5_3.in0 SW1X3_MEMs_HOP5_3.out0
+net SW1X3_MEMs_HOP5_3.in0 SW1X3_MEMs_HOP5_3.out1
+net SW1X3_MEMs_HOP5_3.in0 SW1X3_MEMs_HOP5_3.out2
+net SW1X3_MEMs_HOP5_3.out0 SW7X1_UNROLL15.in2
+net SW1X3_MEMs_HOP5_3.out1 SW7X1_UNROLL16.in2
+net SW1X3_MEMs_HOP5_3.out2 SW7X1_UNROLL17.in2
+net SW1X3_MEMs_HOP5_4.in0 SW1X3_MEMs_HOP5_4.out0
+net SW1X3_MEMs_HOP5_4.in0 SW1X3_MEMs_HOP5_4.out1
+net SW1X3_MEMs_HOP5_4.in0 SW1X3_MEMs_HOP5_4.out2
+net SW1X3_MEMs_HOP5_4.out0 SW8X1_UNROLL18.in1
+net SW1X3_MEMs_HOP5_4.out1 SW8X1_UNROLL19.in1
+net SW1X3_MEMs_HOP5_4.out2 SW8X1_UNROLL20.in1
+net SW1X3_MEMs_HOP5_6.in0 SW1X3_MEMs_HOP5_6.out0
+net SW1X3_MEMs_HOP5_6.in0 SW1X3_MEMs_HOP5_6.out1
+net SW1X3_MEMs_HOP5_6.in0 SW1X3_MEMs_HOP5_6.out2
+net SW1X3_MEMs_HOP5_6.out0 SW8X1_UNROLL0.in1
+net SW1X3_MEMs_HOP5_6.out1 SW8X1_UNROLL1.in1
+net SW1X3_MEMs_HOP5_6.out2 SW8X1_UNROLL2.in1
+net SW1X3_MEMs_HOP6_4.in0 SW1X3_MEMs_HOP6_4.out0
+net SW1X3_MEMs_HOP6_4.in0 SW1X3_MEMs_HOP6_4.out1
+net SW1X3_MEMs_HOP6_4.in0 SW1X3_MEMs_HOP6_4.out2
+net SW1X3_MEMs_HOP6_4.out0 SW8X1_UNROLL18.in2
+net SW1X3_MEMs_HOP6_4.out1 SW8X1_UNROLL19.in2
+net SW1X3_MEMs_HOP6_4.out2 SW8X1_UNROLL20.in2
+net SW1X3_MEMs_HOP6_5.in0 SW1X3_MEMs_HOP6_5.out0
+net SW1X3_MEMs_HOP6_5.in0 SW1X3_MEMs_HOP6_5.out1
+net SW1X3_MEMs_HOP6_5.in0 SW1X3_MEMs_HOP6_5.out2
+net SW1X3_MEMs_HOP6_5.out0 SW7X1_UNROLL21.in1
+net SW1X3_MEMs_HOP6_5.out1 SW7X1_UNROLL22.in1
+net SW1X3_MEMs_HOP6_5.out2 SW7X1_UNROLL23.in1
+net SW1X3_MEMs_HOP6_7.in0 SW1X3_MEMs_HOP6_7.out0
+net SW1X3_MEMs_HOP6_7.in0 SW1X3_MEMs_HOP6_7.out1
+net SW1X3_MEMs_HOP6_7.in0 SW1X3_MEMs_HOP6_7.out2
+net SW1X3_MEMs_HOP6_7.out0 SW7X1_UNROLL3.in2
+net SW1X3_MEMs_HOP6_7.out1 SW7X1_UNROLL4.in2
+net SW1X3_MEMs_HOP6_7.out2 SW7X1_UNROLL5.in2
+net SW1X3_MEMs_HOP7_5.in0 SW1X3_MEMs_HOP7_5.out0
+net SW1X3_MEMs_HOP7_5.in0 SW1X3_MEMs_HOP7_5.out1
+net SW1X3_MEMs_HOP7_5.in0 SW1X3_MEMs_HOP7_5.out2
+net SW1X3_MEMs_HOP7_5.out0 SW7X1_UNROLL21.in2
+net SW1X3_MEMs_HOP7_5.out1 SW7X1_UNROLL22.in2
+net SW1X3_MEMs_HOP7_5.out2 SW7X1_UNROLL23.in2
+net SW1X3_MEMs_HOP7_6.in0 SW1X3_MEMs_HOP7_6.out0
+net SW1X3_MEMs_HOP7_6.in0 SW1X3_MEMs_HOP7_6.out1
+net SW1X3_MEMs_HOP7_6.in0 SW1X3_MEMs_HOP7_6.out2
+net SW1X3_MEMs_HOP7_6.out0 SW8X1_UNROLL0.in2
+net SW1X3_MEMs_HOP7_6.out1 SW8X1_UNROLL1.in2
+net SW1X3_MEMs_HOP7_6.out2 SW8X1_UNROLL2.in2
+net SW1X3_MEMs_HOP7_0.in0 SW1X3_MEMs_HOP7_0.out0
+net SW1X3_MEMs_HOP7_0.in0 SW1X3_MEMs_HOP7_0.out1
+net SW1X3_MEMs_HOP7_0.in0 SW1X3_MEMs_HOP7_0.out2
+net SW1X3_MEMs_HOP7_0.out0 SW6X1_UNROLL9.in2
+net SW1X3_MEMs_HOP7_0.out1 SW6X1_UNROLL10.in2
+net SW1X3_MEMs_HOP7_0.out2 SW6X1_UNROLL11.in2
+net SW8X1_UNROLL0.in0 SW8X1_UNROLL0.out0
+net SW8X1_UNROLL0.in1 SW8X1_UNROLL0.out0
+net SW8X1_UNROLL0.in2 SW8X1_UNROLL0.out0
+net SW8X1_UNROLL0.in3 SW8X1_UNROLL0.out0
+net SW8X1_UNROLL0.in4 SW8X1_UNROLL0.out0
+net SW8X1_UNROLL0.in5 SW8X1_UNROLL0.out0
+net SW8X1_UNROLL0.in6 SW8X1_UNROLL0.out0
+net SW8X1_UNROLL0.in7 SW8X1_UNROLL0.out0
+net SW8X1_UNROLL0.out0 MEM6.in0
+net SW8X1_UNROLL1.in0 SW8X1_UNROLL1.out0
+net SW8X1_UNROLL1.in1 SW8X1_UNROLL1.out0
+net SW8X1_UNROLL1.in2 SW8X1_UNROLL1.out0
+net SW8X1_UNROLL1.in3 SW8X1_UNROLL1.out0
+net SW8X1_UNROLL1.in4 SW8X1_UNROLL1.out0
+net SW8X1_UNROLL1.in5 SW8X1_UNROLL1.out0
+net SW8X1_UNROLL1.in6 SW8X1_UNROLL1.out0
+net SW8X1_UNROLL1.in7 SW8X1_UNROLL1.out0
+net SW8X1_UNROLL1.out0 MEM6.in1
+net SW8X1_UNROLL2.in0 SW8X1_UNROLL2.out0
+net SW8X1_UNROLL2.in1 SW8X1_UNROLL2.out0
+net SW8X1_UNROLL2.in2 SW8X1_UNROLL2.out0
+net SW8X1_UNROLL2.in3 SW8X1_UNROLL2.out0
+net SW8X1_UNROLL2.in4 SW8X1_UNROLL2.out0
+net SW8X1_UNROLL2.in5 SW8X1_UNROLL2.out0
+net SW8X1_UNROLL2.in6 SW8X1_UNROLL2.out0
+net SW8X1_UNROLL2.in7 SW8X1_UNROLL2.out0
+net SW8X1_UNROLL2.out0 MEM6.in2
+net SW7X1_UNROLL3.in0 SW7X1_UNROLL3.out0
+net SW7X1_UNROLL3.in1 SW7X1_UNROLL3.out0
+net SW7X1_UNROLL3.in2 SW7X1_UNROLL3.out0
+net SW7X1_UNROLL3.in3 SW7X1_UNROLL3.out0
+net SW7X1_UNROLL3.in4 SW7X1_UNROLL3.out0
+net SW7X1_UNROLL3.in5 SW7X1_UNROLL3.out0
+net SW7X1_UNROLL3.in6 SW7X1_UNROLL3.out0
+net SW7X1_UNROLL3.out0 MEM7.in0
+net SW7X1_UNROLL4.in0 SW7X1_UNROLL4.out0
+net SW7X1_UNROLL4.in1 SW7X1_UNROLL4.out0
+net SW7X1_UNROLL4.in2 SW7X1_UNROLL4.out0
+net SW7X1_UNROLL4.in3 SW7X1_UNROLL4.out0
+net SW7X1_UNROLL4.in4 SW7X1_UNROLL4.out0
+net SW7X1_UNROLL4.in5 SW7X1_UNROLL4.out0
+net SW7X1_UNROLL4.in6 SW7X1_UNROLL4.out0
+net SW7X1_UNROLL4.out0 MEM7.in1
+net SW7X1_UNROLL5.in0 SW7X1_UNROLL5.out0
+net SW7X1_UNROLL5.in1 SW7X1_UNROLL5.out0
+net SW7X1_UNROLL5.in2 SW7X1_UNROLL5.out0
+net SW7X1_UNROLL5.in3 SW7X1_UNROLL5.out0
+net SW7X1_UNROLL5.in4 SW7X1_UNROLL5.out0
+net SW7X1_UNROLL5.in5 SW7X1_UNROLL5.out0
+net SW7X1_UNROLL5.in6 SW7X1_UNROLL5.out0
+net SW7X1_UNROLL5.out0 MEM7.in2
+net SW7X1_UNROLL6.in0 SW7X1_UNROLL6.out0
+net SW7X1_UNROLL6.in1 SW7X1_UNROLL6.out0
+net SW7X1_UNROLL6.in2 SW7X1_UNROLL6.out0
+net SW7X1_UNROLL6.in3 SW7X1_UNROLL6.out0
+net SW7X1_UNROLL6.in4 SW7X1_UNROLL6.out0
+net SW7X1_UNROLL6.in5 SW7X1_UNROLL6.out0
+net SW7X1_UNROLL6.in6 SW7X1_UNROLL6.out0
+net SW7X1_UNROLL6.out0 MEM1.in0
+net SW7X1_UNROLL7.in0 SW7X1_UNROLL7.out0
+net SW7X1_UNROLL7.in1 SW7X1_UNROLL7.out0
+net SW7X1_UNROLL7.in2 SW7X1_UNROLL7.out0
+net SW7X1_UNROLL7.in3 SW7X1_UNROLL7.out0
+net SW7X1_UNROLL7.in4 SW7X1_UNROLL7.out0
+net SW7X1_UNROLL7.in5 SW7X1_UNROLL7.out0
+net SW7X1_UNROLL7.in6 SW7X1_UNROLL7.out0
+net SW7X1_UNROLL7.out0 MEM1.in1
+net SW7X1_UNROLL8.in0 SW7X1_UNROLL8.out0
+net SW7X1_UNROLL8.in1 SW7X1_UNROLL8.out0
+net SW7X1_UNROLL8.in2 SW7X1_UNROLL8.out0
+net SW7X1_UNROLL8.in3 SW7X1_UNROLL8.out0
+net SW7X1_UNROLL8.in4 SW7X1_UNROLL8.out0
+net SW7X1_UNROLL8.in5 SW7X1_UNROLL8.out0
+net SW7X1_UNROLL8.in6 SW7X1_UNROLL8.out0
+net SW7X1_UNROLL8.out0 MEM1.in2
+net SW6X1_UNROLL9.in0 SW6X1_UNROLL9.out0
+net SW6X1_UNROLL9.in1 SW6X1_UNROLL9.out0
+net SW6X1_UNROLL9.in2 SW6X1_UNROLL9.out0
+net SW6X1_UNROLL9.in3 SW6X1_UNROLL9.out0
+net SW6X1_UNROLL9.in4 SW6X1_UNROLL9.out0
+net SW6X1_UNROLL9.in5 SW6X1_UNROLL9.out0
+net SW6X1_UNROLL9.out0 MEM0.in0
+net SW6X1_UNROLL10.in0 SW6X1_UNROLL10.out0
+net SW6X1_UNROLL10.in1 SW6X1_UNROLL10.out0
+net SW6X1_UNROLL10.in2 SW6X1_UNROLL10.out0
+net SW6X1_UNROLL10.in3 SW6X1_UNROLL10.out0
+net SW6X1_UNROLL10.in4 SW6X1_UNROLL10.out0
+net SW6X1_UNROLL10.in5 SW6X1_UNROLL10.out0
+net SW6X1_UNROLL10.out0 MEM0.in1
+net SW6X1_UNROLL11.in0 SW6X1_UNROLL11.out0
+net SW6X1_UNROLL11.in1 SW6X1_UNROLL11.out0
+net SW6X1_UNROLL11.in2 SW6X1_UNROLL11.out0
+net SW6X1_UNROLL11.in3 SW6X1_UNROLL11.out0
+net SW6X1_UNROLL11.in4 SW6X1_UNROLL11.out0
+net SW6X1_UNROLL11.in5 SW6X1_UNROLL11.out0
+net SW6X1_UNROLL11.out0 MEM0.in2
+net SW8X1_UNROLL12.in0 SW8X1_UNROLL12.out0
+net SW8X1_UNROLL12.in1 SW8X1_UNROLL12.out0
+net SW8X1_UNROLL12.in2 SW8X1_UNROLL12.out0
+net SW8X1_UNROLL12.in3 SW8X1_UNROLL12.out0
+net SW8X1_UNROLL12.in4 SW8X1_UNROLL12.out0
+net SW8X1_UNROLL12.in5 SW8X1_UNROLL12.out0
+net SW8X1_UNROLL12.in6 SW8X1_UNROLL12.out0
+net SW8X1_UNROLL12.in7 SW8X1_UNROLL12.out0
+net SW8X1_UNROLL12.out0 MEM2.in0
+net SW8X1_UNROLL13.in0 SW8X1_UNROLL13.out0
+net SW8X1_UNROLL13.in1 SW8X1_UNROLL13.out0
+net SW8X1_UNROLL13.in2 SW8X1_UNROLL13.out0
+net SW8X1_UNROLL13.in3 SW8X1_UNROLL13.out0
+net SW8X1_UNROLL13.in4 SW8X1_UNROLL13.out0
+net SW8X1_UNROLL13.in5 SW8X1_UNROLL13.out0
+net SW8X1_UNROLL13.in6 SW8X1_UNROLL13.out0
+net SW8X1_UNROLL13.in7 SW8X1_UNROLL13.out0
+net SW8X1_UNROLL13.out0 MEM2.in1
+net SW8X1_UNROLL14.in0 SW8X1_UNROLL14.out0
+net SW8X1_UNROLL14.in1 SW8X1_UNROLL14.out0
+net SW8X1_UNROLL14.in2 SW8X1_UNROLL14.out0
+net SW8X1_UNROLL14.in3 SW8X1_UNROLL14.out0
+net SW8X1_UNROLL14.in4 SW8X1_UNROLL14.out0
+net SW8X1_UNROLL14.in5 SW8X1_UNROLL14.out0
+net SW8X1_UNROLL14.in6 SW8X1_UNROLL14.out0
+net SW8X1_UNROLL14.in7 SW8X1_UNROLL14.out0
+net SW8X1_UNROLL14.out0 MEM2.in2
+net SW7X1_UNROLL15.in0 SW7X1_UNROLL15.out0
+net SW7X1_UNROLL15.in1 SW7X1_UNROLL15.out0
+net SW7X1_UNROLL15.in2 SW7X1_UNROLL15.out0
+net SW7X1_UNROLL15.in3 SW7X1_UNROLL15.out0
+net SW7X1_UNROLL15.in4 SW7X1_UNROLL15.out0
+net SW7X1_UNROLL15.in5 SW7X1_UNROLL15.out0
+net SW7X1_UNROLL15.in6 SW7X1_UNROLL15.out0
+net SW7X1_UNROLL15.out0 MEM3.in0
+net SW7X1_UNROLL16.in0 SW7X1_UNROLL16.out0
+net SW7X1_UNROLL16.in1 SW7X1_UNROLL16.out0
+net SW7X1_UNROLL16.in2 SW7X1_UNROLL16.out0
+net SW7X1_UNROLL16.in3 SW7X1_UNROLL16.out0
+net SW7X1_UNROLL16.in4 SW7X1_UNROLL16.out0
+net SW7X1_UNROLL16.in5 SW7X1_UNROLL16.out0
+net SW7X1_UNROLL16.in6 SW7X1_UNROLL16.out0
+net SW7X1_UNROLL16.out0 MEM3.in1
+net SW7X1_UNROLL17.in0 SW7X1_UNROLL17.out0
+net SW7X1_UNROLL17.in1 SW7X1_UNROLL17.out0
+net SW7X1_UNROLL17.in2 SW7X1_UNROLL17.out0
+net SW7X1_UNROLL17.in3 SW7X1_UNROLL17.out0
+net SW7X1_UNROLL17.in4 SW7X1_UNROLL17.out0
+net SW7X1_UNROLL17.in5 SW7X1_UNROLL17.out0
+net SW7X1_UNROLL17.in6 SW7X1_UNROLL17.out0
+net SW7X1_UNROLL17.out0 MEM3.in2
+net SW8X1_UNROLL18.in0 SW8X1_UNROLL18.out0
+net SW8X1_UNROLL18.in1 SW8X1_UNROLL18.out0
+net SW8X1_UNROLL18.in2 SW8X1_UNROLL18.out0
+net SW8X1_UNROLL18.in3 SW8X1_UNROLL18.out0
+net SW8X1_UNROLL18.in4 SW8X1_UNROLL18.out0
+net SW8X1_UNROLL18.in5 SW8X1_UNROLL18.out0
+net SW8X1_UNROLL18.in6 SW8X1_UNROLL18.out0
+net SW8X1_UNROLL18.in7 SW8X1_UNROLL18.out0
+net SW8X1_UNROLL18.out0 MEM4.in0
+net SW8X1_UNROLL19.in0 SW8X1_UNROLL19.out0
+net SW8X1_UNROLL19.in1 SW8X1_UNROLL19.out0
+net SW8X1_UNROLL19.in2 SW8X1_UNROLL19.out0
+net SW8X1_UNROLL19.in3 SW8X1_UNROLL19.out0
+net SW8X1_UNROLL19.in4 SW8X1_UNROLL19.out0
+net SW8X1_UNROLL19.in5 SW8X1_UNROLL19.out0
+net SW8X1_UNROLL19.in6 SW8X1_UNROLL19.out0
+net SW8X1_UNROLL19.in7 SW8X1_UNROLL19.out0
+net SW8X1_UNROLL19.out0 MEM4.in1
+net SW8X1_UNROLL20.in0 SW8X1_UNROLL20.out0
+net SW8X1_UNROLL20.in1 SW8X1_UNROLL20.out0
+net SW8X1_UNROLL20.in2 SW8X1_UNROLL20.out0
+net SW8X1_UNROLL20.in3 SW8X1_UNROLL20.out0
+net SW8X1_UNROLL20.in4 SW8X1_UNROLL20.out0
+net SW8X1_UNROLL20.in5 SW8X1_UNROLL20.out0
+net SW8X1_UNROLL20.in6 SW8X1_UNROLL20.out0
+net SW8X1_UNROLL20.in7 SW8X1_UNROLL20.out0
+net SW8X1_UNROLL20.out0 MEM4.in2
+net SW7X1_UNROLL21.in0 SW7X1_UNROLL21.out0
+net SW7X1_UNROLL21.in1 SW7X1_UNROLL21.out0
+net SW7X1_UNROLL21.in2 SW7X1_UNROLL21.out0
+net SW7X1_UNROLL21.in3 SW7X1_UNROLL21.out0
+net SW7X1_UNROLL21.in4 SW7X1_UNROLL21.out0
+net SW7X1_UNROLL21.in5 SW7X1_UNROLL21.out0
+net SW7X1_UNROLL21.in6 SW7X1_UNROLL21.out0
+net SW7X1_UNROLL21.out0 MEM5.in0
+net SW7X1_UNROLL22.in0 SW7X1_UNROLL22.out0
+net SW7X1_UNROLL22.in1 SW7X1_UNROLL22.out0
+net SW7X1_UNROLL22.in2 SW7X1_UNROLL22.out0
+net SW7X1_UNROLL22.in3 SW7X1_UNROLL22.out0
+net SW7X1_UNROLL22.in4 SW7X1_UNROLL22.out0
+net SW7X1_UNROLL22.in5 SW7X1_UNROLL22.out0
+net SW7X1_UNROLL22.in6 SW7X1_UNROLL22.out0
+net SW7X1_UNROLL22.out0 MEM5.in1
+net SW7X1_UNROLL23.in0 SW7X1_UNROLL23.out0
+net SW7X1_UNROLL23.in1 SW7X1_UNROLL23.out0
+net SW7X1_UNROLL23.in2 SW7X1_UNROLL23.out0
+net SW7X1_UNROLL23.in3 SW7X1_UNROLL23.out0
+net SW7X1_UNROLL23.in4 SW7X1_UNROLL23.out0
+net SW7X1_UNROLL23.in5 SW7X1_UNROLL23.out0
+net SW7X1_UNROLL23.in6 SW7X1_UNROLL23.out0
+net SW7X1_UNROLL23.out0 MEM5.in2
+net SW2X1_UNROLL24.in0 SW2X1_UNROLL24.out0
+net SW2X1_UNROLL24.in1 SW2X1_UNROLL24.out0
+net SW2X1_UNROLL24.out0 out0
+net SW2X1_UNROLL25.in0 SW2X1_UNROLL25.out0
+net SW2X1_UNROLL25.in1 SW2X1_UNROLL25.out0
+net SW2X1_UNROLL25.out0 out1
+net SW2X1_UNROLL26.in0 SW2X1_UNROLL26.out0
+net SW2X1_UNROLL26.in1 SW2X1_UNROLL26.out0
+net SW2X1_UNROLL26.out0 out2
+net SW2X1_UNROLL27.in0 SW2X1_UNROLL27.out0
+net SW2X1_UNROLL27.in1 SW2X1_UNROLL27.out0
+net SW2X1_UNROLL27.out0 out3
+net SW2X1_UNROLL28.in0 SW2X1_UNROLL28.out0
+net SW2X1_UNROLL28.in1 SW2X1_UNROLL28.out0
+net SW2X1_UNROLL28.out0 out4
+net SW2X1_UNROLL29.in0 SW2X1_UNROLL29.out0
+net SW2X1_UNROLL29.in1 SW2X1_UNROLL29.out0
+net SW2X1_UNROLL29.out0 out5
+net SW2X1_UNROLL30.in0 SW2X1_UNROLL30.out0
+net SW2X1_UNROLL30.in1 SW2X1_UNROLL30.out0
+net SW2X1_UNROLL30.out0 out6
+net SW2X1_UNROLL31.in0 SW2X1_UNROLL31.out0
+net SW2X1_UNROLL31.in1 SW2X1_UNROLL31.out0
+net SW2X1_UNROLL31.out0 out7
+net SW2X1_UNROLL32.in0 SW2X1_UNROLL32.out0
+net SW2X1_UNROLL32.in1 SW2X1_UNROLL32.out0
+net SW2X1_UNROLL32.out0 out8
+net SW2X1_UNROLL33.in0 SW2X1_UNROLL33.out0
+net SW2X1_UNROLL33.in1 SW2X1_UNROLL33.out0
+net SW2X1_UNROLL33.out0 out9
+net SW2X1_UNROLL34.in0 SW2X1_UNROLL34.out0
+net SW2X1_UNROLL34.in1 SW2X1_UNROLL34.out0
+net SW2X1_UNROLL34.out0 out10
+net SW2X1_UNROLL35.in0 SW2X1_UNROLL35.out0
+net SW2X1_UNROLL35.in1 SW2X1_UNROLL35.out0
+net SW2X1_UNROLL35.out0 out11
+net SW2X1_UNROLL36.in0 SW2X1_UNROLL36.out0
+net SW2X1_UNROLL36.in1 SW2X1_UNROLL36.out0
+net SW2X1_UNROLL36.out0 out12
+net SW2X1_UNROLL37.in0 SW2X1_UNROLL37.out0
+net SW2X1_UNROLL37.in1 SW2X1_UNROLL37.out0
+net SW2X1_UNROLL37.out0 out13

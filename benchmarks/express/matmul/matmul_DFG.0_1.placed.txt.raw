@@ -1,0 +1,11 @@
+MUL_73.in0 ALU3.in0
+ADD_76.in0 ALU0.in0
+ADD_72.out0 ALU2.out0
+ADD_76.out0 ALU0.out0
+ADD_76 ALU0
+__inserted_outport_0.out0 out2.out0
+MUL_73 ALU3
+MUL_73.out0 ALU3.out0
+__inserted_outport_0 out2
+ADD_72 ALU2
+__inserted_outport_0.in0 out2.in0

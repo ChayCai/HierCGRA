@@ -1,0 +1,9 @@
+vertex MUL_100.out0
+vertex MUL_100
+vertex ADD_103.out0
+vertex ADD_103
+vertex ADD_103.in0
+net MUL_100.out0 ADD_103.in0
+net MUL_100 MUL_100.out0
+net ADD_103 ADD_103.out0
+net ADD_103.in0 ADD_103

@@ -1,0 +1,41 @@
+vertex ADD_14.out0
+vertex ADD_11.in1
+vertex ADD_11
+vertex ADD_14
+vertex MUL_18
+vertex ADD_20.in0
+vertex ADD_11.out0
+vertex MUL_6
+vertex ADD_20
+vertex ADD_20.in1
+vertex ADD_14.in0
+vertex MUL_22.out0
+vertex ADD_20.out0
+vertex MUL_22
+vertex MUL_22.in0
+vertex MUL_6.out0
+vertex MUL_5
+vertex MUL_5.out0
+vertex MUL_18.in0
+vertex ADD_11.in0
+vertex MUL_18.out0
+net ADD_14.out0 MUL_18.in0
+net ADD_11.in1 ADD_11
+net ADD_11 ADD_11.out0
+net ADD_14 ADD_14.out0
+net MUL_18 MUL_18.out0
+net ADD_20.in0 ADD_20
+net ADD_11.out0 ADD_14.in0
+net MUL_6 MUL_6.out0
+net ADD_20 ADD_20.out0
+net ADD_20.in1 ADD_20
+net ADD_14.in0 ADD_14
+net ADD_20.out0 MUL_22.in0
+net MUL_22 MUL_22.out0
+net MUL_22.in0 MUL_22
+net MUL_6.out0 ADD_11.in1
+net MUL_5 MUL_5.out0
+net MUL_5.out0 ADD_11.in0
+net MUL_18.in0 MUL_18
+net ADD_11.in0 ADD_11
+net MUL_18.out0 ADD_20.in1

@@ -1,0 +1,18 @@
+vertex ADD_607
+vertex ADD_607.out0
+vertex ADD_201.out0
+vertex ADD_201
+vertex ADD_607.in0
+vertex ADD_201.in0
+vertex MUL_604
+vertex MUL_604.out0
+vertex MUL_198.out0
+vertex MUL_198
+net ADD_607 ADD_607.out0
+net ADD_201 ADD_201.out0
+net ADD_607.in0 ADD_607
+net ADD_201.in0 ADD_201
+net MUL_604 MUL_604.out0
+net MUL_604.out0 ADD_607.in0
+net MUL_198.out0 ADD_201.in0
+net MUL_198 MUL_198.out0

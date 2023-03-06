@@ -1,0 +1,7 @@
+29.in0 ALU3.in0
+29.out0 ALU3.out0
+29.in1 ALU3.in1
+29 ALU3
+39.out0 ALU0.out0
+39 ALU0
+39.in0 ALU0.in0

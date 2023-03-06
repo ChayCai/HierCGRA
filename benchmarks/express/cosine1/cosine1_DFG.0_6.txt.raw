@@ -1,0 +1,33 @@
+attr __file__ str ./benchmarks/express/cosine1/cosine1_DFG.0_6.txt
+attr __name__ str ./benchmarks/express/cosine1/cosine1_DFG.0_6.txt
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0
+vertex __inserted_outport_0.in0
+vertex 22.out0
+vertex 22.in1
+vertex __inserted_inport_0.out0
+vertex 22
+vertex 41.in0
+vertex 41
+vertex __inserted_inport_0
+vertex 41.out0
+vertex __inserted_inport_0.in0
+vertex __inserted_inport_1
+vertex __inserted_inport_1.in0
+vertex 22.in0
+vertex __inserted_inport_1.out0
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_outport_0.in0 __inserted_outport_0
+net 22.out0 41.in0
+net 22.in1 22
+net __inserted_inport_0.out0 22.in1
+net 22 22.out0
+net 41.in0 41
+net 41 41.out0
+net __inserted_inport_0 __inserted_inport_0.out0
+net 41.out0 __inserted_outport_0.in0
+net __inserted_inport_0.in0 __inserted_inport_0
+net __inserted_inport_1 __inserted_inport_1.out0
+net __inserted_inport_1.in0 __inserted_inport_1
+net 22.in0 22
+net __inserted_inport_1.out0 22.in0

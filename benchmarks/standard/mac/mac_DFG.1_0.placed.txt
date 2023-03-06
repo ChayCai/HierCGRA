@@ -1,0 +1,8 @@
+mul0.in1 MUL4.in1
+mul0.in0 MUL4.in0
+add1 ADD2
+mul0.out0 MUL4.out0
+add1.out0 ADD2.out0
+mul0 MUL4
+add1.in1 ADD2.in1
+add1.in0 ADD2.in0

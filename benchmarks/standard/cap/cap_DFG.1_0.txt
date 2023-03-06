@@ -1,0 +1,23 @@
+vertex mul1
+vertex mul1.in0
+vertex mul0.in1
+vertex mul1.out0
+vertex mul0.in0
+vertex mul2
+vertex mul0
+vertex mul2.out0
+vertex mul2.in1
+vertex mul1.in1
+vertex mul0.out0
+vertex mul2.in0
+net mul1 mul1.out0
+net mul1.in0 mul1
+net mul0.in1 mul0
+net mul0.in0 mul0
+net mul2 mul2.out0
+net mul0 mul0.out0
+net mul2.in1 mul2
+net mul1.in1 mul1
+net mul0.out0 mul1.in0
+net mul0.out0 mul2.in0
+net mul2.in0 mul2

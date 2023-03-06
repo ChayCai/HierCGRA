@@ -1,0 +1,23 @@
+vertex 62.in0
+vertex 62.out0
+vertex 72.in1
+vertex 62.in1
+vertex 72.out0
+vertex 62
+vertex 72
+vertex 66.in0
+vertex 72.in0
+vertex 66.in1
+vertex 66
+vertex 66.out0
+net 62.in0 62
+net 62.out0 72.in0
+net 72.in1 72
+net 62.in1 62
+net 62 62.out0
+net 72 72.out0
+net 66.in0 66
+net 72.in0 72
+net 66.in1 66
+net 66 66.out0
+net 66.out0 72.in1

@@ -1,0 +1,97 @@
+attr __file__ str ./benchmarks/standard/interpol/interpol_DFG.0_3.txt
+attr __name__ str ./benchmarks/standard/interpol/interpol_DFG.0_3.txt
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_inport_6.in0
+vertex __inserted_inport_6
+vertex __inserted_inport_5.out0
+vertex __inserted_inport_4.out0
+vertex __inserted_inport_4.in0
+vertex __inserted_inport_4
+vertex __inserted_outport_0
+vertex __inserted_inport_3
+vertex __inserted_inport_2.out0
+vertex __inserted_inport_2.in0
+vertex fmul22.out0
+vertex fmul21
+vertex __inserted_inport_0.out0
+vertex __inserted_inport_1.out0
+vertex fadd27
+vertex fadd29.in0
+vertex fmul22.in0
+vertex __inserted_inport_3.out0
+vertex fmul22.in1
+vertex __inserted_inport_2
+vertex fadd29
+vertex fadd27.in1
+vertex __inserted_inport_1
+vertex fadd27.out0
+vertex fmul23.in1
+vertex fmul23.in0
+vertex fmul23.out0
+vertex __inserted_inport_3.in0
+vertex fmul23
+vertex fadd27.in0
+vertex fmul21.out0
+vertex __inserted_inport_5.in0
+vertex fadd28.in0
+vertex __inserted_inport_6.out0
+vertex fadd28
+vertex fadd28.in1
+vertex fadd29.in1
+vertex fadd29.out0
+vertex __inserted_inport_5
+vertex fmul21.in1
+vertex fadd28.out0
+vertex fmul21.in0
+vertex fmul22
+vertex __inserted_inport_0
+vertex __inserted_inport_0.in0
+vertex __inserted_inport_1.in0
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_inport_6.in0 __inserted_inport_6
+net __inserted_inport_6 __inserted_inport_6.out0
+net __inserted_inport_5.out0 fmul21.in1
+net __inserted_inport_4.out0 fadd27.in0
+net __inserted_inport_4.in0 __inserted_inport_4
+net __inserted_inport_4 __inserted_inport_4.out0
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_3 __inserted_inport_3.out0
+net __inserted_inport_2.out0 fmul23.in1
+net __inserted_inport_2.in0 __inserted_inport_2
+net fmul22.out0 fadd28.in1
+net fmul21 fmul21.out0
+net __inserted_inport_0.out0 fmul22.in0
+net __inserted_inport_1.out0 fmul22.in1
+net fadd27 fadd27.out0
+net fadd29.in0 fadd29
+net fmul22.in0 fmul22
+net __inserted_inport_3.out0 fmul23.in0
+net fmul22.in1 fmul22
+net __inserted_inport_2 __inserted_inport_2.out0
+net fadd29 fadd29.out0
+net fadd27.in1 fadd27
+net __inserted_inport_1 __inserted_inport_1.out0
+net fadd27.out0 fadd28.in0
+net fmul23.in1 fmul23
+net fmul23.in0 fmul23
+net fmul23.out0 fadd29.in1
+net __inserted_inport_3.in0 __inserted_inport_3
+net fmul23 fmul23.out0
+net fadd27.in0 fadd27
+net fmul21.out0 fadd27.in1
+net __inserted_inport_5.in0 __inserted_inport_5
+net fadd28.in0 fadd28
+net __inserted_inport_6.out0 fmul21.in0
+net fadd28 fadd28.out0
+net fadd28.in1 fadd28
+net fadd29.in1 fadd29
+net fadd29.out0 __inserted_outport_0.in0
+net __inserted_inport_5 __inserted_inport_5.out0
+net fmul21.in1 fmul21
+net fadd28.out0 fadd29.in0
+net fmul21.in0 fmul21
+net fmul22 fmul22.out0
+net __inserted_inport_0 __inserted_inport_0.out0
+net __inserted_inport_0.in0 __inserted_inport_0
+net __inserted_inport_1.in0 __inserted_inport_1

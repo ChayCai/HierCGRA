@@ -1,0 +1,110 @@
+attr __file__ str ./benchmarks/standard/isqrt/isqrt_DFG.0_2.txt
+attr __name__ str ./benchmarks/standard/isqrt/isqrt_DFG.0_2.txt
+vertex __inserted_outport_1.out0
+vertex __inserted_outport_1
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_inport_5.out0
+vertex __inserted_inport_5
+vertex __inserted_inport_4.out0
+vertex __inserted_outport_1.in0
+vertex __inserted_inport_4.in0
+vertex __inserted_inport_4
+vertex __inserted_inport_3.out0
+vertex __inserted_outport_0
+vertex __inserted_inport_3
+vertex __inserted_inport_2.out0
+vertex __inserted_inport_2.in0
+vertex __inserted_inport_1.out0
+vertex __inserted_inport_1.in0
+vertex __inserted_inport_0.out0
+vertex select0.in2
+vertex select0
+vertex select0.out0
+vertex or2.in0
+vertex or2.in1
+vertex __inserted_inport_5.in0
+vertex shl2
+vertex or2.out0
+vertex or2
+vertex __inserted_inport_0
+vertex xor0.in0
+vertex __inserted_inport_3.in0
+vertex shl2.in0
+vertex xor0.in1
+vertex select0.in0
+vertex or1.in1
+vertex __inserted_inport_0.in0
+vertex shl3.in0
+vertex shl3
+vertex select0.in1
+vertex xor0
+vertex sub0.in0
+vertex sub0.out0
+vertex or1
+vertex sub0.in1
+vertex or1.in0
+vertex shl3.out0
+vertex __inserted_inport_1
+vertex shl2.in1
+vertex sub0
+vertex xor0.out0
+vertex __inserted_inport_2
+vertex or1.out0
+vertex shl2.out0
+vertex shl3.in1
+net __inserted_outport_1 __inserted_outport_1.out0
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_inport_5.out0 shl3.in1
+net __inserted_inport_5 __inserted_inport_5.out0
+net __inserted_inport_4.out0 sub0.in0
+net __inserted_outport_1.in0 __inserted_outport_1
+net __inserted_inport_4.in0 __inserted_inport_4
+net __inserted_inport_4 __inserted_inport_4.out0
+net __inserted_inport_3.out0 or1.in1
+net __inserted_inport_3.out0 shl2.in1
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_3 __inserted_inport_3.out0
+net __inserted_inport_2.out0 xor0.in1
+net __inserted_inport_2.in0 __inserted_inport_2
+net __inserted_inport_1.out0 xor0.in0
+net __inserted_inport_1.out0 select0.in0
+net __inserted_inport_1.in0 __inserted_inport_1
+net __inserted_inport_0.out0 select0.in1
+net select0.in2 select0
+net select0 select0.out0
+net select0.out0 sub0.in1
+net or2.in0 or2
+net or2.in1 or2
+net __inserted_inport_5.in0 __inserted_inport_5
+net shl2 shl2.out0
+net or2.out0 shl2.in0
+net or2.out0 shl3.in0
+net or2 or2.out0
+net __inserted_inport_0 __inserted_inport_0.out0
+net xor0.in0 xor0
+net __inserted_inport_3.in0 __inserted_inport_3
+net shl2.in0 shl2
+net xor0.in1 xor0
+net select0.in0 select0
+net or1.in1 or1
+net __inserted_inport_0.in0 __inserted_inport_0
+net shl3.in0 shl3
+net shl3 shl3.out0
+net select0.in1 select0
+net xor0 xor0.out0
+net sub0.in0 sub0
+net sub0.out0 __inserted_outport_0.in0
+net or1 or1.out0
+net sub0.in1 sub0
+net or1.in0 or1
+net shl3.out0 or1.in0
+net __inserted_inport_1 __inserted_inport_1.out0
+net shl2.in1 shl2
+net sub0 sub0.out0
+net xor0.out0 or2.in1
+net __inserted_inport_2 __inserted_inport_2.out0
+net or1.out0 select0.in2
+net or1.out0 __inserted_outport_1.in0
+net shl2.out0 or2.in0
+net shl3.in1 shl3

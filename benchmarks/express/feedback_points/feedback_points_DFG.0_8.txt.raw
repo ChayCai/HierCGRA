@@ -1,0 +1,35 @@
+attr __file__ str ./benchmarks/express/feedback_points/feedback_points_DFG.0_8.txt
+attr __name__ str ./benchmarks/express/feedback_points/feedback_points_DFG.0_8.txt
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0
+vertex ADD_59.in1
+vertex ADD_55.out0
+vertex ADD_57.out0
+vertex ADD_55
+vertex ADD_59.in0
+vertex ADD_59
+vertex MUL_52
+vertex ADD_57
+vertex __inserted_outport_0.in0
+vertex ADD_57.in1
+vertex ADD_57.in0
+vertex MUL_53
+vertex MUL_52.out0
+vertex ADD_59.out0
+vertex MUL_53.out0
+net __inserted_outport_0 __inserted_outport_0.out0
+net ADD_59.in1 ADD_59
+net ADD_55.out0 ADD_57.in1
+net ADD_57.out0 ADD_59.in1
+net ADD_55 ADD_55.out0
+net ADD_59.in0 ADD_59
+net ADD_59 ADD_59.out0
+net MUL_52 MUL_52.out0
+net ADD_57 ADD_57.out0
+net __inserted_outport_0.in0 __inserted_outport_0
+net ADD_57.in1 ADD_57
+net ADD_57.in0 ADD_57
+net MUL_53 MUL_53.out0
+net MUL_52.out0 ADD_59.in0
+net ADD_59.out0 __inserted_outport_0.in0
+net MUL_53.out0 ADD_57.in0

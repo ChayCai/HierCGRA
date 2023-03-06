@@ -1,0 +1,21 @@
+Pack
+Pack SUCCESS
+Partition
+Partition SUCCESS
+PlaceCore
+8 threads is running for placeCore
+placeCore: ./benchmarks/express/matinv/matinv_DFG_part1.txt success.
+7 threads is running for placeCore
+placeCore: ./benchmarks/express/matinv/matinv_DFG_part0.txt success.
+
+placeCore: ./benchmarks/express/matinv/matinv_DFG_part0.txt success.
+8 threads is running for placeCore
+placeCore: ./benchmarks/express/matinv/matinv_DFG_part2.txt success.
+8 threads is running for placeCore
+placeCore: ./benchmarks/express/matinv/matinv_DFG_part3.txt success.
+7 threads is running for placeCorePlaceCore SUCCESS
+PlaceTop
+8 threads is running for placeTop
+placeTop: success.
+PlaceTop SUCCESS
+[ ./benchmarks/express/matinv/matinv_DFG.txt ] Mapping Time: 597.671795 s

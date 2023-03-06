@@ -1,0 +1,35 @@
+vertex 61.in1
+vertex 61
+vertex 31.out0
+vertex 68.in0
+vertex 61.out0
+vertex 72.in0
+vertex 31.in0
+vertex 68
+vertex 66
+vertex 68.out0
+vertex 72.in1
+vertex 61.in0
+vertex 31.in1
+vertex 72
+vertex 72.out0
+vertex 66.out0
+vertex 66.in0
+vertex 31
+net 61.in1 61
+net 61 61.out0
+net 31.out0 61.in0
+net 68.in0 68
+net 61.out0 66.in0
+net 72.in0 72
+net 31.in0 31
+net 68 68.out0
+net 66 66.out0
+net 68.out0 72.in1
+net 72.in1 72
+net 61.in0 61
+net 31.in1 31
+net 72 72.out0
+net 66.out0 72.in0
+net 66.in0 66
+net 31 31.out0

@@ -1,0 +1,132 @@
+vertex load6
+    attr optype str load
+vertex load4
+    attr optype str load
+vertex load4.in0
+    attr optype str load.in0
+vertex load3
+    attr optype str load
+vertex load5.out0
+    attr optype str load.out0
+vertex load5.in0
+    attr optype str load.in0
+vertex load5
+    attr optype str load
+vertex add5
+    attr optype str add
+vertex add5.in0
+    attr optype str add.in0
+vertex add7
+    attr optype str add
+vertex load3.in0
+    attr optype str load.in0
+vertex mul0
+    attr optype str mul
+vertex mul2.out0
+    attr optype str mul.out0
+vertex add6.in1
+    attr optype str add.in1
+vertex add7.in1
+    attr optype str add.in1
+vertex mul0.in0
+    attr optype str mul.in0
+vertex mul3
+    attr optype str mul
+vertex mul0.out0
+    attr optype str mul.out0
+vertex add4.in0
+    attr optype str add.in0
+vertex load4.out0
+    attr optype str load.out0
+vertex add7.out0
+    attr optype str add.out0
+vertex mul3.in0
+    attr optype str mul.in0
+vertex add7.in0
+    attr optype str add.in0
+vertex add6.out0
+    attr optype str add.out0
+vertex load6.in0
+    attr optype str load.in0
+vertex load3.out0
+    attr optype str load.out0
+vertex add4.out0
+    attr optype str add.out0
+vertex mul0.in1
+    attr optype str mul.in1
+vertex add5.out0
+    attr optype str add.out0
+vertex mul1.out0
+    attr optype str mul.out0
+vertex add4.in1
+    attr optype str add.in1
+vertex mul1.in0
+    attr optype str mul.in0
+vertex mul1
+    attr optype str mul
+vertex load6.out0
+    attr optype str load.out0
+vertex mul2.in1
+    attr optype str mul.in1
+vertex add6
+    attr optype str add
+vertex add5.in1
+    attr optype str add.in1
+vertex mul1.in1
+    attr optype str mul.in1
+vertex mul2.in0
+    attr optype str mul.in0
+vertex mul2
+    attr optype str mul
+vertex add4
+    attr optype str add
+vertex mul3.in1
+    attr optype str mul.in1
+vertex mul3.out0
+    attr optype str mul.out0
+vertex add6.in0
+    attr optype str add.in0
+net load6 load6.out0
+net load4 load4.out0
+net load4.in0 load4
+net load3 load3.out0
+net load5.out0 mul2.in0
+net load5.in0 load5
+net load5 load5.out0
+net add5 add5.out0
+net add5.in0 add5
+net add7 add7.out0
+net load3.in0 load3
+net mul0 mul0.out0
+net mul2.out0 add6.in1
+net add6.in1 add6
+net add7.in1 add7
+net mul0.in0 mul0
+net mul3 mul3.out0
+net mul0.out0 add4.in0
+net add4.in0 add4
+net load4.out0 mul1.in0
+net add7.out0 add4.in1
+net mul3.in0 mul3
+net add7.in0 add7
+net add6.out0 add7.in0
+net load6.in0 load6
+net load3.out0 mul0.in0
+net add4.out0 add5.in0
+net mul0.in1 mul0
+net add5.out0 add6.in0
+net mul1.out0 add5.in1
+net add4.in1 add4
+net mul1.in0 mul1
+net mul1 mul1.out0
+net load6.out0 mul3.in0
+net mul2.in1 mul2
+net add6 add6.out0
+net add5.in1 add5
+net mul1.in1 mul1
+net mul2.in0 mul2
+net mul2 mul2.out0
+net add4 add4.out0
+net mul3.in1 mul3
+net mul3.out0 add7.in1
+net add6.in0 add6

@@ -1,0 +1,8 @@
+RRG loaded. Vertices: 75328; Edges: 237344
+DFG loaded. Vertices: 100; Edges: 108
+
+BEGIN: NetworkAnalyzerLegacy: Analyzing networks. 
+VanillaValidator: All vertices of DFG are mapped? 
+VanillaValidator: All vertices of DFG are mapped. 
+VanillaValidator: All edges of DFG are routed ? 
+VanillaValidator: All edges of DFG are routed. 

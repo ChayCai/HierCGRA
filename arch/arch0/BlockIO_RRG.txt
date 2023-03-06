@@ -1,0 +1,60 @@
+vertex in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in0
+vertex in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in1
+vertex out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out0
+vertex IO0
+    attr type str IO
+    attr device str IO
+    attr unit str IO
+vertex IO0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in0
+vertex IO0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str IO.in1
+vertex IO0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str IO.out0
+vertex SW2X2_INPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in0
+    attr switch str FULLYCONN_2X2
+vertex SW2X2_INPORT.in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_2X2.in1
+    attr switch str FULLYCONN_2X2
+vertex SW2X2_INPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out0
+    attr switch str FULLYCONN_2X2
+vertex SW2X2_INPORT.out1
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_2X2.out1
+    attr switch str FULLYCONN_2X2
+vertex SW1X1_OUTPORT.in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str FULLYCONN_1X1.in0
+    attr switch str FULLYCONN_1X1
+vertex SW1X1_OUTPORT.out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str FULLYCONN_1X1.out0
+    attr switch str FULLYCONN_1X1
+net in0 SW2X2_INPORT.in0
+net in1 SW2X2_INPORT.in1
+net IO0 IO0.out0
+net IO0.in0 IO0
+net IO0.in1 IO0
+net IO0.out0 SW1X1_OUTPORT.in0
+net SW2X2_INPORT.in0 SW2X2_INPORT.out0
+net SW2X2_INPORT.in0 SW2X2_INPORT.out1
+net SW2X2_INPORT.in1 SW2X2_INPORT.out0
+net SW2X2_INPORT.in1 SW2X2_INPORT.out1
+net SW2X2_INPORT.out0 IO0.in0
+net SW2X2_INPORT.out1 IO0.in1
+net SW1X1_OUTPORT.in0 SW1X1_OUTPORT.out0
+net SW1X1_OUTPORT.out0 out0

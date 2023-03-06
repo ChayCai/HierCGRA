@@ -1,0 +1,7 @@
+./benchmarks/standard/interpol/interpol_DFG.0_0.txt 0
+./benchmarks/standard/interpol/interpol_DFG.0_1.txt 0
+./benchmarks/standard/interpol/interpol_DFG.0_2.txt 0
+./benchmarks/standard/interpol/interpol_DFG.0_3.txt 0
+./benchmarks/standard/interpol/interpol_DFG.0_4.txt 0
+./benchmarks/standard/interpol/interpol_DFG.0_5.txt 0
+./benchmarks/standard/interpol/interpol_DFG.0_6.txt 0

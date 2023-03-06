@@ -1,0 +1,103 @@
+vertex add6.out0
+vertex add6.in1
+vertex add7
+vertex add14
+vertex add14.out0
+vertex add9.in0
+vertex add9.in1
+vertex add15.in1
+vertex add14.in0
+vertex add15
+vertex add8.out0
+vertex add15.out0
+vertex add17
+vertex add15.in0
+vertex add12.in0
+vertex add12.in1
+vertex add16.out0
+vertex add7.out0
+vertex add9
+vertex add8.in0
+vertex add18
+vertex add17.out0
+vertex add17.in1
+vertex add10.out0
+vertex add6.in0
+vertex add16
+vertex add13.in1
+vertex add17.in0
+vertex add13.in0
+vertex add16.in1
+vertex add9.out0
+vertex add12
+vertex add18.in0
+vertex add11.in0
+vertex add13
+vertex add13.out0
+vertex add8.in1
+vertex add18.out0
+vertex add11
+vertex add11.in1
+vertex add11.out0
+vertex add14.in1
+vertex add18.in1
+vertex add10.in0
+vertex add7.in1
+vertex add8
+vertex add6
+vertex add16.in0
+vertex add12.out0
+vertex add7.in0
+vertex add10.in1
+vertex add10
+net add6.out0 add7.in0
+net add6.in1 add6
+net add7 add7.out0
+net add14 add14.out0
+net add14.out0 add15.in0
+net add9.in0 add9
+net add9.in1 add9
+net add15.in1 add15
+net add14.in0 add14
+net add15 add15.out0
+net add8.out0 add9.in0
+net add15.out0 add16.in0
+net add17 add17.out0
+net add15.in0 add15
+net add12.in0 add12
+net add12.in1 add12
+net add16.out0 add17.in0
+net add7.out0 add8.in0
+net add9 add9.out0
+net add8.in0 add8
+net add18 add18.out0
+net add17.out0 add18.in0
+net add17.in1 add17
+net add10.out0 add11.in0
+net add6.in0 add6
+net add16 add16.out0
+net add13.in1 add13
+net add17.in0 add17
+net add13.in0 add13
+net add16.in1 add16
+net add9.out0 add10.in0
+net add12 add12.out0
+net add18.in0 add18
+net add11.in0 add11
+net add13 add13.out0
+net add13.out0 add14.in0
+net add8.in1 add8
+net add11 add11.out0
+net add11.in1 add11
+net add11.out0 add12.in0
+net add14.in1 add14
+net add18.in1 add18
+net add10.in0 add10
+net add7.in1 add7
+net add8 add8.out0
+net add6 add6.out0
+net add16.in0 add16
+net add12.out0 add13.in0
+net add7.in0 add7
+net add10.in1 add10
+net add10 add10.out0

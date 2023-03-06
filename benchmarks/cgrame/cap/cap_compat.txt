@@ -1,0 +1,24 @@
+shra8 ALU
+load12 MEM
+load2 MEM
+const23 CONST IO
+const1 CONST IO
+mul13 ALU
+mul0 ALU
+const9 CONST IO
+const4 CONST IO
+const15 CONST IO
+const20 CONST IO
+store21 MEM
+mul7 ALU
+load5 MEM
+add22 ALU
+const6 CONST IO
+const11 CONST IO
+mul16 ALU
+mul19 ALU
+mul17 ALU
+mul18 ALU
+mul10 ALU
+shra14 ALU
+mul3 ALU

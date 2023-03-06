@@ -1,0 +1,63 @@
+vertex fadd0.in1
+vertex fadd0.in0
+vertex fmul0.in1
+vertex fadd2.in0
+vertex fadd2
+vertex fadd3
+vertex fadd3.in1
+vertex fmul3.in1
+vertex fmul3
+vertex fmul3.out0
+vertex fadd1.out0
+vertex fadd0.out0
+vertex fmul0
+vertex fmul1
+vertex fmul0.in0
+vertex fmul0.out0
+vertex fmul1.out0
+vertex fadd2.in1
+vertex fadd1.in1
+vertex fmul2
+vertex fmul3.in0
+vertex fmul1.in0
+vertex fmul1.in1
+vertex fadd1
+vertex fadd3.out0
+vertex fadd3.in0
+vertex fadd1.in0
+vertex fadd0
+vertex fmul2.out0
+vertex fadd2.out0
+vertex fmul2.in0
+vertex fmul2.in1
+net fadd0.in1 fadd0
+net fadd0.in0 fadd0
+net fmul0.in1 fmul0
+net fadd2.in0 fadd2
+net fadd2 fadd2.out0
+net fadd3 fadd3.out0
+net fadd3.in1 fadd3
+net fmul3.in1 fmul3
+net fmul3 fmul3.out0
+net fmul3.out0 fadd3.in1
+net fadd1.out0 fadd2.in0
+net fadd0.out0 fadd1.in0
+net fmul0 fmul0.out0
+net fmul1 fmul1.out0
+net fmul0.in0 fmul0
+net fmul0.out0 fadd0.in0
+net fmul1.out0 fadd1.in1
+net fadd2.in1 fadd2
+net fadd1.in1 fadd1
+net fmul2 fmul2.out0
+net fmul3.in0 fmul3
+net fmul1.in0 fmul1
+net fmul1.in1 fmul1
+net fadd1 fadd1.out0
+net fadd3.in0 fadd3
+net fadd1.in0 fadd1
+net fadd0 fadd0.out0
+net fmul2.out0 fadd2.in1
+net fadd2.out0 fadd3.in0
+net fmul2.in0 fmul2
+net fmul2.in1 fmul2

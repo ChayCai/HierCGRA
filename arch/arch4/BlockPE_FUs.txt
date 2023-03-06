@@ -1,0 +1,2 @@
+ALU0 ALU ALU inputs in0 in1 outputs out0
+MEM0 MEM MEM inputs in0 in1 in2 outputs out0

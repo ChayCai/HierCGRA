@@ -1,0 +1,17 @@
+attr __file__ str ./benchmarks/express/matinv/matinv_DFG.1_6.txt
+attr __name__ str ./benchmarks/express/matinv/matinv_DFG.1_6.txt
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_outport_0
+vertex ADD_103.in0
+vertex ADD_103
+vertex ADD_103.out0
+vertex MUL_100
+vertex MUL_100.out0
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_outport_0 __inserted_outport_0.out0
+net ADD_103.in0 ADD_103
+net ADD_103 ADD_103.out0
+net ADD_103.out0 __inserted_outport_0.in0
+net MUL_100 MUL_100.out0
+net MUL_100.out0 ADD_103.in0

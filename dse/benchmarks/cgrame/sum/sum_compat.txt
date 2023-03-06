@@ -1,0 +1,7 @@
+load2 MEM
+add5 ALU0 ALU1 ALU2
+add3 ALU0 ALU1 ALU2
+mul0 ALU2
+const1 IO
+output4 IO
+const6 IO

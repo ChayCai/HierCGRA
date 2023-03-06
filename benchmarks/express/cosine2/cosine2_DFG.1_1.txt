@@ -1,0 +1,7 @@
+vertex 66.in0
+vertex 66.in1
+vertex 66
+vertex 66.out0
+net 66.in0 66
+net 66.in1 66
+net 66 66.out0

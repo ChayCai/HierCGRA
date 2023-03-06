@@ -1,0 +1,8 @@
+vertex add0.in0
+vertex add0.in1
+vertex add0.out0
+vertex add0
+net add0.in0 add0
+net add0.in1 add0
+net add0.out0 add0.in0
+net add0 add0.out0

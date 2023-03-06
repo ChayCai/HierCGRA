@@ -1,0 +1,31 @@
+const15 IO
+const25 IO
+const13 IO
+const11 IO
+add29 ALU0 ALU1 ALU2
+add12 ALU0 ALU1 ALU2
+load23 MEM
+add27 ALU0 ALU1 ALU2
+const22 IO
+add5 ALU0 ALU1 ALU2
+mul10 ALU2
+mul7 ALU2
+mul3 ALU2
+const4 IO
+const1 IO
+const6 IO
+load9 MEM
+load2 MEM
+mul21 ALU2
+mul0 ALU2
+add26 ALU0 ALU1 ALU2
+load16 MEM
+const8 IO
+mul24 ALU2
+const18 IO
+add28 ALU0 ALU1 ALU2
+add19 ALU0 ALU1 ALU2
+mul14 ALU2
+mul17 ALU2
+output30 IO
+const20 IO

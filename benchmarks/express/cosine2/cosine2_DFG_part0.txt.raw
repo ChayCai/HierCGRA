@@ -1,0 +1,359 @@
+attr __file__ str ./benchmarks/express/cosine2/cosine2_DFG_part0.txt
+attr __name__ str ./benchmarks/express/cosine2/cosine2_DFG_part0.txt
+vertex __inserted_outport_4.in0
+vertex __inserted_outport_3.out0
+vertex __inserted_outport_3.in0
+vertex __inserted_outport_2.out0
+vertex __inserted_outport_2.in0
+vertex __inserted_outport_2
+vertex __inserted_outport_1.in0
+vertex 56
+    attr optype str sub
+vertex 66.in0
+    attr optype str mul.in0
+vertex 68.out0
+    attr optype str mul.out0
+vertex 56.in0
+    attr optype str sub.in0
+vertex 57
+    attr optype str add
+vertex __inserted_outport_1.out0
+vertex 72.in1
+    attr optype str sub.in1
+vertex __inserted_inport_6.in0
+vertex 68.in0
+    attr optype str mul.in0
+vertex 21.out0
+    attr optype str add.out0
+vertex __inserted_inport_0.out0
+vertex 56.in1
+    attr optype str sub.in1
+vertex 28
+    attr optype str mul
+vertex __inserted_inport_4.in0
+vertex 9
+    attr optype str sub
+vertex __inserted_inport_3.out0
+vertex 62.out0
+    attr optype str mul.out0
+vertex 74.in1
+    attr optype str add.in1
+vertex 21
+    attr optype str add
+vertex 24
+    attr optype str add
+vertex 62.in0
+    attr optype str mul.in0
+vertex 28.in1
+    attr optype str mul.in1
+vertex 73
+    attr optype str sub
+vertex 66.out0
+    attr optype str mul.out0
+vertex __inserted_inport_6
+vertex 18
+    attr optype str add
+vertex 9.in0
+    attr optype str sub.in0
+vertex 57.in0
+    attr optype str add.in0
+vertex __inserted_inport_10.out0
+vertex 71.in0
+    attr optype str add.in0
+vertex __inserted_inport_11.in0
+vertex __inserted_inport_4.out0
+vertex 18.out0
+    attr optype str add.out0
+vertex 64.in0
+    attr optype str mul.in0
+vertex 62.in1
+    attr optype str mul.in1
+vertex 18.in0
+    attr optype str add.in0
+vertex 71.out0
+    attr optype str add.out0
+vertex __inserted_inport_3
+vertex __inserted_outport_4.out0
+vertex 55.in0
+    attr optype str sub.in0
+vertex 60.in1
+    attr optype str mul.in1
+vertex 71
+    attr optype str add
+vertex 66
+    attr optype str mul
+vertex 70
+    attr optype str mul
+vertex 66.in1
+    attr optype str mul.in1
+vertex __inserted_inport_15.in0
+vertex __inserted_inport_15.out0
+vertex 24.in1
+    attr optype str add.in1
+vertex 18.in1
+    attr optype str add.in1
+vertex 73.out0
+    attr optype str sub.out0
+vertex 74
+    attr optype str add
+vertex 9.in1
+    attr optype str sub.in1
+vertex __inserted_inport_2.out0
+vertex 9.out0
+    attr optype str sub.out0
+vertex __inserted_inport_12.in0
+vertex __inserted_inport_13.in0
+vertex __inserted_inport_9.in0
+vertex 28.out0
+    attr optype str mul.out0
+vertex 70.in1
+    attr optype str mul.in1
+vertex 70.in0
+    attr optype str mul.in0
+vertex 57.out0
+    attr optype str add.out0
+vertex 64.in1
+    attr optype str mul.in1
+vertex __inserted_outport_0.out0
+vertex __inserted_inport_3.in0
+vertex 24.out0
+    attr optype str add.out0
+vertex 21.in0
+    attr optype str add.in0
+vertex 72.in0
+    attr optype str sub.in0
+vertex 60
+    attr optype str mul
+vertex 64.out0
+    attr optype str mul.out0
+vertex 73.in1
+    attr optype str sub.in1
+vertex 64
+    attr optype str mul
+vertex 68.in1
+    attr optype str mul.in1
+vertex 72.out0
+    attr optype str sub.out0
+vertex 58.in0
+    attr optype str add.in0
+vertex __inserted_inport_8.in0
+vertex 58
+    attr optype str add
+vertex __inserted_inport_2.in0
+vertex 70.out0
+    attr optype str mul.out0
+vertex __inserted_outport_0.in0
+vertex 57.in1
+    attr optype str add.in1
+vertex 58.out0
+    attr optype str add.out0
+vertex __inserted_inport_7.out0
+vertex __inserted_outport_0
+vertex 24.in0
+    attr optype str add.in0
+vertex 71.in1
+    attr optype str add.in1
+vertex __inserted_inport_5
+vertex 21.in1
+    attr optype str add.in1
+vertex 56.out0
+    attr optype str sub.out0
+vertex 60.out0
+    attr optype str mul.out0
+vertex 28.in0
+    attr optype str mul.in0
+vertex 72
+    attr optype str sub
+vertex __inserted_inport_14
+vertex 55.in1
+    attr optype str sub.in1
+vertex 62
+    attr optype str mul
+vertex __inserted_inport_9
+vertex 58.in1
+    attr optype str add.in1
+vertex __inserted_inport_0
+vertex __inserted_inport_1.out0
+vertex __inserted_inport_0.in0
+vertex __inserted_inport_1
+vertex __inserted_inport_1.in0
+vertex __inserted_inport_2
+vertex __inserted_inport_12.out0
+vertex __inserted_outport_4
+vertex __inserted_inport_4
+vertex __inserted_inport_13
+vertex __inserted_inport_5.in0
+vertex __inserted_inport_6.out0
+vertex 74.out0
+    attr optype str add.out0
+vertex 74.in0
+    attr optype str add.in0
+vertex __inserted_inport_8.out0
+vertex __inserted_inport_9.out0
+vertex 68
+    attr optype str mul
+vertex __inserted_inport_11.out0
+vertex __inserted_inport_7
+vertex __inserted_outport_1
+vertex __inserted_inport_7.in0
+vertex 60.in0
+    attr optype str mul.in0
+vertex 55
+    attr optype str sub
+vertex __inserted_inport_8
+vertex __inserted_inport_10.in0
+vertex __inserted_inport_15
+vertex __inserted_outport_3
+vertex 73.in0
+    attr optype str sub.in0
+vertex __inserted_inport_10
+vertex __inserted_inport_11
+vertex 55.out0
+    attr optype str sub.out0
+vertex __inserted_inport_12
+vertex __inserted_inport_5.out0
+vertex __inserted_inport_13.out0
+vertex __inserted_inport_14.in0
+vertex __inserted_inport_14.out0
+net __inserted_outport_4.in0 __inserted_outport_4
+net __inserted_outport_3.in0 __inserted_outport_3
+net __inserted_outport_2.in0 __inserted_outport_2
+net __inserted_outport_2 __inserted_outport_2.out0
+net __inserted_outport_1.in0 __inserted_outport_1
+net 56 56.out0
+net 66.in0 66
+net 68.out0 73.in0
+net 68.out0 74.in0
+net 56.in0 56
+net 57 57.out0
+net 72.in1 72
+net __inserted_inport_6.in0 __inserted_inport_6
+net 68.in0 68
+net 21.out0 57.in1
+net 21.out0 56.in1
+net __inserted_inport_0.out0 70.in1
+net 56.in1 56
+net 28 28.out0
+net __inserted_inport_4.in0 __inserted_inport_4
+net 9 9.out0
+net __inserted_inport_3.out0 24.in0
+net 62.out0 72.in0
+net 74.in1 74
+net 21 21.out0
+net 24 24.out0
+net 62.in0 62
+net 28.in1 28
+net 73 73.out0
+net 66.out0 72.in1
+net __inserted_inport_6 __inserted_inport_6.out0
+net 18 18.out0
+net 9.in0 9
+net 57.in0 57
+net __inserted_inport_10.out0 24.in1
+net 71.in0 71
+net __inserted_inport_11.in0 __inserted_inport_11
+net __inserted_inport_4.out0 58.in0
+net __inserted_inport_4.out0 55.in0
+net 18.out0 57.in0
+net 18.out0 56.in0
+net 64.in0 64
+net 62.in1 62
+net 18.in0 18
+net 71.out0 __inserted_outport_1.in0
+net __inserted_inport_3 __inserted_inport_3.out0
+net 55.in0 55
+net 60.in1 60
+net 71 71.out0
+net 66 66.out0
+net 70 70.out0
+net 66.in1 66
+net __inserted_inport_15.in0 __inserted_inport_15
+net __inserted_inport_15.out0 62.in1
+net 24.in1 24
+net 18.in1 18
+net 73.out0 __inserted_outport_2.in0
+net 74 74.out0
+net 9.in1 9
+net __inserted_inport_2.out0 28.in1
+net 9.out0 28.in0
+net __inserted_inport_12.in0 __inserted_inport_12
+net __inserted_inport_13.in0 __inserted_inport_13
+net __inserted_inport_9.in0 __inserted_inport_9
+net 28.out0 __inserted_outport_3.in0
+net 70.in1 70
+net 70.in0 70
+net 57.out0 68.in0
+net 64.in1 64
+net __inserted_inport_3.in0 __inserted_inport_3
+net 24.out0 55.in1
+net 24.out0 58.in1
+net 21.in0 21
+net 72.in0 72
+net 60 60.out0
+net 64.out0 71.in1
+net 73.in1 73
+net 64 64.out0
+net 68.in1 68
+net 72.out0 __inserted_outport_4.in0
+net 58.in0 58
+net __inserted_inport_8.in0 __inserted_inport_8
+net 58 58.out0
+net __inserted_inport_2.in0 __inserted_inport_2
+net 70.out0 73.in1
+net 70.out0 74.in1
+net __inserted_outport_0.in0 __inserted_outport_0
+net 57.in1 57
+net 58.out0 70.in0
+net __inserted_inport_7.out0 21.in1
+net __inserted_outport_0 __inserted_outport_0.out0
+net 24.in0 24
+net 71.in1 71
+net __inserted_inport_5 __inserted_inport_5.out0
+net 21.in1 21
+net 56.out0 66.in0
+net 56.out0 64.in0
+net 60.out0 71.in0
+net 28.in0 28
+net 72 72.out0
+net __inserted_inport_14 __inserted_inport_14.out0
+net 55.in1 55
+net 62 62.out0
+net __inserted_inport_9 __inserted_inport_9.out0
+net 58.in1 58
+net __inserted_inport_0 __inserted_inport_0.out0
+net __inserted_inport_1.out0 60.in1
+net __inserted_inport_0.in0 __inserted_inport_0
+net __inserted_inport_1 __inserted_inport_1.out0
+net __inserted_inport_1.in0 __inserted_inport_1
+net __inserted_inport_2 __inserted_inport_2.out0
+net __inserted_inport_12.out0 18.in0
+net __inserted_outport_4 __inserted_outport_4.out0
+net __inserted_inport_4 __inserted_inport_4.out0
+net __inserted_inport_13 __inserted_inport_13.out0
+net __inserted_inport_5.in0 __inserted_inport_5
+net __inserted_inport_6.out0 21.in0
+net 74.out0 __inserted_outport_0.in0
+net 74.in0 74
+net __inserted_inport_8.out0 18.in1
+net __inserted_inport_9.out0 64.in1
+net 68 68.out0
+net __inserted_inport_11.out0 9.in0
+net __inserted_inport_7 __inserted_inport_7.out0
+net __inserted_outport_1 __inserted_outport_1.out0
+net __inserted_inport_7.in0 __inserted_inport_7
+net 60.in0 60
+net 55 55.out0
+net __inserted_inport_8 __inserted_inport_8.out0
+net __inserted_inport_10.in0 __inserted_inport_10
+net __inserted_inport_15 __inserted_inport_15.out0
+net __inserted_outport_3 __inserted_outport_3.out0
+net 73.in0 73
+net __inserted_inport_10 __inserted_inport_10.out0
+net __inserted_inport_11 __inserted_inport_11.out0
+net 55.out0 60.in0
+net 55.out0 62.in0
+net __inserted_inport_12 __inserted_inport_12.out0
+net __inserted_inport_5.out0 68.in1
+net __inserted_inport_13.out0 9.in1
+net __inserted_inport_14.in0 __inserted_inport_14
+net __inserted_inport_14.out0 66.in1

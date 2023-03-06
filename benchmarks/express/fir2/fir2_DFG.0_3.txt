@@ -1,0 +1,39 @@
+vertex 17
+vertex 17.in0
+vertex 17.in1
+vertex 34
+vertex 34.out0
+vertex 34.in0
+vertex 33
+vertex 35.out0
+vertex 11.in1
+vertex 35
+vertex 35.in0
+vertex 33.out0
+vertex 14.out0
+vertex 14.in1
+vertex 17.out0
+vertex 14
+vertex 11.in0
+vertex 14.in0
+vertex 11
+vertex 11.out0
+vertex 33.in0
+net 17 17.out0
+net 17.in0 17
+net 17.in1 17
+net 34 34.out0
+net 34.in0 34
+net 33 33.out0
+net 11.in1 11
+net 35 35.out0
+net 35.in0 35
+net 14.out0 34.in0
+net 14.in1 14
+net 17.out0 35.in0
+net 14 14.out0
+net 11.in0 11
+net 14.in0 14
+net 11 11.out0
+net 11.out0 33.in0
+net 33.in0 33

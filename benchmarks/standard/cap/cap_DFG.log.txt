@@ -1,0 +1,2 @@
+./benchmarks/standard/cap/cap_DFG.1_0.txt 1
+./benchmarks/standard/cap/cap_DFG.0_0.txt 0

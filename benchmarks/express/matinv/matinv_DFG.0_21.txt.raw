@@ -1,0 +1,83 @@
+attr __file__ str ./benchmarks/express/matinv/matinv_DFG.0_21.txt
+attr __name__ str ./benchmarks/express/matinv/matinv_DFG.0_21.txt
+vertex __inserted_outport_2
+vertex __inserted_outport_1.out0
+vertex __inserted_outport_1.in0
+vertex __inserted_outport_1
+vertex __inserted_outport_0.in0
+vertex __inserted_outport_0
+vertex __inserted_inport_2.out0
+vertex __inserted_inport_2.in0
+vertex __inserted_inport_1.out0
+vertex ADD_170.in0
+vertex ADD_170.out0
+vertex MUL_164
+vertex MUL_173.in0
+vertex ADD_174.in0
+vertex ADD_161
+vertex ADD_161.in0
+vertex MUL_158.out0
+vertex __inserted_inport_0.out0
+vertex MUL_158
+vertex __inserted_outport_0.out0
+vertex ADD_170
+vertex ADD_174
+vertex __inserted_inport_1
+vertex SUB_165.in1
+vertex __inserted_outport_2.out0
+vertex SUB_165.out0
+vertex __inserted_inport_0
+vertex MUL_167.out0
+vertex __inserted_inport_2
+vertex MUL_164.out0
+vertex MUL_164.in0
+vertex MUL_173
+vertex SUB_165
+vertex ADD_161.out0
+vertex SUB_165.in0
+vertex MUL_173.out0
+vertex ADD_174.out0
+vertex __inserted_outport_2.in0
+vertex ADD_174.in1
+vertex MUL_167
+vertex __inserted_inport_0.in0
+vertex __inserted_inport_1.in0
+net __inserted_outport_2 __inserted_outport_2.out0
+net __inserted_outport_1.in0 __inserted_outport_1
+net __inserted_outport_1 __inserted_outport_1.out0
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_2.out0 SUB_165.in0
+net __inserted_inport_2.in0 __inserted_inport_2
+net __inserted_inport_1.out0 MUL_164.in0
+net ADD_170.in0 ADD_170
+net ADD_170.out0 __inserted_outport_0.in0
+net MUL_164 MUL_164.out0
+net MUL_173.in0 MUL_173
+net ADD_174.in0 ADD_174
+net ADD_161 ADD_161.out0
+net ADD_161.in0 ADD_161
+net MUL_158.out0 ADD_161.in0
+net __inserted_inport_0.out0 MUL_173.in0
+net MUL_158 MUL_158.out0
+net ADD_170 ADD_170.out0
+net ADD_174 ADD_174.out0
+net __inserted_inport_1 __inserted_inport_1.out0
+net SUB_165.in1 SUB_165
+net SUB_165.out0 ADD_174.in0
+net __inserted_inport_0 __inserted_inport_0.out0
+net MUL_167.out0 ADD_170.in0
+net __inserted_inport_2 __inserted_inport_2.out0
+net MUL_164.out0 SUB_165.in1
+net MUL_164.in0 MUL_164
+net MUL_173 MUL_173.out0
+net SUB_165 SUB_165.out0
+net ADD_161.out0 __inserted_outport_1.in0
+net SUB_165.in0 SUB_165
+net MUL_173.out0 ADD_174.in1
+net ADD_174.out0 __inserted_outport_2.in0
+net __inserted_outport_2.in0 __inserted_outport_2
+net ADD_174.in1 ADD_174
+net MUL_167 MUL_167.out0
+net __inserted_inport_0.in0 __inserted_inport_0
+net __inserted_inport_1.in0 __inserted_inport_1

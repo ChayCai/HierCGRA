@@ -1,0 +1,23 @@
+vertex ADD_12
+vertex ADD_12.in1
+vertex MUL_8.out0
+vertex MUL_7
+vertex MUL_8
+vertex ADD_28
+vertex ADD_12.in0
+vertex MUL_7.out0
+vertex ADD_28.in0
+vertex ADD_28.out0
+vertex ADD_12.out0
+vertex ADD_28.in1
+net ADD_12 ADD_12.out0
+net ADD_12.in1 ADD_12
+net MUL_8.out0 ADD_12.in1
+net MUL_7 MUL_7.out0
+net MUL_8 MUL_8.out0
+net ADD_28 ADD_28.out0
+net ADD_12.in0 ADD_12
+net MUL_7.out0 ADD_12.in0
+net ADD_28.in0 ADD_28
+net ADD_12.out0 ADD_28.in0
+net ADD_28.in1 ADD_28

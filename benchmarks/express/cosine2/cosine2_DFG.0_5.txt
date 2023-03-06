@@ -1,0 +1,55 @@
+vertex 6.in1
+vertex 6.in0
+vertex 29
+vertex 26.in1
+vertex 26.in0
+vertex 26.out0
+vertex 26
+vertex 31
+vertex 31.in1
+vertex 6.out0
+vertex 29.out0
+vertex 31.in0
+vertex 6
+vertex 29.in1
+vertex 12.in1
+vertex 12
+vertex 12.in0
+vertex 34.in1
+vertex 34.in0
+vertex 30.out0
+vertex 34.out0
+vertex 34
+vertex 29.in0
+vertex 30.in0
+vertex 12.out0
+vertex 30.in1
+vertex 30
+vertex 31.out0
+net 6.in1 6
+net 6.in0 6
+net 29 29.out0
+net 26.in1 26
+net 26.in0 26
+net 26.out0 30.in0
+net 26.out0 29.in0
+net 26 26.out0
+net 31 31.out0
+net 31.in1 31
+net 6.out0 26.in0
+net 29.out0 31.in1
+net 31.in0 31
+net 6 6.out0
+net 29.in1 29
+net 12.in1 12
+net 12 12.out0
+net 12.in0 12
+net 34.in1 34
+net 34.in0 34
+net 30.out0 34.in1
+net 34 34.out0
+net 29.in0 29
+net 30.in0 30
+net 12.out0 34.in0
+net 30.in1 30
+net 30 30.out0

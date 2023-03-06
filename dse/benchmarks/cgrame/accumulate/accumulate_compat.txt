@@ -1,0 +1,18 @@
+store15 MEM
+output17 IO
+mul7 ALU2
+add0 ALU0 ALU1 ALU2
+add16 ALU0 ALU1 ALU2
+mul2 ALU2
+const1 IO
+add10 ALU0 ALU1 ALU2
+mul14 ALU2
+load9 MEM
+load13 MEM
+const8 IO
+load4 MEM
+const6 IO
+add5 ALU0 ALU1 ALU2
+mul11 ALU2
+const3 IO
+const12 IO

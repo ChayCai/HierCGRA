@@ -1,0 +1,33 @@
+attr __file__ str ./benchmarks/express/fir2/fir2_DFG.0_2.txt
+attr __name__ str ./benchmarks/express/fir2/fir2_DFG.0_2.txt
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_outport_0
+vertex 29.in0
+vertex __inserted_inport_0
+vertex 29.in1
+vertex 29
+vertex 39.out0
+vertex __inserted_inport_0.out0
+vertex 39
+vertex 29.out0
+vertex __inserted_inport_1.in0
+vertex 39.in0
+vertex __inserted_inport_0.in0
+vertex __inserted_inport_1
+vertex __inserted_inport_1.out0
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_outport_0 __inserted_outport_0.out0
+net 29.in0 29
+net __inserted_inport_0 __inserted_inport_0.out0
+net 29.in1 29
+net 29 29.out0
+net 39.out0 __inserted_outport_0.in0
+net __inserted_inport_0.out0 29.in0
+net 39 39.out0
+net 29.out0 39.in0
+net __inserted_inport_1.in0 __inserted_inport_1
+net 39.in0 39
+net __inserted_inport_0.in0 __inserted_inport_0
+net __inserted_inport_1 __inserted_inport_1.out0
+net __inserted_inport_1.out0 29.in1

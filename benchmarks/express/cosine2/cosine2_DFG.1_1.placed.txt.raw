@@ -1,0 +1,13 @@
+__inserted_inport_1.in0 in6.in0
+__inserted_inport_1 in6
+__inserted_inport_0.out0 in7.out0
+__inserted_inport_1.out0 in6.out0
+66.out0 MUL1.out0
+__inserted_inport_0 in7
+66 MUL1
+66.in1 MUL1.in1
+66.in0 MUL1.in0
+__inserted_outport_0.out0 out4.out0
+__inserted_outport_0 out4
+__inserted_inport_0.in0 in7.in0
+__inserted_outport_0.in0 out4.in0

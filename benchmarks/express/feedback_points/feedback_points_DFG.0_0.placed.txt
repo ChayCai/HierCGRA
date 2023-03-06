@@ -1,0 +1,4 @@
+BGE_98.in1 ALU0.in1
+BGE_98 ALU0
+BGE_98.in0 ALU0.in0
+BGE_98.out0 ALU0.out0

@@ -1,0 +1,4 @@
+load5 MEM
+add1 ADD ALU
+load3 MEM
+mul0 MUL ALU

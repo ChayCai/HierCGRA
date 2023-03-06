@@ -1,0 +1,184 @@
+vertex load11.in0
+    attr optype str load.in0
+vertex xor4.in1
+    attr optype str xor.in1
+vertex load11.out0
+    attr optype str load.out0
+vertex add10.in1
+    attr optype str add.in1
+vertex or0.out0
+    attr optype str or.out0
+vertex add10.out0
+    attr optype str add.out0
+vertex add10
+    attr optype str add
+vertex xor4.out0
+    attr optype str xor.out0
+vertex shl1.in1
+    attr optype str shl.in1
+vertex shl1.out0
+    attr optype str shl.out0
+vertex lshr1.out0
+    attr optype str lshr.out0
+vertex and0.in0
+    attr optype str and.in0
+vertex add9
+    attr optype str add
+vertex shl1.in0
+    attr optype str shl.in0
+vertex or0.in0
+    attr optype str or.in0
+vertex and0.in1
+    attr optype str and.in1
+vertex shl1
+    attr optype str shl
+vertex and0
+    attr optype str and
+vertex xor4
+    attr optype str xor
+vertex add12.in0
+    attr optype str add.in0
+vertex lshr2.in1
+    attr optype str lshr.in1
+vertex xor4.in0
+    attr optype str xor.in0
+vertex lshr1.in0
+    attr optype str lshr.in0
+vertex add12.in1
+    attr optype str add.in1
+vertex shl2.out0
+    attr optype str shl.out0
+vertex add9.out0
+    attr optype str add.out0
+vertex add12
+    attr optype str add
+vertex lshr2.out0
+    attr optype str lshr.out0
+vertex add9.in1
+    attr optype str add.in1
+vertex lshr2.in0
+    attr optype str lshr.in0
+vertex lshr1.in1
+    attr optype str lshr.in1
+vertex add11.in0
+    attr optype str add.in0
+vertex shl2.in1
+    attr optype str shl.in1
+vertex load11
+    attr optype str load
+vertex shl2
+    attr optype str shl
+vertex or2.out0
+    attr optype str or.out0
+vertex lshr1
+    attr optype str lshr
+vertex or1.in1
+    attr optype str or.in1
+vertex add12.out0
+    attr optype str add.out0
+vertex and0.out0
+    attr optype str and.out0
+vertex or1.out0
+    attr optype str or.out0
+vertex or1
+    attr optype str or
+vertex and1
+    attr optype str and
+vertex or0.in1
+    attr optype str or.in1
+vertex and1.in0
+    attr optype str and.in0
+vertex or1.in0
+    attr optype str or.in0
+vertex lshr2
+    attr optype str lshr
+vertex add9.in0
+    attr optype str add.in0
+vertex and1.out0
+    attr optype str and.out0
+vertex or2.in0
+    attr optype str or.in0
+vertex or0
+    attr optype str or
+vertex and1.in1
+    attr optype str and.in1
+vertex or2
+    attr optype str or
+vertex add11
+    attr optype str add
+vertex add10.in0
+    attr optype str add.in0
+vertex or2.in1
+    attr optype str or.in1
+vertex shl2.in0
+    attr optype str shl.in0
+vertex add11.out0
+    attr optype str add.out0
+vertex add11.in1
+    attr optype str add.in1
+net load11.in0 load11
+net xor4.in1 xor4
+net load11.out0 add12.in1
+net add10.in1 add10
+net or0.out0 add9.in0
+net add10.out0 add11.in0
+net add10 add10.out0
+net xor4.out0 and1.in1
+net shl1.in1 shl1
+net shl1.out0 or0.in0
+net lshr1.out0 or0.in1
+net and0.in0 and0
+net add9 add9.out0
+net shl1.in0 shl1
+net or0.in0 or0
+net and0.in1 and0
+net shl1 shl1.out0
+net and0 and0.out0
+net xor4 xor4.out0
+net add12.in0 add12
+net lshr2.in1 lshr2
+net xor4.in0 xor4
+net lshr1.in0 lshr1
+net add12.in1 add12
+net shl2.out0 or2.in0
+net add9.out0 add10.in0
+net add12 add12.out0
+net lshr2.out0 or2.in1
+net add9.in1 add9
+net lshr2.in0 lshr2
+net lshr1.in1 lshr1
+net add11.in0 add11
+net shl2.in1 shl2
+net load11 load11.out0
+net shl2 shl2.out0
+net or2.out0 and0.in0
+net or2.out0 and1.in0
+net or2.out0 add10.in1
+net lshr1 lshr1.out0
+net or1.in1 or1
+net add12.out0 shl1.in0
+net add12.out0 lshr1.in0
+net add12.out0 and0.in1
+net add12.out0 xor4.in0
+net add12.out0 shl2.in0
+net add12.out0 lshr2.in0
+net and0.out0 or1.in1
+net or1.out0 add11.in1
+net or1 or1.out0
+net and1 and1.out0
+net or0.in1 or0
+net and1.in0 and1
+net or1.in0 or1
+net lshr2 lshr2.out0
+net add9.in0 add9
+net and1.out0 or1.in0
+net or2.in0 or2
+net or0 or0.out0
+net and1.in1 and1
+net or2 or2.out0
+net add11 add11.out0
+net add10.in0 add10
+net or2.in1 or2
+net shl2.in0 shl2
+net add11.out0 add12.in0
+net add11.in1 add11

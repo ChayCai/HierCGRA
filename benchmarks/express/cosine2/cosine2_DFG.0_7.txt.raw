@@ -1,0 +1,41 @@
+attr __file__ str ./benchmarks/express/cosine2/cosine2_DFG.0_7.txt
+attr __name__ str ./benchmarks/express/cosine2/cosine2_DFG.0_7.txt
+vertex __inserted_outport_0.in0
+vertex __inserted_outport_0
+vertex __inserted_inport_2.out0
+vertex __inserted_inport_2.in0
+vertex __inserted_inport_2
+vertex __inserted_inport_1.out0
+vertex 6
+vertex 6.in0
+vertex __inserted_inport_0.in0
+vertex __inserted_outport_0.out0
+vertex 26.in1
+vertex 26.in0
+vertex 26.out0
+vertex 6.out0
+vertex __inserted_inport_1.in0
+vertex 26
+vertex __inserted_inport_0
+vertex 6.in1
+vertex __inserted_inport_0.out0
+vertex __inserted_inport_1
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_2.out0 26.in1
+net __inserted_inport_2.in0 __inserted_inport_2
+net __inserted_inport_2 __inserted_inport_2.out0
+net __inserted_inport_1.out0 6.in0
+net 6 6.out0
+net 6.in0 6
+net __inserted_inport_0.in0 __inserted_inport_0
+net 26.in1 26
+net 26.in0 26
+net 26.out0 __inserted_outport_0.in0
+net 6.out0 26.in0
+net __inserted_inport_1.in0 __inserted_inport_1
+net 26 26.out0
+net __inserted_inport_0 __inserted_inport_0.out0
+net 6.in1 6
+net __inserted_inport_0.out0 6.in1
+net __inserted_inport_1 __inserted_inport_1.out0

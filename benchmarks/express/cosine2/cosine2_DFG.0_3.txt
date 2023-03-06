@@ -1,0 +1,65 @@
+vertex 73.in0
+vertex 21.in0
+vertex 21.out0
+vertex 21.in1
+vertex 70
+vertex 56.in0
+vertex 56.out0
+vertex 56.in1
+vertex 68
+vertex 74
+vertex 73
+vertex 18
+vertex 18.in0
+vertex 74.in1
+vertex 74.out0
+vertex 70.in0
+vertex 74.in0
+vertex 18.in1
+vertex 57.in0
+vertex 73.out0
+vertex 21
+vertex 18.out0
+vertex 68.in1
+vertex 73.in1
+vertex 57.in1
+vertex 57
+vertex 57.out0
+vertex 70.out0
+vertex 56
+vertex 70.in1
+vertex 68.in0
+vertex 68.out0
+net 73.in0 73
+net 21.in0 21
+net 21.out0 57.in1
+net 21.out0 56.in1
+net 21.in1 21
+net 70 70.out0
+net 56.in0 56
+net 56.in1 56
+net 68 68.out0
+net 74 74.out0
+net 73 73.out0
+net 18 18.out0
+net 18.in0 18
+net 74.in1 74
+net 70.in0 70
+net 74.in0 74
+net 18.in1 18
+net 57.in0 57
+net 21 21.out0
+net 18.out0 57.in0
+net 18.out0 56.in0
+net 68.in1 68
+net 73.in1 73
+net 57.in1 57
+net 57 57.out0
+net 57.out0 68.in0
+net 70.out0 73.in1
+net 70.out0 74.in1
+net 56 56.out0
+net 70.in1 70
+net 68.in0 68
+net 68.out0 73.in0
+net 68.out0 74.in0

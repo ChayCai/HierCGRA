@@ -1,0 +1,20 @@
+Pack
+Pack SUCCESS
+Partition
+Partition SUCCESS
+PlaceCore
+8 threads is running for placeCore
+placeCore: ./benchmarks/express/horner_bezier/horner_bezier_DFG_part0.txt success.
+placeCore: ./benchmarks/express/horner_bezier/horner_bezier_DFG_part0.txt success.
+placeCore: ./benchmarks/express/horner_bezier/horner_bezier_DFG_part0.txt success.
+placeCore: ./benchmarks/express/horner_bezier/horner_bezier_DFG_part0.txt success.
+placeCore: ./benchmarks/express/horner_bezier/horner_bezier_DFG_part0.txt success.
+placeCore: ./benchmarks/express/horner_bezier/horner_bezier_DFG_part0.txt success.
+placeCore: ./benchmarks/express/horner_bezier/horner_bezier_DFG_part0.txt success.
+placeCore: ./benchmarks/express/horner_bezier/horner_bezier_DFG_part0.txt success.
+PlaceCore SUCCESS
+PlaceTop
+8 threads is running for placeTop
+2 threads is running for placeTop
+PlaceTop SUCCESS
+[ ./benchmarks/express/horner_bezier/horner_bezier_DFG.txt ] Mapping Time: 17.047257 s

@@ -1,0 +1,59 @@
+vertex 37
+vertex 20.in1
+vertex 37.out0
+vertex 41.in0
+vertex 42
+vertex 41
+vertex 42.in1
+vertex 43.out0
+vertex 41.in1
+vertex 44.in0
+vertex 23.out0
+vertex 23
+vertex 44.out0
+vertex 36.in0
+vertex 23.in0
+vertex 41.out0
+vertex 42.in0
+vertex 42.out0
+vertex 37.in0
+vertex 44
+vertex 44.in1
+vertex 43
+vertex 36
+vertex 20.out0
+vertex 23.in1
+vertex 43.in1
+vertex 36.out0
+vertex 43.in0
+vertex 20
+vertex 20.in0
+net 37 37.out0
+net 20.in1 20
+net 37.out0 44.in0
+net 41.in0 41
+net 42 42.out0
+net 41 41.out0
+net 42.in1 42
+net 43.out0 44.in1
+net 41.in1 41
+net 44.in0 44
+net 23.out0 37.in0
+net 23 23.out0
+net 36.in0 36
+net 23.in0 23
+net 41.out0 42.in1
+net 42.in0 42
+net 42.out0 43.in1
+net 37.in0 37
+net 44 44.out0
+net 44.in1 44
+net 43 43.out0
+net 36 36.out0
+net 20.out0 36.in0
+net 23.in1 23
+net 43.in1 43
+net 36.out0 43.in0
+net 43.in0 43
+net 20 20.out0
+net 20.in0 20

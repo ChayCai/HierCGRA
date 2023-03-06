@@ -1,0 +1,125 @@
+attr __file__ str ./benchmarks/express/cosine1/cosine1_DFG.0_2.txt
+attr __name__ str ./benchmarks/express/cosine1/cosine1_DFG.0_2.txt
+vertex __inserted_outport_3.out0
+vertex 25.in1
+vertex 44.in0
+vertex 44
+vertex __inserted_inport_1.in0
+vertex __inserted_inport_2.out0
+vertex 42.out0
+vertex 46
+vertex __inserted_inport_5.out0
+vertex 46.out0
+vertex __inserted_inport_4.in0
+vertex __inserted_outport_1.in0
+vertex 25.out0
+vertex 19
+vertex 44.in1
+vertex __inserted_inport_0.in0
+vertex 45
+vertex 44.out0
+vertex 42
+vertex 46.in1
+vertex 45.in1
+vertex 43.in1
+vertex 45.in0
+vertex 48.in1
+vertex 48.out0
+vertex 25
+vertex 19.in1
+vertex __inserted_outport_2.in0
+vertex 43.in0
+vertex 45.out0
+vertex __inserted_inport_0.out0
+vertex 48.in0
+vertex 19.out0
+vertex 48
+vertex 46.in0
+vertex 43
+vertex 19.in0
+vertex __inserted_outport_1
+vertex 25.in0
+vertex 43.out0
+vertex __inserted_outport_2
+vertex __inserted_inport_1
+vertex __inserted_inport_0
+vertex __inserted_inport_1.out0
+vertex __inserted_inport_2
+vertex __inserted_inport_3
+vertex __inserted_outport_0
+vertex __inserted_inport_3.in0
+vertex __inserted_inport_3.out0
+vertex 42.in0
+vertex __inserted_inport_4
+vertex __inserted_outport_3.in0
+vertex __inserted_inport_4.out0
+vertex __inserted_inport_5
+vertex __inserted_inport_5.in0
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_1.out0
+vertex __inserted_inport_2.in0
+vertex __inserted_outport_0.in0
+vertex __inserted_outport_2.out0
+vertex __inserted_outport_3
+net 25.in1 25
+net 44.in0 44
+net 44 44.out0
+net __inserted_inport_1.in0 __inserted_inport_1
+net __inserted_inport_2.out0 43.in0
+net __inserted_inport_2.out0 44.in0
+net 42.out0 44.in1
+net 42.out0 43.in1
+net 46 46.out0
+net __inserted_inport_5.out0 25.in0
+net 46.out0 __inserted_outport_1.in0
+net __inserted_inport_4.in0 __inserted_inport_4
+net __inserted_outport_1.in0 __inserted_outport_1
+net 25.out0 42.in0
+net 19 19.out0
+net 44.in1 44
+net __inserted_inport_0.in0 __inserted_inport_0
+net 45 45.out0
+net 44.out0 48.in1
+net 44.out0 __inserted_outport_2.in0
+net 42 42.out0
+net 46.in1 46
+net 45.in1 45
+net 43.in1 43
+net 45.in0 45
+net 48.in1 48
+net 48.out0 __inserted_outport_0.in0
+net 25 25.out0
+net 19.in1 19
+net __inserted_outport_2.in0 __inserted_outport_2
+net 43.in0 43
+net 45.out0 __inserted_outport_3.in0
+net __inserted_inport_0.out0 19.in1
+net 48.in0 48
+net 19.out0 46.in0
+net 19.out0 45.in0
+net 48 48.out0
+net 46.in0 46
+net 43 43.out0
+net 19.in0 19
+net __inserted_outport_1 __inserted_outport_1.out0
+net 25.in0 25
+net 43.out0 46.in1
+net 43.out0 45.in1
+net __inserted_outport_2 __inserted_outport_2.out0
+net __inserted_inport_1 __inserted_inport_1.out0
+net __inserted_inport_0 __inserted_inport_0.out0
+net __inserted_inport_1.out0 25.in1
+net __inserted_inport_2 __inserted_inport_2.out0
+net __inserted_inport_3 __inserted_inport_3.out0
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_3.in0 __inserted_inport_3
+net __inserted_inport_3.out0 48.in0
+net 42.in0 42
+net __inserted_inport_4 __inserted_inport_4.out0
+net __inserted_outport_3.in0 __inserted_outport_3
+net __inserted_inport_4.out0 19.in0
+net __inserted_inport_5 __inserted_inport_5.out0
+net __inserted_inport_5.in0 __inserted_inport_5
+net __inserted_inport_2.in0 __inserted_inport_2
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_outport_3 __inserted_outport_3.out0

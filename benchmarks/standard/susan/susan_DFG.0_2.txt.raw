@@ -1,0 +1,195 @@
+attr __file__ str ./benchmarks/standard/susan/susan_DFG.0_2.txt
+attr __name__ str ./benchmarks/standard/susan/susan_DFG.0_2.txt
+vertex __inserted_outport_0
+vertex __inserted_inport_13.out0
+vertex __inserted_inport_13.in0
+vertex __inserted_inport_12.in0
+vertex __inserted_inport_12
+vertex __inserted_inport_11
+vertex __inserted_inport_10.out0
+vertex __inserted_inport_9.in0
+vertex __inserted_inport_9
+vertex __inserted_outport_0.out0
+vertex __inserted_inport_7.out0
+vertex __inserted_inport_7.in0
+vertex __inserted_inport_6
+vertex __inserted_inport_11.out0
+vertex __inserted_inport_5.out0
+vertex __inserted_inport_4
+vertex __inserted_inport_3.out0
+vertex __inserted_inport_3.in0
+vertex __inserted_inport_3
+vertex __inserted_inport_2.out0
+vertex __inserted_outport_0.in0
+vertex __inserted_inport_2.in0
+vertex add31.in1
+vertex add20.in1
+vertex add29.in1
+vertex __inserted_inport_10.in0
+vertex __inserted_inport_8
+vertex add20.out0
+vertex add27.in0
+vertex __inserted_inport_5.in0
+vertex add24
+vertex add24.out0
+vertex __inserted_inport_1
+vertex add31
+vertex __inserted_inport_10
+vertex add20
+vertex add21.in0
+vertex add25.out0
+vertex add25.in1
+vertex add28.out0
+vertex __inserted_inport_5
+vertex add24.in1
+vertex add23.in0
+vertex add21.out0
+vertex __inserted_inport_13
+vertex add22
+vertex add27.out0
+vertex __inserted_inport_4.in0
+vertex add30.in1
+vertex __inserted_inport_9.out0
+vertex __inserted_inport_8.out0
+vertex __inserted_inport_6.out0
+vertex add26
+vertex add26.in0
+vertex add31.out0
+vertex add19.in1
+vertex __inserted_inport_11.in0
+vertex __inserted_inport_4.out0
+vertex add27
+vertex add21.in1
+vertex add23.out0
+vertex add26.in1
+vertex add28
+vertex add19
+vertex add30.in0
+vertex add23.in1
+vertex add21
+vertex add20.in0
+vertex add25
+vertex __inserted_inport_7
+vertex add27.in1
+vertex add26.out0
+vertex add23
+vertex add22.out0
+vertex add25.in0
+vertex add22.in1
+vertex add19.out0
+vertex add29.out0
+vertex add28.in1
+vertex add29.in0
+vertex add22.in0
+vertex __inserted_inport_1.in0
+vertex add29
+vertex add31.in0
+vertex add28.in0
+vertex add24.in0
+vertex __inserted_inport_8.in0
+vertex add30
+vertex add19.in0
+vertex __inserted_inport_6.in0
+vertex add30.out0
+vertex __inserted_inport_0.out0
+vertex __inserted_inport_0.in0
+vertex __inserted_inport_0
+vertex __inserted_inport_1.out0
+vertex __inserted_inport_12.out0
+vertex __inserted_inport_2
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_13.out0 add20.in1
+net __inserted_inport_13.in0 __inserted_inport_13
+net __inserted_inport_12.in0 __inserted_inport_12
+net __inserted_inport_12 __inserted_inport_12.out0
+net __inserted_inport_11 __inserted_inport_11.out0
+net __inserted_inport_10.out0 add19.in1
+net __inserted_inport_9.in0 __inserted_inport_9
+net __inserted_inport_9 __inserted_inport_9.out0
+net __inserted_inport_7.out0 add21.in1
+net __inserted_inport_7.in0 __inserted_inport_7
+net __inserted_inport_6 __inserted_inport_6.out0
+net __inserted_inport_11.out0 add24.in1
+net __inserted_inport_5.out0 add22.in1
+net __inserted_inport_4 __inserted_inport_4.out0
+net __inserted_inport_3.out0 add26.in1
+net __inserted_inport_3.in0 __inserted_inport_3
+net __inserted_inport_3 __inserted_inport_3.out0
+net __inserted_inport_2.out0 add27.in1
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_inport_2.in0 __inserted_inport_2
+net add31.in1 add31
+net add20.in1 add20
+net add29.in1 add29
+net __inserted_inport_10.in0 __inserted_inport_10
+net __inserted_inport_8 __inserted_inport_8.out0
+net add20.out0 add21.in0
+net add27.in0 add27
+net __inserted_inport_5.in0 __inserted_inport_5
+net add24 add24.out0
+net add24.out0 add25.in0
+net __inserted_inport_1 __inserted_inport_1.out0
+net add31 add31.out0
+net __inserted_inport_10 __inserted_inport_10.out0
+net add20 add20.out0
+net add21.in0 add21
+net add25.out0 add26.in0
+net add25.in1 add25
+net add28.out0 add29.in0
+net __inserted_inport_5 __inserted_inport_5.out0
+net add24.in1 add24
+net add23.in0 add23
+net add21.out0 add22.in0
+net __inserted_inport_13 __inserted_inport_13.out0
+net add22 add22.out0
+net add27.out0 add28.in0
+net __inserted_inport_4.in0 __inserted_inport_4
+net add30.in1 add30
+net __inserted_inport_9.out0 add23.in1
+net __inserted_inport_8.out0 add29.in1
+net __inserted_inport_6.out0 add30.in1
+net add26 add26.out0
+net add26.in0 add26
+net add31.out0 __inserted_outport_0.in0
+net add19.in1 add19
+net __inserted_inport_11.in0 __inserted_inport_11
+net __inserted_inport_4.out0 add28.in1
+net add27 add27.out0
+net add21.in1 add21
+net add23.out0 add24.in0
+net add26.in1 add26
+net add28 add28.out0
+net add19 add19.out0
+net add30.in0 add30
+net add23.in1 add23
+net add21 add21.out0
+net add20.in0 add20
+net add25 add25.out0
+net __inserted_inport_7 __inserted_inport_7.out0
+net add27.in1 add27
+net add26.out0 add27.in0
+net add23 add23.out0
+net add22.out0 add23.in0
+net add25.in0 add25
+net add22.in1 add22
+net add19.out0 add20.in0
+net add29.out0 add30.in0
+net add28.in1 add28
+net add29.in0 add29
+net add22.in0 add22
+net __inserted_inport_1.in0 __inserted_inport_1
+net add29 add29.out0
+net add31.in0 add31
+net add28.in0 add28
+net add24.in0 add24
+net __inserted_inport_8.in0 __inserted_inport_8
+net add30 add30.out0
+net add19.in0 add19
+net __inserted_inport_6.in0 __inserted_inport_6
+net add30.out0 add31.in0
+net __inserted_inport_0.out0 add31.in1
+net __inserted_inport_0.in0 __inserted_inport_0
+net __inserted_inport_0 __inserted_inport_0.out0
+net __inserted_inport_1.out0 add19.in0
+net __inserted_inport_12.out0 add25.in1
+net __inserted_inport_2 __inserted_inport_2.out0

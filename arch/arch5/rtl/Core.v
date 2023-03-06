@@ -1,0 +1,1516 @@
+// Module Name: Core
+// Module Type: MODULE_CELL
+// Include Module: FULLYCONN_2X1 FULLYCONN_17X1 FULLYCONN_16X1 FULLYCONN_15X1 BlockPE BlockMEM FULLYCONN_1X2 BlockIO
+// Input Ports: in0 in1 in2 in3 in4 in5 in6 in7
+// Output Ports: out0 out1 out2 out3 out4 out5 out6 out7
+// Special Ports: clk reset config_clk config_reset config_in config_out
+// Config Width: 
+
+
+module Core(clk, reset, config_clk, config_reset, config_in, config_out, in0, in1, in2, in3, in4, in5, in6, in7, out0, out1, out2, out3, out4, out5, out6, out7);
+	parameter size = 32;
+
+	input clk, reset, config_clk, config_reset, config_in;
+	output config_out;
+	input [size-1:0] in0, in1, in2, in3, in4, in5, in6, in7;
+	output [size-1:0] out0, out1, out2, out3, out4, out5, out6, out7;
+
+	wire config_wire_0;
+	wire config_wire_1;
+	wire config_wire_2;
+	wire config_wire_3;
+	wire config_wire_4;
+	wire config_wire_5;
+	wire config_wire_6;
+	wire config_wire_7;
+	wire config_wire_8;
+	wire config_wire_9;
+	wire config_wire_10;
+	wire config_wire_11;
+	wire config_wire_12;
+	wire config_wire_13;
+	wire config_wire_14;
+	wire config_wire_15;
+	wire config_wire_16;
+	wire config_wire_17;
+	wire config_wire_18;
+	wire config_wire_19;
+	wire config_wire_20;
+	wire config_wire_21;
+	wire config_wire_22;
+	wire config_wire_23;
+	wire config_wire_24;
+	wire config_wire_25;
+	wire config_wire_26;
+	wire config_wire_27;
+	wire config_wire_28;
+	wire config_wire_29;
+	wire config_wire_30;
+	wire config_wire_31;
+	wire config_wire_32;
+	wire config_wire_33;
+	wire config_wire_34;
+	wire config_wire_35;
+	wire config_wire_36;
+	wire config_wire_37;
+	wire config_wire_38;
+	wire config_wire_39;
+	wire config_wire_40;
+	wire config_wire_41;
+	wire config_wire_42;
+	wire config_wire_43;
+	wire config_wire_44;
+	wire config_wire_45;
+	wire config_wire_46;
+	wire config_wire_47;
+	wire config_wire_48;
+	wire config_wire_49;
+	wire config_wire_50;
+	wire config_wire_51;
+	wire config_wire_52;
+	wire config_wire_53;
+	wire config_wire_54;
+	wire config_wire_55;
+	wire config_wire_56;
+	wire config_wire_57;
+	wire config_wire_58;
+	wire config_wire_59;
+	wire config_wire_60;
+	wire config_wire_61;
+	wire config_wire_62;
+	wire config_wire_63;
+	wire config_wire_64;
+	wire config_wire_65;
+	wire config_wire_66;
+	wire config_wire_67;
+	wire config_wire_68;
+	wire config_wire_69;
+	wire config_wire_70;
+	wire config_wire_71;
+	wire config_wire_72;
+	wire config_wire_73;
+	wire config_wire_74;
+	wire config_wire_75;
+	wire config_wire_76;
+	wire config_wire_77;
+	wire config_wire_78;
+	wire [size-1:0] SW16X1_BlockPE13_in0_CONNECT_out0;
+	wire [size-1:0] SW16X1_BlockPE11_in0_CONNECT_out0;
+	wire [size-1:0] in0;
+	wire [size-1:0] SW15X1_BlockPE9_in0_CONNECT_out0;
+	wire [size-1:0] BlockIO4_out0;
+	wire [size-1:0] SW15X1_BlockPE9_in1_CONNECT_out0;
+	wire [size-1:0] SW16X1_BlockPE8_in1_CONNECT_out0;
+	wire [size-1:0] SW17X1_BlockPE0_in0_CONNECT_out0;
+	wire [size-1:0] SW16X1_BlockPE8_in0_CONNECT_out0;
+	wire [size-1:0] BlockMEM3_out0;
+	wire [size-1:0] SW17X1_BlockPE3_in1_CONNECT_out0;
+	wire [size-1:0] SW_PE_MEM_1_out0;
+	wire [size-1:0] SW15X1_BlockPE5_in0_CONNECT_out0;
+	wire [size-1:0] SW16X1_BlockPE1_in0_CONNECT_out0;
+	wire [size-1:0] SW_PE_MEM_3_out1;
+	wire [size-1:0] SW_PE_MEM_5_out0;
+	wire [size-1:0] in3;
+	wire [size-1:0] SW_PE_MEM_0_out1;
+	wire [size-1:0] SW_PE_MEM_4_out0;
+	wire [size-1:0] SW_PE_MEM_2_out1;
+	wire [size-1:0] SW2X1_BlockIO0_in0_CONNECT_out0;
+	wire [size-1:0] BlockPE8_out0;
+	wire [size-1:0] SW15X1_BlockPE10_in0_CONNECT_out0;
+	wire [size-1:0] BlockIO7_out0;
+	wire [size-1:0] SW17X1_BlockPE15_in1_CONNECT_out0;
+	wire [size-1:0] BlockIO0_out0;
+	wire [size-1:0] in1;
+	wire [size-1:0] BlockMEM0_out0;
+	wire [size-1:0] SW2X1_BlockIO5_in0_CONNECT_out0;
+	wire [size-1:0] BlockMEM7_out0;
+	wire [size-1:0] SW16X1_BlockPE11_in1_CONNECT_out0;
+	wire [size-1:0] SW16X1_BlockPE7_in1_CONNECT_out0;
+	wire [size-1:0] in2;
+	wire [size-1:0] SW16X1_BlockPE2_in0_CONNECT_out0;
+	wire [size-1:0] SW15X1_BlockPE5_in1_CONNECT_out0;
+	wire [size-1:0] SW17X1_BlockPE0_in1_CONNECT_out0;
+	wire [size-1:0] in4;
+	wire [size-1:0] SW2X1_BlockIO4_in0_CONNECT_out0;
+	wire [size-1:0] BlockPE10_out0;
+	wire [size-1:0] BlockPE5_out0;
+	wire [size-1:0] SW_PE_MEM_7_out0;
+	wire [size-1:0] SW2X1_BlockIO1_in0_CONNECT_out0;
+	wire [size-1:0] SW2X1_BlockIO7_in0_CONNECT_out0;
+	wire [size-1:0] BlockPE15_out0;
+	wire [size-1:0] BlockPE12_out0;
+	wire [size-1:0] BlockMEM5_out0;
+	wire [size-1:0] SW_PE_MEM_7_out1;
+	wire [size-1:0] SW16X1_BlockPE1_in1_CONNECT_out0;
+	wire [size-1:0] SW15X1_BlockPE10_in1_CONNECT_out0;
+	wire [size-1:0] in7;
+	wire [size-1:0] BlockPE9_out0;
+	wire [size-1:0] BlockPE6_out0;
+	wire [size-1:0] BlockMEM6_out0;
+	wire [size-1:0] SW_PE_MEM_6_out0;
+	wire [size-1:0] BlockPE2_out0;
+	wire [size-1:0] BlockPE3_out0;
+	wire [size-1:0] SW2X1_BlockIO6_in0_CONNECT_out0;
+	wire [size-1:0] SW15X1_BlockPE6_in0_CONNECT_out0;
+	wire [size-1:0] SW_PE_MEM_2_out0;
+	wire [size-1:0] BlockPE4_out0;
+	wire [size-1:0] SW15X1_BlockPE6_in1_CONNECT_out0;
+	wire [size-1:0] BlockIO1_out0;
+	wire [size-1:0] BlockPE14_out0;
+	wire [size-1:0] SW_PE_MEM_5_out1;
+	wire [size-1:0] SW2X1_BlockIO2_in0_CONNECT_out0;
+	wire [size-1:0] BlockIO5_out0;
+	wire [size-1:0] SW17X1_BlockPE12_in1_CONNECT_out0;
+	wire [size-1:0] BlockPE13_out0;
+	wire [size-1:0] SW16X1_BlockPE13_in1_CONNECT_out0;
+	wire [size-1:0] BlockPE1_out0;
+	wire [size-1:0] BlockPE7_out0;
+	wire [size-1:0] SW17X1_BlockPE15_in0_CONNECT_out0;
+	wire [size-1:0] BlockIO2_out0;
+	wire [size-1:0] in6;
+	wire [size-1:0] SW16X1_BlockPE14_in1_CONNECT_out0;
+	wire [size-1:0] SW16X1_BlockPE14_in0_CONNECT_out0;
+	wire [size-1:0] BlockIO6_out0;
+	wire [size-1:0] SW17X1_BlockPE12_in0_CONNECT_out0;
+	wire [size-1:0] SW16X1_BlockPE2_in1_CONNECT_out0;
+	wire [size-1:0] SW_PE_MEM_1_out1;
+	wire [size-1:0] BlockPE11_out0;
+	wire [size-1:0] SW16X1_BlockPE7_in0_CONNECT_out0;
+	wire [size-1:0] SW16X1_BlockPE4_in0_CONNECT_out0;
+	wire [size-1:0] SW16X1_BlockPE4_in1_CONNECT_out0;
+	wire [size-1:0] BlockMEM1_out0;
+	wire [size-1:0] BlockIO3_out0;
+	wire [size-1:0] SW17X1_BlockPE3_in0_CONNECT_out0;
+	wire [size-1:0] BlockPE0_out0;
+	wire [size-1:0] in5;
+	wire [size-1:0] BlockMEM4_out0;
+	wire [size-1:0] SW_PE_MEM_4_out1;
+	wire [size-1:0] SW_PE_MEM_3_out0;
+	wire [size-1:0] BlockMEM2_out0;
+	wire [size-1:0] SW_PE_MEM_6_out1;
+	wire [size-1:0] SW_PE_MEM_0_out0;
+	wire [size-1:0] SW2X1_BlockIO3_in0_CONNECT_out0;
+
+	BlockIO BlockIO0(
+		.clk(clk),
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_in),
+		.config_out(config_wire_0),
+		.in0(SW2X1_BlockIO0_in0_CONNECT_out0),
+		.in1(BlockPE0_out0),
+		.out0(BlockIO0_out0)
+	);
+
+	BlockIO BlockIO1(
+		.clk(clk),
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_0),
+		.config_out(config_wire_1),
+		.in0(SW2X1_BlockIO1_in0_CONNECT_out0),
+		.in1(BlockPE1_out0),
+		.out0(BlockIO1_out0)
+	);
+
+	BlockIO BlockIO2(
+		.clk(clk),
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_1),
+		.config_out(config_wire_2),
+		.in0(SW2X1_BlockIO2_in0_CONNECT_out0),
+		.in1(BlockPE2_out0),
+		.out0(BlockIO2_out0)
+	);
+
+	BlockIO BlockIO3(
+		.clk(clk),
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_2),
+		.config_out(config_wire_3),
+		.in0(SW2X1_BlockIO3_in0_CONNECT_out0),
+		.in1(BlockPE3_out0),
+		.out0(BlockIO3_out0)
+	);
+
+	BlockIO BlockIO4(
+		.clk(clk),
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_3),
+		.config_out(config_wire_4),
+		.in0(SW2X1_BlockIO4_in0_CONNECT_out0),
+		.in1(BlockPE12_out0),
+		.out0(BlockIO4_out0)
+	);
+
+	BlockIO BlockIO5(
+		.clk(clk),
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_4),
+		.config_out(config_wire_5),
+		.in0(SW2X1_BlockIO5_in0_CONNECT_out0),
+		.in1(BlockPE13_out0),
+		.out0(BlockIO5_out0)
+	);
+
+	BlockIO BlockIO6(
+		.clk(clk),
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_5),
+		.config_out(config_wire_6),
+		.in0(SW2X1_BlockIO6_in0_CONNECT_out0),
+		.in1(BlockPE14_out0),
+		.out0(BlockIO6_out0)
+	);
+
+	BlockIO BlockIO7(
+		.clk(clk),
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_6),
+		.config_out(config_wire_7),
+		.in0(SW2X1_BlockIO7_in0_CONNECT_out0),
+		.in1(BlockPE15_out0),
+		.out0(BlockIO7_out0)
+	);
+
+	BlockMEM BlockMEM0(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_8),
+		.config_in(config_wire_7),
+		.reset(reset),
+		.clk(clk),
+		.in0(SW_PE_MEM_0_out0),
+		.in1(SW_PE_MEM_0_out1),
+		.out0(BlockMEM0_out0)
+	);
+
+	BlockMEM BlockMEM1(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_9),
+		.config_in(config_wire_8),
+		.reset(reset),
+		.clk(clk),
+		.in0(SW_PE_MEM_1_out0),
+		.in1(SW_PE_MEM_1_out1),
+		.out0(BlockMEM1_out0)
+	);
+
+	BlockMEM BlockMEM2(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_10),
+		.config_in(config_wire_9),
+		.reset(reset),
+		.clk(clk),
+		.in0(SW_PE_MEM_2_out0),
+		.in1(SW_PE_MEM_2_out1),
+		.out0(BlockMEM2_out0)
+	);
+
+	BlockMEM BlockMEM3(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_11),
+		.config_in(config_wire_10),
+		.reset(reset),
+		.clk(clk),
+		.in0(SW_PE_MEM_3_out0),
+		.in1(SW_PE_MEM_3_out1),
+		.out0(BlockMEM3_out0)
+	);
+
+	BlockMEM BlockMEM4(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_12),
+		.config_in(config_wire_11),
+		.reset(reset),
+		.clk(clk),
+		.in0(SW_PE_MEM_4_out0),
+		.in1(SW_PE_MEM_4_out1),
+		.out0(BlockMEM4_out0)
+	);
+
+	BlockMEM BlockMEM5(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_13),
+		.config_in(config_wire_12),
+		.reset(reset),
+		.clk(clk),
+		.in0(SW_PE_MEM_5_out0),
+		.in1(SW_PE_MEM_5_out1),
+		.out0(BlockMEM5_out0)
+	);
+
+	BlockMEM BlockMEM6(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_14),
+		.config_in(config_wire_13),
+		.reset(reset),
+		.clk(clk),
+		.in0(SW_PE_MEM_6_out0),
+		.in1(SW_PE_MEM_6_out1),
+		.out0(BlockMEM6_out0)
+	);
+
+	BlockMEM BlockMEM7(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_15),
+		.config_in(config_wire_14),
+		.reset(reset),
+		.clk(clk),
+		.in0(SW_PE_MEM_7_out0),
+		.in1(SW_PE_MEM_7_out1),
+		.out0(BlockMEM7_out0)
+	);
+
+	BlockPE BlockPE0(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_16),
+		.config_in(config_wire_15),
+		.clk(clk),
+		.in0(SW17X1_BlockPE0_in0_CONNECT_out0),
+		.in1(SW17X1_BlockPE0_in1_CONNECT_out0),
+		.out0(BlockPE0_out0)
+	);
+
+	BlockPE BlockPE1(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_17),
+		.config_in(config_wire_16),
+		.clk(clk),
+		.in0(SW16X1_BlockPE1_in0_CONNECT_out0),
+		.in1(SW16X1_BlockPE1_in1_CONNECT_out0),
+		.out0(BlockPE1_out0)
+	);
+
+	BlockPE BlockPE10(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_18),
+		.config_in(config_wire_17),
+		.clk(clk),
+		.in0(SW15X1_BlockPE10_in0_CONNECT_out0),
+		.in1(SW15X1_BlockPE10_in1_CONNECT_out0),
+		.out0(BlockPE10_out0)
+	);
+
+	BlockPE BlockPE11(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_19),
+		.config_in(config_wire_18),
+		.clk(clk),
+		.in0(SW16X1_BlockPE11_in0_CONNECT_out0),
+		.in1(SW16X1_BlockPE11_in1_CONNECT_out0),
+		.out0(BlockPE11_out0)
+	);
+
+	BlockPE BlockPE12(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_20),
+		.config_in(config_wire_19),
+		.clk(clk),
+		.in0(SW17X1_BlockPE12_in0_CONNECT_out0),
+		.in1(SW17X1_BlockPE12_in1_CONNECT_out0),
+		.out0(BlockPE12_out0)
+	);
+
+	BlockPE BlockPE13(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_21),
+		.config_in(config_wire_20),
+		.clk(clk),
+		.in0(SW16X1_BlockPE13_in0_CONNECT_out0),
+		.in1(SW16X1_BlockPE13_in1_CONNECT_out0),
+		.out0(BlockPE13_out0)
+	);
+
+	BlockPE BlockPE14(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_22),
+		.config_in(config_wire_21),
+		.clk(clk),
+		.in0(SW16X1_BlockPE14_in0_CONNECT_out0),
+		.in1(SW16X1_BlockPE14_in1_CONNECT_out0),
+		.out0(BlockPE14_out0)
+	);
+
+	BlockPE BlockPE15(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_23),
+		.config_in(config_wire_22),
+		.clk(clk),
+		.in0(SW17X1_BlockPE15_in0_CONNECT_out0),
+		.in1(SW17X1_BlockPE15_in1_CONNECT_out0),
+		.out0(BlockPE15_out0)
+	);
+
+	BlockPE BlockPE2(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_24),
+		.config_in(config_wire_23),
+		.clk(clk),
+		.in0(SW16X1_BlockPE2_in0_CONNECT_out0),
+		.in1(SW16X1_BlockPE2_in1_CONNECT_out0),
+		.out0(BlockPE2_out0)
+	);
+
+	BlockPE BlockPE3(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_25),
+		.config_in(config_wire_24),
+		.clk(clk),
+		.in0(SW17X1_BlockPE3_in0_CONNECT_out0),
+		.in1(SW17X1_BlockPE3_in1_CONNECT_out0),
+		.out0(BlockPE3_out0)
+	);
+
+	BlockPE BlockPE4(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_26),
+		.config_in(config_wire_25),
+		.clk(clk),
+		.in0(SW16X1_BlockPE4_in0_CONNECT_out0),
+		.in1(SW16X1_BlockPE4_in1_CONNECT_out0),
+		.out0(BlockPE4_out0)
+	);
+
+	BlockPE BlockPE5(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_27),
+		.config_in(config_wire_26),
+		.clk(clk),
+		.in0(SW15X1_BlockPE5_in0_CONNECT_out0),
+		.in1(SW15X1_BlockPE5_in1_CONNECT_out0),
+		.out0(BlockPE5_out0)
+	);
+
+	BlockPE BlockPE6(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_28),
+		.config_in(config_wire_27),
+		.clk(clk),
+		.in0(SW15X1_BlockPE6_in0_CONNECT_out0),
+		.in1(SW15X1_BlockPE6_in1_CONNECT_out0),
+		.out0(BlockPE6_out0)
+	);
+
+	BlockPE BlockPE7(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_29),
+		.config_in(config_wire_28),
+		.clk(clk),
+		.in0(SW16X1_BlockPE7_in0_CONNECT_out0),
+		.in1(SW16X1_BlockPE7_in1_CONNECT_out0),
+		.out0(BlockPE7_out0)
+	);
+
+	BlockPE BlockPE8(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_30),
+		.config_in(config_wire_29),
+		.clk(clk),
+		.in0(SW16X1_BlockPE8_in0_CONNECT_out0),
+		.in1(SW16X1_BlockPE8_in1_CONNECT_out0),
+		.out0(BlockPE8_out0)
+	);
+
+	BlockPE BlockPE9(
+		.reset(reset),
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_out(config_wire_31),
+		.config_in(config_wire_30),
+		.clk(clk),
+		.in0(SW15X1_BlockPE9_in0_CONNECT_out0),
+		.in1(SW15X1_BlockPE9_in1_CONNECT_out0),
+		.out0(BlockPE9_out0)
+	);
+
+	FULLYCONN_15X1 SW15X1_BlockPE10_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_31),
+		.config_out(config_wire_32),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE9_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.out0(SW15X1_BlockPE10_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_15X1 SW15X1_BlockPE10_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_32),
+		.config_out(config_wire_33),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE9_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.out0(SW15X1_BlockPE10_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_15X1 SW15X1_BlockPE5_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_33),
+		.config_out(config_wire_34),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE6_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.out0(SW15X1_BlockPE5_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_15X1 SW15X1_BlockPE5_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_34),
+		.config_out(config_wire_35),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE6_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.out0(SW15X1_BlockPE5_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_15X1 SW15X1_BlockPE6_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_35),
+		.config_out(config_wire_36),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.out0(SW15X1_BlockPE6_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_15X1 SW15X1_BlockPE6_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_36),
+		.config_out(config_wire_37),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.out0(SW15X1_BlockPE6_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_15X1 SW15X1_BlockPE9_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_37),
+		.config_out(config_wire_38),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.out0(SW15X1_BlockPE9_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_15X1 SW15X1_BlockPE9_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_38),
+		.config_out(config_wire_39),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.out0(SW15X1_BlockPE9_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE11_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_39),
+		.config_out(config_wire_40),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE9_out0),
+		.in10(BlockPE10_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockMEM6_out0),
+		.out0(SW16X1_BlockPE11_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE11_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_40),
+		.config_out(config_wire_41),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE9_out0),
+		.in10(BlockPE10_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockMEM6_out0),
+		.out0(SW16X1_BlockPE11_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE13_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_41),
+		.config_out(config_wire_42),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE9_out0),
+		.in10(BlockPE10_out0),
+		.in11(BlockPE11_out0),
+		.in12(BlockPE12_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO5_out0),
+		.out0(SW16X1_BlockPE13_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE13_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_42),
+		.config_out(config_wire_43),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE9_out0),
+		.in10(BlockPE10_out0),
+		.in11(BlockPE11_out0),
+		.in12(BlockPE12_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO5_out0),
+		.out0(SW16X1_BlockPE13_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE14_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_43),
+		.config_out(config_wire_44),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE9_out0),
+		.in10(BlockPE10_out0),
+		.in11(BlockPE11_out0),
+		.in12(BlockPE12_out0),
+		.in13(BlockPE13_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO6_out0),
+		.out0(SW16X1_BlockPE14_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE14_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_44),
+		.config_out(config_wire_45),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE9_out0),
+		.in10(BlockPE10_out0),
+		.in11(BlockPE11_out0),
+		.in12(BlockPE12_out0),
+		.in13(BlockPE13_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO6_out0),
+		.out0(SW16X1_BlockPE14_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE1_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_45),
+		.config_out(config_wire_46),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE2_out0),
+		.in2(BlockPE3_out0),
+		.in3(BlockPE4_out0),
+		.in4(BlockPE5_out0),
+		.in5(BlockPE6_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO1_out0),
+		.out0(SW16X1_BlockPE1_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE1_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_46),
+		.config_out(config_wire_47),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE2_out0),
+		.in2(BlockPE3_out0),
+		.in3(BlockPE4_out0),
+		.in4(BlockPE5_out0),
+		.in5(BlockPE6_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO1_out0),
+		.out0(SW16X1_BlockPE1_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE2_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_47),
+		.config_out(config_wire_48),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE3_out0),
+		.in3(BlockPE4_out0),
+		.in4(BlockPE5_out0),
+		.in5(BlockPE6_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO2_out0),
+		.out0(SW16X1_BlockPE2_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE2_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_48),
+		.config_out(config_wire_49),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE3_out0),
+		.in3(BlockPE4_out0),
+		.in4(BlockPE5_out0),
+		.in5(BlockPE6_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO2_out0),
+		.out0(SW16X1_BlockPE2_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE4_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_49),
+		.config_out(config_wire_50),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE5_out0),
+		.in5(BlockPE6_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockMEM1_out0),
+		.out0(SW16X1_BlockPE4_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE4_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_50),
+		.config_out(config_wire_51),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE5_out0),
+		.in5(BlockPE6_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockMEM1_out0),
+		.out0(SW16X1_BlockPE4_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE7_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_51),
+		.config_out(config_wire_52),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockMEM5_out0),
+		.out0(SW16X1_BlockPE7_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE7_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_52),
+		.config_out(config_wire_53),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockMEM5_out0),
+		.out0(SW16X1_BlockPE7_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE8_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_53),
+		.config_out(config_wire_54),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockMEM2_out0),
+		.out0(SW16X1_BlockPE8_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_16X1 SW16X1_BlockPE8_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_54),
+		.config_out(config_wire_55),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockMEM2_out0),
+		.out0(SW16X1_BlockPE8_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_17X1 SW17X1_BlockPE0_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_55),
+		.config_out(config_wire_56),
+		.in0(BlockPE1_out0),
+		.in1(BlockPE2_out0),
+		.in2(BlockPE3_out0),
+		.in3(BlockPE4_out0),
+		.in4(BlockPE5_out0),
+		.in5(BlockPE6_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO0_out0),
+		.in16(BlockMEM0_out0),
+		.out0(SW17X1_BlockPE0_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_17X1 SW17X1_BlockPE0_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_56),
+		.config_out(config_wire_57),
+		.in0(BlockPE1_out0),
+		.in1(BlockPE2_out0),
+		.in2(BlockPE3_out0),
+		.in3(BlockPE4_out0),
+		.in4(BlockPE5_out0),
+		.in5(BlockPE6_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO0_out0),
+		.in16(BlockMEM0_out0),
+		.out0(SW17X1_BlockPE0_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_17X1 SW17X1_BlockPE12_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_57),
+		.config_out(config_wire_58),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE9_out0),
+		.in10(BlockPE10_out0),
+		.in11(BlockPE11_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO4_out0),
+		.in16(BlockMEM3_out0),
+		.out0(SW17X1_BlockPE12_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_17X1 SW17X1_BlockPE12_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_58),
+		.config_out(config_wire_59),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE9_out0),
+		.in10(BlockPE10_out0),
+		.in11(BlockPE11_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO4_out0),
+		.in16(BlockMEM3_out0),
+		.out0(SW17X1_BlockPE12_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_17X1 SW17X1_BlockPE15_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_59),
+		.config_out(config_wire_60),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE9_out0),
+		.in10(BlockPE10_out0),
+		.in11(BlockPE11_out0),
+		.in12(BlockPE12_out0),
+		.in13(BlockPE13_out0),
+		.in14(BlockPE14_out0),
+		.in15(BlockIO7_out0),
+		.in16(BlockMEM7_out0),
+		.out0(SW17X1_BlockPE15_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_17X1 SW17X1_BlockPE15_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_60),
+		.config_out(config_wire_61),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE3_out0),
+		.in4(BlockPE4_out0),
+		.in5(BlockPE5_out0),
+		.in6(BlockPE6_out0),
+		.in7(BlockPE7_out0),
+		.in8(BlockPE8_out0),
+		.in9(BlockPE9_out0),
+		.in10(BlockPE10_out0),
+		.in11(BlockPE11_out0),
+		.in12(BlockPE12_out0),
+		.in13(BlockPE13_out0),
+		.in14(BlockPE14_out0),
+		.in15(BlockIO7_out0),
+		.in16(BlockMEM7_out0),
+		.out0(SW17X1_BlockPE15_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_17X1 SW17X1_BlockPE3_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_61),
+		.config_out(config_wire_62),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE4_out0),
+		.in4(BlockPE5_out0),
+		.in5(BlockPE6_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO3_out0),
+		.in16(BlockMEM4_out0),
+		.out0(SW17X1_BlockPE3_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_17X1 SW17X1_BlockPE3_in1_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_62),
+		.config_out(config_wire_63),
+		.in0(BlockPE0_out0),
+		.in1(BlockPE1_out0),
+		.in2(BlockPE2_out0),
+		.in3(BlockPE4_out0),
+		.in4(BlockPE5_out0),
+		.in5(BlockPE6_out0),
+		.in6(BlockPE7_out0),
+		.in7(BlockPE8_out0),
+		.in8(BlockPE9_out0),
+		.in9(BlockPE10_out0),
+		.in10(BlockPE11_out0),
+		.in11(BlockPE12_out0),
+		.in12(BlockPE13_out0),
+		.in13(BlockPE14_out0),
+		.in14(BlockPE15_out0),
+		.in15(BlockIO3_out0),
+		.in16(BlockMEM4_out0),
+		.out0(SW17X1_BlockPE3_in1_CONNECT_out0)
+	);
+
+	FULLYCONN_2X1 SW2X1_BlockIO0_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_63),
+		.config_out(config_wire_64),
+		.in0(BlockPE0_out0),
+		.in1(in0),
+		.out0(SW2X1_BlockIO0_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_2X1 SW2X1_BlockIO1_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_64),
+		.config_out(config_wire_65),
+		.in0(BlockPE1_out0),
+		.in1(in1),
+		.out0(SW2X1_BlockIO1_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_2X1 SW2X1_BlockIO2_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_65),
+		.config_out(config_wire_66),
+		.in0(BlockPE2_out0),
+		.in1(in2),
+		.out0(SW2X1_BlockIO2_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_2X1 SW2X1_BlockIO3_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_66),
+		.config_out(config_wire_67),
+		.in0(BlockPE3_out0),
+		.in1(in3),
+		.out0(SW2X1_BlockIO3_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_2X1 SW2X1_BlockIO4_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_67),
+		.config_out(config_wire_68),
+		.in0(BlockPE12_out0),
+		.in1(in4),
+		.out0(SW2X1_BlockIO4_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_2X1 SW2X1_BlockIO5_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_68),
+		.config_out(config_wire_69),
+		.in0(BlockPE13_out0),
+		.in1(in5),
+		.out0(SW2X1_BlockIO5_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_2X1 SW2X1_BlockIO6_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_69),
+		.config_out(config_wire_70),
+		.in0(BlockPE14_out0),
+		.in1(in6),
+		.out0(SW2X1_BlockIO6_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_2X1 SW2X1_BlockIO7_in0_CONNECT(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_70),
+		.config_out(config_wire_71),
+		.in0(BlockPE15_out0),
+		.in1(in7),
+		.out0(SW2X1_BlockIO7_in0_CONNECT_out0)
+	);
+
+	FULLYCONN_1X2 SW_PE_MEM_0(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_71),
+		.config_out(config_wire_72),
+		.in0(BlockPE0_out0),
+		.out0(SW_PE_MEM_0_out0),
+		.out1(SW_PE_MEM_0_out1)
+	);
+
+	FULLYCONN_1X2 SW_PE_MEM_1(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_72),
+		.config_out(config_wire_73),
+		.in0(BlockPE4_out0),
+		.out0(SW_PE_MEM_1_out0),
+		.out1(SW_PE_MEM_1_out1)
+	);
+
+	FULLYCONN_1X2 SW_PE_MEM_2(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_73),
+		.config_out(config_wire_74),
+		.in0(BlockPE8_out0),
+		.out0(SW_PE_MEM_2_out0),
+		.out1(SW_PE_MEM_2_out1)
+	);
+
+	FULLYCONN_1X2 SW_PE_MEM_3(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_74),
+		.config_out(config_wire_75),
+		.in0(BlockPE12_out0),
+		.out0(SW_PE_MEM_3_out0),
+		.out1(SW_PE_MEM_3_out1)
+	);
+
+	FULLYCONN_1X2 SW_PE_MEM_4(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_75),
+		.config_out(config_wire_76),
+		.in0(BlockPE3_out0),
+		.out0(SW_PE_MEM_4_out0),
+		.out1(SW_PE_MEM_4_out1)
+	);
+
+	FULLYCONN_1X2 SW_PE_MEM_5(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_76),
+		.config_out(config_wire_77),
+		.in0(BlockPE7_out0),
+		.out0(SW_PE_MEM_5_out0),
+		.out1(SW_PE_MEM_5_out1)
+	);
+
+	FULLYCONN_1X2 SW_PE_MEM_6(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_77),
+		.config_out(config_wire_78),
+		.in0(BlockPE11_out0),
+		.out0(SW_PE_MEM_6_out0),
+		.out1(SW_PE_MEM_6_out1)
+	);
+
+	FULLYCONN_1X2 SW_PE_MEM_7(
+		.config_clk(config_clk),
+		.config_reset(config_reset),
+		.config_in(config_wire_78),
+		.config_out(config_out),
+		.in0(BlockPE15_out0),
+		.out0(SW_PE_MEM_7_out0),
+		.out1(SW_PE_MEM_7_out1)
+	);
+
+	assign out0 = BlockIO0_out0;
+	assign out1 = BlockIO1_out0;
+	assign out2 = BlockIO2_out0;
+	assign out3 = BlockIO3_out0;
+	assign out4 = BlockIO4_out0;
+	assign out5 = BlockIO5_out0;
+	assign out6 = BlockIO6_out0;
+	assign out7 = BlockIO7_out0;
+
+
+endmodule

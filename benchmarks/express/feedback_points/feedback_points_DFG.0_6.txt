@@ -1,0 +1,38 @@
+vertex MUL_46.out0
+vertex MUL_46
+vertex ADD_77
+vertex MUL_64
+vertex MUL_64.out0
+vertex ADD_84.in0
+vertex MUL_70.out0
+vertex ADD_77.out0
+vertex ADD_49
+vertex ADD_77.in0
+vertex ADD_67.out0
+vertex ADD_49.in0
+vertex MUL_81
+vertex ADD_77.in1
+vertex ADD_67
+vertex ADD_49.out0
+vertex MUL_70
+vertex ADD_67.in0
+vertex ADD_84
+vertex ADD_84.out0
+vertex MUL_81.out0
+net MUL_46.out0 ADD_49.in0
+net MUL_46 MUL_46.out0
+net ADD_77 ADD_77.out0
+net MUL_64 MUL_64.out0
+net MUL_64.out0 ADD_67.in0
+net ADD_84.in0 ADD_84
+net MUL_70.out0 ADD_77.in0
+net ADD_49 ADD_49.out0
+net ADD_77.in0 ADD_77
+net ADD_49.in0 ADD_49
+net MUL_81 MUL_81.out0
+net ADD_77.in1 ADD_77
+net ADD_67 ADD_67.out0
+net MUL_70 MUL_70.out0
+net ADD_67.in0 ADD_67
+net ADD_84 ADD_84.out0
+net MUL_81.out0 ADD_84.in0

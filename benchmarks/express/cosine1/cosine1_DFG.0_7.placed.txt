@@ -1,0 +1,14 @@
+56 ALU4
+56.out0 ALU4.out0
+28.out0 ALU1.out0
+60.in0 ALU0.in0
+50.in0 ALU3.in0
+28.in0 ALU1.in0
+60.out0 ALU0.out0
+50.out0 ALU3.out0
+60 ALU0
+60.in1 ALU0.in1
+50 ALU3
+56.in0 ALU4.in0
+28.in1 ALU1.in1
+28 ALU1

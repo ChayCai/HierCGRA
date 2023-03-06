@@ -1,0 +1,32 @@
+vertex in0
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in0
+vertex in1
+    attr type str __MODULE_INPUT_PORT__
+    attr device str TOP.in1
+vertex out0
+    attr type str __MODULE_OUTPUT_PORT__
+    attr device str TOP.out0
+vertex MEM0
+    attr type str MEM
+    attr device str MEM
+    attr unit str MEM
+vertex MEM0.in0
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in0
+vertex MEM0.in1
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in1
+vertex MEM0.in2
+    attr type str __ELEMENT_INPUT_PORT__
+    attr device str MEM.in2
+vertex MEM0.out0
+    attr type str __ELEMENT_OUTPUT_PORT__
+    attr device str MEM.out0
+net in0 MEM0.in0
+net in1 MEM0.in1
+net MEM0 MEM0.out0
+net MEM0.in0 MEM0
+net MEM0.in1 MEM0
+net MEM0.in2 MEM0
+net MEM0.out0 out0

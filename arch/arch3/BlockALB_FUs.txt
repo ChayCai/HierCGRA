@@ -1,0 +1,8 @@
+ALU0 ALU ALU inputs in0 in1 outputs out0
+ALU1 ALU ALU inputs in0 in1 outputs out0
+ALU2 ALU ALU inputs in0 in1 outputs out0
+ALU3 ALU ALU inputs in0 in1 outputs out0
+ALU4 ALU ALU inputs in0 in1 outputs out0
+ALU5 ALU ALU inputs in0 in1 outputs out0
+ALU6 ALU ALU inputs in0 in1 outputs out0
+ALU7 ALU ALU inputs in0 in1 outputs out0

@@ -1,0 +1,15 @@
+vertex 70.in1
+vertex 70.in0
+vertex 70
+vertex 70.out0
+vertex 74
+vertex 74.in1
+vertex 74.out0
+vertex 74.in0
+net 70.in1 70
+net 70.in0 70
+net 70 70.out0
+net 70.out0 74.in1
+net 74 74.out0
+net 74.in1 74
+net 74.in0 74

@@ -1,0 +1,23 @@
+vertex MUL_177.out0
+vertex MUL_177.in0
+vertex MUL_177.in1
+vertex MUL_169.in0
+vertex MUL_177
+vertex ADD_178.in1
+vertex MUL_169
+vertex ADD_178.out0
+vertex MUL_169.in1
+vertex ADD_178.in0
+vertex MUL_169.out0
+vertex ADD_178
+net MUL_177.out0 ADD_178.in1
+net MUL_177.in0 MUL_177
+net MUL_177.in1 MUL_177
+net MUL_169.in0 MUL_169
+net MUL_177 MUL_177.out0
+net ADD_178.in1 ADD_178
+net MUL_169 MUL_169.out0
+net MUL_169.in1 MUL_169
+net ADD_178.in0 ADD_178
+net MUL_169.out0 ADD_178.in0
+net ADD_178 ADD_178.out0

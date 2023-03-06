@@ -1,0 +1,537 @@
+((./benchmarks/standard/aes/aes_DFG_part0.txt, Core0), )
+(./benchmarks/standard/aes/aes_DFG_part0.placed.txt, )
+(./benchmarks/standard/aes/aes_DFG_part0.routed.txt, )
+Placement: DFG loaded. Vertices: 117; Edges: 133
+
+BEGIN: NetworkAnalyzer: Reading FUs infomation from ./arch/Top_FUs.txt
+NetworkAnalyzer: Found FUs:736
+NetworkAnalyzer: Found Inputs:1728
+NetworkAnalyzer: Found Outputs:736
+NetworkAnalyzer: Found Ports:2464
+END: NetworkAnalyzer: Reading FUs infomation. 
+
+Placement: DFG loaded. Vertices: 75328; Edges: 237344
+
+BEGIN: NetworkAnalyzer: Reading FUs infomation from ./arch/Top_FUs.txt
+NetworkAnalyzer: Found FUs:736
+NetworkAnalyzer: Found Inputs:1728
+NetworkAnalyzer: Found Outputs:736
+NetworkAnalyzer: Found Ports:2464
+END: NetworkAnalyzer: Reading FUs infomation. 
+
+
+BEGIN: NetworkAnalyzerLegacy: Analyzing networks. 
+VanillaPlacer: The number of unmapped nodes is 24. 
+icmp2.in0: 256 -> 1
+xor2.in0: 256 -> 1
+and5.in0: 256 -> 1
+select4.in2: 256 -> 1
+xor2: 256 -> 1
+and3.out0: 256 -> 1
+select4.in0: 256 -> 1
+and1.in1: 256 -> 1
+xor3.in0: 256 -> 1
+and3.in1: 256 -> 1
+icmp3: 256 -> 1
+select4.out0: 256 -> 1
+icmp2.out0: 256 -> 1
+xor1.in1: 256 -> 1
+select0.in0: 256 -> 1
+and4: 256 -> 1
+and0.out0: 256 -> 1
+input_argument0: 64 -> 64
+and2.out0: 256 -> 1
+input_constint5: 64 -> 64
+shl0.out0: 256 -> 1
+select3.in0: 256 -> 1
+input_constint2.out0: 64 -> 64
+shl0.in0: 256 -> 1
+and4.in1: 256 -> 1
+input_argument0.out0: 64 -> 64
+input_constint2: 64 -> 64
+xor2.out0: 256 -> 1
+input_constint6.out0: 64 -> 64
+select2.out0: 256 -> 1
+xor1.out0: 256 -> 1
+icmp4: 256 -> 1
+icmp4.out0: 256 -> 1
+shl0: 256 -> 1
+ret0: 32 -> 32
+xor3.in1: 256 -> 1
+xor1: 256 -> 1
+select3: 256 -> 1
+icmp3.in1: 256 -> 1
+select2: 256 -> 1
+shl1.in1: 256 -> 1
+input_constint8: 64 -> 64
+select3.in1: 256 -> 1
+icmp4.in1: 256 -> 1
+select2.in2: 256 -> 1
+input_constint6: 64 -> 64
+xor3: 256 -> 1
+input_constint7.out0: 64 -> 64
+and5.out0: 256 -> 1
+select2.in0: 256 -> 1
+xor3.out0: 256 -> 1
+icmp3.out0: 256 -> 1
+select3.in2: 256 -> 1
+xor2.in1: 256 -> 1
+select4: 256 -> 1
+shl0.in1: 256 -> 1
+icmp3.in0: 256 -> 1
+input_constint0.out0: 64 -> 64
+select1.out0: 256 -> 1
+select0.in2: 256 -> 1
+xor0.in0: 256 -> 1
+select1: 256 -> 1
+icmp0.in1: 256 -> 1
+input_argument1: 64 -> 64
+select1.in2: 256 -> 1
+and2: 256 -> 1
+and0: 256 -> 1
+input_constint4.out0: 64 -> 64
+select0.out0: 256 -> 1
+input_constint7: 64 -> 64
+and1.out0: 256 -> 1
+and5: 256 -> 1
+icmp1: 256 -> 1
+icmp1.in1: 256 -> 1
+input_constint3.out0: 64 -> 64
+and3: 256 -> 1
+input_constint5.out0: 64 -> 64
+input_constint3: 64 -> 64
+select1.in0: 256 -> 1
+xor0.in1: 256 -> 1
+and2.in1: 256 -> 1
+input_constint8.out0: 64 -> 64
+xor0.out0: 256 -> 1
+select4.in1: 256 -> 1
+icmp2.in1: 256 -> 1
+select2.in1: 256 -> 1
+input_constint0: 64 -> 64
+icmp0: 256 -> 1
+xor1.in0: 256 -> 1
+and1.in0: 256 -> 1
+input_constint1: 64 -> 64
+select0: 256 -> 1
+shl1: 256 -> 1
+and3.in0: 256 -> 1
+input_argument1.out0: 64 -> 64
+and4.in0: 256 -> 1
+icmp0.in0: 256 -> 1
+icmp0.out0: 256 -> 1
+shl1.in0: 256 -> 1
+ret0.in0: 32 -> 32
+input_constint1.out0: 64 -> 64
+input_constint4: 64 -> 64
+shl1.out0: 256 -> 1
+select1.in1: 256 -> 1
+and4.out0: 256 -> 1
+and2.in0: 256 -> 1
+icmp4.in0: 256 -> 1
+and1: 256 -> 1
+icmp2: 256 -> 1
+and0.in1: 256 -> 1
+xor0: 256 -> 1
+select0.in1: 256 -> 1
+and0.in0: 256 -> 1
+select3.out0: 256 -> 1
+icmp1.out0: 256 -> 1
+icmp1.in0: 256 -> 1
+and5.in1: 256 -> 1
+(input_argument0, input_constint5, input_constint2.out0, input_argument0.out0, input_constint2, input_constint6.out0, ret0, input_constint8, input_constint6, input_constint7.out0, input_constint0.out0, input_argument1, input_constint4.out0, input_constint7, input_constint3.out0, input_constint5.out0, input_constint3, input_constint8.out0, input_constint0, input_constint1, input_argument1.out0, ret0.in0, input_constint1.out0, input_constint4, )
+ -> input_constint4: 0
+ -> input_constint1.out0: 7
+ -> ret0.in0: 1
+ -> input_argument1.out0: 3
+ -> input_constint3: 0
+ -> input_constint5.out0: 2
+ -> input_constint1: 0
+ -> input_constint3.out0: 1
+ -> input_constint7: 0
+ -> input_argument0: 0
+ -> ret0: 0
+ -> input_constint8.out0: 1
+ -> input_argument0.out0: 3
+ -> input_constint2.out0: 2
+ -> input_constint8: 0
+ -> input_constint2: 0
+ -> input_constint6.out0: 1
+ -> input_constint6: 0
+ -> input_constint0: 0
+ -> input_constint7.out0: 1
+ -> input_argument1: 0
+ -> input_constint5: 0
+ -> input_constint4.out0: 2
+ -> input_constint0.out0: 1
+
+(input_constint1.out0, input_argument0.out0, input_argument1.out0, input_constint2.out0, input_constint4.out0, input_constint5.out0, input_constint6.out0, ret0.in0, input_constint7.out0, input_constint0.out0, input_constint8.out0, input_constint3.out0, input_constint4, input_argument0, input_constint1, input_constint0, input_constint3, input_constint7, input_argument1, input_constint6, input_constint8, ret0, input_constint2, input_constint5, )
+
+FastPlacer: Begin placing. 
+FastPlacer: New iteration, size of stack: 0 / 24; furthest: 0
+FastPlacer: -> toMap: input_constint1.out0; Candidates After Purge: 64
+before: (IN22.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN57.out0, IN1.out0, IN43.out0, IN18.out0, IN45.out0, IN38.out0, IN0.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, )
+after: (IN45.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN57.out0, IN1.out0, IN43.out0, IN18.out0, IN31.out0, IN38.out0, IN0.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, IN47.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN22.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, )
+FastPlacer: try to map input_constint1.out0 to IN45.out0
+FastPlacer: edgesToMap: 7 for IN45.out0
+FastRouter: Routing: IN45.out0__->__Core0.ALB0.ALU7.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL13.in3, SW5X1_UNROLL13.out0, Core0.in13, Core0.SW9X1_UNROLL13.in7, Core0.SW9X1_UNROLL13.out0, Core0.ALB0.in13, Core0.ALB0.SW20X3_ALUs_MESH7.in13, Core0.ALB0.SW20X3_ALUs_MESH7.out1, Core0.ALB0.SW2X1_UNROLL22.in0, Core0.ALB0.SW2X1_UNROLL22.out0, )
+FastRouter: Routed.
+FastRouter: Routing: IN45.out0__->__Core0.ALB0.ALU4.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL13.in3, SW5X1_UNROLL13.out0, Core0.in13, Core0.SW9X1_UNROLL13.in7, Core0.SW9X1_UNROLL13.out0, Core0.ALB0.in13, Core0.ALB0.SW20X3_ALUs_MESH4.in13, Core0.ALB0.SW20X3_ALUs_MESH4.out1, Core0.ALB0.SW2X1_UNROLL13.in0, Core0.ALB0.SW2X1_UNROLL13.out0, )
+FastRouter: Routed.
+FastRouter: Routing: IN45.out0__->__Core0.ALB0.ALU9.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL13.in3, SW5X1_UNROLL13.out0, Core0.in13, Core0.SW9X1_UNROLL13.in7, Core0.SW9X1_UNROLL13.out0, Core0.ALB0.in13, Core0.ALB0.SW20X3_ALUs_MESH9.in13, Core0.ALB0.SW20X3_ALUs_MESH9.out1, Core0.ALB0.SW2X1_UNROLL28.in0, Core0.ALB0.SW2X1_UNROLL28.out0, )
+FastRouter: Routed.
+FastRouter: Routing: IN45.out0__->__Core0.ALB0.ALU2.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL13.in3, SW5X1_UNROLL13.out0, Core0.in13, Core0.SW9X1_UNROLL13.in7, Core0.SW9X1_UNROLL13.out0, Core0.ALB0.in13, Core0.ALB0.SW20X3_ALUs_MESH2.in13, Core0.ALB0.SW20X3_ALUs_MESH2.out1, Core0.ALB0.SW2X1_UNROLL7.in0, Core0.ALB0.SW2X1_UNROLL7.out0, )
+FastRouter: Routed.
+FastRouter: Routing: IN45.out0__->__Core0.ALB0.ALU3.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL13.in3, SW5X1_UNROLL13.out0, Core0.in13, Core0.SW9X1_UNROLL13.in7, Core0.SW9X1_UNROLL13.out0, Core0.ALB0.in13, Core0.ALB0.SW20X3_ALUs_MESH3.in13, Core0.ALB0.SW20X3_ALUs_MESH3.out1, Core0.ALB0.SW2X1_UNROLL10.in0, Core0.ALB0.SW2X1_UNROLL10.out0, )
+FastRouter: Routed.
+FastRouter: Routing: IN45.out0__->__Core0.ALB0.ALU15.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL13.in3, SW5X1_UNROLL13.out0, Core0.in13, Core0.SW9X1_UNROLL13.in7, Core0.SW9X1_UNROLL13.out0, Core0.ALB0.in13, Core0.ALB0.SW20X3_ALUs_MESH15.in13, Core0.ALB0.SW20X3_ALUs_MESH15.out1, Core0.ALB0.SW2X1_UNROLL46.in0, Core0.ALB0.SW2X1_UNROLL46.out0, )
+FastRouter: Routed.
+FastRouter: Routing: IN45.out0__->__Core0.ALB0.ALU12.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL13.in3, SW5X1_UNROLL13.out0, Core0.in13, Core0.SW9X1_UNROLL13.in7, Core0.SW9X1_UNROLL13.out0, Core0.ALB0.in13, Core0.ALB0.SW20X3_ALUs_MESH12.in13, Core0.ALB0.SW20X3_ALUs_MESH12.out1, Core0.ALB0.SW2X1_UNROLL37.in0, Core0.ALB0.SW2X1_UNROLL37.out0, )
+FastRouter: Routed.
+FastPlacer: Map input_constint1.out0 to IN45.out0, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 1 / 24; furthest: 1
+FastPlacer: -> toMap: input_argument0.out0; Candidates After Purge: 63
+before: (IN22.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN57.out0, IN1.out0, IN43.out0, IN18.out0, IN38.out0, IN0.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, )
+after: (IN18.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN57.out0, IN1.out0, IN43.out0, IN50.out0, IN38.out0, IN0.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, IN47.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN22.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, )
+FastPlacer: try to map input_argument0.out0 to IN18.out0
+FastPlacer: edgesToMap: 3 for IN18.out0
+FastRouter: Routing: IN18.out0__->__Core0.ALB0.ALU0.in0
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL18.in2, SW5X1_UNROLL18.out0, Core1.in2, Core1.SW12X1_UNROLL132.in10, Core1.SW12X1_UNROLL132.out0, Core1.MEB1.in2, Core1.MEB1.SW2X1_UNROLL50.in1, Core1.MEB1.SW2X1_UNROLL50.out0, Core1.MEB1.out2, Core1.SW10X1_UNROLL164.in9, Core1.SW10X1_UNROLL164.out0, Core1.out2, SW96X32_Cores_STAR0.in2, SW96X32_Cores_STAR0.out23, Core0.in23, Core0.SW9X1_UNROLL7.in8, Core0.SW9X1_UNROLL7.out0, Core0.ALB0.in7, Core0.ALB0.SW20X3_ALUs_MESH0.in7, Core0.ALB0.SW20X3_ALUs_MESH0.out0, Core0.ALB0.SW2X1_UNROLL0.in0, Core0.ALB0.SW2X1_UNROLL0.out0, )
+FastRouter: Routed.
+FastRouter: Routing: IN18.out0__->__Core0.ALB0.ALU3.in2
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL18.in2, SW5X1_UNROLL18.out0, Core1.in2, Core1.SW12X1_UNROLL132.in10, Core1.SW12X1_UNROLL132.out0, Core1.MEB1.in2, Core1.MEB1.SW2X1_UNROLL50.in1, Core1.MEB1.SW2X1_UNROLL50.out0, Core1.MEB1.out2, Core1.SW10X1_UNROLL164.in9, Core1.SW10X1_UNROLL164.out0, Core1.out2, SW96X32_Cores_STAR0.in2, SW96X32_Cores_STAR0.out23, Core0.in23, Core0.SW9X1_UNROLL7.in8, Core0.SW9X1_UNROLL7.out0, Core0.ALB0.in7, Core0.ALB0.SW20X3_ALUs_MESH3.in7, Core0.ALB0.SW20X3_ALUs_MESH3.out2, Core0.ALB0.SW2X1_UNROLL11.in0, Core0.ALB0.SW2X1_UNROLL11.out0, )
+FastRouter: Routed.
+FastRouter: Routing: IN18.out0__->__Core0.ALB0.ALU12.in2
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL18.in2, SW5X1_UNROLL18.out0, Core1.in2, Core1.SW12X1_UNROLL132.in10, Core1.SW12X1_UNROLL132.out0, Core1.MEB1.in2, Core1.MEB1.SW2X1_UNROLL50.in1, Core1.MEB1.SW2X1_UNROLL50.out0, Core1.MEB1.out2, Core1.SW10X1_UNROLL164.in9, Core1.SW10X1_UNROLL164.out0, Core1.out2, SW96X32_Cores_STAR0.in2, SW96X32_Cores_STAR0.out23, Core0.in23, Core0.SW9X1_UNROLL7.in8, Core0.SW9X1_UNROLL7.out0, Core0.ALB0.in7, Core0.ALB0.SW20X3_ALUs_MESH12.in7, Core0.ALB0.SW20X3_ALUs_MESH12.out2, Core0.ALB0.SW2X1_UNROLL38.in0, Core0.ALB0.SW2X1_UNROLL38.out0, )
+FastRouter: Routed.
+FastPlacer: Map input_argument0.out0 to IN18.out0, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 2 / 24; furthest: 2
+FastPlacer: -> toMap: input_argument1.out0; Candidates After Purge: 62
+before: (IN22.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN57.out0, IN1.out0, IN43.out0, IN38.out0, IN0.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, )
+after: (IN38.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN57.out0, IN1.out0, IN43.out0, IN50.out0, IN0.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, IN47.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN22.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, )
+FastPlacer: try to map input_argument1.out0 to IN38.out0
+FastPlacer: edgesToMap: 3 for IN38.out0
+FastRouter: Routing: IN38.out0__->__Core0.ALB1.ALU13.in0
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL6.in3, SW5X1_UNROLL6.out0, Core0.in6, Core0.SW9X1_UNROLL22.in7, Core0.SW9X1_UNROLL22.out0, Core0.ALB1.in6, Core0.ALB1.SW20X3_ALUs_MESH13.in6, Core0.ALB1.SW20X3_ALUs_MESH13.out0, Core0.ALB1.SW2X1_UNROLL39.in0, Core0.ALB1.SW2X1_UNROLL39.out0, )
+FastRouter: Routed.
+FastRouter: Routing: IN38.out0__->__Core0.ALB0.ALU1.in0
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL22.in3, SW5X1_UNROLL22.out0, Core1.in6, Core1.SW12X1_UNROLL140.in10, Core1.SW12X1_UNROLL140.out0, Core1.MEB1.in6, Core1.MEB1.SW2X1_UNROLL54.in1, Core1.MEB1.SW2X1_UNROLL54.out0, Core1.MEB1.out6, Core1.SW10X1_UNROLL172.in9, Core1.SW10X1_UNROLL172.out0, Core1.out6, SW96X32_Cores_STAR0.in6, SW96X32_Cores_STAR0.out24, Core0.in24, Core0.SW9X1_UNROLL8.in8, Core0.SW9X1_UNROLL8.out0, Core0.ALB0.in8, Core0.ALB0.SW20X3_ALUs_MESH1.in8, Core0.ALB0.SW20X3_ALUs_MESH1.out0, Core0.ALB0.SW2X1_UNROLL3.in0, Core0.ALB0.SW2X1_UNROLL3.out0, )
+FastRouter: Routed.
+FastRouter: Routing: IN38.out0__->__Core0.ALB1.ALU3.in0
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL6.in3, SW5X1_UNROLL6.out0, Core0.in6, Core0.SW9X1_UNROLL22.in7, Core0.SW9X1_UNROLL22.out0, Core0.ALB1.in6, Core0.ALB1.SW20X3_ALUs_MESH3.in6, Core0.ALB1.SW20X3_ALUs_MESH3.out0, Core0.ALB1.SW2X1_UNROLL9.in0, Core0.ALB1.SW2X1_UNROLL9.out0, )
+FastRouter: Routed.
+FastPlacer: Map input_argument1.out0 to IN38.out0, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 3 / 24; furthest: 3
+FastPlacer: -> toMap: input_constint2.out0; Candidates After Purge: 61
+before: (IN22.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN57.out0, IN1.out0, IN43.out0, IN0.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, )
+after: (IN43.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN57.out0, IN1.out0, IN9.out0, IN0.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, IN62.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN22.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, )
+FastPlacer: try to map input_constint2.out0 to IN43.out0
+FastPlacer: edgesToMap: 2 for IN43.out0
+FastRouter: Routing: IN43.out0__->__Core0.ALB0.ALU0.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL11.in3, SW5X1_UNROLL11.out0, Core0.in11, Core0.SW9X1_UNROLL11.in7, Core0.SW9X1_UNROLL11.out0, Core0.ALB0.in11, Core0.ALB0.SW20X3_ALUs_MESH0.in11, Core0.ALB0.SW20X3_ALUs_MESH0.out1, Core0.ALB0.SW2X1_UNROLL1.in0, Core0.ALB0.SW2X1_UNROLL1.out0, )
+FastRouter: Routed.
+FastRouter: Routing: IN43.out0__->__Core0.ALB1.ALU11.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL11.in3, SW5X1_UNROLL11.out0, Core0.in11, Core0.SW9X1_UNROLL27.in7, Core0.SW9X1_UNROLL27.out0, Core0.ALB1.in11, Core0.ALB1.SW20X3_ALUs_MESH11.in11, Core0.ALB1.SW20X3_ALUs_MESH11.out1, Core0.ALB1.SW2X1_UNROLL34.in0, Core0.ALB1.SW2X1_UNROLL34.out0, )
+FastRouter: Routed.
+FastPlacer: Map input_constint2.out0 to IN43.out0, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 4 / 24; furthest: 4
+FastPlacer: -> toMap: input_constint4.out0; Candidates After Purge: 60
+before: (IN22.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN57.out0, IN1.out0, IN0.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, )
+after: (IN1.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN57.out0, IN9.out0, IN0.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, IN62.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN22.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, )
+FastPlacer: try to map input_constint4.out0 to IN1.out0
+FastPlacer: edgesToMap: 2 for IN1.out0
+FastRouter: Routing: IN1.out0__->__Core0.ALB0.ALU8.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL17.in1, SW5X1_UNROLL17.out0, Core1.in1, Core1.SW12X1_UNROLL130.in10, Core1.SW12X1_UNROLL130.out0, Core1.MEB1.in1, Core1.MEB1.SW2X1_UNROLL49.in1, Core1.MEB1.SW2X1_UNROLL49.out0, Core1.MEB1.out1, Core1.SW10X1_UNROLL162.in9, Core1.SW10X1_UNROLL162.out0, Core1.out1, SW96X32_Cores_STAR0.in1, SW96X32_Cores_STAR0.out25, Core0.in25, Core0.SW9X1_UNROLL9.in8, Core0.SW9X1_UNROLL9.out0, Core0.ALB0.in9, Core0.ALB0.SW20X3_ALUs_MESH8.in9, Core0.ALB0.SW20X3_ALUs_MESH8.out1, Core0.ALB0.SW2X1_UNROLL25.in0, Core0.ALB0.SW2X1_UNROLL25.out0, )
+FastRouter: Routed.
+FastRouter: Routing: IN1.out0__->__Core0.ALB1.ALU15.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL17.in1, SW5X1_UNROLL17.out0, Core1.in1, Core1.SW12X1_UNROLL130.in10, Core1.SW12X1_UNROLL130.out0, Core1.MEB1.in1, Core1.MEB1.SW2X1_UNROLL49.in1, Core1.MEB1.SW2X1_UNROLL49.out0, Core1.MEB1.out1, Core1.SW10X1_UNROLL162.in9, Core1.SW10X1_UNROLL162.out0, Core1.out1, SW96X32_Cores_STAR0.in1, SW96X32_Cores_STAR0.out20, Core0.in20, Core0.SW9X1_UNROLL20.in8, Core0.SW9X1_UNROLL20.out0, Core0.ALB1.in4, Core0.ALB1.SW20X3_ALUs_MESH15.in4, Core0.ALB1.SW20X3_ALUs_MESH15.out1, Core0.ALB1.SW2X1_UNROLL46.in0, Core0.ALB1.SW2X1_UNROLL46.out0, )
+FastRouter: Routed.
+FastPlacer: Map input_constint4.out0 to IN1.out0, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 5 / 24; furthest: 5
+FastPlacer: -> toMap: input_constint5.out0; Candidates After Purge: 59
+before: (IN22.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN57.out0, IN0.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, )
+after: (IN57.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN30.out0, IN0.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, IN62.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN22.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, )
+FastPlacer: try to map input_constint5.out0 to IN57.out0
+FastPlacer: edgesToMap: 2 for IN57.out0
+FastRouter: Routing: IN57.out0__->__Core0.ALB1.ALU5.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL9.in4, SW5X1_UNROLL9.out0, Core0.in9, Core0.SW9X1_UNROLL25.in7, Core0.SW9X1_UNROLL25.out0, Core0.ALB1.in9, Core0.ALB1.SW20X3_ALUs_MESH5.in9, Core0.ALB1.SW20X3_ALUs_MESH5.out1, Core0.ALB1.SW2X1_UNROLL16.in0, Core0.ALB1.SW2X1_UNROLL16.out0, )
+FastRouter: Routed.
+FastRouter: Routing: IN57.out0__->__Core0.ALB0.ALU10.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL25.in4, SW5X1_UNROLL25.out0, Core1.in9, Core1.SW10X1_UNROLL146.in8, Core1.SW10X1_UNROLL146.out0, Core1.MEB0.in9, Core1.MEB0.SW2X1_UNROLL57.in1, Core1.MEB0.SW2X1_UNROLL57.out0, Core1.MEB0.out9, Core1.SW10X1_UNROLL178.in8, Core1.SW10X1_UNROLL178.out0, Core1.out9, SW96X32_Cores_STAR0.in9, SW96X32_Cores_STAR0.out26, Core0.in26, Core0.SW9X1_UNROLL10.in8, Core0.SW9X1_UNROLL10.out0, Core0.ALB0.in10, Core0.ALB0.SW20X3_ALUs_MESH10.in10, Core0.ALB0.SW20X3_ALUs_MESH10.out1, Core0.ALB0.SW2X1_UNROLL31.in0, Core0.ALB0.SW2X1_UNROLL31.out0, )
+FastRouter: Routed.
+FastPlacer: Map input_constint5.out0 to IN57.out0, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 6 / 24; furthest: 6
+FastPlacer: -> toMap: input_constint6.out0; Candidates After Purge: 58
+before: (IN22.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN0.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, )
+after: (IN0.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN30.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, IN62.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN22.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, )
+FastPlacer: try to map input_constint6.out0 to IN0.out0
+FastPlacer: edgesToMap: 1 for IN0.out0
+FastRouter: Routing: IN0.out0__->__Core0.ALB0.ALU1.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL16.in1, SW5X1_UNROLL16.out0, Core1.in0, Core1.SW12X1_UNROLL128.in10, Core1.SW12X1_UNROLL128.out0, Core1.MEB1.in0, Core1.MEB1.SW2X1_UNROLL48.in1, Core1.MEB1.SW2X1_UNROLL48.out0, Core1.MEB1.out0, Core1.SW10X1_UNROLL160.in9, Core1.SW10X1_UNROLL160.out0, Core1.out0, SW96X32_Cores_STAR0.in0, SW96X32_Cores_STAR0.out28, Core0.in28, Core0.SW9X1_UNROLL12.in8, Core0.SW9X1_UNROLL12.out0, Core0.ALB0.in12, Core0.ALB0.SW20X3_ALUs_MESH1.in12, Core0.ALB0.SW20X3_ALUs_MESH1.out1, Core0.ALB0.SW2X1_UNROLL4.in0, Core0.ALB0.SW2X1_UNROLL4.out0, )
+FastRouter: Routed.
+FastPlacer: Map input_constint6.out0 to IN0.out0, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 7 / 24; furthest: 7
+FastPlacer: -> toMap: ret0.in0; Candidates After Purge: 32
+before: (OUT3.in0, OUT10.in0, OUT12.in0, OUT18.in0, OUT22.in0, OUT0.in0, OUT30.in0, OUT20.in0, OUT27.in0, OUT14.in0, OUT19.in0, OUT6.in0, OUT16.in0, OUT13.in0, OUT5.in0, OUT4.in0, OUT8.in0, OUT17.in0, OUT28.in0, OUT11.in0, OUT2.in0, OUT9.in0, OUT31.in0, OUT29.in0, OUT24.in0, OUT21.in0, OUT7.in0, OUT15.in0, OUT23.in0, OUT25.in0, OUT1.in0, OUT26.in0, )
+after: (OUT8.in0, OUT26.in0, OUT1.in0, OUT25.in0, OUT23.in0, OUT15.in0, OUT7.in0, OUT21.in0, OUT24.in0, OUT29.in0, OUT31.in0, OUT9.in0, OUT2.in0, OUT11.in0, OUT28.in0, OUT17.in0, OUT3.in0, OUT4.in0, OUT5.in0, OUT13.in0, OUT16.in0, OUT6.in0, OUT19.in0, OUT14.in0, OUT27.in0, OUT20.in0, OUT30.in0, OUT0.in0, OUT22.in0, OUT18.in0, OUT12.in0, OUT10.in0, )
+FastPlacer: try to map ret0.in0 to OUT8.in0
+FastPlacer: edgesToMap: 1 for OUT8.in0
+FastRouter: Routing: Core0.ALB0.ALU13.out0__->__OUT8.in0
+FastRouter: Convenient path found. 
+FastRouter: use path:(Core0.ALB0.SW16X16_OUTPORT.in13, Core0.ALB0.SW16X16_OUTPORT.out4, Core0.ALB0.out4, Core0.SW10X1_UNROLL168.in4, Core0.SW10X1_UNROLL168.out0, Core0.out4, SW4X1_UNROLL72.in0, SW4X1_UNROLL72.out0, )
+FastRouter: Routed.
+FastPlacer: Map ret0.in0 to OUT8.in0, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 8 / 24; furthest: 8
+FastPlacer: -> toMap: input_constint7.out0; Candidates After Purge: 57
+before: (IN22.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN63.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, )
+after: (IN63.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN16.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, IN15.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN22.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, )
+FastPlacer: try to map input_constint7.out0 to IN63.out0
+FastPlacer: edgesToMap: 1 for IN63.out0
+FastRouter: Routing: IN63.out0__->__Core0.ALB1.ALU4.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL15.in4, SW5X1_UNROLL15.out0, Core0.in15, Core0.SW9X1_UNROLL31.in7, Core0.SW9X1_UNROLL31.out0, Core0.ALB1.in15, Core0.ALB1.SW20X3_ALUs_MESH4.in15, Core0.ALB1.SW20X3_ALUs_MESH4.out1, Core0.ALB1.SW2X1_UNROLL13.in0, Core0.ALB1.SW2X1_UNROLL13.out0, )
+FastRouter: Routed.
+FastPlacer: Map input_constint7.out0 to IN63.out0, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 9 / 24; furthest: 9
+FastPlacer: -> toMap: input_constint0.out0; Candidates After Purge: 56
+before: (IN22.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN3.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, )
+after: (IN3.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN16.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, IN15.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN22.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, )
+FastPlacer: try to map input_constint0.out0 to IN3.out0
+FastPlacer: edgesToMap: 1 for IN3.out0
+FastRouter: Routing: IN3.out0__->__Core0.ALB1.ALU13.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL19.in1, SW5X1_UNROLL19.out0, Core1.in3, Core1.SW12X1_UNROLL134.in10, Core1.SW12X1_UNROLL134.out0, Core1.MEB1.in3, Core1.MEB1.SW2X1_UNROLL51.in1, Core1.MEB1.SW2X1_UNROLL51.out0, Core1.MEB1.out3, Core1.SW10X1_UNROLL166.in9, Core1.SW10X1_UNROLL166.out0, Core1.out3, SW96X32_Cores_STAR0.in3, SW96X32_Cores_STAR0.out21, Core0.in21, Core0.SW9X1_UNROLL21.in8, Core0.SW9X1_UNROLL21.out0, Core0.ALB1.in5, Core0.ALB1.SW20X3_ALUs_MESH13.in5, Core0.ALB1.SW20X3_ALUs_MESH13.out1, Core0.ALB1.SW2X1_UNROLL40.in0, Core0.ALB1.SW2X1_UNROLL40.out0, )
+FastRouter: Routed.
+FastPlacer: Map input_constint0.out0 to IN3.out0, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 10 / 24; furthest: 10
+FastPlacer: -> toMap: input_constint8.out0; Candidates After Purge: 55
+before: (IN22.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN46.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, )
+after: (IN46.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN42.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, IN15.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN22.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, )
+FastPlacer: try to map input_constint8.out0 to IN46.out0
+FastPlacer: edgesToMap: 1 for IN46.out0
+FastRouter: Routing: IN46.out0__->__Core0.ALB1.ALU3.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL14.in3, SW5X1_UNROLL14.out0, Core0.in14, Core0.SW9X1_UNROLL30.in7, Core0.SW9X1_UNROLL30.out0, Core0.ALB1.in14, Core0.ALB1.SW20X3_ALUs_MESH3.in14, Core0.ALB1.SW20X3_ALUs_MESH3.out1, Core0.ALB1.SW2X1_UNROLL10.in0, Core0.ALB1.SW2X1_UNROLL10.out0, )
+FastRouter: Routed.
+FastPlacer: Map input_constint8.out0 to IN46.out0, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 11 / 24; furthest: 11
+FastPlacer: -> toMap: input_constint3.out0; Candidates After Purge: 54
+before: (IN22.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN15.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, IN42.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN61.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, )
+after: (IN61.out0, IN16.out0, IN30.out0, IN9.out0, IN50.out0, IN31.out0, IN40.out0, IN59.out0, IN54.out0, IN55.out0, IN60.out0, IN41.out0, IN37.out0, IN26.out0, IN42.out0, IN19.out0, IN28.out0, IN20.out0, IN33.out0, IN51.out0, IN4.out0, IN44.out0, IN32.out0, IN34.out0, IN2.out0, IN17.out0, IN11.out0, IN15.out0, IN6.out0, IN52.out0, IN23.out0, IN58.out0, IN10.out0, IN12.out0, IN48.out0, IN14.out0, IN39.out0, IN35.out0, IN36.out0, IN5.out0, IN25.out0, IN22.out0, IN62.out0, IN47.out0, IN24.out0, IN21.out0, IN49.out0, IN27.out0, IN53.out0, IN7.out0, IN8.out0, IN13.out0, IN29.out0, IN56.out0, )
+FastPlacer: try to map input_constint3.out0 to IN61.out0
+FastPlacer: edgesToMap: 1 for IN61.out0
+FastRouter: Routing: IN61.out0__->__Core0.ALB1.ALU2.in1
+FastRouter: Convenient path found. 
+FastRouter: use path:(SW5X1_UNROLL29.in4, SW5X1_UNROLL29.out0, Core1.in13, Core1.SW10X1_UNROLL154.in8, Core1.SW10X1_UNROLL154.out0, Core1.MEB0.in13, Core1.MEB0.SW2X1_UNROLL61.in1, Core1.MEB0.SW2X1_UNROLL61.out0, Core1.MEB0.out13, Core1.SW10X1_UNROLL186.in8, Core1.SW10X1_UNROLL186.out0, Core1.out13, SW96X32_Cores_STAR0.in13, SW96X32_Cores_STAR0.out29, Core0.in29, Core0.SW9X1_UNROLL29.in8, Core0.SW9X1_UNROLL29.out0, Core0.ALB1.in13, Core0.ALB1.SW20X3_ALUs_MESH2.in13, Core0.ALB1.SW20X3_ALUs_MESH2.out1, Core0.ALB1.SW2X1_UNROLL7.in0, Core0.ALB1.SW2X1_UNROLL7.out0, )
+FastRouter: Routed.
+FastPlacer: Map input_constint3.out0 to IN61.out0, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 12 / 24; furthest: 12
+FastPlacer: -> toMap: input_constint4; Candidates After Purge: 1
+before: (IN1, )
+after: (IN1, )
+FastPlacer: try to map input_constint4 to IN1
+FastPlacer: edgesToMap: 1 for IN1
+FastRouter: Routing: IN1__->__IN1.out0
+FastRouter: Convenient path found. 
+FastRouter: use path:()
+FastRouter: Routed.
+FastPlacer: Map input_constint4 to IN1, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 13 / 24; furthest: 13
+FastPlacer: -> toMap: input_argument0; Candidates After Purge: 1
+before: (IN18, )
+after: (IN18, )
+FastPlacer: try to map input_argument0 to IN18
+FastPlacer: edgesToMap: 1 for IN18
+FastRouter: Routing: IN18__->__IN18.out0
+FastRouter: Convenient path found. 
+FastRouter: use path:()
+FastRouter: Routed.
+FastPlacer: Map input_argument0 to IN18, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 14 / 24; furthest: 14
+FastPlacer: -> toMap: input_constint1; Candidates After Purge: 1
+before: (IN45, )
+after: (IN45, )
+FastPlacer: try to map input_constint1 to IN45
+FastPlacer: edgesToMap: 1 for IN45
+FastRouter: Routing: IN45__->__IN45.out0
+FastRouter: Convenient path found. 
+FastRouter: use path:()
+FastRouter: Routed.
+FastPlacer: Map input_constint1 to IN45, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 15 / 24; furthest: 15
+FastPlacer: -> toMap: input_constint0; Candidates After Purge: 1
+before: (IN3, )
+after: (IN3, )
+FastPlacer: try to map input_constint0 to IN3
+FastPlacer: edgesToMap: 1 for IN3
+FastRouter: Routing: IN3__->__IN3.out0
+FastRouter: Convenient path found. 
+FastRouter: use path:()
+FastRouter: Routed.
+FastPlacer: Map input_constint0 to IN3, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 16 / 24; furthest: 16
+FastPlacer: -> toMap: input_constint3; Candidates After Purge: 1
+before: (IN61, )
+after: (IN61, )
+FastPlacer: try to map input_constint3 to IN61
+FastPlacer: edgesToMap: 1 for IN61
+FastRouter: Routing: IN61__->__IN61.out0
+FastRouter: Convenient path found. 
+FastRouter: use path:()
+FastRouter: Routed.
+FastPlacer: Map input_constint3 to IN61, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 17 / 24; furthest: 17
+FastPlacer: -> toMap: input_constint7; Candidates After Purge: 1
+before: (IN63, )
+after: (IN63, )
+FastPlacer: try to map input_constint7 to IN63
+FastPlacer: edgesToMap: 1 for IN63
+FastRouter: Routing: IN63__->__IN63.out0
+FastRouter: Convenient path found. 
+FastRouter: use path:()
+FastRouter: Routed.
+FastPlacer: Map input_constint7 to IN63, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 18 / 24; furthest: 18
+FastPlacer: -> toMap: input_argument1; Candidates After Purge: 1
+before: (IN38, )
+after: (IN38, )
+FastPlacer: try to map input_argument1 to IN38
+FastPlacer: edgesToMap: 1 for IN38
+FastRouter: Routing: IN38__->__IN38.out0
+FastRouter: Convenient path found. 
+FastRouter: use path:()
+FastRouter: Routed.
+FastPlacer: Map input_argument1 to IN38, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 19 / 24; furthest: 19
+FastPlacer: -> toMap: input_constint6; Candidates After Purge: 1
+before: (IN0, )
+after: (IN0, )
+FastPlacer: try to map input_constint6 to IN0
+FastPlacer: edgesToMap: 1 for IN0
+FastRouter: Routing: IN0__->__IN0.out0
+FastRouter: Convenient path found. 
+FastRouter: use path:()
+FastRouter: Routed.
+FastPlacer: Map input_constint6 to IN0, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 20 / 24; furthest: 20
+FastPlacer: -> toMap: input_constint8; Candidates After Purge: 1
+before: (IN46, )
+after: (IN46, )
+FastPlacer: try to map input_constint8 to IN46
+FastPlacer: edgesToMap: 1 for IN46
+FastRouter: Routing: IN46__->__IN46.out0
+FastRouter: Convenient path found. 
+FastRouter: use path:()
+FastRouter: Routed.
+FastPlacer: Map input_constint8 to IN46, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 21 / 24; furthest: 21
+FastPlacer: -> toMap: ret0; Candidates After Purge: 1
+before: (OUT8, )
+after: (OUT8, )
+FastPlacer: try to map ret0 to OUT8
+FastPlacer: edgesToMap: 1 for OUT8
+FastRouter: Routing: OUT8.in0__->__OUT8
+FastRouter: Convenient path found. 
+FastRouter: use path:()
+FastRouter: Routed.
+FastPlacer: Map ret0 to OUT8, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 22 / 24; furthest: 22
+FastPlacer: -> toMap: input_constint2; Candidates After Purge: 1
+before: (IN43, )
+after: (IN43, )
+FastPlacer: try to map input_constint2 to IN43
+FastPlacer: edgesToMap: 1 for IN43
+FastRouter: Routing: IN43__->__IN43.out0
+FastRouter: Convenient path found. 
+FastRouter: use path:()
+FastRouter: Routed.
+FastPlacer: Map input_constint2 to IN43, Tried 1 Time.
+
+
+FastPlacer: New iteration, size of stack: 23 / 24; furthest: 23
+FastPlacer: -> toMap: input_constint5; Candidates After Purge: 1
+before: (IN57, )
+after: (IN57, )
+FastPlacer: try to map input_constint5 to IN57
+FastPlacer: edgesToMap: 1 for IN57
+FastRouter: Routing: IN57__->__IN57.out0
+FastRouter: Convenient path found. 
+FastRouter: use path:()
+FastRouter: Routed.
+FastPlacer: Map input_constint5 to IN57, Tried 1 Time.
+FastPlacer: finished placing the DFG. Failure count: 0.
+
+PlaceTOP: Placed successful.
+WRITE DICT: 117
+WRITE VINILLA ROUTER: 116

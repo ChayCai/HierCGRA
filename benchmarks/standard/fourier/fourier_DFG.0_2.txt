@@ -1,0 +1,7 @@
+vertex fsub3.in1
+vertex fsub3
+vertex fsub3.in0
+vertex fsub3.out0
+net fsub3.in1 fsub3
+net fsub3 fsub3.out0
+net fsub3.in0 fsub3

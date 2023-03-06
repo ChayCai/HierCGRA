@@ -1,0 +1,79 @@
+load30 MEM
+load4 MEM
+add39 ADD ALU
+add13 ADD ALU
+load2 MEM
+add35 ADD ALU
+add40 ADD ALU
+add22 ADD ALU
+load62 MEM
+load72 MEM
+load50 MEM
+load12 MEM
+load20 MEM
+load6 MEM
+add27 ADD ALU
+add31 ADD ALU
+add25 ADD ALU
+add20 ADD ALU
+add14 ADD ALU
+add24 ADD ALU
+add26 ADD ALU
+add18 ADD ALU
+input_constint12 INPUT
+add23 ADD ALU
+add32 ADD ALU
+icmp2 ALU
+load60 MEM
+load16 MEM
+add33 ADD ALU
+load40 MEM
+load42 MEM
+load10 MEM
+add29 ADD ALU
+add7 ADD ALU
+add10 ADD ALU
+load64 MEM
+load56 MEM
+load46 MEM
+load36 MEM
+load8 MEM
+add12 ADD ALU
+add30 ADD ALU
+load18 MEM
+load70 MEM
+load26 MEM
+store0 MEM
+add8 ADD ALU
+add21 ADD ALU
+load22 MEM
+load38 MEM
+sub36 SUB ALU
+load68 MEM
+add19 ADD ALU
+load54 MEM
+load48 MEM
+load28 MEM
+add16 ADD ALU
+add6 ADD ALU
+load32 MEM
+load52 MEM
+load24 MEM
+load34 MEM
+load66 MEM
+add38 ADD ALU
+add15 ADD ALU
+load44 MEM
+add34 ADD ALU
+add36 ADD ALU
+load58 MEM
+select0 ALU
+input_argument3 INPUT
+load14 MEM
+add9 ADD ALU
+add17 ADD ALU
+add11 ADD ALU
+add28 ADD ALU
+input_constint13 INPUT
+add37 ADD ALU
+add41 ADD ALU

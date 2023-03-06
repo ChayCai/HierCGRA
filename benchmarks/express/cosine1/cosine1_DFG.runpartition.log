@@ -1,0 +1,29 @@
+ -> maxUsage: 100
+ -> maxDegree: 1
+ -> maxOutportNum: 8
+ -> maxInportNum: 16
+
+partition: unClustered vertex -> 20 : (INPUT, )
+partition: unClustered vertex -> 27 : (INPUT, )
+partition: unClustered vertex -> 76 : (OUTPUT, )
+partition: unClustered vertex -> 77 : (OUTPUT, )
+partition: unClustered vertex -> 82 : (OUTPUT, )
+partition: unClustered vertex -> 29 : (INPUT, )
+partition: unClustered vertex -> 32 : (INPUT, )
+partition: unClustered vertex -> 35 : (INPUT, )
+partition: unClustered vertex -> 21 : (INPUT, )
+partition: unClustered vertex -> 26 : (INPUT, )
+partition: unClustered vertex -> 36 : (INPUT, )
+partition: unClustered vertex -> 78 : (OUTPUT, )
+partition: unClustered vertex -> 33 : (INPUT, )
+partition: unClustered vertex -> 39 : (INPUT, )
+partition: unClustered vertex -> 79 : (OUTPUT, )
+partition: unClustered vertex -> 23 : (INPUT, )
+partition: unClustered vertex -> 38 : (INPUT, )
+partition: unClustered vertex -> 17 : (INPUT, )
+partition: unClustered vertex -> 30 : (INPUT, )
+partition: unClustered vertex -> 18 : (INPUT, )
+partition: unClustered vertex -> 75 : (OUTPUT, )
+partition: unClustered vertex -> 24 : (INPUT, )
+partition: unClustered vertex -> 81 : (OUTPUT, )
+partition: unClustered vertex -> 80 : (OUTPUT, )

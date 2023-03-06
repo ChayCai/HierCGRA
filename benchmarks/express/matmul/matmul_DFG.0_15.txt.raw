@@ -1,0 +1,47 @@
+attr __file__ str ./benchmarks/express/matmul/matmul_DFG.0_15.txt
+attr __name__ str ./benchmarks/express/matmul/matmul_DFG.0_15.txt
+vertex __inserted_outport_2.in0
+vertex __inserted_outport_2
+vertex __inserted_outport_0.in0
+vertex __inserted_outport_0
+vertex ADD_124
+vertex ADD_124.in0
+vertex MUL_121.out0
+vertex __inserted_outport_0.out0
+vertex ADD_40
+vertex __inserted_outport_1.out0
+vertex MUL_37.out0
+vertex __inserted_outport_1.in0
+vertex ADD_40.out0
+vertex ADD_124.out0
+vertex __inserted_outport_1
+vertex ADD_174
+vertex ADD_174.out0
+vertex __inserted_outport_2.out0
+vertex ADD_174.in0
+vertex MUL_171.out0
+vertex MUL_171
+vertex ADD_40.in0
+vertex MUL_121
+vertex MUL_37
+net __inserted_outport_2.in0 __inserted_outport_2
+net __inserted_outport_2 __inserted_outport_2.out0
+net __inserted_outport_0.in0 __inserted_outport_0
+net __inserted_outport_0 __inserted_outport_0.out0
+net ADD_124 ADD_124.out0
+net ADD_124.in0 ADD_124
+net MUL_121.out0 ADD_124.in0
+net ADD_40 ADD_40.out0
+net MUL_37.out0 ADD_40.in0
+net __inserted_outport_1.in0 __inserted_outport_1
+net ADD_40.out0 __inserted_outport_2.in0
+net ADD_124.out0 __inserted_outport_1.in0
+net __inserted_outport_1 __inserted_outport_1.out0
+net ADD_174 ADD_174.out0
+net ADD_174.out0 __inserted_outport_0.in0
+net ADD_174.in0 ADD_174
+net MUL_171.out0 ADD_174.in0
+net MUL_171 MUL_171.out0
+net ADD_40.in0 ADD_40
+net MUL_121 MUL_121.out0
+net MUL_37 MUL_37.out0

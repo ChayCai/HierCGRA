@@ -1,0 +1,8 @@
+MUL_100 MUL1
+MUL_100.out0 MUL1.out0
+ADD_103.in0 ADD0.in0
+ADD_103 ADD0
+ADD_103.out0 ADD0.out0
+__inserted_outport_0.out0 out4.out0
+__inserted_outport_0.in0 out4.in0
+__inserted_outport_0 out4

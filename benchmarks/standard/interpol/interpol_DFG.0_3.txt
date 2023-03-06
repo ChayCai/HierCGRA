@@ -1,0 +1,47 @@
+vertex fmul23
+vertex fmul23.out0
+vertex fmul23.in0
+vertex fmul23.in1
+vertex fadd29
+vertex fadd29.in1
+vertex fmul22.in1
+vertex fmul22.in0
+vertex fadd29.in0
+vertex fadd27
+vertex fmul21
+vertex fadd27.out0
+vertex fmul22.out0
+vertex fadd27.in1
+vertex fadd27.in0
+vertex fmul21.out0
+vertex fadd28.in0
+vertex fadd28
+vertex fadd28.in1
+vertex fadd29.out0
+vertex fmul21.in1
+vertex fadd28.out0
+vertex fmul21.in0
+vertex fmul22
+net fmul23 fmul23.out0
+net fmul23.out0 fadd29.in1
+net fmul23.in0 fmul23
+net fmul23.in1 fmul23
+net fadd29 fadd29.out0
+net fadd29.in1 fadd29
+net fmul22.in1 fmul22
+net fmul22.in0 fmul22
+net fadd29.in0 fadd29
+net fadd27 fadd27.out0
+net fmul21 fmul21.out0
+net fadd27.out0 fadd28.in0
+net fmul22.out0 fadd28.in1
+net fadd27.in1 fadd27
+net fadd27.in0 fadd27
+net fmul21.out0 fadd27.in1
+net fadd28.in0 fadd28
+net fadd28 fadd28.out0
+net fadd28.in1 fadd28
+net fmul21.in1 fmul21
+net fadd28.out0 fadd29.in0
+net fmul21.in0 fmul21
+net fmul22 fmul22.out0

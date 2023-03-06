@@ -1,0 +1,55 @@
+attr __file__ str ./benchmarks/express/cosine2/cosine2_DFG.0_6.txt
+attr __name__ str ./benchmarks/express/cosine2/cosine2_DFG.0_6.txt
+vertex __inserted_outport_0.out0
+vertex __inserted_outport_0
+vertex __inserted_inport_3.out0
+vertex __inserted_inport_2.in0
+vertex __inserted_inport_1.out0
+vertex __inserted_inport_3
+vertex __inserted_inport_1.in0
+vertex __inserted_inport_1
+vertex __inserted_inport_3.in0
+vertex __inserted_inport_0.in0
+vertex 72.in1
+vertex 62.in1
+vertex 72.out0
+vertex 62
+vertex 72
+vertex __inserted_inport_2.out0
+vertex 72.in0
+vertex __inserted_inport_2
+vertex 66.in1
+vertex __inserted_outport_0.in0
+vertex 62.in0
+vertex 66
+vertex __inserted_inport_0
+vertex __inserted_inport_0.out0
+vertex 62.out0
+vertex 66.in0
+vertex 66.out0
+net __inserted_outport_0 __inserted_outport_0.out0
+net __inserted_inport_3.out0 66.in1
+net __inserted_inport_2.in0 __inserted_inport_2
+net __inserted_inport_1.out0 62.in1
+net __inserted_inport_3 __inserted_inport_3.out0
+net __inserted_inport_1.in0 __inserted_inport_1
+net __inserted_inport_1 __inserted_inport_1.out0
+net __inserted_inport_3.in0 __inserted_inport_3
+net __inserted_inport_0.in0 __inserted_inport_0
+net 72.in1 72
+net 62.in1 62
+net 72.out0 __inserted_outport_0.in0
+net 62 62.out0
+net 72 72.out0
+net __inserted_inport_2.out0 66.in0
+net 72.in0 72
+net __inserted_inport_2 __inserted_inport_2.out0
+net 66.in1 66
+net __inserted_outport_0.in0 __inserted_outport_0
+net 62.in0 62
+net 66 66.out0
+net __inserted_inport_0 __inserted_inport_0.out0
+net __inserted_inport_0.out0 62.in0
+net 62.out0 72.in0
+net 66.in0 66
+net 66.out0 72.in1

@@ -1,0 +1,122 @@
+attr __file__ str ./benchmarks/cgrame/accumulate/accumulate_DFG.txt
+attr __name__ str ./benchmarks/cgrame/accumulate/accumulate_DFG.txt
+vertex load13.in0
+vertex store15
+vertex output17.in0
+vertex load4
+vertex mul2.in1
+vertex const8.out0
+vertex add10.in0
+vertex mul14.in0
+vertex load9
+vertex mul2.in0
+vertex add16
+vertex const8
+vertex const3.out0
+vertex add0
+vertex store15.in1
+vertex load9.out0
+vertex const6
+vertex add16.in1
+vertex mul7.in0
+vertex add0.in0
+vertex add16.in0
+vertex load9.in0
+vertex output17
+vertex add0.in1
+vertex load4.out0
+vertex add10
+vertex add5.in1
+vertex add5.out0
+vertex const1
+vertex mul14.out0
+vertex mul11.in0
+vertex mul14
+vertex mul14.in1
+vertex store15.in0
+vertex output17.out0
+vertex add5
+vertex const6.out0
+vertex add16.out0
+vertex load4.in0
+vertex add10.out0
+vertex mul2.out0
+vertex mul7
+vertex load13.out0
+vertex add10.in1
+vertex const1.out0
+vertex mul2
+vertex store15.out0
+vertex mul7.in1
+vertex mul11
+vertex load13
+vertex const12.out0
+vertex mul11.out0
+vertex const3
+vertex add5.in0
+vertex const12
+vertex mul7.out0
+vertex mul11.in1
+vertex add0.out0
+net load13.in0 load13
+net store15 store15.out0
+net output17.in0 output17
+net load4 load4.out0
+net mul2.in1 mul2
+net const8.out0 mul7.in0
+net add10.in0 add10
+net mul14.in0 mul14
+net load9 load9.out0
+net mul2.in0 mul2
+net add16 add16.out0
+net const8 const8.out0
+net const3.out0 mul2.in0
+net add0 add0.out0
+net store15.in1 store15
+net load9.out0 add10.in0
+net const6 const6.out0
+net add16.in1 add16
+net mul7.in0 mul7
+net add0.in0 add0
+net add16.in0 add16
+net load9.in0 load9
+net output17 output17.out0
+net add0.in1 add0
+net load4.out0 add10.in1
+net add10 add10.out0
+net add5.in1 add5
+net add5.out0 mul7.in1
+net const1 const1.out0
+net mul14.out0 store15.in0
+net mul14.out0 add16.in0
+net mul11.in0 mul11
+net mul14 mul14.out0
+net mul14.in1 mul14
+net store15.in0 store15
+net add5 add5.out0
+net const6.out0 add5.in1
+net add16.out0 output17.in0
+net add16.out0 add16.in1
+net load4.in0 load4
+net add10.out0 mul14.in1
+net mul2.out0 load4.in0
+net mul7 mul7.out0
+net load13.out0 mul14.in0
+net add10.in1 add10
+net const1.out0 add0.in1
+net mul2 mul2.out0
+net mul7.in1 mul7
+net mul11 mul11.out0
+net load13 load13.out0
+net const12.out0 mul11.in0
+net mul11.out0 load13.in0
+net mul11.out0 store15.in1
+net const3 const3.out0
+net add5.in0 add5
+net const12 const12.out0
+net mul7.out0 load9.in0
+net mul11.in1 mul11
+net add0.out0 mul2.in1
+net add0.out0 add0.in0
+net add0.out0 add5.in0
+net add0.out0 mul11.in1

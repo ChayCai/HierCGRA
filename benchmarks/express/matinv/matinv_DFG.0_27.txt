@@ -1,0 +1,27 @@
+vertex MUL_402
+vertex ADD_405
+vertex ADD_405.in0
+vertex MUL_254
+vertex ADD_395.out0
+vertex ADD_405.out0
+vertex ADD_257.out0
+vertex MUL_254.out0
+vertex MUL_392
+vertex ADD_395
+vertex MUL_402.out0
+vertex ADD_257
+vertex ADD_257.in0
+vertex MUL_392.out0
+vertex ADD_395.in0
+net MUL_402 MUL_402.out0
+net ADD_405 ADD_405.out0
+net ADD_405.in0 ADD_405
+net MUL_254 MUL_254.out0
+net MUL_254.out0 ADD_257.in0
+net MUL_392 MUL_392.out0
+net ADD_395 ADD_395.out0
+net MUL_402.out0 ADD_405.in0
+net ADD_257 ADD_257.out0
+net ADD_257.in0 ADD_257
+net MUL_392.out0 ADD_395.in0
+net ADD_395.in0 ADD_395
