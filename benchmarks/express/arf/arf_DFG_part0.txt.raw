@@ -1,5 +1,5 @@
-attr __file__ str ./benchmarks/express/arf/arf_DFG_part0.txt
-attr __name__ str ./benchmarks/express/arf/arf_DFG_part0.txt
+attr __file__ str ./benchmarks_copy/express/arf/arf_DFG_part0.txt
+attr __name__ str ./benchmarks_copy/express/arf/arf_DFG_part0.txt
 vertex ADD_20.in1
     attr optype str add.in1
 vertex MUL_15

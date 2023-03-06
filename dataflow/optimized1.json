@@ -1,0 +1,3360 @@
+{
+    "Function": {
+        "__INPUT__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__OUTPUT__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__ADD__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__SUB__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__MUL__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__ACC__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__AND__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__OR__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__XOR__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__NOT__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LSHIFT__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__RSHIFT__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__MAD__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__CONST__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__REG__": {
+            "input": [
+                "din",
+                "ctr"
+            ],
+            "output": [
+                "dout"
+            ],
+            "width": "32"
+        },
+        "__MEMORY__": {
+            "input": [
+                "addr",
+                "din",
+                "ctr"
+            ],
+            "output": [
+                "dout"
+            ],
+            "width": "32"
+        },
+        "__EQUAL__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__GREATER__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LESS__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LOGICAND2__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LOGICAND3__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LOGICAND4__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LOGICOR2__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LOGICOR3__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LOGICOR4__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__BRANCH2__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0",
+                "out1"
+            ],
+            "width": "32"
+        },
+        "__BRANCH3__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2"
+            ],
+            "width": "32"
+        },
+        "__BRANCH4__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3"
+            ],
+            "width": "32"
+        },
+        "__JOIN2__": {
+            "input": [
+                "in0",
+                "in1",
+                "select"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__JOIN3__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "select"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__JOIN4__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "select"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        }
+    },
+    "Unit": {
+        "INPUT": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_INPUT0": "__INPUT__"
+            },
+            "pattern": {
+                "PATN_INPUT0": {
+                    "unit": [
+                        "FUNC_INPUT0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_INPUT0.in0",
+                        "out0": "FUNC_INPUT0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "OUTPUT": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_OUTPUT0": "__OUTPUT__"
+            },
+            "pattern": {
+                "__OUTPUT__": {
+                    "unit": [
+                        "FUNC_OUTPUT0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_OUTPUT0.in0",
+                        "out0": "FUNC_OUTPUT0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "ADDTREE4": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3"
+            ],
+            "output": [
+                "out0",
+                "out1"
+            ],
+            "function": {
+                "FUNC_CONST0": "__CONST__",
+                "FUNC_CONST1": "__CONST__",
+                "FUNC_ADD0": "__ADD__",
+                "FUNC_ADD1": "__ADD__",
+                "FUNC_ADD2": "__ADD__",
+                "FUNC_SUB0": "__SUB__"
+            },
+            "pattern": {
+                "PATN_CONST0": {
+                    "unit": [
+                        "FUNC_CONST0"
+                    ],
+                    "port": {
+                        "out0": "FUNC_CONST0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_CONST1": {
+                    "unit": [
+                        "FUNC_CONST0",
+                        "FUNC_CONST1"
+                    ],
+                    "port": {
+                        "out0": "FUNC_CONST0.out0",
+                        "out1": "FUNC_CONST0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_ADD0": {
+                    "unit": [
+                        "FUNC_ADD0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_ADD0.in0",
+                        "in1": "FUNC_ADD0.in1",
+                        "out0": "FUNC_ADD0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_ADD1": {
+                    "unit": [
+                        "FUNC_ADD0",
+                        "FUNC_ADD1"
+                    ],
+                    "port": {
+                        "in0": "FUNC_ADD0.in0",
+                        "in1": "FUNC_ADD0.in1",
+                        "in2": "FUNC_ADD1.in1",
+                        "out0": "FUNC_ADD1.out0"
+                    },
+                    "connection": [
+                        "FUNC_ADD0.out0->FUNC_ADD1.in0"
+                    ]
+                },
+                "PATN_ADD2": {
+                    "unit": [
+                        "FUNC_ADD0",
+                        "FUNC_ADD1",
+                        "FUNC_ADD2"
+                    ],
+                    "port": {
+                        "in0": "FUNC_ADD0.in0",
+                        "in1": "FUNC_ADD0.in1",
+                        "in2": "FUNC_ADD1.in0",
+                        "in3": "FUNC_ADD1.in1",
+                        "out0": "FUNC_ADD2.out0"
+                    },
+                    "connection": [
+                        "FUNC_ADD0.out0->FUNC_ADD2.in0",
+                        "FUNC_ADD1.out0->FUNC_ADD2.in1"
+                    ]
+                }
+            },
+            "compat": {}
+        },
+        "MAD": {
+            "input": [
+                "in0",
+                "in1",
+                "in2"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_ADD0": "__ADD__",
+                "FUNC_SUB0": "__SUB__",
+                "FUNC_MUL0": "__MUL__",
+                "FUNC_ACC0": "__ACC__"
+            },
+            "pattern": {
+                "PATN_ADD0": {
+                    "unit": [
+                        "FUNC_ADD0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_ADD0.in0",
+                        "in1": "FUNC_ADD0.in1",
+                        "out0": "FUNC_ADD0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_SUB0": {
+                    "unit": [
+                        "FUNC_SUB0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_SUB0.in0",
+                        "in1": "FUNC_SUB0.in1",
+                        "out0": "FUNC_SUB0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_MUL0": {
+                    "unit": [
+                        "FUNC_MUL0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_MUL0.in0",
+                        "in1": "FUNC_MUL0.in1",
+                        "out0": "FUNC_MUL0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_ACC0": {
+                    "unit": [
+                        "FUNC_ADD0",
+                        "FUNC_MUL0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_MUL0.in0",
+                        "in1": "FUNC_MUL0.in1",
+                        "out0": "FUNC_ADD0.out0"
+                    },
+                    "connection": [
+                        "FUNC_MUL0.out0->FUNC_ADD0.in1",
+                        "FUNC_ADD0.out0->FUNC_ADD0.in0"
+                    ]
+                },
+                "PATN_ACC1": {
+                    "unit": [
+                        "FUNC_ADD0",
+                        "FUNC_MUL0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_MUL0.in0",
+                        "in1": "FUNC_MUL0.in1",
+                        "out0": "FUNC_ADD0.out0"
+                    },
+                    "connection": [
+                        "FUNC_MUL0.out0->FUNC_ADD0.in0",
+                        "FUNC_ADD0.out0->FUNC_ADD0.in1"
+                    ]
+                },
+                "PATN_ACC2": {
+                    "unit": [
+                        "FUNC_ACC0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_ACC0.in0",
+                        "in1": "FUNC_ACC0.in1",
+                        "out0": "FUNC_ACC0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_MAD0": {
+                    "unit": [
+                        "FUNC_ADD0",
+                        "FUNC_MUL0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_MUL0.in0",
+                        "in1": "FUNC_MUL0.in1",
+                        "in2": "FUNC_ADD0.in1",
+                        "out0": "FUNC_ADD0.out0"
+                    },
+                    "connection": [
+                        "FUNC_MUL0.out0->FUNC_ADD0.in0"
+                    ]
+                },
+                "PATN_MAD1": {
+                    "unit": [
+                        "FUNC_ADD0",
+                        "FUNC_MUL0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_MUL0.in0",
+                        "in1": "FUNC_MUL0.in1",
+                        "in2": "FUNC_ADD0.in0",
+                        "out0": "FUNC_ADD0.out0"
+                    },
+                    "connection": [
+                        "FUNC_MUL0.out0->FUNC_ADD0.in1"
+                    ]
+                }
+            },
+            "compat": {}
+        },
+        "LOGIC": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_AND0": "__AND__",
+                "FUNC_OR0": "__OR__",
+                "FUNC_NOT0": "__NOT__",
+                "FUNC_NOT1": "__NOT__",
+                "FUNC_XOR0": "__XOR__",
+                "FUNC_LSHIFT0": "__LSHIFT__",
+                "FUNC_RSHIFT0": "__RSHIFT__"
+            },
+            "pattern": {
+                "PATN_AND0": {
+                    "unit": [
+                        "FUNC_AND0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_AND0.in0",
+                        "in1": "FUNC_AND0.in1",
+                        "out0": "FUNC_AND0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_OR0": {
+                    "unit": [
+                        "FUNC_OR0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_OR0.in0",
+                        "in1": "FUNC_OR0.in1",
+                        "out0": "FUNC_OR0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_NOT0": {
+                    "unit": [
+                        "FUNC_NOT0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_NOT0.in0",
+                        "out0": "FUNC_NOT0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_XOR0": {
+                    "unit": [
+                        "FUNC_XOR0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_XOR0.in0",
+                        "in1": "FUNC_XOR0.in1",
+                        "out0": "FUNC_XOR0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_NAND0": {
+                    "unit": [
+                        "FUNC_NOT0",
+                        "FUNC_AND0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_AND0.in0",
+                        "in1": "FUNC_AND0.in1",
+                        "out0": "FUNC_NOT0.out0"
+                    },
+                    "connection": [
+                        "FUNC_AND0.out0->FUNC_NOT0.in0"
+                    ]
+                },
+                "PATN_NOR0": {
+                    "unit": [
+                        "FUNC_NOT0",
+                        "FUNC_XOR0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_XOR0.in0",
+                        "in1": "FUNC_XOR0.in1",
+                        "out0": "FUNC_NOT0.out0"
+                    },
+                    "connection": [
+                        "FUNC_XOR0.out0->FUNC_NOT0.in0"
+                    ]
+                },
+                "PATN_NXOR0": {
+                    "unit": [
+                        "FUNC_NOT0",
+                        "FUNC_XOR0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_XOR0.in0",
+                        "in1": "FUNC_XOR0.in1",
+                        "out0": "FUNC_NOT0.out0"
+                    },
+                    "connection": [
+                        "FUNC_XOR0.out0->FUNC_NOT0.in0"
+                    ]
+                },
+                "PATN_LSHIFT0": {
+                    "unit": [
+                        "FUNC_LSHIFT0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_LSHIFT0.in0",
+                        "in1": "FUNC_LSHIFT0.in1",
+                        "out0": "FUNC_LSHIFT0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_RSHIFT0": {
+                    "unit": [
+                        "FUNC_RSHIFT0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_RSHIFT0.in0",
+                        "in1": "FUNC_RSHIFT0.in1",
+                        "out0": "FUNC_RSHIFT0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "IFELSE": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "select0",
+                "select1"
+            ],
+            "output": [
+                "out0",
+                "out1"
+            ],
+            "function": {
+                "FUNC_JOIN0": "__JOIN2__",
+                "FUNC_JOIN1": "__JOIN2__",
+                "FUNC_EQUAL0": "__EQUAL__",
+                "FUNC_GREATER0": "__GREATER__",
+                "FUNC_LESS0": "__LESS__",
+                "FUNC_LOGICAND0": "__LOGICAND2__",
+                "FUNC_LOGICOR0": "__LOGICOR2__",
+                "FUNC_LOGICAND1": "__LOGICAND3__",
+                "FUNC_LOGICOR1": "__LOGICOR3__",
+                "FUNC_LOGICAND2": "__LOGICAND4__",
+                "FUNC_LOGICOR2": "__LOGICOR4__"
+            },
+            "pattern": {
+                "PATN_JOIN0": {
+                    "unit": [
+                        "FUNC_JOIN0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_JOIN0.in0",
+                        "in1": "FUNC_JOIN0.in1",
+                        "select0": "FUNC_JOIN0.select",
+                        "out0": "FUNC_JOIN0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_JOIN1": {
+                    "unit": [
+                        "FUNC_JOIN0",
+                        "FUNC_JOIN1"
+                    ],
+                    "port": {
+                        "in0": "FUNC_JOIN0.in0",
+                        "in1": "FUNC_JOIN0.in1",
+                        "select0": "FUNC_JOIN0.select",
+                        "out0": "FUNC_JOIN0.out0",
+                        "in2": "FUNC_JOIN1.in0",
+                        "in3": "FUNC_JOIN1.in1",
+                        "select1": "FUNC_JOIN1.select",
+                        "out1": "FUNC_JOIN1.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_JOIN2": {
+                    "unit": [
+                        "FUNC_JOIN0",
+                        "FUNC_JOIN1"
+                    ],
+                    "port": {
+                        "in0": "FUNC_JOIN0.in0",
+                        "in1": "FUNC_JOIN0.in1",
+                        "select0": "FUNC_JOIN0.select",
+                        "out0": "FUNC_JOIN0.out0",
+                        "in2": "FUNC_JOIN1.in1",
+                        "select1": "FUNC_JOIN1.select",
+                        "out1": "FUNC_JOIN1.out0"
+                    },
+                    "connection": [
+                        "FUNC_JOIN0.out0->FUNC_JOIN1.in0"
+                    ]
+                },
+                "PATN_JOIN3": {
+                    "unit": [
+                        "FUNC_JOIN0",
+                        "FUNC_JOIN1"
+                    ],
+                    "port": {
+                        "in0": "FUNC_JOIN0.in0",
+                        "in1": "FUNC_JOIN0.in1",
+                        "select0": "FUNC_JOIN0.select",
+                        "out0": "FUNC_JOIN0.out0",
+                        "in2": "FUNC_JOIN1.in0",
+                        "select1": "FUNC_JOIN1.select",
+                        "out1": "FUNC_JOIN1.out0"
+                    },
+                    "connection": [
+                        "FUNC_JOIN0.out0->FUNC_JOIN1.in1"
+                    ]
+                },
+                "PATN_EQUAL0": {
+                    "unit": [
+                        "FUNC_EQUAL0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_EQUAL0.in0",
+                        "in1": "FUNC_EQUAL0.in1",
+                        "out0": "FUNC_EQUAL0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_GREATER0": {
+                    "unit": [
+                        "FUNC_GREATER0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_GREATER0.in0",
+                        "in1": "FUNC_GREATER0.in1",
+                        "out0": "FUNC_GREATER0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_LESS0": {
+                    "unit": [
+                        "FUNC_LESS0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_LESS0.in0",
+                        "in1": "FUNC_LESS0.in1",
+                        "out0": "FUNC_LESS0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_EQUALJOIN0": {
+                    "unit": [
+                        "FUNC_JOIN0",
+                        "FUNC_EQUAL0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_EQUAL0.in0",
+                        "in1": "FUNC_EQUAL0.in1",
+                        "out0": "FUNC_JOIN0.out0",
+                        "out1": "FUNC_EQUAL0.out0"
+                    },
+                    "connection": [
+                        "FUNC_EQUAL0.out0->FUNC_JOIN0.select"
+                    ]
+                },
+                "PATN_GREATERJOIN0": {
+                    "unit": [
+                        "FUNC_JOIN0",
+                        "FUNC_GREATER0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_GREATER0.in0",
+                        "in1": "FUNC_GREATER0.in1",
+                        "out0": "FUNC_JOIN0.out0",
+                        "out1": "FUNC_GREATER0.out0"
+                    },
+                    "connection": [
+                        "FUNC_GREATER0.out0->FUNC_JOIN0.select"
+                    ]
+                },
+                "PATN_LESSJOIN0": {
+                    "unit": [
+                        "FUNC_JOIN0",
+                        "FUNC_LESS0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_LESS0.in0",
+                        "in1": "FUNC_LESS0.in1",
+                        "out0": "FUNC_JOIN0.out0",
+                        "out1": "FUNC_LESS0.out0"
+                    },
+                    "connection": [
+                        "FUNC_LESS0.out0->FUNC_JOIN0.select"
+                    ]
+                },
+                "PATN_LOGICAND0": {
+                    "unit": [
+                        "FUNC_LOGICAND0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_LOGICAND0.in0",
+                        "in1": "FUNC_LOGICAND0.in1",
+                        "out0": "FUNC_LOGICAND0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_LOGICAND1": {
+                    "unit": [
+                        "FUNC_LOGICAND1"
+                    ],
+                    "port": {
+                        "in0": "FUNC_LOGICAND1.in0",
+                        "in1": "FUNC_LOGICAND1.in1",
+                        "in2": "FUNC_LOGICAND1.in2",
+                        "out0": "FUNC_LOGICAND1.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_LOGICAND2": {
+                    "unit": [
+                        "FUNC_LOGICAND2"
+                    ],
+                    "port": {
+                        "in0": "FUNC_LOGICAND2.in0",
+                        "in1": "FUNC_LOGICAND2.in1",
+                        "in2": "FUNC_LOGICAND2.in2",
+                        "in3": "FUNC_LOGICAND2.in3",
+                        "out0": "FUNC_LOGICAND2.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_LOGICOR0": {
+                    "unit": [
+                        "FUNC_LOGICOR0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_LOGICOR0.in0",
+                        "in1": "FUNC_LOGICOR0.in1",
+                        "out0": "FUNC_LOGICOR0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_LOGICOR1": {
+                    "unit": [
+                        "FUNC_LOGICOR1"
+                    ],
+                    "port": {
+                        "in0": "FUNC_LOGICOR1.in0",
+                        "in1": "FUNC_LOGICOR1.in1",
+                        "in2": "FUNC_LOGICOR1.in2",
+                        "out0": "FUNC_LOGICOR1.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_LOGICOR2": {
+                    "unit": [
+                        "FUNC_LOGICOR2"
+                    ],
+                    "port": {
+                        "in0": "FUNC_LOGICOR2.in0",
+                        "in1": "FUNC_LOGICOR2.in1",
+                        "in2": "FUNC_LOGICOR2.in2",
+                        "in3": "FUNC_LOGICOR2.in3",
+                        "out0": "FUNC_LOGICOR2.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        }
+    },
+    "Switch": {
+        "FULLYCONN_2X1": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0",
+                "in1->out0"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_3X1": {
+            "input": [
+                "in0",
+                "in1",
+                "in2"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0",
+                "in1->out0",
+                "in2->out0"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_4X1": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0",
+                "in1->out0",
+                "in2->out0",
+                "in3->out0"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_4X2": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3"
+            ],
+            "output": [
+                "out0",
+                "out1"
+            ],
+            "required": [
+                "in0->out0",
+                "in0->out1",
+                "in1->out0",
+                "in1->out1",
+                "in2->out0",
+                "in2->out1",
+                "in3->out0",
+                "in3->out1"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_4X4": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3"
+            ],
+            "required": [
+                "in0->out0",
+                "in0->out1",
+                "in0->out2",
+                "in0->out3",
+                "in1->out0",
+                "in1->out1",
+                "in1->out2",
+                "in1->out3",
+                "in2->out0",
+                "in2->out1",
+                "in2->out2",
+                "in2->out3",
+                "in3->out0",
+                "in3->out1",
+                "in3->out2",
+                "in3->out3"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_6X1": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0",
+                "in1->out0",
+                "in2->out0",
+                "in3->out0",
+                "in4->out0",
+                "in5->out0"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_6X2": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5"
+            ],
+            "output": [
+                "out0",
+                "out1"
+            ],
+            "required": [
+                "in0->out0",
+                "in0->out1",
+                "in1->out0",
+                "in1->out1",
+                "in2->out0",
+                "in2->out1",
+                "in3->out0",
+                "in3->out1",
+                "in4->out0",
+                "in4->out1",
+                "in5->out0",
+                "in5->out1"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_6X6": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3",
+                "out4",
+                "out5"
+            ],
+            "required": [
+                "in0->out0",
+                "in0->out1",
+                "in0->out2",
+                "in0->out3",
+                "in0->out4",
+                "in0->out5",
+                "in1->out0",
+                "in1->out1",
+                "in1->out2",
+                "in1->out3",
+                "in1->out4",
+                "in1->out5",
+                "in2->out0",
+                "in2->out1",
+                "in2->out2",
+                "in2->out3",
+                "in2->out4",
+                "in2->out5",
+                "in3->out0",
+                "in3->out1",
+                "in3->out2",
+                "in3->out3",
+                "in3->out4",
+                "in3->out5",
+                "in4->out0",
+                "in4->out1",
+                "in4->out2",
+                "in4->out3",
+                "in4->out4",
+                "in4->out5",
+                "in5->out0",
+                "in5->out1",
+                "in5->out2",
+                "in5->out3",
+                "in5->out4",
+                "in5->out5"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_8X1": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0",
+                "in1->out0",
+                "in2->out0",
+                "in3->out0",
+                "in4->out0",
+                "in5->out0",
+                "in6->out0",
+                "in7->out0"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_8X4": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3"
+            ],
+            "required": [
+                "in0->out0",
+                "in0->out1",
+                "in0->out2",
+                "in0->out3",
+                "in1->out0",
+                "in1->out1",
+                "in1->out2",
+                "in1->out3",
+                "in2->out0",
+                "in2->out1",
+                "in2->out2",
+                "in2->out3",
+                "in3->out0",
+                "in3->out1",
+                "in3->out2",
+                "in3->out3",
+                "in4->out0",
+                "in4->out1",
+                "in4->out2",
+                "in4->out3",
+                "in5->out0",
+                "in5->out1",
+                "in5->out2",
+                "in5->out3",
+                "in6->out0",
+                "in6->out1",
+                "in6->out2",
+                "in6->out3",
+                "in7->out0",
+                "in7->out1",
+                "in7->out2",
+                "in7->out3"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_8X8": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3",
+                "out4",
+                "out5",
+                "out6",
+                "out7"
+            ],
+            "required": [
+                "in0->out0",
+                "in0->out1",
+                "in0->out2",
+                "in0->out3",
+                "in0->out4",
+                "in0->out5",
+                "in0->out6",
+                "in0->out7",
+                "in1->out0",
+                "in1->out1",
+                "in1->out2",
+                "in1->out3",
+                "in1->out4",
+                "in1->out5",
+                "in1->out6",
+                "in1->out7",
+                "in2->out0",
+                "in2->out1",
+                "in2->out2",
+                "in2->out3",
+                "in2->out4",
+                "in2->out5",
+                "in2->out6",
+                "in2->out7",
+                "in3->out0",
+                "in3->out1",
+                "in3->out2",
+                "in3->out3",
+                "in3->out4",
+                "in3->out5",
+                "in3->out6",
+                "in3->out7",
+                "in4->out0",
+                "in4->out1",
+                "in4->out2",
+                "in4->out3",
+                "in4->out4",
+                "in4->out5",
+                "in4->out6",
+                "in4->out7",
+                "in5->out0",
+                "in5->out1",
+                "in5->out2",
+                "in5->out3",
+                "in5->out4",
+                "in5->out5",
+                "in5->out6",
+                "in5->out7",
+                "in6->out0",
+                "in6->out1",
+                "in6->out2",
+                "in6->out3",
+                "in6->out4",
+                "in6->out5",
+                "in6->out6",
+                "in6->out7",
+                "in7->out0",
+                "in7->out1",
+                "in7->out2",
+                "in7->out3",
+                "in7->out4",
+                "in7->out5",
+                "in7->out6",
+                "in7->out7"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_16X2": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7",
+                "in8",
+                "in9",
+                "in10",
+                "in11",
+                "in12",
+                "in13",
+                "in14",
+                "in15"
+            ],
+            "output": [
+                "out0",
+                "out1"
+            ],
+            "required": [
+                "in0->out0",
+                "in0->out1",
+                "in1->out0",
+                "in1->out1",
+                "in2->out0",
+                "in2->out1",
+                "in3->out0",
+                "in3->out1",
+                "in4->out0",
+                "in4->out1",
+                "in5->out0",
+                "in5->out1",
+                "in6->out0",
+                "in6->out1",
+                "in7->out0",
+                "in7->out1",
+                "in8->out0",
+                "in8->out1",
+                "in9->out0",
+                "in9->out1",
+                "in10->out0",
+                "in10->out1",
+                "in11->out0",
+                "in11->out1",
+                "in12->out0",
+                "in12->out1",
+                "in13->out0",
+                "in13->out1",
+                "in14->out0",
+                "in14->out1",
+                "in15->out0",
+                "in15->out1"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_16X4": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7",
+                "in8",
+                "in9",
+                "in10",
+                "in11",
+                "in12",
+                "in13",
+                "in14",
+                "in15"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3"
+            ],
+            "required": [
+                "in0->out0",
+                "in0->out1",
+                "in0->out2",
+                "in0->out3",
+                "in1->out0",
+                "in1->out1",
+                "in1->out2",
+                "in1->out3",
+                "in2->out0",
+                "in2->out1",
+                "in2->out2",
+                "in2->out3",
+                "in3->out0",
+                "in3->out1",
+                "in3->out2",
+                "in3->out3",
+                "in4->out0",
+                "in4->out1",
+                "in4->out2",
+                "in4->out3",
+                "in5->out0",
+                "in5->out1",
+                "in5->out2",
+                "in5->out3",
+                "in6->out0",
+                "in6->out1",
+                "in6->out2",
+                "in6->out3",
+                "in7->out0",
+                "in7->out1",
+                "in7->out2",
+                "in7->out3",
+                "in8->out0",
+                "in8->out1",
+                "in8->out2",
+                "in8->out3",
+                "in9->out0",
+                "in9->out1",
+                "in9->out2",
+                "in9->out3",
+                "in10->out0",
+                "in10->out1",
+                "in10->out2",
+                "in10->out3",
+                "in11->out0",
+                "in11->out1",
+                "in11->out2",
+                "in11->out3",
+                "in12->out0",
+                "in12->out1",
+                "in12->out2",
+                "in12->out3",
+                "in13->out0",
+                "in13->out1",
+                "in13->out2",
+                "in13->out3",
+                "in14->out0",
+                "in14->out1",
+                "in14->out2",
+                "in14->out3",
+                "in15->out0",
+                "in15->out1",
+                "in15->out2",
+                "in15->out3"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_16X8": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7",
+                "in8",
+                "in9",
+                "in10",
+                "in11",
+                "in12",
+                "in13",
+                "in14",
+                "in15"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3",
+                "out4",
+                "out5",
+                "out6",
+                "out7"
+            ],
+            "required": [
+                "in0->out0",
+                "in0->out1",
+                "in0->out2",
+                "in0->out3",
+                "in0->out4",
+                "in0->out5",
+                "in0->out6",
+                "in0->out7",
+                "in1->out0",
+                "in1->out1",
+                "in1->out2",
+                "in1->out3",
+                "in1->out4",
+                "in1->out5",
+                "in1->out6",
+                "in1->out7",
+                "in2->out0",
+                "in2->out1",
+                "in2->out2",
+                "in2->out3",
+                "in2->out4",
+                "in2->out5",
+                "in2->out6",
+                "in2->out7",
+                "in3->out0",
+                "in3->out1",
+                "in3->out2",
+                "in3->out3",
+                "in3->out4",
+                "in3->out5",
+                "in3->out6",
+                "in3->out7",
+                "in4->out0",
+                "in4->out1",
+                "in4->out2",
+                "in4->out3",
+                "in4->out4",
+                "in4->out5",
+                "in4->out6",
+                "in4->out7",
+                "in5->out0",
+                "in5->out1",
+                "in5->out2",
+                "in5->out3",
+                "in5->out4",
+                "in5->out5",
+                "in5->out6",
+                "in5->out7",
+                "in6->out0",
+                "in6->out1",
+                "in6->out2",
+                "in6->out3",
+                "in6->out4",
+                "in6->out5",
+                "in6->out6",
+                "in6->out7",
+                "in7->out0",
+                "in7->out1",
+                "in7->out2",
+                "in7->out3",
+                "in7->out4",
+                "in7->out5",
+                "in7->out6",
+                "in7->out7",
+                "in8->out0",
+                "in8->out1",
+                "in8->out2",
+                "in8->out3",
+                "in8->out4",
+                "in8->out5",
+                "in8->out6",
+                "in8->out7",
+                "in9->out0",
+                "in9->out1",
+                "in9->out2",
+                "in9->out3",
+                "in9->out4",
+                "in9->out5",
+                "in9->out6",
+                "in9->out7",
+                "in10->out0",
+                "in10->out1",
+                "in10->out2",
+                "in10->out3",
+                "in10->out4",
+                "in10->out5",
+                "in10->out6",
+                "in10->out7",
+                "in11->out0",
+                "in11->out1",
+                "in11->out2",
+                "in11->out3",
+                "in11->out4",
+                "in11->out5",
+                "in11->out6",
+                "in11->out7",
+                "in12->out0",
+                "in12->out1",
+                "in12->out2",
+                "in12->out3",
+                "in12->out4",
+                "in12->out5",
+                "in12->out6",
+                "in12->out7",
+                "in13->out0",
+                "in13->out1",
+                "in13->out2",
+                "in13->out3",
+                "in13->out4",
+                "in13->out5",
+                "in13->out6",
+                "in13->out7",
+                "in14->out0",
+                "in14->out1",
+                "in14->out2",
+                "in14->out3",
+                "in14->out4",
+                "in14->out5",
+                "in14->out6",
+                "in14->out7",
+                "in15->out0",
+                "in15->out1",
+                "in15->out2",
+                "in15->out3",
+                "in15->out4",
+                "in15->out5",
+                "in15->out6",
+                "in15->out7"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_24X6": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7",
+                "in8",
+                "in9",
+                "in10",
+                "in11",
+                "in12",
+                "in13",
+                "in14",
+                "in15",
+                "in16",
+                "in17",
+                "in18",
+                "in19",
+                "in20",
+                "in21",
+                "in22",
+                "in23"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3",
+                "out4",
+                "out5"
+            ],
+            "required": [
+                "in0->out0",
+                "in0->out1",
+                "in0->out2",
+                "in0->out3",
+                "in0->out4",
+                "in0->out5",
+                "in1->out0",
+                "in1->out1",
+                "in1->out2",
+                "in1->out3",
+                "in1->out4",
+                "in1->out5",
+                "in2->out0",
+                "in2->out1",
+                "in2->out2",
+                "in2->out3",
+                "in2->out4",
+                "in2->out5",
+                "in3->out0",
+                "in3->out1",
+                "in3->out2",
+                "in3->out3",
+                "in3->out4",
+                "in3->out5",
+                "in4->out0",
+                "in4->out1",
+                "in4->out2",
+                "in4->out3",
+                "in4->out4",
+                "in4->out5",
+                "in5->out0",
+                "in5->out1",
+                "in5->out2",
+                "in5->out3",
+                "in5->out4",
+                "in5->out5",
+                "in6->out0",
+                "in6->out1",
+                "in6->out2",
+                "in6->out3",
+                "in6->out4",
+                "in6->out5",
+                "in7->out0",
+                "in7->out1",
+                "in7->out2",
+                "in7->out3",
+                "in7->out4",
+                "in7->out5",
+                "in8->out0",
+                "in8->out1",
+                "in8->out2",
+                "in8->out3",
+                "in8->out4",
+                "in8->out5",
+                "in9->out0",
+                "in9->out1",
+                "in9->out2",
+                "in9->out3",
+                "in9->out4",
+                "in9->out5",
+                "in10->out0",
+                "in10->out1",
+                "in10->out2",
+                "in10->out3",
+                "in10->out4",
+                "in10->out5",
+                "in11->out0",
+                "in11->out1",
+                "in11->out2",
+                "in11->out3",
+                "in11->out4",
+                "in11->out5",
+                "in12->out0",
+                "in12->out1",
+                "in12->out2",
+                "in12->out3",
+                "in12->out4",
+                "in12->out5",
+                "in13->out0",
+                "in13->out1",
+                "in13->out2",
+                "in13->out3",
+                "in13->out4",
+                "in13->out5",
+                "in14->out0",
+                "in14->out1",
+                "in14->out2",
+                "in14->out3",
+                "in14->out4",
+                "in14->out5",
+                "in15->out0",
+                "in15->out1",
+                "in15->out2",
+                "in15->out3",
+                "in15->out4",
+                "in15->out5",
+                "in16->out0",
+                "in16->out1",
+                "in16->out2",
+                "in16->out3",
+                "in16->out4",
+                "in16->out5",
+                "in17->out0",
+                "in17->out1",
+                "in17->out2",
+                "in17->out3",
+                "in17->out4",
+                "in17->out5",
+                "in18->out0",
+                "in18->out1",
+                "in18->out2",
+                "in18->out3",
+                "in18->out4",
+                "in18->out5",
+                "in19->out0",
+                "in19->out1",
+                "in19->out2",
+                "in19->out3",
+                "in19->out4",
+                "in19->out5",
+                "in20->out0",
+                "in20->out1",
+                "in20->out2",
+                "in20->out3",
+                "in20->out4",
+                "in20->out5",
+                "in21->out0",
+                "in21->out1",
+                "in21->out2",
+                "in21->out3",
+                "in21->out4",
+                "in21->out5",
+                "in22->out0",
+                "in22->out1",
+                "in22->out2",
+                "in22->out3",
+                "in22->out4",
+                "in22->out5",
+                "in23->out0",
+                "in23->out1",
+                "in23->out2",
+                "in23->out3",
+                "in23->out4",
+                "in23->out5"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_24X1": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7",
+                "in8",
+                "in9",
+                "in10",
+                "in11",
+                "in12",
+                "in13",
+                "in14",
+                "in15",
+                "in16",
+                "in17",
+                "in18",
+                "in19",
+                "in20",
+                "in21",
+                "in22",
+                "in23"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0",
+                "in1->out0",
+                "in2->out0",
+                "in3->out0",
+                "in4->out0",
+                "in5->out0",
+                "in6->out0",
+                "in7->out0",
+                "in8->out0",
+                "in9->out0",
+                "in10->out0",
+                "in11->out0",
+                "in12->out0",
+                "in13->out0",
+                "in14->out0",
+                "in15->out0",
+                "in16->out0",
+                "in17->out0",
+                "in18->out0",
+                "in19->out0",
+                "in20->out0",
+                "in21->out0",
+                "in22->out0",
+                "in23->out0"
+            ],
+            "graph": ""
+        }
+    },
+    "Module": {
+        "BlockType0": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7",
+                "in8",
+                "in9",
+                "in10",
+                "in11",
+                "in12",
+                "in13",
+                "in14",
+                "in15"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3",
+                "out4",
+                "out5",
+                "out6",
+                "out7"
+            ],
+            "module": {},
+            "element": {
+                "UNIT_MUL0": "MAD",
+                "UNIT_MUL1": "MAD",
+                "UNIT_MUL2": "MAD",
+                "UNIT_MUL3": "MAD",
+                "UNIT_MUL4": "MAD",
+                "UNIT_MUL5": "MAD",
+                "UNIT_MUL6": "MAD",
+                "UNIT_MUL7": "MAD",
+                "UNIT_ADD0": "ADDTREE4",
+                "UNIT_ADD1": "ADDTREE4",
+                "UNIT_ADD2": "ADDTREE4",
+                "UNIT_ADD3": "ADDTREE4",
+                "UNIT_IFELSE0": "IFELSE",
+                "UNIT_IFELSE1": "IFELSE",
+                "UNIT_IFELSE2": "IFELSE",
+                "UNIT_IFELSE3": "IFELSE"
+            },
+            "switch": {
+                "SWIT_IN_MUL_0": "FULLYCONN_16X8",
+                "SWIT_IN_MUL_1": "FULLYCONN_16X8",
+                "SWIT_IN_MUL_2": "FULLYCONN_16X8",
+                "SWIT_ADD_INPORT_0": "FULLYCONN_16X8",
+                "SWIT_ADD_INPORT_1": "FULLYCONN_16X8",
+                "SWIT_ADD_INPORT_SPEC_0": "FULLYCONN_6X2",
+                "SWIT_IN_IFELSE_0": "FULLYCONN_24X6",
+                "SWIT_IN_IFELSE_1": "FULLYCONN_24X6",
+                "SWIT_IN_IFELSE_2": "FULLYCONN_24X6",
+                "SWIT_IN_IFELSE_3": "FULLYCONN_24X6",
+                "SWIT_OUT_0": "FULLYCONN_24X1",
+                "SWIT_OUT_1": "FULLYCONN_24X1",
+                "SWIT_OUT_2": "FULLYCONN_24X1",
+                "SWIT_OUT_3": "FULLYCONN_24X1",
+                "SWIT_OUT_4": "FULLYCONN_24X1",
+                "SWIT_OUT_5": "FULLYCONN_24X1",
+                "SWIT_OUT_6": "FULLYCONN_24X1",
+                "SWIT_OUT_7": "FULLYCONN_24X1"
+            },
+            "connection": [
+                "in0->SWIT_IN_MUL_0.in0",
+                "in1->SWIT_IN_MUL_0.in1",
+                "in2->SWIT_IN_MUL_0.in2",
+                "in3->SWIT_IN_MUL_0.in3",
+                "in4->SWIT_IN_MUL_0.in4",
+                "in5->SWIT_IN_MUL_0.in5",
+                "in6->SWIT_IN_MUL_0.in6",
+                "in7->SWIT_IN_MUL_0.in7",
+                "in8->SWIT_IN_MUL_0.in0",
+                "in9->SWIT_IN_MUL_0.in1",
+                "in10->SWIT_IN_MUL_0.in2",
+                "in11->SWIT_IN_MUL_0.in3",
+                "in12->SWIT_IN_MUL_0.in4",
+                "in13->SWIT_IN_MUL_0.in5",
+                "in14->SWIT_IN_MUL_0.in6",
+                "in15->SWIT_IN_MUL_0.in7",
+                "SWIT_IN_MUL_0.out0->UNIT_MUL0.in0",
+                "SWIT_IN_MUL_0.out1->UNIT_MUL1.in0",
+                "SWIT_IN_MUL_0.out2->UNIT_MUL2.in0",
+                "SWIT_IN_MUL_0.out3->UNIT_MUL3.in0",
+                "SWIT_IN_MUL_0.out4->UNIT_MUL4.in0",
+                "SWIT_IN_MUL_0.out5->UNIT_MUL5.in0",
+                "SWIT_IN_MUL_0.out6->UNIT_MUL6.in0",
+                "SWIT_IN_MUL_0.out7->UNIT_MUL7.in0",
+                "in0->SWIT_IN_MUL_1.in0",
+                "in1->SWIT_IN_MUL_1.in1",
+                "in2->SWIT_IN_MUL_1.in2",
+                "in3->SWIT_IN_MUL_1.in3",
+                "in4->SWIT_IN_MUL_1.in4",
+                "in5->SWIT_IN_MUL_1.in5",
+                "in6->SWIT_IN_MUL_1.in6",
+                "in7->SWIT_IN_MUL_1.in7",
+                "in8->SWIT_IN_MUL_1.in0",
+                "in9->SWIT_IN_MUL_1.in1",
+                "in10->SWIT_IN_MUL_1.in2",
+                "in11->SWIT_IN_MUL_1.in3",
+                "in12->SWIT_IN_MUL_1.in4",
+                "in13->SWIT_IN_MUL_1.in5",
+                "in14->SWIT_IN_MUL_1.in6",
+                "in15->SWIT_IN_MUL_1.in7",
+                "SWIT_IN_MUL_1.out0->UNIT_MUL0.in1",
+                "SWIT_IN_MUL_1.out1->UNIT_MUL1.in1",
+                "SWIT_IN_MUL_1.out2->UNIT_MUL2.in1",
+                "SWIT_IN_MUL_1.out3->UNIT_MUL3.in1",
+                "SWIT_IN_MUL_1.out4->UNIT_MUL4.in1",
+                "SWIT_IN_MUL_1.out5->UNIT_MUL5.in1",
+                "SWIT_IN_MUL_1.out6->UNIT_MUL6.in1",
+                "SWIT_IN_MUL_1.out7->UNIT_MUL7.in1",
+                "in0->SWIT_IN_MUL_2.in0",
+                "in1->SWIT_IN_MUL_2.in1",
+                "in2->SWIT_IN_MUL_2.in2",
+                "in3->SWIT_IN_MUL_2.in3",
+                "in4->SWIT_IN_MUL_2.in4",
+                "in5->SWIT_IN_MUL_2.in5",
+                "in6->SWIT_IN_MUL_2.in6",
+                "in7->SWIT_IN_MUL_2.in7",
+                "in8->SWIT_IN_MUL_2.in0",
+                "in9->SWIT_IN_MUL_2.in1",
+                "in10->SWIT_IN_MUL_2.in2",
+                "in11->SWIT_IN_MUL_2.in3",
+                "in12->SWIT_IN_MUL_2.in4",
+                "in13->SWIT_IN_MUL_2.in5",
+                "in14->SWIT_IN_MUL_2.in6",
+                "in15->SWIT_IN_MUL_2.in7",
+                "SWIT_IN_MUL_2.out0->UNIT_MUL0.in2",
+                "SWIT_IN_MUL_2.out1->UNIT_MUL1.in2",
+                "SWIT_IN_MUL_2.out2->UNIT_MUL2.in2",
+                "SWIT_IN_MUL_2.out3->UNIT_MUL3.in2",
+                "SWIT_IN_MUL_2.out4->UNIT_MUL4.in2",
+                "SWIT_IN_MUL_2.out5->UNIT_MUL5.in2",
+                "SWIT_IN_MUL_2.out6->UNIT_MUL6.in2",
+                "SWIT_IN_MUL_2.out7->UNIT_MUL7.in2",
+                "in0->SWIT_ADD_INPORT_0.in0",
+                "in1->SWIT_ADD_INPORT_0.in1",
+                "in2->SWIT_ADD_INPORT_0.in2",
+                "in3->SWIT_ADD_INPORT_0.in3",
+                "in4->SWIT_ADD_INPORT_0.in4",
+                "in5->SWIT_ADD_INPORT_0.in5",
+                "in6->SWIT_ADD_INPORT_0.in6",
+                "in7->SWIT_ADD_INPORT_0.in7",
+                "UNIT_MUL0.out0->SWIT_ADD_INPORT_0.in0",
+                "UNIT_MUL1.out0->SWIT_ADD_INPORT_0.in1",
+                "UNIT_MUL2.out0->SWIT_ADD_INPORT_0.in2",
+                "UNIT_MUL3.out0->SWIT_ADD_INPORT_0.in3",
+                "UNIT_MUL4.out0->SWIT_ADD_INPORT_0.in4",
+                "UNIT_MUL5.out0->SWIT_ADD_INPORT_0.in5",
+                "UNIT_MUL6.out0->SWIT_ADD_INPORT_0.in6",
+                "UNIT_MUL7.out0->SWIT_ADD_INPORT_0.in7",
+                "SWIT_ADD_INPORT_0.out0->UNIT_ADD0.in0",
+                "SWIT_ADD_INPORT_0.out1->UNIT_ADD0.in1",
+                "SWIT_ADD_INPORT_0.out2->UNIT_ADD0.in2",
+                "SWIT_ADD_INPORT_0.out3->UNIT_ADD0.in3",
+                "SWIT_ADD_INPORT_0.out4->UNIT_ADD1.in0",
+                "SWIT_ADD_INPORT_0.out5->UNIT_ADD1.in1",
+                "SWIT_ADD_INPORT_0.out6->UNIT_ADD1.in2",
+                "SWIT_ADD_INPORT_0.out7->UNIT_ADD1.in3",
+                "in0->SWIT_ADD_INPORT_1.in0",
+                "in1->SWIT_ADD_INPORT_1.in1",
+                "in2->SWIT_ADD_INPORT_1.in2",
+                "in3->SWIT_ADD_INPORT_1.in3",
+                "in4->SWIT_ADD_INPORT_1.in4",
+                "in5->SWIT_ADD_INPORT_1.in5",
+                "in6->SWIT_ADD_INPORT_1.in6",
+                "in7->SWIT_ADD_INPORT_1.in7",
+                "UNIT_MUL0.out0->SWIT_ADD_INPORT_1.in0",
+                "UNIT_MUL1.out0->SWIT_ADD_INPORT_1.in1",
+                "UNIT_MUL2.out0->SWIT_ADD_INPORT_1.in2",
+                "UNIT_MUL3.out0->SWIT_ADD_INPORT_1.in3",
+                "UNIT_MUL4.out0->SWIT_ADD_INPORT_1.in4",
+                "UNIT_MUL5.out0->SWIT_ADD_INPORT_1.in5",
+                "UNIT_MUL6.out0->SWIT_ADD_INPORT_1.in6",
+                "UNIT_MUL7.out0->SWIT_ADD_INPORT_1.in7",
+                "SWIT_ADD_INPORT_1.out2->UNIT_ADD2.in2",
+                "SWIT_ADD_INPORT_1.out3->UNIT_ADD2.in3",
+                "SWIT_ADD_INPORT_1.out4->UNIT_ADD3.in0",
+                "SWIT_ADD_INPORT_1.out5->UNIT_ADD3.in1",
+                "SWIT_ADD_INPORT_1.out6->UNIT_ADD3.in2",
+                "SWIT_ADD_INPORT_1.out7->UNIT_ADD3.in3",
+                "UNIT_ADD0.out0->SWIT_ADD_INPORT_SPEC_0.in0",
+                "UNIT_ADD1.out0->SWIT_ADD_INPORT_SPEC_0.in1",
+                "UNIT_ADD2.out0->SWIT_ADD_INPORT_SPEC_0.in2",
+                "UNIT_ADD3.out0->SWIT_ADD_INPORT_SPEC_0.in3",
+                "SWIT_ADD_INPORT_1.out0->SWIT_ADD_INPORT_SPEC_0.in4",
+                "SWIT_ADD_INPORT_1.out1->SWIT_ADD_INPORT_SPEC_0.in5",
+                "SWIT_ADD_INPORT_SPEC_0.out0->UNIT_ADD2.in0",
+                "SWIT_ADD_INPORT_SPEC_0.out0->UNIT_ADD2.in1",
+                "in0->SWIT_IN_IFELSE_0.in0",
+                "in1->SWIT_IN_IFELSE_0.in1",
+                "in2->SWIT_IN_IFELSE_0.in2",
+                "in3->SWIT_IN_IFELSE_0.in3",
+                "in4->SWIT_IN_IFELSE_0.in4",
+                "in5->SWIT_IN_IFELSE_0.in5",
+                "in6->SWIT_IN_IFELSE_0.in6",
+                "in7->SWIT_IN_IFELSE_0.in7",
+                "in8->SWIT_IN_IFELSE_0.in8",
+                "in9->SWIT_IN_IFELSE_0.in9",
+                "in10->SWIT_IN_IFELSE_0.in10",
+                "in11->SWIT_IN_IFELSE_0.in11",
+                "in12->SWIT_IN_IFELSE_0.in12",
+                "in13->SWIT_IN_IFELSE_0.in13",
+                "in14->SWIT_IN_IFELSE_0.in14",
+                "in15->SWIT_IN_IFELSE_0.in15",
+                "UNIT_ADD0.out0->SWIT_IN_IFELSE_0.in16",
+                "UNIT_ADD1.out0->SWIT_IN_IFELSE_0.in17",
+                "UNIT_ADD2.out0->SWIT_IN_IFELSE_0.in18",
+                "UNIT_ADD3.out0->SWIT_IN_IFELSE_0.in19",
+                "UNIT_ADD0.out1->SWIT_IN_IFELSE_0.in20",
+                "UNIT_ADD1.out1->SWIT_IN_IFELSE_0.in21",
+                "UNIT_ADD2.out1->SWIT_IN_IFELSE_0.in22",
+                "UNIT_ADD3.out1->SWIT_IN_IFELSE_0.in23",
+                "SWIT_IN_IFELSE_0.out0->UNIT_IFELSE0.in0",
+                "SWIT_IN_IFELSE_0.out1->UNIT_IFELSE0.in1",
+                "SWIT_IN_IFELSE_0.out2->UNIT_IFELSE0.in2",
+                "SWIT_IN_IFELSE_0.out3->UNIT_IFELSE0.in3",
+                "SWIT_IN_IFELSE_0.out4->UNIT_IFELSE0.select0",
+                "SWIT_IN_IFELSE_0.out5->UNIT_IFELSE0.select1",
+                "in0->SWIT_IN_IFELSE_1.in0",
+                "in1->SWIT_IN_IFELSE_1.in1",
+                "in2->SWIT_IN_IFELSE_1.in2",
+                "in3->SWIT_IN_IFELSE_1.in3",
+                "in4->SWIT_IN_IFELSE_1.in4",
+                "in5->SWIT_IN_IFELSE_1.in5",
+                "in6->SWIT_IN_IFELSE_1.in6",
+                "in7->SWIT_IN_IFELSE_1.in7",
+                "in8->SWIT_IN_IFELSE_1.in8",
+                "in9->SWIT_IN_IFELSE_1.in9",
+                "in10->SWIT_IN_IFELSE_1.in10",
+                "in11->SWIT_IN_IFELSE_1.in11",
+                "in12->SWIT_IN_IFELSE_1.in12",
+                "in13->SWIT_IN_IFELSE_1.in13",
+                "in14->SWIT_IN_IFELSE_1.in14",
+                "in15->SWIT_IN_IFELSE_1.in15",
+                "UNIT_ADD0.out0->SWIT_IN_IFELSE_1.in16",
+                "UNIT_ADD1.out0->SWIT_IN_IFELSE_1.in17",
+                "UNIT_ADD2.out0->SWIT_IN_IFELSE_1.in18",
+                "UNIT_ADD3.out0->SWIT_IN_IFELSE_1.in19",
+                "UNIT_ADD0.out1->SWIT_IN_IFELSE_1.in20",
+                "UNIT_ADD1.out1->SWIT_IN_IFELSE_1.in21",
+                "UNIT_ADD2.out1->SWIT_IN_IFELSE_1.in22",
+                "UNIT_ADD3.out1->SWIT_IN_IFELSE_1.in23",
+                "SWIT_IN_IFELSE_1.out0->UNIT_IFELSE1.in0",
+                "SWIT_IN_IFELSE_1.out1->UNIT_IFELSE1.in1",
+                "SWIT_IN_IFELSE_1.out2->UNIT_IFELSE1.in2",
+                "SWIT_IN_IFELSE_1.out3->UNIT_IFELSE1.in3",
+                "SWIT_IN_IFELSE_1.out4->UNIT_IFELSE1.select0",
+                "SWIT_IN_IFELSE_1.out5->UNIT_IFELSE1.select1",
+                "in0->SWIT_IN_IFELSE_2.in0",
+                "in1->SWIT_IN_IFELSE_2.in1",
+                "in2->SWIT_IN_IFELSE_2.in2",
+                "in3->SWIT_IN_IFELSE_2.in3",
+                "in4->SWIT_IN_IFELSE_2.in4",
+                "in5->SWIT_IN_IFELSE_2.in5",
+                "in6->SWIT_IN_IFELSE_2.in6",
+                "in7->SWIT_IN_IFELSE_2.in7",
+                "in8->SWIT_IN_IFELSE_2.in8",
+                "in9->SWIT_IN_IFELSE_2.in9",
+                "in10->SWIT_IN_IFELSE_2.in10",
+                "in11->SWIT_IN_IFELSE_2.in11",
+                "in12->SWIT_IN_IFELSE_2.in12",
+                "in13->SWIT_IN_IFELSE_2.in13",
+                "in14->SWIT_IN_IFELSE_2.in14",
+                "in15->SWIT_IN_IFELSE_2.in15",
+                "UNIT_ADD0.out0->SWIT_IN_IFELSE_2.in16",
+                "UNIT_ADD1.out0->SWIT_IN_IFELSE_2.in17",
+                "UNIT_ADD2.out0->SWIT_IN_IFELSE_2.in18",
+                "UNIT_ADD3.out0->SWIT_IN_IFELSE_2.in19",
+                "UNIT_ADD0.out1->SWIT_IN_IFELSE_2.in20",
+                "UNIT_ADD1.out1->SWIT_IN_IFELSE_2.in21",
+                "UNIT_ADD2.out1->SWIT_IN_IFELSE_2.in22",
+                "UNIT_ADD3.out1->SWIT_IN_IFELSE_2.in23",
+                "SWIT_IN_IFELSE_2.out0->UNIT_IFELSE2.in0",
+                "SWIT_IN_IFELSE_2.out1->UNIT_IFELSE2.in1",
+                "SWIT_IN_IFELSE_2.out2->UNIT_IFELSE2.in2",
+                "SWIT_IN_IFELSE_2.out3->UNIT_IFELSE2.in3",
+                "SWIT_IN_IFELSE_2.out4->UNIT_IFELSE2.select0",
+                "SWIT_IN_IFELSE_2.out5->UNIT_IFELSE2.select1",
+                "in0->SWIT_IN_IFELSE_3.in0",
+                "in1->SWIT_IN_IFELSE_3.in1",
+                "in2->SWIT_IN_IFELSE_3.in2",
+                "in3->SWIT_IN_IFELSE_3.in3",
+                "in4->SWIT_IN_IFELSE_3.in4",
+                "in5->SWIT_IN_IFELSE_3.in5",
+                "in6->SWIT_IN_IFELSE_3.in6",
+                "in7->SWIT_IN_IFELSE_3.in7",
+                "in8->SWIT_IN_IFELSE_3.in8",
+                "in9->SWIT_IN_IFELSE_3.in9",
+                "in10->SWIT_IN_IFELSE_3.in10",
+                "in11->SWIT_IN_IFELSE_3.in11",
+                "in12->SWIT_IN_IFELSE_3.in12",
+                "in13->SWIT_IN_IFELSE_3.in13",
+                "in14->SWIT_IN_IFELSE_3.in14",
+                "in15->SWIT_IN_IFELSE_3.in15",
+                "UNIT_ADD0.out0->SWIT_IN_IFELSE_3.in16",
+                "UNIT_ADD1.out0->SWIT_IN_IFELSE_3.in17",
+                "UNIT_ADD2.out0->SWIT_IN_IFELSE_3.in18",
+                "UNIT_ADD3.out0->SWIT_IN_IFELSE_3.in19",
+                "UNIT_ADD0.out1->SWIT_IN_IFELSE_3.in20",
+                "UNIT_ADD1.out1->SWIT_IN_IFELSE_3.in21",
+                "UNIT_ADD2.out1->SWIT_IN_IFELSE_3.in22",
+                "UNIT_ADD3.out1->SWIT_IN_IFELSE_3.in23",
+                "SWIT_IN_IFELSE_3.out0->UNIT_IFELSE3.in0",
+                "SWIT_IN_IFELSE_3.out1->UNIT_IFELSE3.in1",
+                "SWIT_IN_IFELSE_3.out2->UNIT_IFELSE3.in2",
+                "SWIT_IN_IFELSE_3.out3->UNIT_IFELSE3.in3",
+                "SWIT_IN_IFELSE_3.out4->UNIT_IFELSE3.select0",
+                "SWIT_IN_IFELSE_3.out5->UNIT_IFELSE3.select1",
+                "UNIT_MUL0.out0->SWIT_OUT_0.in0",
+                "UNIT_MUL1.out0->SWIT_OUT_0.in1",
+                "UNIT_MUL2.out0->SWIT_OUT_0.in2",
+                "UNIT_MUL3.out0->SWIT_OUT_0.in3",
+                "UNIT_MUL4.out0->SWIT_OUT_0.in4",
+                "UNIT_MUL5.out0->SWIT_OUT_0.in5",
+                "UNIT_MUL6.out0->SWIT_OUT_0.in6",
+                "UNIT_MUL7.out0->SWIT_OUT_0.in7",
+                "UNIT_ADD0.out0->SWIT_OUT_0.in8",
+                "UNIT_ADD1.out0->SWIT_OUT_0.in9",
+                "UNIT_ADD2.out0->SWIT_OUT_0.in10",
+                "UNIT_ADD3.out0->SWIT_OUT_0.in11",
+                "UNIT_ADD0.out1->SWIT_OUT_0.in12",
+                "UNIT_ADD1.out1->SWIT_OUT_0.in13",
+                "UNIT_ADD2.out1->SWIT_OUT_0.in14",
+                "UNIT_ADD3.out1->SWIT_OUT_0.in15",
+                "UNIT_IFELSE0.out0->SWIT_OUT_0.in16",
+                "UNIT_IFELSE1.out0->SWIT_OUT_0.in17",
+                "UNIT_IFELSE2.out0->SWIT_OUT_0.in18",
+                "UNIT_IFELSE3.out0->SWIT_OUT_0.in19",
+                "UNIT_IFELSE0.out1->SWIT_OUT_0.in20",
+                "UNIT_IFELSE1.out1->SWIT_OUT_0.in21",
+                "UNIT_IFELSE2.out1->SWIT_OUT_0.in22",
+                "UNIT_IFELSE3.out1->SWIT_OUT_0.in23",
+                "SWIT_OUT_0.out0->out0",
+                "UNIT_MUL0.out0->SWIT_OUT_1.in0",
+                "UNIT_MUL1.out0->SWIT_OUT_1.in1",
+                "UNIT_MUL2.out0->SWIT_OUT_1.in2",
+                "UNIT_MUL3.out0->SWIT_OUT_1.in3",
+                "UNIT_MUL4.out0->SWIT_OUT_1.in4",
+                "UNIT_MUL5.out0->SWIT_OUT_1.in5",
+                "UNIT_MUL6.out0->SWIT_OUT_1.in6",
+                "UNIT_MUL7.out0->SWIT_OUT_1.in7",
+                "UNIT_ADD0.out0->SWIT_OUT_1.in8",
+                "UNIT_ADD1.out0->SWIT_OUT_1.in9",
+                "UNIT_ADD2.out0->SWIT_OUT_1.in10",
+                "UNIT_ADD3.out0->SWIT_OUT_1.in11",
+                "UNIT_ADD0.out1->SWIT_OUT_1.in12",
+                "UNIT_ADD1.out1->SWIT_OUT_1.in13",
+                "UNIT_ADD2.out1->SWIT_OUT_1.in14",
+                "UNIT_ADD3.out1->SWIT_OUT_1.in15",
+                "UNIT_IFELSE0.out0->SWIT_OUT_1.in16",
+                "UNIT_IFELSE1.out0->SWIT_OUT_1.in17",
+                "UNIT_IFELSE2.out0->SWIT_OUT_1.in18",
+                "UNIT_IFELSE3.out0->SWIT_OUT_1.in19",
+                "UNIT_IFELSE0.out1->SWIT_OUT_1.in20",
+                "UNIT_IFELSE1.out1->SWIT_OUT_1.in21",
+                "UNIT_IFELSE2.out1->SWIT_OUT_1.in22",
+                "UNIT_IFELSE3.out1->SWIT_OUT_1.in23",
+                "SWIT_OUT_1.out0->out1",
+                "UNIT_MUL0.out0->SWIT_OUT_2.in0",
+                "UNIT_MUL1.out0->SWIT_OUT_2.in1",
+                "UNIT_MUL2.out0->SWIT_OUT_2.in2",
+                "UNIT_MUL3.out0->SWIT_OUT_2.in3",
+                "UNIT_MUL4.out0->SWIT_OUT_2.in4",
+                "UNIT_MUL5.out0->SWIT_OUT_2.in5",
+                "UNIT_MUL6.out0->SWIT_OUT_2.in6",
+                "UNIT_MUL7.out0->SWIT_OUT_2.in7",
+                "UNIT_ADD0.out0->SWIT_OUT_2.in8",
+                "UNIT_ADD1.out0->SWIT_OUT_2.in9",
+                "UNIT_ADD2.out0->SWIT_OUT_2.in10",
+                "UNIT_ADD3.out0->SWIT_OUT_2.in11",
+                "UNIT_ADD0.out1->SWIT_OUT_2.in12",
+                "UNIT_ADD1.out1->SWIT_OUT_2.in13",
+                "UNIT_ADD2.out1->SWIT_OUT_2.in14",
+                "UNIT_ADD3.out1->SWIT_OUT_2.in15",
+                "UNIT_IFELSE0.out0->SWIT_OUT_2.in16",
+                "UNIT_IFELSE1.out0->SWIT_OUT_2.in17",
+                "UNIT_IFELSE2.out0->SWIT_OUT_2.in18",
+                "UNIT_IFELSE3.out0->SWIT_OUT_2.in19",
+                "UNIT_IFELSE0.out1->SWIT_OUT_2.in20",
+                "UNIT_IFELSE1.out1->SWIT_OUT_2.in21",
+                "UNIT_IFELSE2.out1->SWIT_OUT_2.in22",
+                "UNIT_IFELSE3.out1->SWIT_OUT_2.in23",
+                "SWIT_OUT_2.out0->out2",
+                "UNIT_MUL0.out0->SWIT_OUT_3.in0",
+                "UNIT_MUL1.out0->SWIT_OUT_3.in1",
+                "UNIT_MUL2.out0->SWIT_OUT_3.in2",
+                "UNIT_MUL3.out0->SWIT_OUT_3.in3",
+                "UNIT_MUL4.out0->SWIT_OUT_3.in4",
+                "UNIT_MUL5.out0->SWIT_OUT_3.in5",
+                "UNIT_MUL6.out0->SWIT_OUT_3.in6",
+                "UNIT_MUL7.out0->SWIT_OUT_3.in7",
+                "UNIT_ADD0.out0->SWIT_OUT_3.in8",
+                "UNIT_ADD1.out0->SWIT_OUT_3.in9",
+                "UNIT_ADD2.out0->SWIT_OUT_3.in10",
+                "UNIT_ADD3.out0->SWIT_OUT_3.in11",
+                "UNIT_ADD0.out1->SWIT_OUT_3.in12",
+                "UNIT_ADD1.out1->SWIT_OUT_3.in13",
+                "UNIT_ADD2.out1->SWIT_OUT_3.in14",
+                "UNIT_ADD3.out1->SWIT_OUT_3.in15",
+                "UNIT_IFELSE0.out0->SWIT_OUT_3.in16",
+                "UNIT_IFELSE1.out0->SWIT_OUT_3.in17",
+                "UNIT_IFELSE2.out0->SWIT_OUT_3.in18",
+                "UNIT_IFELSE3.out0->SWIT_OUT_3.in19",
+                "UNIT_IFELSE0.out1->SWIT_OUT_3.in20",
+                "UNIT_IFELSE1.out1->SWIT_OUT_3.in21",
+                "UNIT_IFELSE2.out1->SWIT_OUT_3.in22",
+                "UNIT_IFELSE3.out1->SWIT_OUT_3.in23",
+                "SWIT_OUT_3.out0->out3",
+                "UNIT_MUL0.out0->SWIT_OUT_4.in0",
+                "UNIT_MUL1.out0->SWIT_OUT_4.in1",
+                "UNIT_MUL2.out0->SWIT_OUT_4.in2",
+                "UNIT_MUL3.out0->SWIT_OUT_4.in3",
+                "UNIT_MUL4.out0->SWIT_OUT_4.in4",
+                "UNIT_MUL5.out0->SWIT_OUT_4.in5",
+                "UNIT_MUL6.out0->SWIT_OUT_4.in6",
+                "UNIT_MUL7.out0->SWIT_OUT_4.in7",
+                "UNIT_ADD0.out0->SWIT_OUT_4.in8",
+                "UNIT_ADD1.out0->SWIT_OUT_4.in9",
+                "UNIT_ADD2.out0->SWIT_OUT_4.in10",
+                "UNIT_ADD3.out0->SWIT_OUT_4.in11",
+                "UNIT_ADD0.out1->SWIT_OUT_4.in12",
+                "UNIT_ADD1.out1->SWIT_OUT_4.in13",
+                "UNIT_ADD2.out1->SWIT_OUT_4.in14",
+                "UNIT_ADD3.out1->SWIT_OUT_4.in15",
+                "UNIT_IFELSE0.out0->SWIT_OUT_4.in16",
+                "UNIT_IFELSE1.out0->SWIT_OUT_4.in17",
+                "UNIT_IFELSE2.out0->SWIT_OUT_4.in18",
+                "UNIT_IFELSE3.out0->SWIT_OUT_4.in19",
+                "UNIT_IFELSE0.out1->SWIT_OUT_4.in20",
+                "UNIT_IFELSE1.out1->SWIT_OUT_4.in21",
+                "UNIT_IFELSE2.out1->SWIT_OUT_4.in22",
+                "UNIT_IFELSE3.out1->SWIT_OUT_4.in23",
+                "SWIT_OUT_4.out0->out4",
+                "UNIT_MUL0.out0->SWIT_OUT_5.in0",
+                "UNIT_MUL1.out0->SWIT_OUT_5.in1",
+                "UNIT_MUL2.out0->SWIT_OUT_5.in2",
+                "UNIT_MUL3.out0->SWIT_OUT_5.in3",
+                "UNIT_MUL4.out0->SWIT_OUT_5.in4",
+                "UNIT_MUL5.out0->SWIT_OUT_5.in5",
+                "UNIT_MUL6.out0->SWIT_OUT_5.in6",
+                "UNIT_MUL7.out0->SWIT_OUT_5.in7",
+                "UNIT_ADD0.out0->SWIT_OUT_5.in8",
+                "UNIT_ADD1.out0->SWIT_OUT_5.in9",
+                "UNIT_ADD2.out0->SWIT_OUT_5.in10",
+                "UNIT_ADD3.out0->SWIT_OUT_5.in11",
+                "UNIT_ADD0.out1->SWIT_OUT_5.in12",
+                "UNIT_ADD1.out1->SWIT_OUT_5.in13",
+                "UNIT_ADD2.out1->SWIT_OUT_5.in14",
+                "UNIT_ADD3.out1->SWIT_OUT_5.in15",
+                "UNIT_IFELSE0.out0->SWIT_OUT_5.in16",
+                "UNIT_IFELSE1.out0->SWIT_OUT_5.in17",
+                "UNIT_IFELSE2.out0->SWIT_OUT_5.in18",
+                "UNIT_IFELSE3.out0->SWIT_OUT_5.in19",
+                "UNIT_IFELSE0.out1->SWIT_OUT_5.in20",
+                "UNIT_IFELSE1.out1->SWIT_OUT_5.in21",
+                "UNIT_IFELSE2.out1->SWIT_OUT_5.in22",
+                "UNIT_IFELSE3.out1->SWIT_OUT_5.in23",
+                "SWIT_OUT_5.out0->out5",
+                "UNIT_MUL0.out0->SWIT_OUT_6.in0",
+                "UNIT_MUL1.out0->SWIT_OUT_6.in1",
+                "UNIT_MUL2.out0->SWIT_OUT_6.in2",
+                "UNIT_MUL3.out0->SWIT_OUT_6.in3",
+                "UNIT_MUL4.out0->SWIT_OUT_6.in4",
+                "UNIT_MUL5.out0->SWIT_OUT_6.in5",
+                "UNIT_MUL6.out0->SWIT_OUT_6.in6",
+                "UNIT_MUL7.out0->SWIT_OUT_6.in7",
+                "UNIT_ADD0.out0->SWIT_OUT_6.in8",
+                "UNIT_ADD1.out0->SWIT_OUT_6.in9",
+                "UNIT_ADD2.out0->SWIT_OUT_6.in10",
+                "UNIT_ADD3.out0->SWIT_OUT_6.in11",
+                "UNIT_ADD0.out1->SWIT_OUT_6.in12",
+                "UNIT_ADD1.out1->SWIT_OUT_6.in13",
+                "UNIT_ADD2.out1->SWIT_OUT_6.in14",
+                "UNIT_ADD3.out1->SWIT_OUT_6.in15",
+                "UNIT_IFELSE0.out0->SWIT_OUT_6.in16",
+                "UNIT_IFELSE1.out0->SWIT_OUT_6.in17",
+                "UNIT_IFELSE2.out0->SWIT_OUT_6.in18",
+                "UNIT_IFELSE3.out0->SWIT_OUT_6.in19",
+                "UNIT_IFELSE0.out1->SWIT_OUT_6.in20",
+                "UNIT_IFELSE1.out1->SWIT_OUT_6.in21",
+                "UNIT_IFELSE2.out1->SWIT_OUT_6.in22",
+                "UNIT_IFELSE3.out1->SWIT_OUT_6.in23",
+                "SWIT_OUT_6.out0->out6",
+                "UNIT_MUL0.out0->SWIT_OUT_7.in0",
+                "UNIT_MUL1.out0->SWIT_OUT_7.in1",
+                "UNIT_MUL2.out0->SWIT_OUT_7.in2",
+                "UNIT_MUL3.out0->SWIT_OUT_7.in3",
+                "UNIT_MUL4.out0->SWIT_OUT_7.in4",
+                "UNIT_MUL5.out0->SWIT_OUT_7.in5",
+                "UNIT_MUL6.out0->SWIT_OUT_7.in6",
+                "UNIT_MUL7.out0->SWIT_OUT_7.in7",
+                "UNIT_ADD0.out0->SWIT_OUT_7.in8",
+                "UNIT_ADD1.out0->SWIT_OUT_7.in9",
+                "UNIT_ADD2.out0->SWIT_OUT_7.in10",
+                "UNIT_ADD3.out0->SWIT_OUT_7.in11",
+                "UNIT_ADD0.out1->SWIT_OUT_7.in12",
+                "UNIT_ADD1.out1->SWIT_OUT_7.in13",
+                "UNIT_ADD2.out1->SWIT_OUT_7.in14",
+                "UNIT_ADD3.out1->SWIT_OUT_7.in15",
+                "UNIT_IFELSE0.out0->SWIT_OUT_7.in16",
+                "UNIT_IFELSE1.out0->SWIT_OUT_7.in17",
+                "UNIT_IFELSE2.out0->SWIT_OUT_7.in18",
+                "UNIT_IFELSE3.out0->SWIT_OUT_7.in19",
+                "UNIT_IFELSE0.out1->SWIT_OUT_7.in20",
+                "UNIT_IFELSE1.out1->SWIT_OUT_7.in21",
+                "UNIT_IFELSE2.out1->SWIT_OUT_7.in22",
+                "UNIT_IFELSE3.out1->SWIT_OUT_7.in23",
+                "SWIT_OUT_7.out0->out7"
+            ]
+        },
+        "CoreType0": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7",
+                "in8",
+                "in9",
+                "in10",
+                "in11",
+                "in12",
+                "in13",
+                "in14",
+                "in15",
+                "in16",
+                "in17",
+                "in18",
+                "in19",
+                "in20",
+                "in21",
+                "in22",
+                "in23",
+                "in24",
+                "in25",
+                "in26",
+                "in27",
+                "in28",
+                "in29",
+                "in30",
+                "in31"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3",
+                "out4",
+                "out5",
+                "out6",
+                "out7",
+                "out8",
+                "out9",
+                "out10",
+                "out11",
+                "out12",
+                "out13",
+                "out14",
+                "out15",
+                "out16",
+                "out17",
+                "out18",
+                "out19",
+                "out20",
+                "out21",
+                "out22",
+                "out23",
+                "out24",
+                "out25",
+                "out26",
+                "out27",
+                "out28",
+                "out29",
+                "out30",
+                "out31"
+            ],
+            "module": {
+                "Block0A": "BlockType0",
+                "Block0B": "BlockType0",
+                "Block0C": "BlockType0",
+                "Block0D": "BlockType0",
+                "Block0E": "BlockType0",
+                "Block0F": "BlockType0"
+            },
+            "element": {},
+            "switch": {
+                "SWIT_IN_Block0A_0": "FULLYCONN_8X8",
+                "SWIT_IN_Block0A_1": "FULLYCONN_8X8",
+                "SWIT_IN_Block0B_0": "FULLYCONN_8X8",
+                "SWIT_IN_Block0B_1": "FULLYCONN_8X8",
+                "SWIT_IN_Block0C_0": "FULLYCONN_8X8",
+                "SWIT_IN_Block0C_1": "FULLYCONN_8X8",
+                "SWIT_IN_Block0D_0": "FULLYCONN_8X8",
+                "SWIT_IN_Block0D_1": "FULLYCONN_8X8",
+                "SWIT_Block0A_0E_0": "FULLYCONN_8X8",
+                "SWIT_Block0A_0E_1": "FULLYCONN_8X8",
+                "SWIT_Block0B_0E_0": "FULLYCONN_8X8",
+                "SWIT_Block0B_0E_1": "FULLYCONN_8X8",
+                "SWIT_Block0C_0F_0": "FULLYCONN_8X8",
+                "SWIT_Block0C_0F_1": "FULLYCONN_8X8",
+                "SWIT_Block0D_0F_0": "FULLYCONN_8X8",
+                "SWIT_Block0D_0F_1": "FULLYCONN_8X8",
+                "SWIT_Block0E_IN_0": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_1": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_2": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_3": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_4": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_5": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_6": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_7": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_8": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_9": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_10": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_11": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_12": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_13": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_14": "FULLYCONN_2X1",
+                "SWIT_Block0E_IN_15": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_0": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_1": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_2": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_3": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_4": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_5": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_6": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_7": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_8": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_9": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_10": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_11": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_12": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_13": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_14": "FULLYCONN_2X1",
+                "SWIT_Block0F_IN_15": "FULLYCONN_2X1",
+                "SWIT_OUT_0": "FULLYCONN_4X1",
+                "SWIT_OUT_1": "FULLYCONN_4X1",
+                "SWIT_OUT_2": "FULLYCONN_4X1",
+                "SWIT_OUT_3": "FULLYCONN_4X1",
+                "SWIT_OUT_4": "FULLYCONN_4X1",
+                "SWIT_OUT_5": "FULLYCONN_4X1",
+                "SWIT_OUT_6": "FULLYCONN_4X1",
+                "SWIT_OUT_7": "FULLYCONN_4X1",
+                "SWIT_OUT_8": "FULLYCONN_2X1",
+                "SWIT_OUT_9": "FULLYCONN_2X1",
+                "SWIT_OUT_10": "FULLYCONN_2X1",
+                "SWIT_OUT_11": "FULLYCONN_2X1",
+                "SWIT_OUT_12": "FULLYCONN_2X1",
+                "SWIT_OUT_13": "FULLYCONN_2X1",
+                "SWIT_OUT_14": "FULLYCONN_2X1",
+                "SWIT_OUT_15": "FULLYCONN_2X1",
+                "SWIT_OUT_16": "FULLYCONN_4X1",
+                "SWIT_OUT_17": "FULLYCONN_4X1",
+                "SWIT_OUT_18": "FULLYCONN_4X1",
+                "SWIT_OUT_19": "FULLYCONN_4X1",
+                "SWIT_OUT_20": "FULLYCONN_4X1",
+                "SWIT_OUT_21": "FULLYCONN_4X1",
+                "SWIT_OUT_22": "FULLYCONN_4X1",
+                "SWIT_OUT_23": "FULLYCONN_4X1",
+                "SWIT_OUT_24": "FULLYCONN_2X1",
+                "SWIT_OUT_25": "FULLYCONN_2X1",
+                "SWIT_OUT_26": "FULLYCONN_2X1",
+                "SWIT_OUT_27": "FULLYCONN_2X1",
+                "SWIT_OUT_28": "FULLYCONN_2X1",
+                "SWIT_OUT_29": "FULLYCONN_2X1",
+                "SWIT_OUT_30": "FULLYCONN_2X1",
+                "SWIT_OUT_31": "FULLYCONN_2X1"
+            },
+            "connection": [
+                "in0->SWIT_IN_Block0A_0.in0",
+                "in1->SWIT_IN_Block0A_0.in1",
+                "in2->SWIT_IN_Block0A_0.in2",
+                "in3->SWIT_IN_Block0A_0.in3",
+                "in4->SWIT_IN_Block0A_0.in4",
+                "in5->SWIT_IN_Block0A_0.in5",
+                "in6->SWIT_IN_Block0A_0.in6",
+                "in7->SWIT_IN_Block0A_0.in7",
+                "SWIT_IN_Block0A_0.out0->Block0A.in0",
+                "SWIT_IN_Block0A_0.out1->Block0A.in1",
+                "SWIT_IN_Block0A_0.out2->Block0A.in2",
+                "SWIT_IN_Block0A_0.out3->Block0A.in3",
+                "SWIT_IN_Block0A_0.out4->Block0A.in4",
+                "SWIT_IN_Block0A_0.out5->Block0A.in5",
+                "SWIT_IN_Block0A_0.out6->Block0A.in6",
+                "SWIT_IN_Block0A_0.out7->Block0A.in7",
+                "in8->SWIT_IN_Block0A_1.in0",
+                "in9->SWIT_IN_Block0A_1.in1",
+                "in10->SWIT_IN_Block0A_1.in2",
+                "in11->SWIT_IN_Block0A_1.in3",
+                "in12->SWIT_IN_Block0A_1.in4",
+                "in13->SWIT_IN_Block0A_1.in5",
+                "in14->SWIT_IN_Block0A_1.in6",
+                "in15->SWIT_IN_Block0A_1.in7",
+                "SWIT_IN_Block0A_1.out0->Block0A.in8",
+                "SWIT_IN_Block0A_1.out1->Block0A.in9",
+                "SWIT_IN_Block0A_1.out2->Block0A.in10",
+                "SWIT_IN_Block0A_1.out3->Block0A.in11",
+                "SWIT_IN_Block0A_1.out4->Block0A.in12",
+                "SWIT_IN_Block0A_1.out5->Block0A.in13",
+                "SWIT_IN_Block0A_1.out6->Block0A.in14",
+                "SWIT_IN_Block0A_1.out7->Block0A.in15",
+                "in0->SWIT_IN_Block0B_0.in0",
+                "in1->SWIT_IN_Block0B_0.in1",
+                "in2->SWIT_IN_Block0B_0.in2",
+                "in3->SWIT_IN_Block0B_0.in3",
+                "in4->SWIT_IN_Block0B_0.in4",
+                "in5->SWIT_IN_Block0B_0.in5",
+                "in6->SWIT_IN_Block0B_0.in6",
+                "in7->SWIT_IN_Block0B_0.in7",
+                "SWIT_IN_Block0B_0.out0->Block0B.in0",
+                "SWIT_IN_Block0B_0.out1->Block0B.in1",
+                "SWIT_IN_Block0B_0.out2->Block0B.in2",
+                "SWIT_IN_Block0B_0.out3->Block0B.in3",
+                "SWIT_IN_Block0B_0.out4->Block0B.in4",
+                "SWIT_IN_Block0B_0.out5->Block0B.in5",
+                "SWIT_IN_Block0B_0.out6->Block0B.in6",
+                "SWIT_IN_Block0B_0.out7->Block0B.in7",
+                "in8->SWIT_IN_Block0B_1.in0",
+                "in9->SWIT_IN_Block0B_1.in1",
+                "in10->SWIT_IN_Block0B_1.in2",
+                "in11->SWIT_IN_Block0B_1.in3",
+                "in12->SWIT_IN_Block0B_1.in4",
+                "in13->SWIT_IN_Block0B_1.in5",
+                "in14->SWIT_IN_Block0B_1.in6",
+                "in15->SWIT_IN_Block0B_1.in7",
+                "SWIT_IN_Block0B_1.out0->Block0B.in8",
+                "SWIT_IN_Block0B_1.out1->Block0B.in9",
+                "SWIT_IN_Block0B_1.out2->Block0B.in10",
+                "SWIT_IN_Block0B_1.out3->Block0B.in11",
+                "SWIT_IN_Block0B_1.out4->Block0B.in12",
+                "SWIT_IN_Block0B_1.out5->Block0B.in13",
+                "SWIT_IN_Block0B_1.out6->Block0B.in14",
+                "SWIT_IN_Block0B_1.out7->Block0B.in15",
+                "in16->SWIT_IN_Block0C_0.in0",
+                "in17->SWIT_IN_Block0C_0.in1",
+                "in18->SWIT_IN_Block0C_0.in2",
+                "in19->SWIT_IN_Block0C_0.in3",
+                "in20->SWIT_IN_Block0C_0.in4",
+                "in21->SWIT_IN_Block0C_0.in5",
+                "in22->SWIT_IN_Block0C_0.in6",
+                "in23->SWIT_IN_Block0C_0.in7",
+                "SWIT_IN_Block0C_0.out0->Block0C.in0",
+                "SWIT_IN_Block0C_0.out1->Block0C.in1",
+                "SWIT_IN_Block0C_0.out2->Block0C.in2",
+                "SWIT_IN_Block0C_0.out3->Block0C.in3",
+                "SWIT_IN_Block0C_0.out4->Block0C.in4",
+                "SWIT_IN_Block0C_0.out5->Block0C.in5",
+                "SWIT_IN_Block0C_0.out6->Block0C.in6",
+                "SWIT_IN_Block0C_0.out7->Block0C.in7",
+                "in24->SWIT_IN_Block0C_1.in0",
+                "in25->SWIT_IN_Block0C_1.in1",
+                "in26->SWIT_IN_Block0C_1.in2",
+                "in27->SWIT_IN_Block0C_1.in3",
+                "in28->SWIT_IN_Block0C_1.in4",
+                "in29->SWIT_IN_Block0C_1.in5",
+                "in30->SWIT_IN_Block0C_1.in6",
+                "in31->SWIT_IN_Block0C_1.in7",
+                "SWIT_IN_Block0C_1.out0->Block0C.in8",
+                "SWIT_IN_Block0C_1.out1->Block0C.in9",
+                "SWIT_IN_Block0C_1.out2->Block0C.in10",
+                "SWIT_IN_Block0C_1.out3->Block0C.in11",
+                "SWIT_IN_Block0C_1.out4->Block0C.in12",
+                "SWIT_IN_Block0C_1.out5->Block0C.in13",
+                "SWIT_IN_Block0C_1.out6->Block0C.in14",
+                "SWIT_IN_Block0C_1.out7->Block0C.in15",
+                "in16->SWIT_IN_Block0D_0.in0",
+                "in17->SWIT_IN_Block0D_0.in1",
+                "in18->SWIT_IN_Block0D_0.in2",
+                "in19->SWIT_IN_Block0D_0.in3",
+                "in20->SWIT_IN_Block0D_0.in4",
+                "in21->SWIT_IN_Block0D_0.in5",
+                "in22->SWIT_IN_Block0D_0.in6",
+                "in23->SWIT_IN_Block0D_0.in7",
+                "SWIT_IN_Block0D_0.out0->Block0D.in0",
+                "SWIT_IN_Block0D_0.out1->Block0D.in1",
+                "SWIT_IN_Block0D_0.out2->Block0D.in2",
+                "SWIT_IN_Block0D_0.out3->Block0D.in3",
+                "SWIT_IN_Block0D_0.out4->Block0D.in4",
+                "SWIT_IN_Block0D_0.out5->Block0D.in5",
+                "SWIT_IN_Block0D_0.out6->Block0D.in6",
+                "SWIT_IN_Block0D_0.out7->Block0D.in7",
+                "in24->SWIT_IN_Block0D_1.in0",
+                "in25->SWIT_IN_Block0D_1.in1",
+                "in26->SWIT_IN_Block0D_1.in2",
+                "in27->SWIT_IN_Block0D_1.in3",
+                "in28->SWIT_IN_Block0D_1.in4",
+                "in29->SWIT_IN_Block0D_1.in5",
+                "in30->SWIT_IN_Block0D_1.in6",
+                "in31->SWIT_IN_Block0D_1.in7",
+                "SWIT_IN_Block0D_1.out0->Block0D.in8",
+                "SWIT_IN_Block0D_1.out1->Block0D.in9",
+                "SWIT_IN_Block0D_1.out2->Block0D.in10",
+                "SWIT_IN_Block0D_1.out3->Block0D.in11",
+                "SWIT_IN_Block0D_1.out4->Block0D.in12",
+                "SWIT_IN_Block0D_1.out5->Block0D.in13",
+                "SWIT_IN_Block0D_1.out6->Block0D.in14",
+                "SWIT_IN_Block0D_1.out7->Block0D.in15",
+                "Block0A.out0->SWIT_Block0A_0E_0.in0",
+                "Block0A.out1->SWIT_Block0A_0E_0.in1",
+                "Block0A.out2->SWIT_Block0A_0E_0.in2",
+                "Block0A.out3->SWIT_Block0A_0E_0.in3",
+                "Block0A.out4->SWIT_Block0A_0E_0.in4",
+                "Block0A.out5->SWIT_Block0A_0E_0.in5",
+                "Block0A.out6->SWIT_Block0A_0E_0.in6",
+                "Block0A.out7->SWIT_Block0A_0E_0.in7",
+                "Block0A.out0->SWIT_Block0A_0E_1.in0",
+                "Block0A.out1->SWIT_Block0A_0E_1.in1",
+                "Block0A.out2->SWIT_Block0A_0E_1.in2",
+                "Block0A.out3->SWIT_Block0A_0E_1.in3",
+                "Block0A.out4->SWIT_Block0A_0E_1.in4",
+                "Block0A.out5->SWIT_Block0A_0E_1.in5",
+                "Block0A.out6->SWIT_Block0A_0E_1.in6",
+                "Block0A.out7->SWIT_Block0A_0E_1.in7",
+                "Block0B.out0->SWIT_Block0B_0E_0.in0",
+                "Block0B.out1->SWIT_Block0B_0E_0.in1",
+                "Block0B.out2->SWIT_Block0B_0E_0.in2",
+                "Block0B.out3->SWIT_Block0B_0E_0.in3",
+                "Block0B.out4->SWIT_Block0B_0E_0.in4",
+                "Block0B.out5->SWIT_Block0B_0E_0.in5",
+                "Block0B.out6->SWIT_Block0B_0E_0.in6",
+                "Block0B.out7->SWIT_Block0B_0E_0.in7",
+                "Block0B.out0->SWIT_Block0B_0E_1.in0",
+                "Block0B.out1->SWIT_Block0B_0E_1.in1",
+                "Block0B.out2->SWIT_Block0B_0E_1.in2",
+                "Block0B.out3->SWIT_Block0B_0E_1.in3",
+                "Block0B.out4->SWIT_Block0B_0E_1.in4",
+                "Block0B.out5->SWIT_Block0B_0E_1.in5",
+                "Block0B.out6->SWIT_Block0B_0E_1.in6",
+                "Block0B.out7->SWIT_Block0B_0E_1.in7",
+                "Block0C.out0->SWIT_Block0C_0F_0.in0",
+                "Block0C.out1->SWIT_Block0C_0F_0.in1",
+                "Block0C.out2->SWIT_Block0C_0F_0.in2",
+                "Block0C.out3->SWIT_Block0C_0F_0.in3",
+                "Block0C.out4->SWIT_Block0C_0F_0.in4",
+                "Block0C.out5->SWIT_Block0C_0F_0.in5",
+                "Block0C.out6->SWIT_Block0C_0F_0.in6",
+                "Block0C.out7->SWIT_Block0C_0F_0.in7",
+                "Block0C.out0->SWIT_Block0C_0F_1.in0",
+                "Block0C.out1->SWIT_Block0C_0F_1.in1",
+                "Block0C.out2->SWIT_Block0C_0F_1.in2",
+                "Block0C.out3->SWIT_Block0C_0F_1.in3",
+                "Block0C.out4->SWIT_Block0C_0F_1.in4",
+                "Block0C.out5->SWIT_Block0C_0F_1.in5",
+                "Block0C.out6->SWIT_Block0C_0F_1.in6",
+                "Block0C.out7->SWIT_Block0C_0F_1.in7",
+                "Block0D.out0->SWIT_Block0D_0F_0.in0",
+                "Block0D.out1->SWIT_Block0D_0F_0.in1",
+                "Block0D.out2->SWIT_Block0D_0F_0.in2",
+                "Block0D.out3->SWIT_Block0D_0F_0.in3",
+                "Block0D.out4->SWIT_Block0D_0F_0.in4",
+                "Block0D.out5->SWIT_Block0D_0F_0.in5",
+                "Block0D.out6->SWIT_Block0D_0F_0.in6",
+                "Block0D.out7->SWIT_Block0D_0F_0.in7",
+                "Block0D.out0->SWIT_Block0D_0F_1.in0",
+                "Block0D.out1->SWIT_Block0D_0F_1.in1",
+                "Block0D.out2->SWIT_Block0D_0F_1.in2",
+                "Block0D.out3->SWIT_Block0D_0F_1.in3",
+                "Block0D.out4->SWIT_Block0D_0F_1.in4",
+                "Block0D.out5->SWIT_Block0D_0F_1.in5",
+                "Block0D.out6->SWIT_Block0D_0F_1.in6",
+                "Block0D.out7->SWIT_Block0D_0F_1.in7",
+                "SWIT_Block0A_0E_0.out0->SWIT_Block0E_IN_0.in0",
+                "SWIT_Block0B_0E_0.out0->SWIT_Block0E_IN_0.in1",
+                "SWIT_Block0E_IN_0.out0->Block0E.in0",
+                "SWIT_Block0A_0E_0.out1->SWIT_Block0E_IN_1.in0",
+                "SWIT_Block0B_0E_0.out1->SWIT_Block0E_IN_1.in1",
+                "SWIT_Block0E_IN_1.out0->Block0E.in1",
+                "SWIT_Block0A_0E_0.out2->SWIT_Block0E_IN_2.in0",
+                "SWIT_Block0B_0E_0.out2->SWIT_Block0E_IN_2.in1",
+                "SWIT_Block0E_IN_2.out0->Block0E.in2",
+                "SWIT_Block0A_0E_0.out3->SWIT_Block0E_IN_3.in0",
+                "SWIT_Block0B_0E_0.out3->SWIT_Block0E_IN_3.in1",
+                "SWIT_Block0E_IN_3.out0->Block0E.in3",
+                "SWIT_Block0A_0E_0.out4->SWIT_Block0E_IN_4.in0",
+                "SWIT_Block0B_0E_0.out4->SWIT_Block0E_IN_4.in1",
+                "SWIT_Block0E_IN_4.out0->Block0E.in4",
+                "SWIT_Block0A_0E_0.out5->SWIT_Block0E_IN_5.in0",
+                "SWIT_Block0B_0E_0.out5->SWIT_Block0E_IN_5.in1",
+                "SWIT_Block0E_IN_5.out0->Block0E.in5",
+                "SWIT_Block0A_0E_0.out6->SWIT_Block0E_IN_6.in0",
+                "SWIT_Block0B_0E_0.out6->SWIT_Block0E_IN_6.in1",
+                "SWIT_Block0E_IN_6.out0->Block0E.in6",
+                "SWIT_Block0A_0E_0.out7->SWIT_Block0E_IN_7.in0",
+                "SWIT_Block0B_0E_0.out7->SWIT_Block0E_IN_7.in1",
+                "SWIT_Block0E_IN_7.out0->Block0E.in7",
+                "SWIT_Block0A_0E_1.out0->SWIT_Block0E_IN_8.in0",
+                "SWIT_Block0B_0E_1.out0->SWIT_Block0E_IN_8.in1",
+                "SWIT_Block0E_IN_8.out0->Block0E.in8",
+                "SWIT_Block0A_0E_1.out1->SWIT_Block0E_IN_9.in0",
+                "SWIT_Block0B_0E_1.out1->SWIT_Block0E_IN_9.in1",
+                "SWIT_Block0E_IN_9.out0->Block0E.in9",
+                "SWIT_Block0A_0E_1.out2->SWIT_Block0E_IN_10.in0",
+                "SWIT_Block0B_0E_1.out2->SWIT_Block0E_IN_10.in1",
+                "SWIT_Block0E_IN_10.out0->Block0E.in10",
+                "SWIT_Block0A_0E_1.out3->SWIT_Block0E_IN_11.in0",
+                "SWIT_Block0B_0E_1.out3->SWIT_Block0E_IN_11.in1",
+                "SWIT_Block0E_IN_11.out0->Block0E.in11",
+                "SWIT_Block0A_0E_1.out4->SWIT_Block0E_IN_12.in0",
+                "SWIT_Block0B_0E_1.out4->SWIT_Block0E_IN_12.in1",
+                "SWIT_Block0E_IN_12.out0->Block0E.in12",
+                "SWIT_Block0A_0E_1.out5->SWIT_Block0E_IN_13.in0",
+                "SWIT_Block0B_0E_1.out5->SWIT_Block0E_IN_13.in1",
+                "SWIT_Block0E_IN_13.out0->Block0E.in13",
+                "SWIT_Block0A_0E_1.out6->SWIT_Block0E_IN_14.in0",
+                "SWIT_Block0B_0E_1.out6->SWIT_Block0E_IN_14.in1",
+                "SWIT_Block0E_IN_14.out0->Block0E.in14",
+                "SWIT_Block0A_0E_1.out7->SWIT_Block0E_IN_15.in0",
+                "SWIT_Block0B_0E_1.out7->SWIT_Block0E_IN_15.in1",
+                "SWIT_Block0E_IN_15.out0->Block0E.in15",
+                "SWIT_Block0C_0F_0.out0->SWIT_Block0F_IN_0.in0",
+                "SWIT_Block0D_0F_0.out0->SWIT_Block0F_IN_0.in1",
+                "SWIT_Block0F_IN_0.out0->Block0F.in0",
+                "SWIT_Block0C_0F_0.out1->SWIT_Block0F_IN_1.in0",
+                "SWIT_Block0D_0F_0.out1->SWIT_Block0F_IN_1.in1",
+                "SWIT_Block0F_IN_1.out0->Block0F.in1",
+                "SWIT_Block0C_0F_0.out2->SWIT_Block0F_IN_2.in0",
+                "SWIT_Block0D_0F_0.out2->SWIT_Block0F_IN_2.in1",
+                "SWIT_Block0F_IN_2.out0->Block0F.in2",
+                "SWIT_Block0C_0F_0.out3->SWIT_Block0F_IN_3.in0",
+                "SWIT_Block0D_0F_0.out3->SWIT_Block0F_IN_3.in1",
+                "SWIT_Block0F_IN_3.out0->Block0F.in3",
+                "SWIT_Block0C_0F_0.out4->SWIT_Block0F_IN_4.in0",
+                "SWIT_Block0D_0F_0.out4->SWIT_Block0F_IN_4.in1",
+                "SWIT_Block0F_IN_4.out0->Block0F.in4",
+                "SWIT_Block0C_0F_0.out5->SWIT_Block0F_IN_5.in0",
+                "SWIT_Block0D_0F_0.out5->SWIT_Block0F_IN_5.in1",
+                "SWIT_Block0F_IN_5.out0->Block0F.in5",
+                "SWIT_Block0C_0F_0.out6->SWIT_Block0F_IN_6.in0",
+                "SWIT_Block0D_0F_0.out6->SWIT_Block0F_IN_6.in1",
+                "SWIT_Block0F_IN_6.out0->Block0F.in6",
+                "SWIT_Block0C_0F_0.out7->SWIT_Block0F_IN_7.in0",
+                "SWIT_Block0D_0F_0.out7->SWIT_Block0F_IN_7.in1",
+                "SWIT_Block0F_IN_7.out0->Block0F.in7",
+                "SWIT_Block0C_0F_1.out0->SWIT_Block0F_IN_8.in0",
+                "SWIT_Block0D_0F_1.out0->SWIT_Block0F_IN_8.in1",
+                "SWIT_Block0F_IN_8.out0->Block0F.in8",
+                "SWIT_Block0C_0F_1.out1->SWIT_Block0F_IN_9.in0",
+                "SWIT_Block0D_0F_1.out1->SWIT_Block0F_IN_9.in1",
+                "SWIT_Block0F_IN_9.out0->Block0F.in9",
+                "SWIT_Block0C_0F_1.out2->SWIT_Block0F_IN_10.in0",
+                "SWIT_Block0D_0F_1.out2->SWIT_Block0F_IN_10.in1",
+                "SWIT_Block0F_IN_10.out0->Block0F.in10",
+                "SWIT_Block0C_0F_1.out3->SWIT_Block0F_IN_11.in0",
+                "SWIT_Block0D_0F_1.out3->SWIT_Block0F_IN_11.in1",
+                "SWIT_Block0F_IN_11.out0->Block0F.in11",
+                "SWIT_Block0C_0F_1.out4->SWIT_Block0F_IN_12.in0",
+                "SWIT_Block0D_0F_1.out4->SWIT_Block0F_IN_12.in1",
+                "SWIT_Block0F_IN_12.out0->Block0F.in12",
+                "SWIT_Block0C_0F_1.out5->SWIT_Block0F_IN_13.in0",
+                "SWIT_Block0D_0F_1.out5->SWIT_Block0F_IN_13.in1",
+                "SWIT_Block0F_IN_13.out0->Block0F.in13",
+                "SWIT_Block0C_0F_1.out6->SWIT_Block0F_IN_14.in0",
+                "SWIT_Block0D_0F_1.out6->SWIT_Block0F_IN_14.in1",
+                "SWIT_Block0F_IN_14.out0->Block0F.in14",
+                "SWIT_Block0C_0F_1.out7->SWIT_Block0F_IN_15.in0",
+                "SWIT_Block0D_0F_1.out7->SWIT_Block0F_IN_15.in1",
+                "SWIT_Block0F_IN_15.out0->Block0F.in15",
+                "Block0A.out0->SWIT_OUT_0.in0",
+                "Block0B.out0->SWIT_OUT_0.in1",
+                "Block0C.out0->SWIT_OUT_0.in2",
+                "Block0D.out0->SWIT_OUT_0.in3",
+                "SWIT_OUT_0.out0->out0",
+                "Block0A.out1->SWIT_OUT_1.in0",
+                "Block0B.out1->SWIT_OUT_1.in1",
+                "Block0C.out1->SWIT_OUT_1.in2",
+                "Block0D.out1->SWIT_OUT_1.in3",
+                "SWIT_OUT_1.out0->out1",
+                "Block0A.out2->SWIT_OUT_2.in0",
+                "Block0B.out2->SWIT_OUT_2.in1",
+                "Block0C.out2->SWIT_OUT_2.in2",
+                "Block0D.out2->SWIT_OUT_2.in3",
+                "SWIT_OUT_2.out0->out2",
+                "Block0A.out3->SWIT_OUT_3.in0",
+                "Block0B.out3->SWIT_OUT_3.in1",
+                "Block0C.out3->SWIT_OUT_3.in2",
+                "Block0D.out3->SWIT_OUT_3.in3",
+                "SWIT_OUT_3.out0->out3",
+                "Block0A.out4->SWIT_OUT_4.in0",
+                "Block0B.out4->SWIT_OUT_4.in1",
+                "Block0C.out4->SWIT_OUT_4.in2",
+                "Block0D.out4->SWIT_OUT_4.in3",
+                "SWIT_OUT_4.out0->out4",
+                "Block0A.out5->SWIT_OUT_5.in0",
+                "Block0B.out5->SWIT_OUT_5.in1",
+                "Block0C.out5->SWIT_OUT_5.in2",
+                "Block0D.out5->SWIT_OUT_5.in3",
+                "SWIT_OUT_5.out0->out5",
+                "Block0A.out6->SWIT_OUT_6.in0",
+                "Block0B.out6->SWIT_OUT_6.in1",
+                "Block0C.out6->SWIT_OUT_6.in2",
+                "Block0D.out6->SWIT_OUT_6.in3",
+                "SWIT_OUT_6.out0->out6",
+                "Block0A.out7->SWIT_OUT_7.in0",
+                "Block0B.out7->SWIT_OUT_7.in1",
+                "Block0C.out7->SWIT_OUT_7.in2",
+                "Block0D.out7->SWIT_OUT_7.in3",
+                "SWIT_OUT_7.out0->out7",
+                "Block0E.out0->SWIT_OUT_8.in0",
+                "Block0F.out0->SWIT_OUT_8.in1",
+                "SWIT_OUT_8.out0->out8",
+                "Block0E.out1->SWIT_OUT_9.in0",
+                "Block0F.out1->SWIT_OUT_9.in1",
+                "SWIT_OUT_9.out0->out9",
+                "Block0E.out2->SWIT_OUT_10.in0",
+                "Block0F.out2->SWIT_OUT_10.in1",
+                "SWIT_OUT_10.out0->out10",
+                "Block0E.out3->SWIT_OUT_11.in0",
+                "Block0F.out3->SWIT_OUT_11.in1",
+                "SWIT_OUT_11.out0->out11",
+                "Block0E.out4->SWIT_OUT_12.in0",
+                "Block0F.out4->SWIT_OUT_12.in1",
+                "SWIT_OUT_12.out0->out12",
+                "Block0E.out5->SWIT_OUT_13.in0",
+                "Block0F.out5->SWIT_OUT_13.in1",
+                "SWIT_OUT_13.out0->out13",
+                "Block0E.out6->SWIT_OUT_14.in0",
+                "Block0F.out6->SWIT_OUT_14.in1",
+                "SWIT_OUT_14.out0->out14",
+                "Block0E.out7->SWIT_OUT_15.in0",
+                "Block0F.out7->SWIT_OUT_15.in1",
+                "SWIT_OUT_15.out0->out15",
+                "Block0A.out0->SWIT_OUT_16.in0",
+                "Block0B.out0->SWIT_OUT_16.in1",
+                "Block0C.out0->SWIT_OUT_16.in2",
+                "Block0D.out0->SWIT_OUT_16.in3",
+                "SWIT_OUT_16.out0->out16",
+                "Block0A.out1->SWIT_OUT_17.in0",
+                "Block0B.out1->SWIT_OUT_17.in1",
+                "Block0C.out1->SWIT_OUT_17.in2",
+                "Block0D.out1->SWIT_OUT_17.in3",
+                "SWIT_OUT_17.out0->out17",
+                "Block0A.out2->SWIT_OUT_18.in0",
+                "Block0B.out2->SWIT_OUT_18.in1",
+                "Block0C.out2->SWIT_OUT_18.in2",
+                "Block0D.out2->SWIT_OUT_18.in3",
+                "SWIT_OUT_18.out0->out18",
+                "Block0A.out3->SWIT_OUT_19.in0",
+                "Block0B.out3->SWIT_OUT_19.in1",
+                "Block0C.out3->SWIT_OUT_19.in2",
+                "Block0D.out3->SWIT_OUT_19.in3",
+                "SWIT_OUT_19.out0->out19",
+                "Block0A.out4->SWIT_OUT_20.in0",
+                "Block0B.out4->SWIT_OUT_20.in1",
+                "Block0C.out4->SWIT_OUT_20.in2",
+                "Block0D.out4->SWIT_OUT_20.in3",
+                "SWIT_OUT_20.out0->out20",
+                "Block0A.out5->SWIT_OUT_21.in0",
+                "Block0B.out5->SWIT_OUT_21.in1",
+                "Block0C.out5->SWIT_OUT_21.in2",
+                "Block0D.out5->SWIT_OUT_21.in3",
+                "SWIT_OUT_21.out0->out21",
+                "Block0A.out6->SWIT_OUT_22.in0",
+                "Block0B.out6->SWIT_OUT_22.in1",
+                "Block0C.out6->SWIT_OUT_22.in2",
+                "Block0D.out6->SWIT_OUT_22.in3",
+                "SWIT_OUT_22.out0->out22",
+                "Block0A.out7->SWIT_OUT_23.in0",
+                "Block0B.out7->SWIT_OUT_23.in1",
+                "Block0C.out7->SWIT_OUT_23.in2",
+                "Block0D.out7->SWIT_OUT_23.in3",
+                "SWIT_OUT_23.out0->out23",
+                "Block0E.out0->SWIT_OUT_24.in0",
+                "Block0F.out0->SWIT_OUT_24.in1",
+                "SWIT_OUT_24.out0->out24",
+                "Block0E.out1->SWIT_OUT_25.in0",
+                "Block0F.out1->SWIT_OUT_25.in1",
+                "SWIT_OUT_25.out0->out25",
+                "Block0E.out2->SWIT_OUT_26.in0",
+                "Block0F.out2->SWIT_OUT_26.in1",
+                "SWIT_OUT_26.out0->out26",
+                "Block0E.out3->SWIT_OUT_27.in0",
+                "Block0F.out3->SWIT_OUT_27.in1",
+                "SWIT_OUT_27.out0->out27",
+                "Block0E.out4->SWIT_OUT_28.in0",
+                "Block0F.out4->SWIT_OUT_28.in1",
+                "SWIT_OUT_28.out0->out28",
+                "Block0E.out5->SWIT_OUT_29.in0",
+                "Block0F.out5->SWIT_OUT_29.in1",
+                "SWIT_OUT_29.out0->out29",
+                "Block0E.out6->SWIT_OUT_30.in0",
+                "Block0F.out6->SWIT_OUT_30.in1",
+                "SWIT_OUT_30.out0->out30",
+                "Block0E.out7->SWIT_OUT_31.in0",
+                "Block0F.out7->SWIT_OUT_31.in1",
+                "SWIT_OUT_31.out0->out31"
+            ]
+        },
+        "TOP": {
+            "input": [],
+            "output": [],
+            "module": {
+                "Core0": "CoreType0",
+                "Core1": "CoreType0"
+            },
+            "element": {
+                "INPUT0": "INPUT",
+                "INPUT1": "INPUT",
+                "INPUT2": "INPUT",
+                "INPUT3": "INPUT",
+                "INPUT4": "INPUT",
+                "INPUT5": "INPUT",
+                "INPUT6": "INPUT",
+                "INPUT7": "INPUT",
+                "INPUT8": "INPUT",
+                "INPUT9": "INPUT",
+                "INPUT10": "INPUT",
+                "INPUT11": "INPUT",
+                "INPUT12": "INPUT",
+                "INPUT13": "INPUT",
+                "INPUT14": "INPUT",
+                "INPUT15": "INPUT",
+                "INPUT16": "INPUT",
+                "INPUT17": "INPUT",
+                "INPUT18": "INPUT",
+                "INPUT19": "INPUT",
+                "INPUT20": "INPUT",
+                "INPUT21": "INPUT",
+                "INPUT22": "INPUT",
+                "INPUT23": "INPUT",
+                "INPUT24": "INPUT",
+                "INPUT25": "INPUT",
+                "INPUT26": "INPUT",
+                "INPUT27": "INPUT",
+                "INPUT28": "INPUT",
+                "INPUT29": "INPUT",
+                "INPUT30": "INPUT",
+                "INPUT31": "INPUT",
+                "OUTPUT0": "OUTPUT",
+                "OUTPUT1": "OUTPUT",
+                "OUTPUT2": "OUTPUT",
+                "OUTPUT3": "OUTPUT",
+                "OUTPUT4": "OUTPUT",
+                "OUTPUT5": "OUTPUT",
+                "OUTPUT6": "OUTPUT",
+                "OUTPUT7": "OUTPUT",
+                "OUTPUT8": "OUTPUT",
+                "OUTPUT9": "OUTPUT",
+                "OUTPUT10": "OUTPUT",
+                "OUTPUT11": "OUTPUT",
+                "OUTPUT12": "OUTPUT",
+                "OUTPUT13": "OUTPUT",
+                "OUTPUT14": "OUTPUT",
+                "OUTPUT15": "OUTPUT",
+                "OUTPUT16": "OUTPUT",
+                "OUTPUT17": "OUTPUT",
+                "OUTPUT18": "OUTPUT",
+                "OUTPUT19": "OUTPUT",
+                "OUTPUT20": "OUTPUT",
+                "OUTPUT21": "OUTPUT",
+                "OUTPUT22": "OUTPUT",
+                "OUTPUT23": "OUTPUT",
+                "OUTPUT24": "OUTPUT",
+                "OUTPUT25": "OUTPUT",
+                "OUTPUT26": "OUTPUT",
+                "OUTPUT27": "OUTPUT",
+                "OUTPUT28": "OUTPUT",
+                "OUTPUT29": "OUTPUT",
+                "OUTPUT30": "OUTPUT",
+                "OUTPUT31": "OUTPUT"
+            },
+            "switch": {
+                "SWIT_Core1_INPUT0": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT1": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT2": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT3": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT4": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT5": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT6": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT7": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT8": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT9": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT10": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT11": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT12": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT13": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT14": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT15": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT16": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT17": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT18": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT19": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT20": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT21": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT22": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT23": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT24": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT25": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT26": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT27": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT28": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT29": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT30": "FULLYCONN_2X1",
+                "SWIT_Core1_INPUT31": "FULLYCONN_2X1",
+                "SWIT_OUTPUT0": "FULLYCONN_2X1",
+                "SWIT_OUTPUT1": "FULLYCONN_2X1",
+                "SWIT_OUTPUT2": "FULLYCONN_2X1",
+                "SWIT_OUTPUT3": "FULLYCONN_2X1",
+                "SWIT_OUTPUT4": "FULLYCONN_2X1",
+                "SWIT_OUTPUT5": "FULLYCONN_2X1",
+                "SWIT_OUTPUT6": "FULLYCONN_2X1",
+                "SWIT_OUTPUT7": "FULLYCONN_2X1",
+                "SWIT_OUTPUT8": "FULLYCONN_2X1",
+                "SWIT_OUTPUT9": "FULLYCONN_2X1",
+                "SWIT_OUTPUT10": "FULLYCONN_2X1",
+                "SWIT_OUTPUT11": "FULLYCONN_2X1",
+                "SWIT_OUTPUT12": "FULLYCONN_2X1",
+                "SWIT_OUTPUT13": "FULLYCONN_2X1",
+                "SWIT_OUTPUT14": "FULLYCONN_2X1",
+                "SWIT_OUTPUT15": "FULLYCONN_2X1",
+                "SWIT_OUTPUT16": "FULLYCONN_2X1",
+                "SWIT_OUTPUT17": "FULLYCONN_2X1",
+                "SWIT_OUTPUT18": "FULLYCONN_2X1",
+                "SWIT_OUTPUT19": "FULLYCONN_2X1",
+                "SWIT_OUTPUT20": "FULLYCONN_2X1",
+                "SWIT_OUTPUT21": "FULLYCONN_2X1",
+                "SWIT_OUTPUT22": "FULLYCONN_2X1",
+                "SWIT_OUTPUT23": "FULLYCONN_2X1",
+                "SWIT_OUTPUT24": "FULLYCONN_2X1",
+                "SWIT_OUTPUT25": "FULLYCONN_2X1",
+                "SWIT_OUTPUT26": "FULLYCONN_2X1",
+                "SWIT_OUTPUT27": "FULLYCONN_2X1",
+                "SWIT_OUTPUT28": "FULLYCONN_2X1",
+                "SWIT_OUTPUT29": "FULLYCONN_2X1",
+                "SWIT_OUTPUT30": "FULLYCONN_2X1",
+                "SWIT_OUTPUT31": "FULLYCONN_2X1"
+            },
+            "connection": [
+                "INPUT0.out0->Core0.in0",
+                "INPUT1.out0->Core0.in1",
+                "INPUT2.out0->Core0.in2",
+                "INPUT3.out0->Core0.in3",
+                "INPUT4.out0->Core0.in4",
+                "INPUT5.out0->Core0.in5",
+                "INPUT6.out0->Core0.in6",
+                "INPUT7.out0->Core0.in7",
+                "INPUT8.out0->Core0.in8",
+                "INPUT9.out0->Core0.in9",
+                "INPUT10.out0->Core0.in10",
+                "INPUT11.out0->Core0.in11",
+                "INPUT12.out0->Core0.in12",
+                "INPUT13.out0->Core0.in13",
+                "INPUT14.out0->Core0.in14",
+                "INPUT15.out0->Core0.in15",
+                "INPUT16.out0->Core0.in16",
+                "INPUT17.out0->Core0.in17",
+                "INPUT18.out0->Core0.in18",
+                "INPUT19.out0->Core0.in19",
+                "INPUT20.out0->Core0.in20",
+                "INPUT21.out0->Core0.in21",
+                "INPUT22.out0->Core0.in22",
+                "INPUT23.out0->Core0.in23",
+                "INPUT24.out0->Core0.in24",
+                "INPUT25.out0->Core0.in25",
+                "INPUT26.out0->Core0.in26",
+                "INPUT27.out0->Core0.in27",
+                "INPUT28.out0->Core0.in28",
+                "INPUT29.out0->Core0.in29",
+                "INPUT30.out0->Core0.in30",
+                "INPUT31.out0->Core0.in31",
+                "Core0.out0->SWIT_Core1_INPUT0.in0",
+                "Core0.out1->SWIT_Core1_INPUT1.in0",
+                "Core0.out2->SWIT_Core1_INPUT2.in0",
+                "Core0.out3->SWIT_Core1_INPUT3.in0",
+                "Core0.out4->SWIT_Core1_INPUT4.in0",
+                "Core0.out5->SWIT_Core1_INPUT5.in0",
+                "Core0.out6->SWIT_Core1_INPUT6.in0",
+                "Core0.out7->SWIT_Core1_INPUT7.in0",
+                "Core0.out8->SWIT_Core1_INPUT8.in0",
+                "Core0.out9->SWIT_Core1_INPUT9.in0",
+                "Core0.out10->SWIT_Core1_INPUT10.in0",
+                "Core0.out11->SWIT_Core1_INPUT11.in0",
+                "Core0.out12->SWIT_Core1_INPUT12.in0",
+                "Core0.out13->SWIT_Core1_INPUT13.in0",
+                "Core0.out14->SWIT_Core1_INPUT14.in0",
+                "Core0.out15->SWIT_Core1_INPUT15.in0",
+                "Core0.out16->SWIT_Core1_INPUT16.in0",
+                "Core0.out17->SWIT_Core1_INPUT17.in0",
+                "Core0.out18->SWIT_Core1_INPUT18.in0",
+                "Core0.out19->SWIT_Core1_INPUT19.in0",
+                "Core0.out20->SWIT_Core1_INPUT20.in0",
+                "Core0.out21->SWIT_Core1_INPUT21.in0",
+                "Core0.out22->SWIT_Core1_INPUT22.in0",
+                "Core0.out23->SWIT_Core1_INPUT23.in0",
+                "Core0.out24->SWIT_Core1_INPUT24.in0",
+                "Core0.out25->SWIT_Core1_INPUT25.in0",
+                "Core0.out26->SWIT_Core1_INPUT26.in0",
+                "Core0.out27->SWIT_Core1_INPUT27.in0",
+                "Core0.out28->SWIT_Core1_INPUT28.in0",
+                "Core0.out29->SWIT_Core1_INPUT29.in0",
+                "Core0.out30->SWIT_Core1_INPUT30.in0",
+                "Core0.out31->SWIT_Core1_INPUT31.in0",
+                "INPUT0.out0->SWIT_Core1_INPUT0.in1",
+                "INPUT1.out0->SWIT_Core1_INPUT1.in1",
+                "INPUT2.out0->SWIT_Core1_INPUT2.in1",
+                "INPUT3.out0->SWIT_Core1_INPUT3.in1",
+                "INPUT4.out0->SWIT_Core1_INPUT4.in1",
+                "INPUT5.out0->SWIT_Core1_INPUT5.in1",
+                "INPUT6.out0->SWIT_Core1_INPUT6.in1",
+                "INPUT7.out0->SWIT_Core1_INPUT7.in1",
+                "INPUT8.out0->SWIT_Core1_INPUT8.in1",
+                "INPUT9.out0->SWIT_Core1_INPUT9.in1",
+                "INPUT10.out0->SWIT_Core1_INPUT10.in1",
+                "INPUT11.out0->SWIT_Core1_INPUT11.in1",
+                "INPUT12.out0->SWIT_Core1_INPUT12.in1",
+                "INPUT13.out0->SWIT_Core1_INPUT13.in1",
+                "INPUT14.out0->SWIT_Core1_INPUT14.in1",
+                "INPUT15.out0->SWIT_Core1_INPUT15.in1",
+                "INPUT16.out0->SWIT_Core1_INPUT16.in1",
+                "INPUT17.out0->SWIT_Core1_INPUT17.in1",
+                "INPUT18.out0->SWIT_Core1_INPUT18.in1",
+                "INPUT19.out0->SWIT_Core1_INPUT19.in1",
+                "INPUT20.out0->SWIT_Core1_INPUT20.in1",
+                "INPUT21.out0->SWIT_Core1_INPUT21.in1",
+                "INPUT22.out0->SWIT_Core1_INPUT22.in1",
+                "INPUT23.out0->SWIT_Core1_INPUT23.in1",
+                "INPUT24.out0->SWIT_Core1_INPUT24.in1",
+                "INPUT25.out0->SWIT_Core1_INPUT25.in1",
+                "INPUT26.out0->SWIT_Core1_INPUT26.in1",
+                "INPUT27.out0->SWIT_Core1_INPUT27.in1",
+                "INPUT28.out0->SWIT_Core1_INPUT28.in1",
+                "INPUT29.out0->SWIT_Core1_INPUT29.in1",
+                "INPUT30.out0->SWIT_Core1_INPUT30.in1",
+                "INPUT31.out0->SWIT_Core1_INPUT31.in1",
+                "SWIT_Core1_INPUT0.out0->Core1.in0",
+                "SWIT_Core1_INPUT1.out0->Core1.in1",
+                "SWIT_Core1_INPUT2.out0->Core1.in2",
+                "SWIT_Core1_INPUT3.out0->Core1.in3",
+                "SWIT_Core1_INPUT4.out0->Core1.in4",
+                "SWIT_Core1_INPUT5.out0->Core1.in5",
+                "SWIT_Core1_INPUT6.out0->Core1.in6",
+                "SWIT_Core1_INPUT7.out0->Core1.in7",
+                "SWIT_Core1_INPUT8.out0->Core1.in8",
+                "SWIT_Core1_INPUT9.out0->Core1.in9",
+                "SWIT_Core1_INPUT10.out0->Core1.in10",
+                "SWIT_Core1_INPUT11.out0->Core1.in11",
+                "SWIT_Core1_INPUT12.out0->Core1.in12",
+                "SWIT_Core1_INPUT13.out0->Core1.in13",
+                "SWIT_Core1_INPUT14.out0->Core1.in14",
+                "SWIT_Core1_INPUT15.out0->Core1.in15",
+                "SWIT_Core1_INPUT16.out0->Core1.in16",
+                "SWIT_Core1_INPUT17.out0->Core1.in17",
+                "SWIT_Core1_INPUT18.out0->Core1.in18",
+                "SWIT_Core1_INPUT19.out0->Core1.in19",
+                "SWIT_Core1_INPUT20.out0->Core1.in20",
+                "SWIT_Core1_INPUT21.out0->Core1.in21",
+                "SWIT_Core1_INPUT22.out0->Core1.in22",
+                "SWIT_Core1_INPUT23.out0->Core1.in23",
+                "SWIT_Core1_INPUT24.out0->Core1.in24",
+                "SWIT_Core1_INPUT25.out0->Core1.in25",
+                "SWIT_Core1_INPUT26.out0->Core1.in26",
+                "SWIT_Core1_INPUT27.out0->Core1.in27",
+                "SWIT_Core1_INPUT28.out0->Core1.in28",
+                "SWIT_Core1_INPUT29.out0->Core1.in29",
+                "SWIT_Core1_INPUT30.out0->Core1.in30",
+                "SWIT_Core1_INPUT31.out0->Core1.in31",
+                "Core0.out0->SWIT_OUTPUT0.in0",
+                "Core0.out1->SWIT_OUTPUT1.in0",
+                "Core0.out2->SWIT_OUTPUT2.in0",
+                "Core0.out3->SWIT_OUTPUT3.in0",
+                "Core0.out4->SWIT_OUTPUT4.in0",
+                "Core0.out5->SWIT_OUTPUT5.in0",
+                "Core0.out6->SWIT_OUTPUT6.in0",
+                "Core0.out7->SWIT_OUTPUT7.in0",
+                "Core0.out8->SWIT_OUTPUT8.in0",
+                "Core0.out9->SWIT_OUTPUT9.in0",
+                "Core0.out10->SWIT_OUTPUT10.in0",
+                "Core0.out11->SWIT_OUTPUT11.in0",
+                "Core0.out12->SWIT_OUTPUT12.in0",
+                "Core0.out13->SWIT_OUTPUT13.in0",
+                "Core0.out14->SWIT_OUTPUT14.in0",
+                "Core0.out15->SWIT_OUTPUT15.in0",
+                "Core0.out16->SWIT_OUTPUT16.in0",
+                "Core0.out17->SWIT_OUTPUT17.in0",
+                "Core0.out18->SWIT_OUTPUT18.in0",
+                "Core0.out19->SWIT_OUTPUT19.in0",
+                "Core0.out20->SWIT_OUTPUT20.in0",
+                "Core0.out21->SWIT_OUTPUT21.in0",
+                "Core0.out22->SWIT_OUTPUT22.in0",
+                "Core0.out23->SWIT_OUTPUT23.in0",
+                "Core0.out24->SWIT_OUTPUT24.in0",
+                "Core0.out25->SWIT_OUTPUT25.in0",
+                "Core0.out26->SWIT_OUTPUT26.in0",
+                "Core0.out27->SWIT_OUTPUT27.in0",
+                "Core0.out28->SWIT_OUTPUT28.in0",
+                "Core0.out29->SWIT_OUTPUT29.in0",
+                "Core0.out30->SWIT_OUTPUT30.in0",
+                "Core0.out31->SWIT_OUTPUT31.in0",
+                "Core1.out0->SWIT_OUTPUT0.in1",
+                "Core1.out1->SWIT_OUTPUT1.in1",
+                "Core1.out2->SWIT_OUTPUT2.in1",
+                "Core1.out3->SWIT_OUTPUT3.in1",
+                "Core1.out4->SWIT_OUTPUT4.in1",
+                "Core1.out5->SWIT_OUTPUT5.in1",
+                "Core1.out6->SWIT_OUTPUT6.in1",
+                "Core1.out7->SWIT_OUTPUT7.in1",
+                "Core1.out8->SWIT_OUTPUT8.in1",
+                "Core1.out9->SWIT_OUTPUT9.in1",
+                "Core1.out10->SWIT_OUTPUT10.in1",
+                "Core1.out11->SWIT_OUTPUT11.in1",
+                "Core1.out12->SWIT_OUTPUT12.in1",
+                "Core1.out13->SWIT_OUTPUT13.in1",
+                "Core1.out14->SWIT_OUTPUT14.in1",
+                "Core1.out15->SWIT_OUTPUT15.in1",
+                "Core1.out16->SWIT_OUTPUT16.in1",
+                "Core1.out17->SWIT_OUTPUT17.in1",
+                "Core1.out18->SWIT_OUTPUT18.in1",
+                "Core1.out19->SWIT_OUTPUT19.in1",
+                "Core1.out20->SWIT_OUTPUT20.in1",
+                "Core1.out21->SWIT_OUTPUT21.in1",
+                "Core1.out22->SWIT_OUTPUT22.in1",
+                "Core1.out23->SWIT_OUTPUT23.in1",
+                "Core1.out24->SWIT_OUTPUT24.in1",
+                "Core1.out25->SWIT_OUTPUT25.in1",
+                "Core1.out26->SWIT_OUTPUT26.in1",
+                "Core1.out27->SWIT_OUTPUT27.in1",
+                "Core1.out28->SWIT_OUTPUT28.in1",
+                "Core1.out29->SWIT_OUTPUT29.in1",
+                "Core1.out30->SWIT_OUTPUT30.in1",
+                "Core1.out31->SWIT_OUTPUT31.in1",
+                "SWIT_OUTPUT0.out0->OUTPUT0.in0",
+                "SWIT_OUTPUT1.out0->OUTPUT1.in0",
+                "SWIT_OUTPUT2.out0->OUTPUT2.in0",
+                "SWIT_OUTPUT3.out0->OUTPUT3.in0",
+                "SWIT_OUTPUT4.out0->OUTPUT4.in0",
+                "SWIT_OUTPUT5.out0->OUTPUT5.in0",
+                "SWIT_OUTPUT6.out0->OUTPUT6.in0",
+                "SWIT_OUTPUT7.out0->OUTPUT7.in0",
+                "SWIT_OUTPUT8.out0->OUTPUT8.in0",
+                "SWIT_OUTPUT9.out0->OUTPUT9.in0",
+                "SWIT_OUTPUT10.out0->OUTPUT10.in0",
+                "SWIT_OUTPUT11.out0->OUTPUT11.in0",
+                "SWIT_OUTPUT12.out0->OUTPUT12.in0",
+                "SWIT_OUTPUT13.out0->OUTPUT13.in0",
+                "SWIT_OUTPUT14.out0->OUTPUT14.in0",
+                "SWIT_OUTPUT15.out0->OUTPUT15.in0",
+                "SWIT_OUTPUT16.out0->OUTPUT16.in0",
+                "SWIT_OUTPUT17.out0->OUTPUT17.in0",
+                "SWIT_OUTPUT18.out0->OUTPUT18.in0",
+                "SWIT_OUTPUT19.out0->OUTPUT19.in0",
+                "SWIT_OUTPUT20.out0->OUTPUT20.in0",
+                "SWIT_OUTPUT21.out0->OUTPUT21.in0",
+                "SWIT_OUTPUT22.out0->OUTPUT22.in0",
+                "SWIT_OUTPUT23.out0->OUTPUT23.in0",
+                "SWIT_OUTPUT24.out0->OUTPUT24.in0",
+                "SWIT_OUTPUT25.out0->OUTPUT25.in0",
+                "SWIT_OUTPUT26.out0->OUTPUT26.in0",
+                "SWIT_OUTPUT27.out0->OUTPUT27.in0",
+                "SWIT_OUTPUT28.out0->OUTPUT28.in0",
+                "SWIT_OUTPUT29.out0->OUTPUT29.in0",
+                "SWIT_OUTPUT30.out0->OUTPUT30.in0",
+                "SWIT_OUTPUT31.out0->OUTPUT31.in0"
+            ]
+        }
+    }
+}

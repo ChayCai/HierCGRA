@@ -11,8 +11,8 @@ MODEL_OBJECTS = $(addprefix ./build/objects/, FastPacker.o FastPartitioner.o Fas
 OBJECTS := $(COMMON_OBJECTS) $(UTIL_OBJECTS) $(JSON_OBJECTS) $(GENRTL_OBJECTS) $(MAPPING_OBJECTS) $(MODEL_OBJECTS)
 # TEST_EXECS := $(addprefix ./build/, test0 test1)
 SCRIPT_OBJECTS := $(addprefix ./build/, init pack partition place)
-GENRTL_SCRIPT_OBJECTS = $(addprefix ./build/, genrtl.o )
-EXECUTABLES := $(TEST_EXECS) $(SCRIPT_OBJECTS)
+GENRTL_SCRIPT_OBJECTS = $(addprefix ./build/, genrtl)
+EXECUTABLES := $(TEST_EXECS) $(SCRIPT_OBJECTS) $(GENRTL_SCRIPT_OBJECTS)
 LLVMPASS_LIBS := $(addprefix ./build/, libPassModule2DFG.so)
 LIBRARIES := $(LLVMPASS_LIBS)
 

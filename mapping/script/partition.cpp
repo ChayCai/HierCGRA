@@ -18,25 +18,6 @@ using namespace FastCGRA;
 
 int main(int argc, char **argv){
     
-    if(string(argv[1]) == "test"){
-        string dfg        = string(argv[2]); 
-        string compat     = string(argv[3]);
-        string archmsg     = string(argv[4]);
-        Graph test = Graph(dfg);
-        unordered_map<string, unordered_set<string>> compats = readSets(compat);
-        unordered_map<string, double> enen;
-        for(const auto &vertex: test.vertices()){
-            if(getPostfix(vertex.first).empty()){
-                for(const auto &t: compats[vertex.first]){
-                    enen[t] += 1.0/(compats[vertex.first]).size();
-                }
-            }
-        }
-
-        clog << enen << endl;
-        return 0;
-    }
-
     srand(time(nullptr));
 
     assert(argc >= 3);

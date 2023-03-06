@@ -3,6 +3,7 @@ import time
 import datetime as dt
 import subprocess as sp
 import configparser
+sys.path.append(".")
 
 def pack(fileDFG, fileDFGGlobal, fileCompat, arch):
     print("Pack")
@@ -10,7 +11,7 @@ def pack(fileDFG, fileDFGGlobal, fileCompat, arch):
     filename = fileDFG[ : len(fileDFG) - 3] + "runpack.log"
     fo =open(filename,"wb")
     proPack = sp.Popen(["./build/pack", fileDFG, fileDFGGlobal, fileCompat, arch], stdout=fo, stderr= sp.STDOUT)
-
+    
     finished = False
     while not finished:
         time.sleep(1.0)
@@ -23,7 +24,7 @@ def pack(fileDFG, fileDFGGlobal, fileCompat, arch):
         print("Pack FAILED")
         sys.exit(1)
     else:
-        print("Pack SUCCESS")
+        print("Pack Finished")
 
 def partition(fileDFG, fileCompat, arch):
     print("Partition")
@@ -159,8 +160,22 @@ def mapflow(fileDFG, fileCompat, arch, threadNum):
     timePlace = dt.datetime.now() - timeStart
     print("[", fileDFG, "]", "Mapping Time:", str((timePlace.seconds + timePlace.microseconds / 1000000)), 's')
 
+def initRRG(fus, rrg, rrgpath, linkpath):
+    initRRG = sp.Popen(["python3", fus, rrg, rrgpath, linkpath], stdout=sp.DEVNULL, stderr=sp.STDOUT)
+    finished = False
+    while not finished:
+        time.sleep(1.0)
+        if initRRG.poll() == 0:
+            finished = True
+
+    if not finished: 
+        print("initRRG FAILED")
+        sys.exit(1)
+    else:
+        print("initRRG SUCCESS")
+
 def genArch(filehadl, path):
-    genArch = sp.Popen(["python3", filehadl, path], stdout=sp.STDOUT, stderr=sp.STDOUT)
+    genArch = sp.Popen(["python3", filehadl, path], stdout=sp.DEVNULL, stderr=sp.STDOUT)
     finished = False
     while not finished:
         time.sleep(1.0)
@@ -174,7 +189,8 @@ def genArch(filehadl, path):
         print("genArch SUCCESS")
 
 def genRTL(adl, lib, path):
-    proGen = sp.Popen(["./build/genrtl", adl, lib, path], stdout=sp.STDOUT, stderr=sp.STDOUT)
+    print(["./build/genrtl", adl, lib, path])
+    proGen = sp.Popen(["./build/genrtl", adl, lib, path], stdout=sp.DEVNULL, stderr=sp.STDOUT)
     finished = False
     while not finished:
         time.sleep(1.0)
@@ -192,6 +208,13 @@ if __name__ == "__main__":
 
     job        = sys.argv[1]
 
+    if job == 'init':
+        fus = sys.argv[2]
+        rrg = sys.argv[3]
+        rrgpath = sys.argv[4]
+        linkpath = sys.argv[5]
+        initRRG(fus, rrg, rrgpath, linkpath)
+
     if job == 'mapping':
         fileDFG    = sys.argv[2]
         fileCompat = sys.argv[3]
@@ -206,8 +229,11 @@ if __name__ == "__main__":
 
     elif job == "genrtl":
         adl       = sys.argv[2]
-        lib       = sys.argv[2]
+        lib       = sys.argv[3]
         path      = sys.argv[4]
         genRTL(adl, lib, path)
+
+    else:
+        print("wrong job, do nothing")
 
 

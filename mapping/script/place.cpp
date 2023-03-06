@@ -139,7 +139,9 @@ int main(int argc, char **argv){
     {
         string dfg        = string(argv[2]); 
         string compat     = string(argv[3]);
-        size_t ii         = str2num<size_t>(argv[4]);
+        string rrg     = string(argv[4]);
+        string fus     = string(argv[5]);
+        size_t ii         = str2num<size_t>(argv[6]);
         string sortMode   = "STB";
         string seed       = "";
         if(argc >= 6){
@@ -148,8 +150,6 @@ int main(int argc, char **argv){
             seed = string(argv[6]);
         }
         
-        string rrg = "./arch/arch6/Core_RRG.txt";
-        string fus = "./arch/arch6/Core_FUs.txt";
         string mapped = dfg.substr(0, dfg.size() - 3) + "placed.txt";
         string routed = dfg.substr(0, dfg.size() - 3) + "routed.txt";
 
