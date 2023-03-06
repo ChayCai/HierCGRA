@@ -136,19 +136,12 @@ def placeTop(fileDFG, fileCompat, arch):
     else:
         print("\nPlaceTop SUCCESS")
 
-if __name__ == "__main__": 
-    assert len(sys.argv) >= 3
-    fileDFG    = sys.argv[1]
-    fileCompat = sys.argv[2]
-    arch       = sys.argv[3]
-    threadNum  = sys.argv[4]
-
+def mapflow(fileDFG, fileCompat, arch, threadNum):
     config = configparser.ConfigParser()
     config.read(arch)
     partNum = config["Partition"]["PartNum"]
     threadCore = str(int(int(threadNum)/int(partNum)))
     timeStart = dt.datetime.now()
-
 
 # pack
     pack(fileDFG, fileDFG, fileCompat, arch)
@@ -165,4 +158,56 @@ if __name__ == "__main__":
     
     timePlace = dt.datetime.now() - timeStart
     print("[", fileDFG, "]", "Mapping Time:", str((timePlace.seconds + timePlace.microseconds / 1000000)), 's')
+
+def genArch(filehadl, path):
+    genArch = sp.Popen(["python3", filehadl, path], stdout=sp.STDOUT, stderr=sp.STDOUT)
+    finished = False
+    while not finished:
+        time.sleep(1.0)
+        if genArch.poll() == 0:
+            finished = True
+
+    if not finished: 
+        print("genArch FAILED")
+        sys.exit(1)
+    else:
+        print("genArch SUCCESS")
+
+def genRTL(adl, lib, path):
+    proGen = sp.Popen(["./build/genrtl", adl, lib, path], stdout=sp.STDOUT, stderr=sp.STDOUT)
+    finished = False
+    while not finished:
+        time.sleep(1.0)
+        if proGen.poll() == 0:
+            finished = True
+
+    if not finished: 
+        print("GenRTL FAILED")
+        sys.exit(1)
+    else:
+        print("GenRTL SUCCESS")
+
+if __name__ == "__main__": 
+    assert len(sys.argv) >= 3
+
+    job        = sys.argv[1]
+
+    if job == 'mapping':
+        fileDFG    = sys.argv[2]
+        fileCompat = sys.argv[3]
+        arch       = sys.argv[4]
+        threadNum  = sys.argv[5]
+        mapflow(fileDFG, fileCompat, arch, threadNum)
+
+    elif job == "genarch":
+        filehadl = sys.argv[2]
+        path = sys.argv[2]
+        genArch(filehadl, path)
+
+    elif job == "genrtl":
+        adl       = sys.argv[2]
+        lib       = sys.argv[2]
+        path      = sys.argv[4]
+        genRTL(adl, lib, path)
+
 

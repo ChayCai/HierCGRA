@@ -11,9 +11,10 @@ MODEL_OBJECTS = $(addprefix ./build/objects/, FastPacker.o FastPartitioner.o Fas
 OBJECTS := $(COMMON_OBJECTS) $(UTIL_OBJECTS) $(JSON_OBJECTS) $(GENRTL_OBJECTS) $(MAPPING_OBJECTS) $(MODEL_OBJECTS)
 # TEST_EXECS := $(addprefix ./build/, test0 test1)
 SCRIPT_OBJECTS := $(addprefix ./build/, init pack partition place)
+GENRTL_SCRIPT_OBJECTS = $(addprefix ./build/, genrtl.o )
 EXECUTABLES := $(TEST_EXECS) $(SCRIPT_OBJECTS)
-# LLVMPASS_LIBS := $(addprefix ./build/, libPassModule2DFG.so)
-# LIBRARIES := $(LLVMPASS_LIBS)
+LLVMPASS_LIBS := $(addprefix ./build/, libPassModule2DFG.so)
+LIBRARIES := $(LLVMPASS_LIBS)
 
 all: info $(EXECUTABLES) $(LIBRARIES)
 
@@ -38,6 +39,7 @@ info:
 	@echo "INFO: CXX_FLAGS: \t $(CXX_FLAGS)"
 	@echo "INFO: COMMON_OBJECTS: \t $(COMMON_OBJECTS)"
 	@echo "INFO: SCRIPT_OBJECTS: \t $(SCRIPT_OBJECTS)"
+	@echo "INFO: GENRTL_SCRIPT_OBJECTS: \t $(GENRTL_SCRIPT_OBJECTS)"
 	@echo "INFO: TEST_EXECS: \t $(TEST_EXECS)"
 	@echo "============================================="
 	@echo ""
@@ -66,8 +68,11 @@ $(TEST_EXECS):./build/%: ./test/%.cpp $(OBJECTS)
 $(SCRIPT_OBJECTS):./build/%: ./mapping/script/%.cpp $(OBJECTS)
 	$(CXX) $(CXX_FLAGS) $< $(OBJECTS) -o $@
 
-# $(LLVMPASS_LIBS):./build/%.so: ./dataflow/%.cpp ./dataflow/%.h  $(OBJECTS)
-# 	$(CXX) $(CXX_FLAGS) `llvm-config-11 --cxxflags` `llvm-config-11 --ldflags` -Wl,-znodelete -fno-rtti -shared $<  $(OBJECTS) -o $@
+$(GENRTL_SCRIPT_OBJECTS):./build/%: ./genarch/script/%.cpp $(OBJECTS)
+	$(CXX) $(CXX_FLAGS) $< $(OBJECTS) -o $@
+
+$(LLVMPASS_LIBS):./build/%.so: ./dataflow/%.cpp ./dataflow/%.h  $(OBJECTS)
+	$(CXX) $(CXX_FLAGS) `llvm-config-11 --cxxflags` `llvm-config-11 --ldflags` -Wl,-znodelete -fno-rtti -shared $<  $(OBJECTS) -o $@
 
 
 .PHONY: clean

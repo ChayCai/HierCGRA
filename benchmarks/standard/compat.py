@@ -1,5 +1,5 @@
 import sys 
-sys.path.append("./")
+sys.path.append("./../../../")
 
 import common.utils as utils
 from common.utils import Base

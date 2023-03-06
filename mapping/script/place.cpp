@@ -23,12 +23,12 @@ int main(int argc, char **argv){
     srand(time(nullptr));
     bool result = false;
 
-    if(way == "test"){
-        GenVerilog::Core core("./arch/arch6/Core.json", "./arch/arch6/CoreLib.ini");
-        core.core2RTL(path);
+    // if(way == "test"){
+    //     GenVerilog::Core core("./arch/arch6/Core.json", "./arch/arch6/CoreLib.ini");
+    //     core.core2RTL(path);
 
-        return 0;
-    }
+    //     return 0;
+    // }
 
     if(way == "placeCore"){
         assert(argc >= 5);

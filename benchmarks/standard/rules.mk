@@ -1,5 +1,5 @@
 CLANG := clang-11
-OPT := opt-11.0.1
+OPT := opt-11
 PYTHON3 := python3
 CFLAGS ?= -O3 -fno-vectorize -fno-slp-vectorize -fno-unroll-loops -I../
 

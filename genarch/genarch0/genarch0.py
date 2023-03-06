@@ -14,6 +14,8 @@ from genarch.utils.protocols import Module
 
 
 if __name__ == "__main__": 
+    path = sys.argv[1]
+
     import genarch.genarch2.units as units
     infoFuncs = units.functions()
     infoUnits = units.units()
@@ -89,10 +91,10 @@ if __name__ == "__main__":
             "Module": infoModules
         }
         top["Module"]["TOP"] = infoModules[name]
-        with open(f"./arch/arch0/{name}.json", "w") as fout: 
+        with open(f"{path}/{name}.json", "w") as fout: 
             fout.write(json.dumps(top, indent=4))
-        arch = Arch(f"./arch/arch0/{name}.json")
-        with open(f"./arch/arch0/{name}_RRG.txt", "w") as fout: 
+        arch = Arch(f"{path}/{name}.json")
+        with open(f"{path}/{name}_RRG.txt", "w") as fout: 
             fout.write(arch.rrg())
-        with open(f"./arch/arch0/{name}_FUs.txt", "w") as fout: 
+        with open(f"{path}/{name}_FUs.txt", "w") as fout: 
             fout.write(arch.fus())
